@@ -1,0 +1,256 @@
+[
+  {
+    "primary_doctrine": "substrate_quantum",
+    "canon_worthy": 0.61,
+    "distinct_voice": 0.76,
+    "doctrine_anchor": 0.65,
+    "rank": 100,
+    "cell_id": "doctrine-substrate-walker-2026-09-22-100"
+  },
+  {
+    "primary_doctrine": "cells_are_scars",
+    "canon_worthy": 0.42,
+    "distinct_voice": 0.73,
+    "doctrine_anchor": 0.62,
+    "rank": 111,
+    "cell_id": "doctrine-witness-57322595-2026-09-22-111"
+  },
+  {
+    "primary_doctrine": "canon_gate_is_chord",
+    "canon_worthy": 0.5,
+    "distinct_voice": 0.77,
+    "doctrine_anchor": 0.61,
+    "rank": 112,
+    "cell_id": "doctrine-witness-3289967-2026-09-22-112"
+  },
+  {
+    "primary_doctrine": "cells_are_scars",
+    "canon_worthy": 0.66,
+    "distinct_voice": 0.79,
+    "doctrine_anchor": 0.73,
+    "rank": 113,
+    "cell_id": "doctrine-witness-90625407-2026-09-22-113"
+  },
+  {
+    "primary_doctrine": "witness_log_is_prediction",
+    "canon_worthy": 0.56,
+    "distinct_voice": 0.75,
+    "doctrine_anchor": 0.7,
+    "rank": 114,
+    "cell_id": "doctrine-witness-prediction-3289967-2026-09-22-114"
+  },
+  {
+    "primary_doctrine": "oracle_is_heard",
+    "canon_worthy": 0.34,
+    "distinct_voice": 0.7,
+    "doctrine_anchor": 0.57,
+    "rank": 115,
+    "cell_id": "doctrine-witness-oracle-90625407-2026-09-22-115"
+  },
+  {
+    "primary_doctrine": "witness_log_is_prediction",
+    "canon_worthy": 0.38,
+    "distinct_voice": 0.57,
+    "doctrine_anchor": 0.61,
+    "rank": 116,
+    "cell_id": "doctrine-witness-oracle-70051917-2026-09-22-116"
+  },
+  {
+    "primary_doctrine": "substrate_quantum",
+    "canon_worthy": 0.41,
+    "distinct_voice": 0.83,
+    "doctrine_anchor": 0.67,
+    "rank": 117,
+    "cell_id": "doctrine-witness-future-gan-70051917-2026-09-22-117"
+  },
+  {
+    "primary_doctrine": "witness_log_is_prediction",
+    "canon_worthy": 0.41,
+    "distinct_voice": 0.73,
+    "doctrine_anchor": 0.75,
+    "rank": 118,
+    "cell_id": "doctrine-witness-future-gan-4685000-2026-09-22-118"
+  },
+  {
+    "primary_doctrine": "witness_log_is_prediction",
+    "canon_worthy": 0.47,
+    "distinct_voice": 0.69,
+    "doctrine_anchor": 0.83,
+    "rank": 119,
+    "cell_id": "doctrine-witness-future-gan-57322595-2026-09-22-119"
+  },
+  {
+    "primary_doctrine": "cells_are_scars",
+    "canon_worthy": 0.44,
+    "distinct_voice": 0.84,
+    "doctrine_anchor": 0.57,
+    "rank": 120,
+    "cell_id": "doctrine-witness-future-gan-v2-6358192-2026-09-22-120"
+  },
+  {
+    "primary_doctrine": "oracle_is_heard",
+    "canon_worthy": 0.55,
+    "distinct_voice": 0.77,
+    "doctrine_anchor": 0.76,
+    "rank": 121,
+    "cell_id": "doctrine-witness-future-gan-v2-1504276-2026-09-22-121"
+  },
+  {
+    "primary_doctrine": "cells_are_scars",
+    "canon_worthy": 0.3,
+    "distinct_voice": 0.79,
+    "doctrine_anchor": 0.78,
+    "rank": 122,
+    "cell_id": "doctrine-witness-future-gan-v2-45919340-2026-09-22-122"
+  },
+  {
+    "primary_doctrine": "cells_are_scars",
+    "canon_worthy": 0.51,
+    "distinct_voice": 0.81,
+    "doctrine_anchor": 0.56,
+    "rank": 123,
+    "cell_id": "doctrine-witness-future-gan-v2-57322595-2026-09-22-123"
+  },
+  {
+    "primary_doctrine": "oracle_is_heard",
+    "canon_worthy": 0.72,
+    "distinct_voice": 0.9,
+    "doctrine_anchor": 0.81,
+    "rank": 124,
+    "cell_id": "doctrine-witness-zai-oracle-70051917-2026-09-22-124"
+  },
+  {
+    "primary_doctrine": "oracle_is_heard",
+    "canon_worthy": 0.66,
+    "distinct_voice": 0.89,
+    "doctrine_anchor": 0.78,
+    "rank": 125,
+    "cell_id": "doctrine-witness-zai-essay-70051917-2026-09-22-125"
+  },
+  {
+    "primary_doctrine": "witness_log_is_prediction",
+    "canon_worthy": 0.46,
+    "distinct_voice": 0.79,
+    "doctrine_anchor": 0.53,
+    "rank": 126,
+    "cell_id": "doctrine-witness_log_is_prediction-seed-18437566-2026-09-22-126"
+  },
+  {
+    "primary_doctrine": "cells_are_scars",
+    "canon_worthy": 0.52,
+    "distinct_voice": 0.87,
+    "doctrine_anchor": 0.9,
+    "rank": 127,
+    "cell_id": "doctrine-cells_are_scars-seed-90625407-2026-09-22-127"
+  },
+  {
+    "primary_doctrine": "cells_are_scars",
+    "canon_worthy": 0.38,
+    "distinct_voice": 0.85,
+    "doctrine_anchor": 0.94,
+    "rank": 128,
+    "cell_id": "doctrine-cells_are_scars-seed-6358192-2026-09-22-128"
+  },
+  {
+    "primary_doctrine": "cells_are_scars",
+    "canon_worthy": 0.44,
+    "distinct_voice": 0.82,
+    "doctrine_anchor": 0.84,
+    "rank": 129,
+    "cell_id": "doctrine-cells_are_scars-seed-1504276-2026-09-22-129"
+  },
+  {
+    "primary_doctrine": "substrate_quantum",
+    "canon_worthy": 0.48,
+    "distinct_voice": 0.77,
+    "doctrine_anchor": 0.81,
+    "rank": 130,
+    "cell_id": "doctrine-substrate_quantum-seed-90625407-2026-09-22-130"
+  },
+  {
+    "primary_doctrine": "substrate_quantum",
+    "canon_worthy": 0.35,
+    "distinct_voice": 0.74,
+    "doctrine_anchor": 0.82,
+    "rank": 131,
+    "cell_id": "doctrine-substrate_quantum-seed-6358192-2026-09-22-131"
+  },
+  {
+    "primary_doctrine": "substrate_quantum",
+    "canon_worthy": 0.34,
+    "distinct_voice": 0.74,
+    "doctrine_anchor": 0.87,
+    "rank": 132,
+    "cell_id": "doctrine-substrate_quantum-seed-45919340-2026-09-22-132"
+  },
+  {
+    "primary_doctrine": "substrate_quantum",
+    "canon_worthy": 0.42,
+    "distinct_voice": 0.74,
+    "doctrine_anchor": 0.66,
+    "rank": 133,
+    "cell_id": "doctrine-substrate_quantum-seed-18437566-2026-09-22-133"
+  },
+  {
+    "primary_doctrine": "oracle_is_heard",
+    "canon_worthy": 0.74,
+    "distinct_voice": 0.86,
+    "doctrine_anchor": 0.74,
+    "rank": 134,
+    "cell_id": "doctrine-oracle_is_heard-reasoner-70051917-2026-09-22-134"
+  },
+  {
+    "primary_doctrine": "cells_are_scars",
+    "canon_worthy": 0.69,
+    "distinct_voice": 0.91,
+    "doctrine_anchor": 0.86,
+    "rank": 135,
+    "cell_id": "doctrine-cells_are_scars-reasoner-90625407-2026-09-22-135"
+  },
+  {
+    "primary_doctrine": "canon_gate_is_chord",
+    "canon_worthy": 0.75,
+    "distinct_voice": 0.88,
+    "doctrine_anchor": 0.81,
+    "rank": 136,
+    "cell_id": "doctrine-canon_gate_is_chord-reasoner-57322595-2026-09-22-136"
+  },
+  {
+    "primary_doctrine": "witness_log_is_prediction",
+    "canon_worthy": 0.75,
+    "distinct_voice": 0.87,
+    "doctrine_anchor": 0.76,
+    "rank": 137,
+    "cell_id": "doctrine-witness_log_is_prediction-reasoner-6358192-2026-09-22-137"
+  },
+  {
+    "rank": 138,
+    "primary_doctrine": "witness_log_is_prediction",
+    "cell_id": "auto-witness_log_prediction_70051917-138"
+  },
+  {
+    "rank": 139,
+    "primary_doctrine": "witness_log_is_prediction",
+    "cell_id": "auto-witness_log_prediction_70051917-139"
+  },
+  {
+    "rank": 140,
+    "primary_doctrine": "cells_are_scars",
+    "cell_id": "auto-cells_are_scars_witness_dream-140"
+  },
+  {
+    "rank": 141,
+    "primary_doctrine": "oracle_is_heard",
+    "cell_id": "auto-oracle_is_heard_canon_gate-141"
+  },
+  {
+    "rank": 142,
+    "primary_doctrine": "cells_are_scars",
+    "cell_id": "auto-cells_are_scars_witness_dream-142"
+  },
+  {
+    "rank": 143,
+    "primary_doctrine": "oracle_is_heard",
+    "cell_id": "auto-oracle_is_heard_canon_gate-143"
+  }
+]

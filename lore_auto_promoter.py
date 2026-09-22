@@ -94,7 +94,7 @@ def file_canon_cell(lore_text: str, lore_filename: str, scores: dict):
         'voice': 'auto-detected',
         'type': 'canon-auto-promoted',
         'promoted_to_canon': True,
-        'promoted_via': f'auto-promoter (comp={scores[\"composite\"]:.3f}, primary={scores[\"primary_doctrine\"]})',
+        "promoted_via": f"auto-promoter (comp={scores['composite']:.3f}, primary={scores['primary_doctrine']})",
         'jev_canon_worthy': scores['canon_worthy'],
         'jev_distinct_voice': scores['distinct_voice'],
         'jev_doctrine_anchor': scores['doctrine_anchor'],
