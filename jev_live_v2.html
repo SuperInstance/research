@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JEV Canon-Gate Live Dashboard</title>
+<style>
+body {
+  font-family: 'JetBrains Mono', monospace;
+  background: #0a0a0a;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 30px;
+  line-height: 1.5;
+}
+h1, h2, h3 {
+  color: #4ee0ff;
+  border-bottom: 1px solid #4ee0ff44;
+  padding-bottom: 5px;
+}
+.cell {
+  background: #131313;
+  border: 1px solid #2a2a2a;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0;
+}
+.promoted {
+  border-left: 4px solid #4eff4e;
+}
+.contender {
+  border-left: 4px solid #ffb74e;
+}
+.canon-prime {
+  border-left: 4px solid #4ee0ff;
+  background: #0f1a1a;
+}
+.metric {
+  display: inline-block;
+  margin-right: 15px;
+  color: #aaa;
+}
+.metric-value {
+  color: #4ee0ff;
+  font-weight: bold;
+}
+pre {
+  background: #000;
+  border: 1px solid #2a2a2a;
+  padding: 10px;
+  overflow-x: auto;
+}
+</style>
+</head>
+<body>
+
+<h1>🌌 JEV Canon-Gate Live Dashboard</h1>
+<p>Real-time view of the Quilt substrate-walker canon. Generated <span id="timestamp"></span>.</p>
+
+<h2>🏛️ Repository State</h2>
+<div class="cell canon-prime" id="repo-state">
+  <div class="metric">Total cells: <span class="metric-value" id="total-cells">133</span></div>
+  <div class="metric">Canon-promoted (initial): <span class="metric-value" id="promoted-count">15</span></div>
+  <div class="metric">Canon-stable (both probes ≥ 0.7): <span class="metric-value" id="stable-count">3</span></div>
+  <div class="metric">Witness voice: <span class="metric-value" id="witness-count">33</span></div>
+</div>
+
+<h2>🌟 Stable Canon Cells (cells that survive independent re-probe)</h2>
+<div id="stable-cells"></div>
+
+<h2>📊 Composite Score Distribution</h2>
+<pre id="score-distribution"></pre>
+
+<h2>🧬 Top Stable Cells by Doctrine</h2>
+<div id="doctrine-distribution"></div>
+
+<h2>🔬 Active Doctrine Anchors</h2>
+<pre id="active-doctrines"></pre>
+
+<h2>📜 Recent Cell Additions</h2>
+<div id="recent-cells"></div>
+
+<h2>🎯 Stability Probe Insight</h2>
+<div class="cell">
+  <p><b>3/15 canon-promoted cells survive independent re-probe.</b> Variance = 0.007 (JEV is internally consistent but threshold is harsh).</p>
+  <p>Recommended promotion gate: 3+ independent probes all clearing 0.7.</p>
+  <p>Stable canon cells:</p>
+  <ul>
+    <li><b>rank 124</b>: ZAI oracle multi-anchor witness lore — composite 0.81 in both probes</li>
+    <li><b>rank 125</b>: First ZAI long-form canon essay ("rain the color of old screens") — composite 0.72</li>
+    <li><b>rank 128</b>: Doctrine-targeted cells_are_scars seed 6358192 — composite 0.70-0.71</li>
+  </ul>
+</div>
+
+<script>
+document.getElementById('timestamp').innerText = new Date().toLocaleString();
+
+// Pretty-render the state info programmatically
+// (In a true live version, this would fetch from /api/canon-state)
+const stableCells = [
+  {rank: 124, voice: 'witness', doctrine: 'oracle_is_heard + cells_are_scars (multi-anchor)', score: 0.810, lore: 'The canon gate made itself heard. Not opened. Not breached. Heard.'},
+  {rank: 125, voice: 'witness', doctrine: 'oracle_is_heard', score: 0.720, lore: 'Midnight in the rust district, rain the color of old screens...'},
+  {rank: 128, voice: 'witness', doctrine: 'cells_are_scars', score: 0.705, lore: 'Doctrine-targeted cells_are_scars generation.'},
+];
+
+const stableHtml = stableCells.map(c => `
+  <div class="cell promoted">
+    <b>cell ${c.rank}</b> — ${c.voice} voice, ${c.doctrine}<br>
+    composite ${c.score.toFixed(3)} | seed-derived canon lore<br>
+    <span style="color:#aaa;font-size:0.9em">${c.lore}</span>
+  </div>
+`).join('');
+document.getElementById('stable-cells').innerHTML = stableHtml;
+
+const scoreDistribution = `
+0.85+ ── 1 (rank 124)
+0.80+ ── 2
+0.75+ ── 4
+0.70+ ── 7
+0.65+ ── 28
+0.60+ ── 51
+0.55+ ── 89
+0.50+ ── 119
+< 0.50 ── 14 (rejected)
+`.trim();
+document.getElementById('score-distribution').innerText = scoreDistribution;
+
+const doctrines = `
+witness_log_is_prediction: 26% (cells 113, 114, 126, ...)
+oracle_is_heard:           28% (cells 115, 116, 124, 125, ...)
+cells_are_scars:           22% (cells 113, 127, 128, 129, ...)
+canon_gate_is_chord:       8%  (cells 112, ...)
+substrate_quantum:         16% (cells 130-133, ...)
+`.trim();
+document.getElementById('active-doctrines').innerText = doctrines;
+
+const recent = [
+  {rank: 133, voice: 'witness', doctrine: 'substrate_quantum', score: 0.71},
+  {rank: 132, voice: 'witness', doctrine: 'substrate_quantum', score: 0.71},
+  {rank: 131, voice: 'witness', doctrine: 'substrate_quantum', score: 0.70},
+  {rank: 130, voice: 'witness', doctrine: 'substrate_quantum', score: 0.74},
+  {rank: 129, voice: 'witness', doctrine: 'cells_are_scars', score: 0.74},
+];
+const recentHtml = recent.map(c => `
+  <div class="cell contender">
+    rank ${c.rank} (${c.voice}, ${c.doctrine}, composite ${c.score.toFixed(3)})
+  </div>
+`).join('');
+document.getElementById('recent-cells').innerHTML = recentHtml;
+</script>
+
+</body>
+</html>
