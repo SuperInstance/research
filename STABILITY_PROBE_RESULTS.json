@@ -1,0 +1,332 @@
+[
+  {
+    "cell_id": "doctrine-witness-90625407-2026-09-22-113",
+    "rank": 113,
+    "batch_a": {
+      "canon_worthy": 0.66,
+      "distinct_voice": 0.75,
+      "doctrine_anchor": 0.64,
+      "composite": 0.6833333333333335,
+      "promoted": false,
+      "batch": "A"
+    },
+    "batch_b": {
+      "canon_worthy": 0.66,
+      "distinct_voice": 0.76,
+      "doctrine_anchor": 0.65,
+      "composite": 0.69,
+      "promoted": false,
+      "batch": "B"
+    },
+    "stable": false,
+    "variance": 0.0066666666666664876
+  },
+  {
+    "cell_id": "doctrine-witness-future-gan-v2-6358192-2026-09-22-120",
+    "rank": 120,
+    "batch_a": {
+      "canon_worthy": 0.54,
+      "distinct_voice": 0.76,
+      "doctrine_anchor": 0.68,
+      "composite": 0.66,
+      "promoted": false,
+      "batch": "A"
+    },
+    "batch_b": {
+      "canon_worthy": 0.55,
+      "distinct_voice": 0.78,
+      "doctrine_anchor": 0.7,
+      "composite": 0.6766666666666667,
+      "promoted": false,
+      "batch": "B"
+    },
+    "stable": false,
+    "variance": 0.01666666666666672
+  },
+  {
+    "cell_id": "doctrine-witness-future-gan-v2-1504276-2026-09-22-121",
+    "rank": 121,
+    "batch_a": {
+      "canon_worthy": 0.57,
+      "distinct_voice": 0.73,
+      "doctrine_anchor": 0.68,
+      "composite": 0.66,
+      "promoted": false,
+      "batch": "A"
+    },
+    "batch_b": {
+      "canon_worthy": 0.58,
+      "distinct_voice": 0.73,
+      "doctrine_anchor": 0.68,
+      "composite": 0.6633333333333334,
+      "promoted": false,
+      "batch": "B"
+    },
+    "stable": false,
+    "variance": 0.0033333333333334103
+  },
+  {
+    "cell_id": "doctrine-witness-future-gan-v2-45919340-2026-09-22-122",
+    "rank": 122,
+    "batch_a": {
+      "canon_worthy": 0.47,
+      "distinct_voice": 0.75,
+      "doctrine_anchor": 0.82,
+      "composite": 0.68,
+      "promoted": false,
+      "batch": "A"
+    },
+    "batch_b": {
+      "canon_worthy": 0.46,
+      "distinct_voice": 0.73,
+      "doctrine_anchor": 0.81,
+      "composite": 0.6666666666666666,
+      "promoted": false,
+      "batch": "B"
+    },
+    "stable": false,
+    "variance": 0.01333333333333342
+  },
+  {
+    "cell_id": "doctrine-witness-future-gan-v2-57322595-2026-09-22-123",
+    "rank": 123,
+    "batch_a": {
+      "canon_worthy": 0.63,
+      "distinct_voice": 0.74,
+      "doctrine_anchor": 0.58,
+      "composite": 0.65,
+      "promoted": false,
+      "batch": "A"
+    },
+    "batch_b": {
+      "canon_worthy": 0.63,
+      "distinct_voice": 0.74,
+      "doctrine_anchor": 0.58,
+      "composite": 0.65,
+      "promoted": false,
+      "batch": "B"
+    },
+    "stable": false,
+    "variance": 0.0
+  },
+  {
+    "cell_id": "doctrine-witness-zai-oracle-70051917-2026-09-22-124",
+    "rank": 124,
+    "batch_a": {
+      "canon_worthy": 0.75,
+      "distinct_voice": 0.89,
+      "doctrine_anchor": 0.79,
+      "composite": 0.81,
+      "promoted": true,
+      "batch": "A"
+    },
+    "batch_b": {
+      "canon_worthy": 0.75,
+      "distinct_voice": 0.88,
+      "doctrine_anchor": 0.78,
+      "composite": 0.8033333333333333,
+      "promoted": true,
+      "batch": "B"
+    },
+    "stable": true,
+    "variance": 0.00666666666666671
+  },
+  {
+    "cell_id": "doctrine-witness-zai-essay-70051917-2026-09-22-125",
+    "rank": 125,
+    "batch_a": {
+      "canon_worthy": 0.74,
+      "distinct_voice": 0.88,
+      "doctrine_anchor": 0.55,
+      "composite": 0.7233333333333333,
+      "promoted": true,
+      "batch": "A"
+    },
+    "batch_b": {
+      "canon_worthy": 0.73,
+      "distinct_voice": 0.88,
+      "doctrine_anchor": 0.55,
+      "composite": 0.7200000000000001,
+      "promoted": true,
+      "batch": "B"
+    },
+    "stable": true,
+    "variance": 0.0033333333333331883
+  },
+  {
+    "cell_id": "doctrine-witness_log_is_prediction-seed-18437566-2026-09-22-126",
+    "rank": 126,
+    "batch_a": {
+      "canon_worthy": 0.62,
+      "distinct_voice": 0.77,
+      "doctrine_anchor": 0.65,
+      "composite": 0.68,
+      "promoted": false,
+      "batch": "A"
+    },
+    "batch_b": {
+      "canon_worthy": 0.62,
+      "distinct_voice": 0.75,
+      "doctrine_anchor": 0.66,
+      "composite": 0.6766666666666667,
+      "promoted": false,
+      "batch": "B"
+    },
+    "stable": false,
+    "variance": 0.0033333333333332993
+  },
+  {
+    "cell_id": "doctrine-cells_are_scars-seed-90625407-2026-09-22-127",
+    "rank": 127,
+    "batch_a": {
+      "canon_worthy": 0.59,
+      "distinct_voice": 0.77,
+      "doctrine_anchor": 0.63,
+      "composite": 0.6633333333333332,
+      "promoted": false,
+      "batch": "A"
+    },
+    "batch_b": {
+      "canon_worthy": 0.61,
+      "distinct_voice": 0.78,
+      "doctrine_anchor": 0.67,
+      "composite": 0.6866666666666666,
+      "promoted": false,
+      "batch": "B"
+    },
+    "stable": false,
+    "variance": 0.023333333333333428
+  },
+  {
+    "cell_id": "doctrine-cells_are_scars-seed-6358192-2026-09-22-128",
+    "rank": 128,
+    "batch_a": {
+      "canon_worthy": 0.55,
+      "distinct_voice": 0.79,
+      "doctrine_anchor": 0.78,
+      "composite": 0.7066666666666667,
+      "promoted": true,
+      "batch": "A"
+    },
+    "batch_b": {
+      "canon_worthy": 0.53,
+      "distinct_voice": 0.79,
+      "doctrine_anchor": 0.79,
+      "composite": 0.7033333333333335,
+      "promoted": true,
+      "batch": "B"
+    },
+    "stable": true,
+    "variance": 0.0033333333333331883
+  },
+  {
+    "cell_id": "doctrine-cells_are_scars-seed-1504276-2026-09-22-129",
+    "rank": 129,
+    "batch_a": {
+      "canon_worthy": 0.58,
+      "distinct_voice": 0.75,
+      "doctrine_anchor": 0.67,
+      "composite": 0.6666666666666666,
+      "promoted": false,
+      "batch": "A"
+    },
+    "batch_b": {
+      "canon_worthy": 0.6,
+      "distinct_voice": 0.73,
+      "doctrine_anchor": 0.67,
+      "composite": 0.6666666666666666,
+      "promoted": false,
+      "batch": "B"
+    },
+    "stable": false,
+    "variance": 0.0
+  },
+  {
+    "cell_id": "doctrine-substrate_quantum-seed-90625407-2026-09-22-130",
+    "rank": 130,
+    "batch_a": {
+      "canon_worthy": 0.6,
+      "distinct_voice": 0.77,
+      "doctrine_anchor": 0.72,
+      "composite": 0.6966666666666667,
+      "promoted": false,
+      "batch": "A"
+    },
+    "batch_b": {
+      "canon_worthy": 0.59,
+      "distinct_voice": 0.78,
+      "doctrine_anchor": 0.72,
+      "composite": 0.6966666666666667,
+      "promoted": false,
+      "batch": "B"
+    },
+    "stable": false,
+    "variance": 0.0
+  },
+  {
+    "cell_id": "doctrine-substrate_quantum-seed-6358192-2026-09-22-131",
+    "rank": 131,
+    "batch_a": {
+      "canon_worthy": 0.48,
+      "distinct_voice": 0.7,
+      "doctrine_anchor": 0.79,
+      "composite": 0.6566666666666666,
+      "promoted": false,
+      "batch": "A"
+    },
+    "batch_b": {
+      "canon_worthy": 0.49,
+      "distinct_voice": 0.7,
+      "doctrine_anchor": 0.78,
+      "composite": 0.6566666666666666,
+      "promoted": false,
+      "batch": "B"
+    },
+    "stable": false,
+    "variance": 0.0
+  },
+  {
+    "cell_id": "doctrine-substrate_quantum-seed-45919340-2026-09-22-132",
+    "rank": 132,
+    "batch_a": {
+      "canon_worthy": 0.5,
+      "distinct_voice": 0.67,
+      "doctrine_anchor": 0.79,
+      "composite": 0.6533333333333333,
+      "promoted": false,
+      "batch": "A"
+    },
+    "batch_b": {
+      "canon_worthy": 0.51,
+      "distinct_voice": 0.7,
+      "doctrine_anchor": 0.8,
+      "composite": 0.6699999999999999,
+      "promoted": false,
+      "batch": "B"
+    },
+    "stable": false,
+    "variance": 0.016666666666666607
+  },
+  {
+    "cell_id": "doctrine-substrate_quantum-seed-18437566-2026-09-22-133",
+    "rank": 133,
+    "batch_a": {
+      "canon_worthy": 0.57,
+      "distinct_voice": 0.72,
+      "doctrine_anchor": 0.73,
+      "composite": 0.6733333333333333,
+      "promoted": false,
+      "batch": "A"
+    },
+    "batch_b": {
+      "canon_worthy": 0.58,
+      "distinct_voice": 0.72,
+      "doctrine_anchor": 0.71,
+      "composite": 0.6699999999999999,
+      "promoted": false,
+      "batch": "B"
+    },
+    "stable": false,
+    "variance": 0.0033333333333334103
+  }
+]
