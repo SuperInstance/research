@@ -1,0 +1,167 @@
+[
+  {
+    "seed": 70051917,
+    "encode": {
+      "seed": 70051917,
+      "n_vertices": 16,
+      "audio_len": 32,
+      "n_qubits": 10,
+      "circuit_depth": 124,
+      "encode_time_s": 0.8429286479949951,
+      "decode_time_s": 0.34078097343444824,
+      "roundtrip_error": 0.032860521055284975
+    },
+    "fingerprint": {
+      "seed": 70051917,
+      "n_unique_outcomes": 32,
+      "shannon_entropy": 4.94284354657254,
+      "top_outcomes": [
+        [
+          "1110011001 1110011001",
+          25
+        ],
+        [
+          "0000100001 0000100001",
+          25
+        ],
+        [
+          "0001100001 0001100001",
+          24
+        ]
+      ],
+      "n_shots": 500
+    }
+  },
+  {
+    "seed": 4685000,
+    "encode": {
+      "seed": 4685000,
+      "n_vertices": 16,
+      "audio_len": 32,
+      "n_qubits": 10,
+      "circuit_depth": 141,
+      "encode_time_s": 0.006833791732788086,
+      "decode_time_s": 0.036520957946777344,
+      "roundtrip_error": 0.02517901901855682
+    },
+    "fingerprint": {
+      "seed": 4685000,
+      "n_unique_outcomes": 32,
+      "shannon_entropy": 4.958029108366666,
+      "top_outcomes": [
+        [
+          "0100000010 0100000010",
+          24
+        ],
+        [
+          "0110111110 0110111110",
+          21
+        ],
+        [
+          "1010100001 1010100001",
+          21
+        ]
+      ],
+      "n_shots": 500
+    }
+  },
+  {
+    "seed": 3289967,
+    "encode": {
+      "seed": 3289967,
+      "n_vertices": 16,
+      "audio_len": 32,
+      "n_qubits": 10,
+      "circuit_depth": 127,
+      "encode_time_s": 0.005955934524536133,
+      "decode_time_s": 0.035295963287353516,
+      "roundtrip_error": 0.029201574268336798
+    },
+    "fingerprint": {
+      "seed": 3289967,
+      "n_unique_outcomes": 32,
+      "shannon_entropy": 4.950045695832771,
+      "top_outcomes": [
+        [
+          "1000011011 1000011011",
+          29
+        ],
+        [
+          "0111111110 0111111110",
+          23
+        ],
+        [
+          "0100000110 0100000110",
+          22
+        ]
+      ],
+      "n_shots": 500
+    }
+  },
+  {
+    "seed": 57322595,
+    "encode": {
+      "seed": 57322595,
+      "n_vertices": 16,
+      "audio_len": 32,
+      "n_qubits": 10,
+      "circuit_depth": 123,
+      "encode_time_s": 0.005540132522583008,
+      "decode_time_s": 0.03434348106384277,
+      "roundtrip_error": 0.033695584674018036
+    },
+    "fingerprint": {
+      "seed": 57322595,
+      "n_unique_outcomes": 32,
+      "shannon_entropy": 4.958561772331036,
+      "top_outcomes": [
+        [
+          "0100000111 0100000111",
+          27
+        ],
+        [
+          "0101100000 0101100000",
+          23
+        ],
+        [
+          "1011011010 1011011010",
+          22
+        ]
+      ],
+      "n_shots": 500
+    }
+  },
+  {
+    "seed": 90625407,
+    "encode": {
+      "seed": 90625407,
+      "n_vertices": 16,
+      "audio_len": 32,
+      "n_qubits": 10,
+      "circuit_depth": 132,
+      "encode_time_s": 0.0064008235931396484,
+      "decode_time_s": 0.035689353942871094,
+      "roundtrip_error": 0.03136726975364231
+    },
+    "fingerprint": {
+      "seed": 90625407,
+      "n_unique_outcomes": 32,
+      "shannon_entropy": 4.955252279220745,
+      "top_outcomes": [
+        [
+          "1011011001 1011011001",
+          26
+        ],
+        [
+          "0001111111 0001111111",
+          22
+        ],
+        [
+          "1010100010 1010100010",
+          21
+        ]
+      ],
+      "n_shots": 500
+    }
+  }
+]
