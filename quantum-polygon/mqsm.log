@@ -1,0 +1,19 @@
+Canon signatures (MQSM):
+Quantum State Modulation
+Traceback (most recent call last):
+  File "/run/csi/mount-root/nas/eab0d61a99b6696edb3d2aff87b585e8/research/quantum-polygon/mqsm_polygon.py", line 117, in <module>
+    run_study()
+  File "/run/csi/mount-root/nas/eab0d61a99b6696edb3d2aff87b585e8/research/quantum-polygon/mqsm_polygon.py", line 77, in run_study
+    sig = mqsm_circuit_signature(seed)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/csi/mount-root/nas/eab0d61a99b6696edb3d2aff87b585e8/research/quantum-polygon/mqsm_polygon.py", line 51, in mqsm_circuit_signature
+    circuit = qa.encode(audio, scheme="QSM")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/quantumaudio/interfaces/api.py", line 46, in encode
+    return _load_scheme(scheme, **scheme_kwargs).encode(data, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/quantumaudio/schemes/qsm.py", line 223, in encode
+    utils.validate_data(data)
+  File "/usr/local/lib/python3.11/dist-packages/quantumaudio/utils/data.py", line 48, in validate_data
+    raise ValueError(
+ValueError: Data not in the digital audio range (-1.0 to 1.0). Try using `numpy.clip`.

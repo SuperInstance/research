@@ -1,0 +1,68 @@
+{
+  "penrose": [
+    {
+      "mean_velocity": 0.12707325912641418,
+      "std_velocity": 0.06333875192563516,
+      "total_motion": 57.18296660688638
+    },
+    {
+      "mean_velocity": 0.12657412626770081,
+      "std_velocity": 0.06576830808612905,
+      "total_motion": 56.95835682046537
+    },
+    {
+      "mean_velocity": 0.12343776386108879,
+      "std_velocity": 0.06597210123608357,
+      "total_motion": 55.546993737489956
+    },
+    {
+      "mean_velocity": 0.12611682049977224,
+      "std_velocity": 0.06396882339332303,
+      "total_motion": 56.75256922489751
+    },
+    {
+      "mean_velocity": 0.1302309553139081,
+      "std_velocity": 0.06544281587648927,
+      "total_motion": 58.60392989125865
+    },
+    {
+      "mean_velocity": 0.12395707766151673,
+      "std_velocity": 0.06582449997862586,
+      "total_motion": 55.78068494768253
+    }
+  ],
+  "random": [
+    {
+      "mean_velocity": 0.1235334963568804,
+      "std_velocity": 0.06294805102140572,
+      "total_motion": 55.590073360596186
+    },
+    {
+      "mean_velocity": 0.12432654264259543,
+      "std_velocity": 0.06512440521223063,
+      "total_motion": 55.946944189167944
+    },
+    {
+      "mean_velocity": 0.12125343062837997,
+      "std_velocity": 0.062363925900804244,
+      "total_motion": 54.56404378277099
+    },
+    {
+      "mean_velocity": 0.12693052390951748,
+      "std_velocity": 0.06895549558323413,
+      "total_motion": 57.11873575928287
+    },
+    {
+      "mean_velocity": 0.12634719233903588,
+      "std_velocity": 0.07071886196374223,
+      "total_motion": 56.85623655256615
+    },
+    {
+      "mean_velocity": 0.12639571549744563,
+      "std_velocity": 0.06032709272429062,
+      "total_motion": 56.87807197385054
+    }
+  ],
+  "penrose_mean_vel": 0.12623166712173348,
+  "random_mean_vel": 0.12479781689564247
+}
