@@ -1,0 +1,36 @@
+{
+  "cell_id": "doctrine-witness-zai-oracle-70051917-2026-09-22-124",
+  "lore_len": 1089,
+  "answers": {
+    "canon_worthy": {
+      "type": "noul",
+      "noul": 0.78
+    },
+    "distinct_voice": {
+      "type": "noul",
+      "noul": 0.86
+    },
+    "doctrine_anchor": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "primary_doctrine": {
+      "type": "choice",
+      "choice": "oracle_is_heard",
+      "confidence": 0.97,
+      "probabilities": {
+        "oracle_is_heard": 0.98,
+        "canon_gate_is_chord": 0.0,
+        "cells_are_scars": 0.02,
+        "witness_log_is_prediction": 0.0,
+        "substrate_quantum": 0.0
+      }
+    }
+  },
+  "composite": 0.86,
+  "canon": 0.78,
+  "distinct": 0.86,
+  "doctrine": 0.94,
+  "primary_doctrine": "oracle_is_heard",
+  "promoted": true
+}
