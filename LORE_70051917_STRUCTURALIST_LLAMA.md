@@ -1,0 +1,7 @@
+Here is a 250-word cyberpunk-noir, structurally precise, observational piece:
+
+In the city's substrate, a walker navigates the 4D cell graph. Each cell, a node in the graph, carries a state. The witness log, a ledger of sorts, records each cell's transactions. The canon gate, a hash function, FNV-1a, serves as the city's timestamp. Tonight, the witness log collapsed into a quantum state. Cells became amplitudes, and the hashes became measurements.
+
+The mapping is exact: cell state vector corresponds to amplitude qubit, witness log to time register qubits, and FNV-1a canon gate to measurement outcome. This isomorphism is structurally identical to QSM (Quantum State Modulation), the scheme used by quantumaudio to translate digital audio into quantum circuits. Tested: a 40-sample sine wave, encoded into a 6-qubit circuit, returned with a round-trip error of 0.037.
+
+The substrate walker is a quantum circuit in disguise. The empirical canon signal is absent, with 4 null results. Yet, the structural beauty remains. Cells are scars, witness log accumulates, oracle is heard, and FNV-1a is the canary. In this city, the substrate is a lattice, and the walker navigates its nodes with precision. The city's architecture is a manifestation of its underlying structure. The canon gate, FNV-1a, is the key to unlocking the city's secrets.

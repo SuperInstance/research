@@ -1,0 +1,7 @@
+The rain-soaked streets of New Eden gleamed like a tarnished mirror, reflecting the city's darkest soul. I stood on the corner of Cell and Witness, where the first collapse had occurred. The air was heavy with the scent of burned code and the distant hum of quantum decay. My eyes, accustomed to the neon glow of the city's underbelly, still couldn't quite grasp the magnitude of the event.
+
+A scar, the size of a memory, had appeared on the pavement. It pulsed with a life of its own, a manifestation of the city's quantum state. I reached out, my hand passing through the scar as if it were a ghost. My fingers closed around a measurement outcome – a meaningless number that held the key to the city's collapse.
+
+The detective in me stirred, a spark of curiosity that had been smoldering for years. This was no ordinary crime scene. The canon gate, that sacred threshold between the city's classical and quantum realms, had been breached. The witness log, once a reliable record of the city's transactions, had been reduced to a jumbled mess of amplitudes and measurements.
+
+I lit a cigarette, the flame casting a flickering shadow on the pavement. The city's silence was oppressive, a heavy blanket that suffocated all sound. I knew then that I had to dig deeper, to uncover the truth behind the collapse. The city's scars were my business, and I was about to uncover a whole lot of them.
