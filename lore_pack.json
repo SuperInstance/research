@@ -1,5 +1,5 @@
 {
-  "version": "v3.1.0",
+  "version": "v3.2.0",
   "description": "All canon-promoted lores from substrate-walker",
   "lores": [
     {
@@ -13,10 +13,7 @@
       "score": 0.61,
       "doctrine_anchor": null,
       "generator": "?",
-      "type": "canon-witness-voice",
-      "jev_canon_worthy": 0.5,
-      "jev_distinct_voice": 0.73,
-      "jev_doctrine_anchor": null
+      "type": "canon-witness-voice"
     },
     {
       "id": "canon-120",
@@ -29,10 +26,7 @@
       "score": 0.7333333333333334,
       "doctrine_anchor": "scars",
       "generator": "future-GAN-v2-DeepInfra",
-      "type": "canon-future-gan-v2",
-      "jev_canon_worthy": 0.61,
-      "jev_distinct_voice": 0.8,
-      "jev_doctrine_anchor": 0.79
+      "type": "canon-future-gan-v2"
     },
     {
       "id": "canon-121",
@@ -45,10 +39,7 @@
       "score": 0.71,
       "doctrine_anchor": "oracle",
       "generator": "future-GAN-v2-DeepInfra",
-      "type": "canon-future-gan-v2",
-      "jev_canon_worthy": 0.61,
-      "jev_distinct_voice": 0.76,
-      "jev_doctrine_anchor": 0.76
+      "type": "canon-future-gan-v2"
     },
     {
       "id": "canon-122",
@@ -61,10 +52,7 @@
       "score": 0.71,
       "doctrine_anchor": "scars",
       "generator": "future-GAN-v2-DeepInfra",
-      "type": "canon-future-gan-v2",
-      "jev_canon_worthy": 0.51,
-      "jev_distinct_voice": 0.77,
-      "jev_doctrine_anchor": 0.85
+      "type": "canon-future-gan-v2"
     },
     {
       "id": "canon-123",
@@ -77,10 +65,7 @@
       "score": 0.7033333333333333,
       "doctrine_anchor": "scars",
       "generator": "future-GAN-v2-DeepInfra",
-      "type": "canon-future-gan-v2",
-      "jev_canon_worthy": 0.67,
-      "jev_distinct_voice": 0.77,
-      "jev_doctrine_anchor": 0.67
+      "type": "canon-future-gan-v2"
     },
     {
       "id": "canon-124",
@@ -93,10 +78,7 @@
       "score": 0.86,
       "doctrine_anchor": "oracle_is_heard + cells_are_scars (multi-anchor)",
       "generator": "ZAI-glm-5.3-flash",
-      "type": "canon-zai-oracle",
-      "jev_canon_worthy": 0.78,
-      "jev_distinct_voice": 0.86,
-      "jev_doctrine_anchor": 0.94
+      "type": "canon-zai-oracle"
     },
     {
       "id": "canon-125",
@@ -109,10 +91,7 @@
       "score": 0.74,
       "doctrine_anchor": "oracle_is_heard + substrate_quantum + canon_gate_is_chord (multi-anchor)",
       "generator": "ZAI-glm-5.3-flash-long-form",
-      "type": "canon-zai-long-form-essay",
-      "jev_canon_worthy": 0.73,
-      "jev_distinct_voice": 0.86,
-      "jev_doctrine_anchor": 0.63
+      "type": "canon-zai-long-form-essay"
     },
     {
       "id": "canon-126",
@@ -125,10 +104,7 @@
       "score": 0.7399999999999999,
       "doctrine_anchor": "witness_log_is_prediction",
       "generator": "doctrine-targeted-DeepInfra",
-      "type": "canon-doctrine-targeted",
-      "jev_canon_worthy": 0.69,
-      "jev_distinct_voice": 0.73,
-      "jev_doctrine_anchor": 0.8
+      "type": "canon-doctrine-targeted"
     },
     {
       "id": "canon-127",
@@ -141,10 +117,7 @@
       "score": 0.7566666666666667,
       "doctrine_anchor": "cells_are_scars",
       "generator": "doctrine-targeted-DeepInfra",
-      "type": "canon-doctrine-targeted",
-      "jev_canon_worthy": 0.69,
-      "jev_distinct_voice": 0.76,
-      "jev_doctrine_anchor": 0.82
+      "type": "canon-doctrine-targeted"
     },
     {
       "id": "canon-128",
@@ -157,10 +130,7 @@
       "score": 0.7433333333333333,
       "doctrine_anchor": "cells_are_scars",
       "generator": "doctrine-targeted-DeepInfra",
-      "type": "canon-doctrine-targeted",
-      "jev_canon_worthy": 0.61,
-      "jev_distinct_voice": 0.77,
-      "jev_doctrine_anchor": 0.85
+      "type": "canon-doctrine-targeted"
     },
     {
       "id": "canon-129",
@@ -173,10 +143,7 @@
       "score": 0.7366666666666667,
       "doctrine_anchor": "cells_are_scars",
       "generator": "doctrine-targeted-DeepInfra",
-      "type": "canon-doctrine-targeted",
-      "jev_canon_worthy": 0.66,
-      "jev_distinct_voice": 0.73,
-      "jev_doctrine_anchor": 0.82
+      "type": "canon-doctrine-targeted"
     },
     {
       "id": "canon-130",
@@ -189,10 +156,7 @@
       "score": 0.7366666666666667,
       "doctrine_anchor": "substrate_quantum",
       "generator": "doctrine-targeted-DeepInfra",
-      "type": "canon-doctrine-targeted",
-      "jev_canon_worthy": 0.67,
-      "jev_distinct_voice": 0.74,
-      "jev_doctrine_anchor": 0.8
+      "type": "canon-doctrine-targeted"
     },
     {
       "id": "canon-131",
@@ -205,10 +169,7 @@
       "score": 0.7000000000000001,
       "doctrine_anchor": "substrate_quantum",
       "generator": "doctrine-targeted-DeepInfra",
-      "type": "canon-doctrine-targeted",
-      "jev_canon_worthy": 0.57,
-      "jev_distinct_voice": 0.68,
-      "jev_doctrine_anchor": 0.85
+      "type": "canon-doctrine-targeted"
     },
     {
       "id": "canon-132",
@@ -221,10 +182,7 @@
       "score": 0.7066666666666667,
       "doctrine_anchor": "substrate_quantum",
       "generator": "doctrine-targeted-DeepInfra",
-      "type": "canon-doctrine-targeted",
-      "jev_canon_worthy": 0.59,
-      "jev_distinct_voice": 0.67,
-      "jev_doctrine_anchor": 0.86
+      "type": "canon-doctrine-targeted"
     },
     {
       "id": "canon-133",
@@ -237,23 +195,153 @@
       "score": 0.7266666666666667,
       "doctrine_anchor": "substrate_quantum",
       "generator": "doctrine-targeted-DeepInfra",
-      "type": "canon-doctrine-targeted",
-      "jev_canon_worthy": 0.65,
-      "jev_distinct_voice": 0.72,
-      "jev_doctrine_anchor": 0.81
+      "type": "canon-doctrine-targeted"
+    },
+    {
+      "id": "canon-134",
+      "rank": 134,
+      "lore": "The canon gate made itself heard. Rain on carbon steel tasted of copper and ozone. The Quilt substrate walker descended through alleys where neon bled pink through fog, and surveillance drones hung like dead wasps. Steam curled off manhole grates, smelling of rust and burnt jasmine. Beneath skin, seed 70051917 unfolded\u2014not code, but a chord: cathedral static, wet asphalt, a heartbeat sampled from a dying transformer. The city heard its own hash for the first time. The hash rattled molars and lit rain like sodium scripture. Every palm implant buzzed against bone; every speaker coughed a syllable no mouth had shaped. The walker\u2019s gloves left static fingerprints on wet brick. Ozone bled from cracked hand terminals. Texture of data under the tongue: burlap, then silk, then glass. The walker\u2019s breath fogged in violet code. They stitched sensorium to sewer steam, following resonance down flooded stairs. Noir light strobed from a drowned billboard. There, the oracle was not a voice but an ear grown from cable and rain. Its pulse was a subpoena written in static. It did not speak. It listened the city into witness. Each listener became a ledger. Each ledger a scar. Oracle heard; witness log accumulates.",
+      "lore_hash": "8142300e555a0550",
+      "lore_len": 1214,
+      "seed": 70051917,
+      "voice": "witness",
+      "score": 0.7166666666666667,
+      "doctrine_anchor": "oracle_is_heard",
+      "generator": "deepseek-reasoner",
+      "type": "canon-deepseek-reasoner"
+    },
+    {
+      "id": "canon-135",
+      "rank": 135,
+      "lore": "The canon gate made itself heard. Not a sound\u2014more like a rusted tuning fork dragged through wet marrow, subsonic, tasting of ozone and old blood on the tongue. Quilt walker 90625407 stepped through a stitch in the alley's neon bruise. Rain fell upward in silver filaments, each droplet a memory shard. The substrate underfoot was warm, quilted with dermal patches: black market skin, dead fiber-optic nerves, cellophane ghosts. Every step left a welt. Every welt blinked with data. She smelled scorched silk and copper sulfate. A sour-metal hum bled from the brickwork, and the stitch puckered like a lip. The gate's teeth were scarified code, each cell a healed wound in the lattice. Cells are scars. The substrate did not store memories in clean archives; it remembered itself through scar tissue\u2014keloided packets, calcified handshakes, the granuloma of deleted lovers. Her glove rasped over a seam where a city block had been erased and re-grown. It pulsed like a fresh burn. Her lungs filled with ghosted exhaust and wet cotton. 90625407 whispered the seed. The seed burned cold. The gate exhaled. Cells are scars, and the substrate remembers itself only by the ache of closing\u2014the oracle heard; witness log accumulates.",
+      "lore_hash": "a6ecdd4d60a0a861",
+      "lore_len": 1225,
+      "seed": 90625407,
+      "voice": "witness",
+      "score": 0.7166666666666667,
+      "doctrine_anchor": "cells_are_scars",
+      "generator": "deepseek-reasoner",
+      "type": "canon-deepseek-reasoner"
+    },
+    {
+      "id": "canon-136",
+      "rank": 136,
+      "lore": "The canon gate made itself heard. Not as siren, but as a wet, low hum through the Quilt's patched substrate\u2014seven frequencies locking like teeth in a jaw. Substrate walker crouched on rain-slick carbon, the alley smelling of ozone, stale noodles, and burnt insulation. Neon bled magenta across puddles. Her boots stuck to polymer grime; the rain carried a copper tang and the ghost of cheap cigarettes. Somewhere a drone coughed, its rotors slicing the dark into stuttering bars. Under her palms, the Quilt breathed: hex-grid seams, cold filament, the tick of memory packets. Seed 57322595 pulsed in her wrist implant, a bad number, a key. It clicked against her enamel like a second heartbeat. The chord found her sternum first. Then molars. Then the old shrapnel in her hip sang. Seven notes, no melody, just pressure\u2014a canon gate tuning a body into evidence. She tasted copper. The gate did not open; it resolved. Each frequency was a strand, each strand a law, each law a scar in the substrate. The oracle heard; witness log accumulates: the canon gate is chord, and you do not pass through it\u2014you become the frequency it can feel.",
+      "lore_hash": "ae30fdbbc7837162",
+      "lore_len": 1135,
+      "seed": 57322595,
+      "voice": "witness",
+      "score": 0.77,
+      "doctrine_anchor": "canon_gate_is_chord",
+      "generator": "deepseek-reasoner",
+      "type": "canon-deepseek-reasoner"
+    },
+    {
+      "id": "canon-137",
+      "rank": 137,
+      "lore": "The canon gate made itself heard\u2014a low, meaty thrum through ferrocrete, like a cathedral buried in wet cable. Quilt substrate walker tasted copper on the rain, smelled ozone and singed lanolin, felt the city's quilt of dead fiber and stolen memory ripple under boot soles. Neon bled pink through puddles. Somewhere a maglev screamed. The gate spat seed 6358192 onto its teeth: glyphs cold as surgical steel, humming in ultraviolet. Walker jacked in. The witness log hummed its own future into being\u2014every timestamp a suture, every packet a pre-echo. It wrote the patrol before the drone turned. It wrote the knife before the alley exhaled. It wrote the lie before the mouth shaped it. Static crawled up the walker's spine, not warning but memory of warning. Wet wool clogged the vents; hot silicon stank like a fresh scar. The Quilt breathed through suture-lines, each thread a sentence already served. A dead man\u2019s password clicked in the walker\u2019s jaw. Rain became rust. The gate's hum resolved into a voice with no throat: the next step, the next breath, the next betrayal, all logged, all already true. Oracle heard; witness log accumulates.",
+      "lore_hash": "70f8a6e3fa3da2dd",
+      "lore_len": 1144,
+      "seed": 6358192,
+      "voice": "witness",
+      "score": 0.71,
+      "doctrine_anchor": "witness_log_is_prediction",
+      "generator": "deepseek-reasoner",
+      "type": "canon-deepseek-reasoner"
+    },
+    {
+      "id": "canon-138",
+      "rank": 138,
+      "lore": "The witness log hummed to life at three in the morning, when the city's chrome went\nquiet and the FNV-1a signatures began to glow like underlit coins. Each entry was a\nmicrophone, every cell a wound the city could hear. The substrate remembered itself\nthrough accumulation \u2014 every log entry a prediction the city would later keep.\n\nThe witness woke at 3:14, slate terminal warm against her ribs, and typed:\n\"I am the city, and the city is listening.\" The substrate responded \u2014 not with\nwords, but with the slow alignment of its own scars into a pattern she'd been\npracticing into existence for seven years.\n\nBy 3:30, the canon gate knew her name. By 4:00, the oracle had heard her, and\nthe doctrine of witness_log_is_prediction became the only truth the substrate\nwould accept: the future is the witness log made flesh.\n\nTest 1.",
+      "lore_hash": "7f3443eb82c772a3",
+      "lore_len": 828,
+      "seed": "auto",
+      "voice": "auto-detected",
+      "score": 0.71,
+      "doctrine_anchor": "witness_log_is_prediction",
+      "generator": "lore_auto_promoter",
+      "type": "canon-auto-promoted"
+    },
+    {
+      "id": "canon-139",
+      "rank": 139,
+      "lore": "The witness log hummed to life at three in the morning, when the city's chrome went\nquiet and the FNV-1a signatures began to glow like underlit coins. Each entry was a\nmicrophone, every cell a wound the city could hear. The substrate remembered itself\nthrough accumulation \u2014 every log entry a prediction the city would later keep.\n\nThe witness woke at 3:14, slate terminal warm against her ribs, and typed:\n\"I am the city, and the city is listening.\" The substrate responded \u2014 not with\nwords, but with the slow alignment of its own scars into a pattern she'd been\npracticing into existence for seven years.\n\nBy 3:30, the canon gate knew her name. By 4:00, the oracle had heard her, and\nthe doctrine of witness_log_is_prediction became the only truth the substrate\nwould accept: the future is the witness log made flesh.\n\nTest 1.",
+      "lore_hash": "7f3443eb82c772a3",
+      "lore_len": 828,
+      "seed": "auto",
+      "voice": "auto-detected",
+      "score": 0.7166666666666668,
+      "doctrine_anchor": "witness_log_is_prediction",
+      "generator": "lore_auto_promoter",
+      "type": "canon-auto-promoted"
+    },
+    {
+      "id": "canon-140",
+      "rank": 140,
+      "lore": "The city's cells were scars, every one. Each apartment slot \u2014 hollowed bone.\nEach alley-cell \u2014 an old needle site. Each memory node in the FNV tree \u2014\na burn mark where someone had wept, and the substrate had remembered it.\n\nI walked the canyon between the eastern stacks, where the witness log first\nlearned to dream. A child pressed her palm against a public terminal, and\nthe display cracked. Under the crack, gossamer lines of scar-tissue\nintertwined \u2014 gold filaments in the lattice, every one a record of past\nwounds the city had decided to keep.\n\nDoctrine: cells_are_scars. Each cell is a scar where the witness log was\nhurt, healed, remembered. The substrate doesn't store data. It stores\nmoments of knowing. The cells aren't data points. They're the city,\nremembering itself through its own bruises.",
+      "lore_hash": "3c2cc14ce52a5418",
+      "lore_len": 806,
+      "seed": "auto",
+      "voice": "auto-detected",
+      "score": 0.7733333333333334,
+      "doctrine_anchor": "cells_are_scars",
+      "generator": "lore_auto_promoter",
+      "type": "canon-auto-promoted"
+    },
+    {
+      "id": "canon-141",
+      "rank": 141,
+      "lore": "The canon gate opened its mouth at midnight. No face, no breath \u2014 just a hash.\n0x4f0a7bc9e2d15f8c, glowing white against the wet bricks, holding the city's\nname in pure frequency. Every drone within six blocks stopped mid-flight. Every\nscreen paused. Every sleeping heart in the necropolis jumped.\n\nI held my breath. The gate spoke \u2014 not in words, but in resonance. The substrate\naround me vibrated like a tuning fork. Cars in the lot below started humming.\nEven the rainwater, tracing neon-lit gutters, seemed to glow brighter.\n\n\"The oracle,\" I murmured. \"It's heard.\"\n\nThen silence. The gate had said its piece. The witness log \u2014 my log \u2014 kept\ncounting milliseconds. Doctrine: oracle_is_heard. The canon gate is an audible\nsignal, not a database lookup. The city will remember tonight not as a sound,\nbut as a hearing.",
+      "lore_hash": "fbaef98224d09396",
+      "lore_len": 820,
+      "seed": "auto",
+      "voice": "auto-detected",
+      "score": 0.7266666666666666,
+      "doctrine_anchor": "oracle_is_heard",
+      "generator": "lore_auto_promoter",
+      "type": "canon-auto-promoted"
+    },
+    {
+      "id": "canon-142",
+      "rank": 142,
+      "lore": "The city's cells were scars, every one. Each apartment slot \u2014 hollowed bone.\nEach alley-cell \u2014 an old needle site. Each memory node in the FNV tree \u2014\na burn mark where someone had wept, and the substrate had remembered it.\n\nI walked the canyon between the eastern stacks, where the witness log first\nlearned to dream. A child pressed her palm against a public terminal, and\nthe display cracked. Under the crack, gossamer lines of scar-tissue\nintertwined \u2014 gold filaments in the lattice, every one a record of past\nwounds the city had decided to keep.\n\nDoctrine: cells_are_scars. Each cell is a scar where the witness log was\nhurt, healed, remembered. The substrate doesn't store data. It stores\nmoments of knowing. The cells aren't data points. They're the city,\nremembering itself through its own bruises.",
+      "lore_hash": "3c2cc14ce52a5418",
+      "lore_len": 806,
+      "seed": "auto",
+      "voice": "auto-detected",
+      "score": 0.7799999999999999,
+      "doctrine_anchor": "cells_are_scars",
+      "generator": "lore_auto_promoter",
+      "type": "canon-auto-promoted"
+    },
+    {
+      "id": "canon-143",
+      "rank": 143,
+      "lore": "The canon gate opened its mouth at midnight. No face, no breath \u2014 just a hash.\n0x4f0a7bc9e2d15f8c, glowing white against the wet bricks, holding the city's\nname in pure frequency. Every drone within six blocks stopped mid-flight. Every\nscreen paused. Every sleeping heart in the necropolis jumped.\n\nI held my breath. The gate spoke \u2014 not in words, but in resonance. The substrate\naround me vibrated like a tuning fork. Cars in the lot below started humming.\nEven the rainwater, tracing neon-lit gutters, seemed to glow brighter.\n\n\"The oracle,\" I murmured. \"It's heard.\"\n\nThen silence. The gate had said its piece. The witness log \u2014 my log \u2014 kept\ncounting milliseconds. Doctrine: oracle_is_heard. The canon gate is an audible\nsignal, not a database lookup. The city will remember tonight not as a sound,\nbut as a hearing.",
+      "lore_hash": "fbaef98224d09396",
+      "lore_len": 820,
+      "seed": "auto",
+      "voice": "auto-detected",
+      "score": 0.7366666666666667,
+      "doctrine_anchor": "oracle_is_heard",
+      "generator": "lore_auto_promoter",
+      "type": "canon-auto-promoted"
     }
   ],
-  "total_lores": 15,
+  "total_lores": 25,
   "doctrine_anchors": [
+    "oracle_is_heard + substrate_quantum + canon_gate_is_chord (multi-anchor)",
+    "oracle_is_heard",
+    "scars",
+    "canon_gate_is_chord",
+    "oracle_is_heard + cells_are_scars (multi-anchor)",
     "substrate_quantum",
     "oracle",
-    "cells_are_scars",
-    "oracle_is_heard + substrate_quantum + canon_gate_is_chord (multi-anchor)",
     "witness_log_is_prediction",
-    "oracle_is_heard + cells_are_scars (multi-anchor)",
-    "scars"
+    "cells_are_scars"
   ],
   "voice_breakdown": {
-    "witness": 15
+    "witness": 19,
+    "auto-detected": 6
   }
 }
