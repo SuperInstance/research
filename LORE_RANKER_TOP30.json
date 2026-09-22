@@ -1,0 +1,302 @@
+[
+  {
+    "rank": -1,
+    "seed": "doctrine-100",
+    "voice": "witness",
+    "composite": 1.0,
+    "max_jaccard": 0,
+    "distinct_penalty": 0.0,
+    "adjusted_score": 1.0,
+    "lore_preview": "Doctrine-prime (abstract substrate canon)"
+  },
+  {
+    "rank": 1,
+    "seed": 70051917,
+    "voice": "structuralist",
+    "composite": 0.8691666666666666,
+    "max_jaccard": 0.016304347826086956,
+    "distinct_penalty": 0.0048913043478260865,
+    "adjusted_score": 0.8642753623188406,
+    "lore_preview": "Brutalist megastructures erupt from a flooded grid, their jagged facades pierced by neon glyphs. The city dreams itself "
+  },
+  {
+    "rank": 2,
+    "seed": 4685000,
+    "voice": "structuralist",
+    "composite": 0.86875,
+    "max_jaccard": 0.0622568093385214,
+    "distinct_penalty": 0.01867704280155642,
+    "adjusted_score": 0.8500729571984436,
+    "lore_preview": "A sprawling vertical labyrinth of angular tenements and skybridges, each window a flickering pixel in the city's electri"
+  },
+  {
+    "rank": 4,
+    "seed": 57322595,
+    "voice": "philosophical",
+    "composite": 0.8683333333333333,
+    "max_jaccard": 0.09009009009009009,
+    "distinct_penalty": 0.027027027027027025,
+    "adjusted_score": 0.8413063063063063,
+    "lore_preview": "In the cathedral of light and rust, towers claw at the rain-heavy sky. The street below hums with ten thousand footsteps"
+  },
+  {
+    "rank": 5,
+    "seed": 90625407,
+    "voice": "lyricist",
+    "composite": 0.8683333333333333,
+    "max_jaccard": 0.1038961038961039,
+    "distinct_penalty": 0.03116883116883117,
+    "adjusted_score": 0.8371645021645021,
+    "lore_preview": "Concrete canyons carved by neon rivers, where every alley ends in a glyph and every glyph ends in a question."
+  },
+  {
+    "rank": 19,
+    "seed": 97054056,
+    "voice": "lyricist",
+    "composite": 0.8670833333333333,
+    "max_jaccard": 0.12290502793296089,
+    "distinct_penalty": 0.036871508379888264,
+    "adjusted_score": 0.830211824953445,
+    "lore_preview": "The grid of streets becomes a grid of glyphs; the glyphs become a story; the story becomes the city."
+  },
+  {
+    "rank": 13,
+    "seed": 28692206,
+    "voice": "lyricist",
+    "composite": 0.8670833333333333,
+    "max_jaccard": 0.12299465240641712,
+    "distinct_penalty": 0.03689839572192513,
+    "adjusted_score": 0.8301849376114082,
+    "lore_preview": "In the city's deepest hour, only the neon survives \u2014 a glyph-by-glyph archaeology of what we built and why."
+  },
+  {
+    "rank": 17,
+    "seed": 63605960,
+    "voice": "structuralist",
+    "composite": 0.8670833333333333,
+    "max_jaccard": 0.13366336633663367,
+    "distinct_penalty": 0.0400990099009901,
+    "adjusted_score": 0.8269843234323432,
+    "lore_preview": "A dense cluster of vertical habitations, their windows interlocking like puzzle pieces in the rain-dark air."
+  },
+  {
+    "rank": 14,
+    "seed": 30264850,
+    "voice": "structuralist",
+    "composite": 0.8670833333333333,
+    "max_jaccard": 0.14646464646464646,
+    "distinct_penalty": 0.04393939393939394,
+    "adjusted_score": 0.8231439393939394,
+    "lore_preview": "A pure brutalist cathedral of glass and rust, where every pane reflects a different version of the same skyline."
+  },
+  {
+    "rank": 8,
+    "seed": 18437566,
+    "voice": "narrativist",
+    "composite": 0.8675,
+    "max_jaccard": 0.14925373134328357,
+    "distinct_penalty": 0.04477611940298507,
+    "adjusted_score": 0.822723880597015,
+    "lore_preview": "The metropolis folds inward on itself, a labyrinth of rain-dark towers and buzzing holographic advertisements."
+  },
+  {
+    "rank": 11,
+    "seed": 13328051,
+    "voice": "philosophical",
+    "composite": 0.8670833333333333,
+    "max_jaccard": 0.14835164835164835,
+    "distinct_penalty": 0.04450549450549451,
+    "adjusted_score": 0.8225778388278389,
+    "lore_preview": "A labyrinthine megalopolis built on the bones of older cities, every street a layer of forgotten history."
+  },
+  {
+    "rank": 15,
+    "seed": 45919340,
+    "voice": "narrativist",
+    "composite": 0.8670833333333333,
+    "max_jaccard": 0.15217391304347827,
+    "distinct_penalty": 0.04565217391304348,
+    "adjusted_score": 0.8214311594202899,
+    "lore_preview": "Neon rivers carve through the city's deep anatomy, their light pooling in alleys where stories go to ferment."
+  },
+  {
+    "rank": 9,
+    "seed": 79279361,
+    "voice": "futurist",
+    "composite": 0.8675,
+    "max_jaccard": 0.15471698113207547,
+    "distinct_penalty": 0.04641509433962264,
+    "adjusted_score": 0.8210849056603774,
+    "lore_preview": "Angular monoliths pierce the perpetual dusk of the urban sprawl, their windows pulsing with the heartbeat of a million s"
+  },
+  {
+    "rank": 18,
+    "seed": 78059087,
+    "voice": "philosophical",
+    "composite": 0.8670833333333333,
+    "max_jaccard": 0.1568627450980392,
+    "distinct_penalty": 0.047058823529411764,
+    "adjusted_score": 0.8200245098039216,
+    "lore_preview": "Sky-piercing monoliths stand as witness to a century of weather, their surfaces a palimpsest of light and shadow."
+  },
+  {
+    "rank": 10,
+    "seed": 6358192,
+    "voice": "",
+    "composite": 0.8670833333333333,
+    "max_jaccard": 0.15926892950391644,
+    "distinct_penalty": 0.04778067885117493,
+    "adjusted_score": 0.8193026544821584,
+    "lore_preview": "The rain-soaked streets of Neo-Tokyo.\n\nYou are standing in a dimly lit alleyway, surrounded by towering skyscrapers. The"
+  },
+  {
+    "rank": 6,
+    "seed": 1504276,
+    "voice": "structuralist",
+    "composite": 0.8675,
+    "max_jaccard": 0.1828793774319066,
+    "distinct_penalty": 0.05486381322957198,
+    "adjusted_score": 0.812636186770428,
+    "lore_preview": "In the city's labyrinthine heart, towering skyscrapers with angular, aerodynamic designs pierced the smog-choked skies, "
+  },
+  {
+    "rank": 12,
+    "seed": 17759001,
+    "voice": "structuralist",
+    "composite": 0.8670833333333333,
+    "max_jaccard": 0.18686868686868688,
+    "distinct_penalty": 0.05606060606060606,
+    "adjusted_score": 0.8110227272727273,
+    "lore_preview": "Tenements rise like vertebrae against the bruised sky, interconnected by skybridges that hum with electric prayer."
+  },
+  {
+    "rank": 7,
+    "seed": 14608133,
+    "voice": "structuralist",
+    "composite": 0.8675,
+    "max_jaccard": 0.24154589371980675,
+    "distinct_penalty": 0.07246376811594202,
+    "adjusted_score": 0.795036231884058,
+    "lore_preview": "Brutalist megastructures erupt in staggered clusters, their surfaces inscribed with the city's forgotten names."
+  },
+  {
+    "rank": 16,
+    "seed": 48680865,
+    "voice": "futurist",
+    "composite": 0.8670833333333333,
+    "max_jaccard": 0.2608695652173913,
+    "distinct_penalty": 0.07826086956521738,
+    "adjusted_score": 0.7888224637681159,
+    "lore_preview": "The city breathes in concrete, exhales in neon. Its every artery is a question; every vein, a glyph."
+  },
+  {
+    "rank": 20,
+    "seed": 302238,
+    "voice": "structuralist",
+    "composite": 0.8666666666666667,
+    "max_jaccard": 0.3258426966292135,
+    "distinct_penalty": 0.09775280898876405,
+    "adjusted_score": 0.7689138576779027,
+    "lore_preview": "In the neon-drenched sprawl of New Eden, towering skyscrapers pierced the smog-choked sky, their angular silhouettes a t"
+  },
+  {
+    "rank": 3,
+    "seed": 3289967,
+    "voice": "structuralist",
+    "composite": 0.8683333333333333,
+    "max_jaccard": 0.3917525773195876,
+    "distinct_penalty": 0.11752577319587629,
+    "adjusted_score": 0.750807560137457,
+    "lore_preview": "Monolithic brutalist towers rise from a flooded grid, their jagged facades pierced by neon glyphs and decaying data stre"
+  },
+  {
+    "rank": -1,
+    "seed": "doctrine-101",
+    "voice": "witness",
+    "composite": 1.0,
+    "max_jaccard": 1.0,
+    "distinct_penalty": 0.3,
+    "adjusted_score": 0.7,
+    "lore_preview": "Doctrine-prime (abstract substrate canon)"
+  },
+  {
+    "rank": -1,
+    "seed": "doctrine-102",
+    "voice": "witness",
+    "composite": 1.0,
+    "max_jaccard": 1.0,
+    "distinct_penalty": 0.3,
+    "adjusted_score": 0.7,
+    "lore_preview": "Doctrine-prime (abstract substrate canon)"
+  },
+  {
+    "rank": -1,
+    "seed": "doctrine-103",
+    "voice": "witness",
+    "composite": 1.0,
+    "max_jaccard": 1.0,
+    "distinct_penalty": 0.3,
+    "adjusted_score": 0.7,
+    "lore_preview": "Doctrine-prime (abstract substrate canon)"
+  },
+  {
+    "rank": -1,
+    "seed": "doctrine-104",
+    "voice": "witness",
+    "composite": 1.0,
+    "max_jaccard": 1.0,
+    "distinct_penalty": 0.3,
+    "adjusted_score": 0.7,
+    "lore_preview": "Doctrine-prime (abstract substrate canon)"
+  },
+  {
+    "rank": -1,
+    "seed": "doctrine-105",
+    "voice": "witness",
+    "composite": 1.0,
+    "max_jaccard": 1.0,
+    "distinct_penalty": 0.3,
+    "adjusted_score": 0.7,
+    "lore_preview": "Doctrine-prime (abstract substrate canon)"
+  },
+  {
+    "rank": -1,
+    "seed": "doctrine-106",
+    "voice": "witness",
+    "composite": 1.0,
+    "max_jaccard": 1.0,
+    "distinct_penalty": 0.3,
+    "adjusted_score": 0.7,
+    "lore_preview": "Doctrine-prime (abstract substrate canon)"
+  },
+  {
+    "rank": -1,
+    "seed": "doctrine-107",
+    "voice": "witness",
+    "composite": 1.0,
+    "max_jaccard": 1.0,
+    "distinct_penalty": 0.3,
+    "adjusted_score": 0.7,
+    "lore_preview": "Doctrine-prime (abstract substrate canon)"
+  },
+  {
+    "rank": -1,
+    "seed": "doctrine-108",
+    "voice": "witness",
+    "composite": 1.0,
+    "max_jaccard": 1.0,
+    "distinct_penalty": 0.3,
+    "adjusted_score": 0.7,
+    "lore_preview": "Doctrine-prime (abstract substrate canon)"
+  },
+  {
+    "rank": -1,
+    "seed": "doctrine-109",
+    "voice": "witness",
+    "composite": 1.0,
+    "max_jaccard": 1.0,
+    "distinct_penalty": 0.3,
+    "adjusted_score": 0.7,
+    "lore_preview": "Doctrine-prime (abstract substrate canon)"
+  }
+]

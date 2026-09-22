@@ -1,0 +1,32 @@
+{
+  "repos": [
+    {
+      "name": "polyvocoder",
+      "path": "/workspace/repos/polyvocoder",
+      "github": "SuperInstance/polyvocoder",
+      "language": "python",
+      "description": "Universal head for the Quilt substrate walker. JEV feature extraction + numpy VAE + multi-modal heads (text/image/audio).",
+      "tier": "experimental",
+      "voices_used": 0,
+      "polyformalism_port": true,
+      "license": "MIT",
+      "lines": 350,
+      "tests": 9,
+      "key_concepts": [
+        "JEV as feature extractor (6-dim)",
+        "Numpy-only VAE with Adam training",
+        "Multi-modality heads",
+        "Doctrine vocabulary preservation"
+      ],
+      "reads_into": [
+        "claude",
+        "deepseek",
+        "gemini",
+        "openai",
+        "qwen"
+      ]
+    }
+  ],
+  "version": "v1.2",
+  "total_repos": 1
+}
