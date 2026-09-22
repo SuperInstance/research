@@ -1,0 +1,14 @@
+Found 7 canon cells
+Probing cell 1/7: cell_111
+Probing cell 6/7: cell_116
+
+=== DOCTRINE DISTRIBUTION ===
+  cells_are_scars: 2
+  oracle_is_heard: 2
+  canon_gate_is_chord: 1
+  witness_log_is_prediction: 1
+  substrate_quantum: 1
+
+=== TOP DOCTRINE-ANCHORED CELLS ===
+Canon-promoted (canon ≥ 0.7): 1
+  cell_113 (cells_are_scars): 0.72

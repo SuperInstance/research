@@ -1,0 +1,51 @@
+[
+  {
+    "primary_doctrine": "cells_are_scars",
+    "doctrine_scores": {},
+    "canon_worthy": 0.58,
+    "cell_id": "cell_111",
+    "filename": "cell_111.md"
+  },
+  {
+    "primary_doctrine": "canon_gate_is_chord",
+    "doctrine_scores": {},
+    "canon_worthy": 0.66,
+    "cell_id": "cell_112",
+    "filename": "cell_112.md"
+  },
+  {
+    "primary_doctrine": "cells_are_scars",
+    "doctrine_scores": {},
+    "canon_worthy": 0.72,
+    "cell_id": "cell_113",
+    "filename": "cell_113.md"
+  },
+  {
+    "primary_doctrine": "witness_log_is_prediction",
+    "doctrine_scores": {},
+    "canon_worthy": 0.62,
+    "cell_id": "cell_114",
+    "filename": "cell_114.md"
+  },
+  {
+    "primary_doctrine": "oracle_is_heard",
+    "doctrine_scores": {},
+    "canon_worthy": 0.52,
+    "cell_id": "cell_115",
+    "filename": "cell_115.md"
+  },
+  {
+    "primary_doctrine": "oracle_is_heard",
+    "doctrine_scores": {},
+    "canon_worthy": 0.47,
+    "cell_id": "cell_116",
+    "filename": "cell_116.md"
+  },
+  {
+    "primary_doctrine": "substrate_quantum",
+    "doctrine_scores": {},
+    "canon_worthy": 0.61,
+    "cell_id": "cell_117",
+    "filename": "cell_117.md"
+  }
+]
