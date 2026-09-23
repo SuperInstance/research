@@ -1,0 +1,234 @@
+[
+  {
+    "cell_id": 1,
+    "composite": 0.933,
+    "doctrine_anchor": 0.966,
+    "canon_worthy": 0.933,
+    "distinct_voice": 0.9,
+    "promoted": true
+  },
+  {
+    "cell_id": 2,
+    "composite": 0.733,
+    "doctrine_anchor": 0.6,
+    "canon_worthy": 0.833,
+    "distinct_voice": 0.766,
+    "promoted": true
+  },
+  {
+    "cell_id": 3,
+    "composite": 0.9333333333333333,
+    "doctrine_anchor": 0.9333333333333333,
+    "canon_worthy": 0.8666666666666667,
+    "distinct_voice": 0.9666666666666666,
+    "promoted": true
+  },
+  {
+    "cell_id": 4,
+    "composite": 0.9666666666666667,
+    "doctrine_anchor": 0.9333333333333333,
+    "canon_worthy": 0.9666666666666667,
+    "distinct_voice": 1,
+    "promoted": true
+  },
+  {
+    "cell_id": 5,
+    "composite": 0.8933333333333333,
+    "doctrine_anchor": 0.92,
+    "canon_worthy": 0.91,
+    "distinct_voice": 0.8666666666666667,
+    "promoted": true
+  },
+  {
+    "cell_id": 6,
+    "composite": 0.8666666666666667,
+    "doctrine_anchor": 0.9,
+    "canon_worthy": 0.7333333333333333,
+    "distinct_voice": 0.9333333333333333,
+    "promoted": true
+  },
+  {
+    "cell_id": 7,
+    "composite": 0.9,
+    "doctrine_anchor": 0.9,
+    "canon_worthy": 0.9,
+    "distinct_voice": 0.9,
+    "promoted": true
+  },
+  {
+    "cell_id": 8,
+    "composite": 0.9,
+    "doctrine_anchor": 0.9,
+    "canon_worthy": 0.95,
+    "distinct_voice": 0.85,
+    "promoted": true
+  },
+  {
+    "cell_id": 9,
+    "composite": 0.933,
+    "doctrine_anchor": 0.9,
+    "canon_worthy": 0.8,
+    "distinct_voice": 1,
+    "promoted": true
+  },
+  {
+    "cell_id": 10,
+    "composite": 0.7666666666666667,
+    "doctrine_anchor": 0.8,
+    "canon_worthy": 0.8,
+    "distinct_voice": 0.7,
+    "promoted": true
+  },
+  {
+    "cell_id": 11,
+    "_error": "The read operation timed out"
+  },
+  {
+    "cell_id": 12,
+    "_error": "JSON parse failed: Invalid \\escape: line 1 column 488 (char "
+  },
+  {
+    "cell_id": 13,
+    "composite": 0.867,
+    "doctrine_anchor": 0.933,
+    "canon_worthy": 0.793,
+    "distinct_voice": 0.864,
+    "promoted": true
+  },
+  {
+    "cell_id": 14,
+    "composite": 0.95,
+    "doctrine_anchor": 0.98,
+    "canon_worthy": 0.92,
+    "distinct_voice": 0.98,
+    "promoted": true
+  },
+  {
+    "cell_id": 15,
+    "composite": 0.8466666666666667,
+    "doctrine_anchor": 0.8666666666666667,
+    "canon_worthy": 0.8666666666666667,
+    "distinct_voice": 0.8166666666666667,
+    "promoted": true
+  },
+  {
+    "cell_id": 16,
+    "composite": 0.8833,
+    "doctrine_anchor": 0.8667,
+    "canon_worthy": 0.9,
+    "distinct_voice": 0.9,
+    "promoted": true
+  },
+  {
+    "cell_id": 17,
+    "composite": 0.833,
+    "doctrine_anchor": 0.7,
+    "canon_worthy": 0.833,
+    "distinct_voice": 0.966,
+    "promoted": true
+  },
+  {
+    "cell_id": 18,
+    "composite": 0.88,
+    "doctrine_anchor": 0.8,
+    "canon_worthy": 0.9,
+    "distinct_voice": 0.9,
+    "promoted": true
+  },
+  {
+    "cell_id": 19,
+    "composite": 0.85,
+    "doctrine_anchor": 0.8,
+    "canon_worthy": 0.85,
+    "distinct_voice": 0.9,
+    "promoted": true
+  },
+  {
+    "cell_id": 20,
+    "composite": 0.9333333333333333,
+    "doctrine_anchor": 0.9,
+    "canon_worthy": 0.9333333333333333,
+    "distinct_voice": 0.9666666666666666,
+    "promoted": true
+  },
+  {
+    "cell_id": 21,
+    "composite": 0.9666666666666666,
+    "doctrine_anchor": 0.9666666666666666,
+    "canon_worthy": 0.9666666666666666,
+    "distinct_voice": 0.9666666666666666,
+    "promoted": true
+  },
+  {
+    "cell_id": 22,
+    "composite": 0.833,
+    "doctrine_anchor": 0.8,
+    "canon_worthy": 0.8,
+    "distinct_voice": 0.9,
+    "promoted": true
+  },
+  {
+    "cell_id": 23,
+    "composite": 0.9333333333333333,
+    "doctrine_anchor": 0.9333333333333333,
+    "canon_worthy": 0.8,
+    "distinct_voice": 0.9666666666666666,
+    "promoted": true
+  },
+  {
+    "cell_id": 24,
+    "composite": 0.77,
+    "doctrine_anchor": 0.6,
+    "canon_worthy": 0.8,
+    "distinct_voice": 0.9,
+    "promoted": true
+  },
+  {
+    "cell_id": 25,
+    "composite": 0.85,
+    "doctrine_anchor": 0.8,
+    "canon_worthy": 0.9,
+    "distinct_voice": 0.8,
+    "promoted": true
+  },
+  {
+    "cell_id": 26,
+    "composite": 0.8333333333333334,
+    "doctrine_anchor": 0.7,
+    "canon_worthy": 0.8,
+    "distinct_voice": 0.9,
+    "promoted": true
+  },
+  {
+    "cell_id": 27,
+    "composite": 0.933,
+    "doctrine_anchor": 0.9,
+    "canon_worthy": 0.933,
+    "distinct_voice": 0.977,
+    "promoted": true
+  },
+  {
+    "cell_id": 28,
+    "composite": 0.78,
+    "doctrine_anchor": 0.75,
+    "canon_worthy": 0.85,
+    "distinct_voice": 0.75,
+    "promoted": true
+  },
+  {
+    "cell_id": 29,
+    "composite": 0.8,
+    "doctrine_anchor": 0.8,
+    "canon_worthy": 0.8,
+    "distinct_voice": 0.8,
+    "promoted": true
+  },
+  {
+    "cell_id": 30,
+    "composite": 0.876,
+    "doctrine_anchor": 0.9,
+    "canon_worthy": 0.883,
+    "distinct_voice": 0.853,
+    "promoted": true
+  }
+]

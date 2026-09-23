@@ -1,0 +1,43 @@
+  cell   1: composite=0.867
+  cell   2: composite=0.933
+  cell   3: composite=0.880
+  cell   4: composite=0.933
+  cell   5: composite=0.883
+  cell   6: composite=0.900
+  cell   7: composite=0.993
+  cell   8: composite=0.933
+  cell   9: composite=0.868
+  cell  10: composite=0.900
+  cell  11: composite=0.833
+  cell  12: composite=0.900
+  cell  13: composite=0.833
+  cell  14: composite=0.967
+  cell  15: composite=0.933
+  cell  16: composite=0.933
+  cell  17: composite=0.967
+  cell  18: composite=0.833
+  cell  19: composite=0.933
+  cell  20: composite=0.933
+  cell  21: composite=0.933
+  cell  22: composite=0.933
+  cell  23: composite=0.867
+  cell  24: composite=0.933
+  cell  25: composite=0.900
+  cell  26: composite=0.933
+  cell  27: composite=0.973
+  cell  28: composite=0.900
+  cell  29: composite=0.933
+  cell  30: composite=0.867
+
+=== SUMMARY ===
+Probed: 30
+Promoted: 30/30 (100%)
+Mean composite: 0.911
+
+Distribution:
+  0.0-0.5: 0
+  0.5-0.6: 0
+  0.6-0.7: 0
+  0.7-0.8: 0
+  0.8-0.9: 9
+  0.9-1.0: 21
