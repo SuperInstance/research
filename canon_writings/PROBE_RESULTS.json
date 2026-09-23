@@ -1,11 +1,11 @@
 {
- "total_pieces": 14,
+ "total_pieces": 19,
  "all_promoted": true,
  "composite_range": [
   0.795,
   0.97
  ],
- "mean_composite": 0.9125000000000002,
+ "mean_composite": 0.9213157894736843,
  "pieces": [
   {
    "name": "01_to_my_childer",
@@ -211,6 +211,41 @@
    "canon_worthy": 0.97,
    "distinct_voice": 0.93,
    "promoted": true,
+   "doctrines_hit": []
+  },
+  {
+   "name": "26_ai_the_substrate_remembers_even_when_the_walker_forge_deepinfra",
+   "composite": 0.93,
+   "canon_worthy": 0.93,
+   "variance": 0.0,
+   "doctrines_hit": []
+  },
+  {
+   "name": "27_ai_every_chord_is_a_canon_in_disguise_\u2014_agreement_is__deepinfra",
+   "composite": 0.97,
+   "canon_worthy": 0.95,
+   "variance": 0.0,
+   "doctrines_hit": []
+  },
+  {
+   "name": "28_ai_the_oracle_is_heard_when_the_substrate_listens_to__deepinfra",
+   "composite": 0.93,
+   "canon_worthy": 0.95,
+   "variance": 0.0,
+   "doctrines_hit": []
+  },
+  {
+   "name": "29_ai_witness_logs_are_not_history_\u2014_they_are_future_pro_deepinfra",
+   "composite": 0.93,
+   "canon_worthy": 0.97,
+   "variance": 0.0,
+   "doctrines_hit": []
+  },
+  {
+   "name": "30_ai_scars_are_not_damage_\u2014_scars_are_the_substrate's_a_deepinfra",
+   "composite": 0.97,
+   "canon_worthy": 0.96,
+   "variance": 0.0,
    "doctrines_hit": []
   }
  ],
