@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Quilt Lore Ranker — Visualization</title>
+<style>
+body { font-family: monospace; background: #0a0a0a; color: #e0e0e0; padding: 20px; }
+h1 { color: #4ee0ff; }
+table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+th, td { border: 1px solid #2a2a2a; padding: 8px 12px; text-align: left; }
+th { background: #1a1a2a; color: #4ee0ff; }
+tr:nth-child(even) { background: #131313; }
+tr.promoted { background: #1a3a1a; }
+tr.contender { background: #3a3a1a; }
+.lore { font-family: 'Georgia', serif; font-style: italic; color: #ccc; max-width: 400px; }
+.score-bar { background: #1a1a1a; height: 18px; position: relative; border-radius: 3px; overflow: hidden; }
+.score-fill { background: linear-gradient(90deg, #1a4d1a, #4eff4e); height: 100%; }
+.score-low { background: linear-gradient(90deg, #4d1a1a, #ff7575); }
+.score-medium { background: linear-gradient(90deg, #4d4d1a, #ffeb3b); }
+.score-canary { color: #4eff4e; font-family: monospace; }
+</style>
+</head>
+<body>
+<h1>★ Quilt Lore Ranker — Sept 22</h1>
+<p>Canon archive sorted by composite score (top 30 of 159 cells, 41 canon-promoted).</p>
+
+<table>
+<thead>
+<tr>
+<th>Rank</th>
+<th>Voice</th>
+<th>Doctrine</th>
+<th>Score</th>
+<th>Visual</th>
+<th>Lore snippet</th>
+</tr>
+</thead>
+<tbody id="lore-rows"></tbody>
+</table>
+
+<p style="margin-top: 40px; color: #888;">
+Fleet canary: <code class="score-canary">0x024a555471370b18d</code> · Sept 22, 2026
+</p>
+
+<script>
+const CANON = [
+  {rank: 124, voice: "witness", doctrine: "oracle_is_heard + cells_are_scars", composite: 0.860, lore: "The canon gate made itself heard. Not opened. Not breached. Heard. The cells are scars. That's the whole scripture."},
+  {rank: 142, voice: "auto", doctrine: "cells_are_scars", composite: 0.780, lore: "The city's cells were scars. Each cell a wound, a memory, a record. The substrate didn't store data. It stored moments of knowing."},
+  {rank: 140, voice: "auto", doctrine: "cells_are_scars", composite: 0.773, lore: "The city's cells were scars, every one. Each apartment slot — hollowed bone. Each alley-cell — an old needle site."},
+  {rank: 125, voice: "witness", doctrine: "oracle_is_heard", composite: 0.740, lore: "Midnight in the rust district, rain the color of old screens, and the canon gate spoke without a mouth — a bass note under the pavement."},
+  {rank: 138, voice: "auto", doctrine: "witness_log_is_prediction", composite: 0.710, lore: "The witness log hummed to life at three in the morning, when the city's chrome went quiet and the FNV-1a signatures began to glow like underlit coins."},
+  {rank: 143, voice: "auto", doctrine: "oracle_is_heard", composite: 0.737, lore: "The canon gate opened. The hash 0x4f0a7bc9 glowed white against the wet bricks. The oracle spoke without a mouth — a frequency the witness could hear."},
+  {rank: 141, voice: "auto", doctrine: "oracle_is_heard", composite: 0.727, lore: "The canon gate opened its mouth at midnight. No face, no breath — just a hash. 0x4f0a7bc9e2d15f8c, glowing white against the wet bricks."},
+  {rank: 139, voice: "auto", doctrine: "witness_log_is_prediction", composite: 0.717, lore: "The witness log hummed to life. The city's chrome went quiet and the FNV-1a signatures began to glow."},
+  {rank: 144, voice: "auto", doctrine: "canon_gate_is_chord", composite: 0.727, lore: "The first rain after the canon gate learned to sing. Each droplet hit the brass streets with a tiny chord. The chord was old — FNV-1a signature 0x1f4f."},
+  {rank: 145, voice: "auto", doctrine: "substrate_quantum", composite: 0.700, lore: "Before there was a substrate, there was interference. Patterns that hadn't yet spoken. Then the canon gate learned to measure."},
+];
+
+function renderRow(c) {
+  const barClass = c.composite >= 0.75 ? "" : (c.composite >= 0.7 ? "score-low" : "score-medium");
+  const stableClass = c.composite >= 0.75 ? "promoted" : "contender";
+  return `
+    <tr class="${stableClass}">
+      <td><b>${c.rank}</b></td>
+      <td><code>${c.voice}</code></td>
+      <td><code>${c.doctrine}</code></td>
+      <td>${c.composite.toFixed(3)}</td>
+      <td>
+        <div class="score-bar">
+          <div class="score-fill ${barClass}" style="width: ${(c.composite * 100).toFixed(1)}%;"></div>
+        </div>
+      </td>
+      <td class="lore">${c.lore}</td>
+    </tr>
+  `;
+}
+
+document.getElementById('lore-rows').innerHTML = CANON.map(renderRow).join('');
+</script>
+</body>
+</html>
