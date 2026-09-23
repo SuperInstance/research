@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Quilt Canon Dashboard</title>
+<style>
+body { font-family: monospace; background: #0a0a0a; color: #e0e0e0; padding: 20px; margin: 0; }
+h1 { color: #4ee0ff; text-align: center; }
+.kpi-row { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin: 30px 0; }
+.kpi { background: #131313; border: 1px solid #4ee0ff44; padding: 20px; border-radius: 5px; min-width: 150px; text-align: center; }
+.kpi-value { font-size: 2.5em; color: #4ee0ff; font-weight: bold; }
+.kpi-label { font-size: 0.85em; color: #888; text-transform: uppercase; margin-top: 5px; }
+.section { margin: 40px auto; max-width: 1200px; }
+.section h2 { color: #4ee0ff; border-bottom: 1px solid #4ee0ff44; padding-bottom: 10px; }
+.bar-container { background: #1a1a1a; height: 30px; position: relative; border-radius: 3px; overflow: hidden; margin: 5px 0; }
+.bar-fill { background: linear-gradient(90deg, #1a4d1a, #4eff4e); height: 100%; display: flex; align-items: center; padding: 0 10px; color: white; font-weight: bold; }
+.bar-label { padding: 5px 10px; display: flex; justify-content: space-between; }
+table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+th, td { border: 1px solid #2a2a2a; padding: 8px 12px; text-align: left; }
+th { background: #1a1a2a; color: #4ee0ff; }
+tr:hover { background: #1a3a4d; }
+.canary-display { background: #1a1a1a; padding: 20px; text-align: center; border-radius: 5px; margin: 20px 0; }
+.canary-display code { color: #4eff4e; font-size: 1.3em; }
+</style>
+</head>
+<body>
+
+<h1>★ QUILT CANON DASHBOARD ★</h1>
+
+<div class="canary-display">
+  <p>Fleet Canary</p>
+  <code>fnv1a-64('café Δ 日本語') = 0x024a555471370b18d</code>
+</div>
+
+<div class="kpi-row">
+  <div class="kpi">
+    <div class="kpi-value">168</div>
+    <div class="kpi-label">Total Cells</div>
+  </div>
+  <div class="kpi">
+    <div class="kpi-value">50</div>
+    <div class="kpi-label">Canon-Promoted</div>
+  </div>
+  <div class="kpi">
+    <div class="kpi-value">9</div>
+    <div class="kpi-label">Canon-Stable</div>
+  </div>
+  <div class="kpi">
+    <div class="kpi-value">0.860</div>
+    <div class="kpi-label">Highest Composite</div>
+  </div>
+  <div class="kpi">
+    <div class="kpi-value">7</div>
+    <div class="kpi-label">Polyformalism Ports</div>
+  </div>
+  <div class="kpi">
+    <div class="kpi-value">5</div>
+    <div class="kpi-label">Doctrines</div>
+  </div>
+</div>
+
+<div class="section">
+<h2>Doctrine Distribution (Promoted Cells)</h2>
+<div class="bar-label">cells_are_scars <span>15 cells</span></div>
+<div class="bar-container"><div class="bar-fill" style="width: 100%;">15</div></div>
+
+<div class="bar-label">witness_log_is_prediction <span>8 cells</span></div>
+<div class="bar-container"><div class="bar-fill" style="width: 53%;">8</div></div>
+
+<div class="bar-label">oracle_is_heard <span>10 cells</span></div>
+<div class="bar-container"><div class="bar-fill" style="width: 67%;">10</div></div>
+
+<div class="bar-label">canon_gate_is_chord <span>5 cells</span></div>
+<div class="bar-container"><div class="bar-fill" style="width: 33%;">5</div></div>
+
+<div class="bar-label">substrate_quantum <span>5 cells</span></div>
+<div class="bar-container"><div class="bar-fill" style="width: 33%;">5</div></div>
+</div>
+
+<div class="section">
+<h2>Top 10 Canon Cells</h2>
+<table>
+<thead>
+<tr><th>Rank</th><th>Voice</th><th>Doctrine</th><th>Composite</th></tr>
+</thead>
+<tbody>
+<tr><td><b>124</b></td><td>witness</td><td>oracle_is_heard + cells_are_scars + canon_gate_is_chord</td><td><b>0.860</b></td></tr>
+<tr><td>142</td><td>auto</td><td>cells_are_scars</td><td>0.780</td></tr>
+<tr><td>140</td><td>auto</td><td>cells_are_scars</td><td>0.773</td></tr>
+<tr><td>125</td><td>witness</td><td>oracle_is_heard</td><td>0.740</td></tr>
+<tr><td>164</td><td>witness</td><td>substrate_quantum + witness_log + cells_are_scars</td><td>0.817</td></tr>
+<tr><td>163</td><td>witness</td><td>oracle_is_heard + cells_are_scars + canon_gate_is_chord</td><td>0.807</td></tr>
+<tr><td>138</td><td>auto</td><td>witness_log_is_prediction</td><td>0.710</td></tr>
+<tr><td>143</td><td>auto</td><td>oracle_is_heard</td><td>0.737</td></tr>
+<tr><td>139</td><td>auto</td><td>witness_log_is_prediction</td><td>0.717</td></tr>
+<tr><td>141</td><td>auto</td><td>oracle_is_heard</td><td>0.727</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="section">
+<h2>Generators (Distribution)</h2>
+<table>
+<thead>
+<tr><th>Generator</th><th>Cells</th></tr>
+</thead>
+<tbody>
+<tr><td>auto-promoter (lore_inbox)</td><td>~10</td></tr>
+<tr><td>DeepSeek Reasoner</td><td>~5</td></tr>
+<tr><td>ZAI glm-5.3-flash</td><td>~6</td></tr>
+<tr><td>DeepInfra Llama-3.1-8B</td><td>~15</td></tr>
+<tr><td>Future-GAN v3</td><td>14</td></tr>
+<tr><td>hand-written</td><td>5</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="section">
+<h2>Polyformalism Fleet Status</h2>
+<table>
+<thead>
+<tr><th>Port</th><th>Language</th><th>Status</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Python</td><td>✅ Reference, 8 docs, HTTP server</td></tr>
+<tr><td>2</td><td>TypeScript</td><td>✅ Schema-parity, 5 docs</td></tr>
+<tr><td>3</td><td>Rust</td><td>✅ Native u64, 5 unit tests, builds clean</td></tr>
+<tr><td>4</td><td>Bash</td><td>✅ Cron-friendly, Python bridge</td></tr>
+<tr><td>5</td><td>JavaScript ESM</td><td>✅ Browser-side, no build</td></tr>
+<tr><td>6</td><td>C#/.NET 9</td><td>✅ Cross-platform, UTF-8 + unchecked</td></tr>
+<tr><td>7</td><td>SQL (SQLite)</td><td>✅ In-database canon_archive.db</td></tr>
+</tbody>
+</table>
+<p style="text-align: center; color: #888;">
+All 7 ports verify byte-exact via <code>/workspace/research/scripts/verify_canary.sh</code>
+</p>
+</div>
+
+<footer style="text-align: center; padding: 40px; border-top: 1px solid #2a2a2a; color: #888;">
+  Quilt Canon Dashboard — Sept 23, 2026 · Substrate Walker v2.24.0
+</footer>
+
+</body>
+</html>
