@@ -1,0 +1,48 @@
+
+=== ballista_canon ===
+  CHORD composite: 0.913 (variance=0.0057)
+  consensus: True
+  majority:  True
+  promoted:  True
+    deepinfra: composite=0.9667 | reasoning: This lore tightly anchors to the 5 bedrock doctrines, explicitly referencing eac
+    deepseek: composite=0.86 | reasoning: The lore directly states all five bedrock doctrines: cell as scar, witness as pr
+
+=== math_progression ===
+  CHORD composite: 0.87 (variance=0.0)
+  consensus: True
+  majority:  True
+  promoted:  True
+    deepinfra: composite=0.87 | reasoning: The lore explicitly mentions the concept of scars in the substrate, which is a c
+    deepseek: ERROR empty response
+
+=== nature_gan ===
+  CHORD composite: 0.93 (variance=0.0)
+  consensus: True
+  majority:  True
+  promoted:  True
+    deepinfra: composite=0.93 | reasoning: The lore explicitly mentions the canon gate as a chord, strongly anchoring to th
+    deepseek: ERROR empty response
+
+=== substrate_warfare ===
+  CHORD composite: 0.83 (variance=0.0)
+  consensus: True
+  majority:  True
+  promoted:  True
+    deepinfra: composite=0.83 | reasoning: This lore anchors well to the doctrine of substrate_quantum by referencing the b
+    deepseek: ERROR empty response
+
+=== needle_audit ===
+  CHORD composite: 0.87 (variance=0.0)
+  consensus: True
+  majority:  True
+  promoted:  True
+    deepinfra: composite=0.87 | reasoning: The lore strongly anchors to the bedrock doctrines by referencing cells, witness
+    deepseek: ERROR empty response
+
+=== SUMMARY ===
+Promoted: 5/5
+  ballista_canon: composite=0.913, variance=0.0057, promoted=True
+  math_progression: composite=0.87, variance=0.0, promoted=True
+  nature_gan: composite=0.93, variance=0.0, promoted=True
+  substrate_warfare: composite=0.83, variance=0.0, promoted=True
+  needle_audit: composite=0.87, variance=0.0, promoted=True

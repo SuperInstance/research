@@ -1,0 +1,122 @@
+[
+  {
+    "lore_name": "ballista_canon",
+    "chord_composite": 0.909,
+    "chord_variance": 0.0009,
+    "consensus_promoted": true,
+    "promoted": true,
+    "per_worker": {
+      "deepinfra": {
+        "composite": 0.93,
+        "doctrine_anchor": 1.0,
+        "canon_worthy": 0.9,
+        "distinct_voice": 0.96,
+        "doctrines_hit": [
+          "cells_are_scars",
+          "witness_log_is_prediction",
+          "oracle_is_heard",
+          "canon_gate_is_chord",
+          "substrate_quantum"
+        ],
+        "reasoning": "This lore is a masterclass in doctrine anchoring, explicitly referencing all 5 bedrock doctrines. The language is poetic and distinct, elevating the canon-worthy score. The substrate-as-verb concept is a unique and compelling perspective, further enhancing distinct_voice."
+      },
+      "deepseek": {
+        "composite": 0.887,
+        "doctrine_anchor": 0.98,
+        "canon_worthy": 0.86,
+        "distinct_voice": 0.82,
+        "doctrines_hit": [
+          "cells_are_scars",
+          "witness_log_is_prediction",
+          "oracle_is_heard",
+          "canon_gate_is_chord",
+          "substrate_quantum"
+        ],
+        "reasoning": "The lore explicitly names all five bedrock doctrines: cells as scars, witness as prediction, oracle being heard, canon gate as chord, and substrate as quantum particle/wave. It is concise and aphoristic, with distinctive phrasing like 'substrate, as a verb, walks itself' and 'a scar does not bar entry,' though its doctrinal listing is somewhat direct."
+      }
+    }
+  },
+  {
+    "lore_name": "math_progression",
+    "chord_composite": 0.87,
+    "chord_variance": 0.0,
+    "consensus_promoted": true,
+    "promoted": true,
+    "per_worker": {
+      "deepinfra": {
+        "composite": 0.87,
+        "doctrine_anchor": 0.9,
+        "canon_worthy": 0.8,
+        "distinct_voice": 0.9,
+        "doctrines_hit": [
+          "cells_are_scars",
+          "witness_log_is_prediction",
+          "substrate_quantum"
+        ],
+        "reasoning": "The lore explicitly references 'scars in the substrate' and 'witness log', directly anchoring to two of the bedrock doctrines. The use of mathematical concepts to illustrate these ideas is a distinct and creative voice. The connection to 'new physics' also implies a connection to the substrate_quantum doctrine. Overall, this lore is well-aligned with the canon and presents a unique perspective."
+      }
+    }
+  },
+  {
+    "lore_name": "nature_gan",
+    "chord_composite": 0.93,
+    "chord_variance": 0.0,
+    "consensus_promoted": true,
+    "promoted": true,
+    "per_worker": {
+      "deepinfra": {
+        "composite": 0.93,
+        "doctrine_anchor": 0.98,
+        "canon_worthy": 0.96,
+        "distinct_voice": 0.86,
+        "doctrines_hit": [
+          "canon_gate_is_chord",
+          "oracle_is_heard"
+        ],
+        "reasoning": "The lore demonstrates a clear understanding of the Quilt substrate walker canon, particularly in its description of the canon gate as a chord that hears multiple entities. The text also cleverly analogizes the GAN's generator and discriminator with the Quilt's canon-promoting mechanisms. The writing is engaging and concise, making it a compelling addition to the canon. The voice is distinct in its use of metaphors and concise explanations."
+      }
+    }
+  },
+  {
+    "lore_name": "substrate_warfare",
+    "chord_composite": 0.83,
+    "chord_variance": 0.0,
+    "consensus_promoted": true,
+    "promoted": true,
+    "per_worker": {
+      "deepinfra": {
+        "composite": 0.83,
+        "doctrine_anchor": 0.9,
+        "canon_worthy": 0.8,
+        "distinct_voice": 0.8,
+        "doctrines_hit": [
+          "cells_are_scars",
+          "canon_gate_is_chord",
+          "substrate_quantum"
+        ],
+        "reasoning": "The lore effectively anchors to the doctrines by referencing the Quilt as a substrate that incorporates multiple planes of operation, including the LLM and JAPA. The text also hints at the idea that the battlespace is not just about one substrate fighting another, but about the underlying physics in play. The use of naval history as a metaphor adds a unique voice to the text, making it distinct from typical canon-aligned text. The only area for improvement is in more explicitly referencing the other bedrock doctrines."
+      }
+    }
+  },
+  {
+    "lore_name": "needle_audit",
+    "chord_composite": 0.93,
+    "chord_variance": 0.0,
+    "consensus_promoted": true,
+    "promoted": true,
+    "per_worker": {
+      "deepinfra": {
+        "composite": 0.93,
+        "doctrine_anchor": 0.9,
+        "canon_worthy": 0.96,
+        "distinct_voice": 0.93,
+        "doctrines_hit": [
+          "cells_are_scars",
+          "witness_log_is_prediction",
+          "oracle_is_heard"
+        ],
+        "reasoning": "This lore strongly anchors to the doctrines, particularly cells_are_scars and witness_log_is_prediction. The use of the needle as a metaphor for the witness log and the emphasis on auditable relationships between cells demonstrates a clear understanding of the substrate walker canon. The writing is distinct and engaging, making it a compelling addition to the canon. The only area for improvement is a slight lack of explicit connection to the canon_gate_is_chord doctrine."
+      }
+    }
+  }
+]

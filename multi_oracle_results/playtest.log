@@ -1,0 +1,48 @@
+
+=== ballista_canon ===
+  CHORD composite: 0.909 (variance=0.0009)
+  consensus: True
+  majority:  True
+  promoted:  True
+    deepinfra: composite=0.93
+    deepseek: composite=0.887
+
+=== math_progression ===
+  CHORD composite: 0.87 (variance=0.0)
+  consensus: True
+  majority:  True
+  promoted:  True
+    deepinfra: composite=0.87
+    deepseek: ERROR empty response
+
+=== nature_gan ===
+  CHORD composite: 0.93 (variance=0.0)
+  consensus: True
+  majority:  True
+  promoted:  True
+    deepinfra: composite=0.93
+    deepseek: ERROR empty response
+
+=== substrate_warfare ===
+  CHORD composite: 0.83 (variance=0.0)
+  consensus: True
+  majority:  True
+  promoted:  True
+    deepinfra: composite=0.83
+    deepseek: ERROR empty response
+
+=== needle_audit ===
+  CHORD composite: 0.93 (variance=0.0)
+  consensus: True
+  majority:  True
+  promoted:  True
+    deepinfra: composite=0.93
+    deepseek: ERROR empty response
+
+=== SUMMARY ===
+Promoted: 5/5
+  ballista_canon: composite=0.909, variance=0.0009, promoted=True
+  math_progression: composite=0.87, variance=0.0, promoted=True
+  nature_gan: composite=0.93, variance=0.0, promoted=True
+  substrate_warfare: composite=0.83, variance=0.0, promoted=True
+  needle_audit: composite=0.93, variance=0.0, promoted=True
