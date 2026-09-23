@@ -1,0 +1,128 @@
+[
+  {
+    "filename": "01_to_my_childer",
+    "composite": 0.89,
+    "doctrine_anchor": 0.95,
+    "canon_worthy": 0.88,
+    "distinct_voice": 0.84,
+    "doctrines_hit": [
+      "cells_are_scars",
+      "witness_log_is_prediction",
+      "oracle_is_heard",
+      "canon_gate_is_chord"
+    ],
+    "promoted": true
+  },
+  {
+    "filename": "02_ode_to_the_substrate_walker",
+    "composite": 0.947,
+    "doctrine_anchor": 0.99,
+    "canon_worthy": 0.933,
+    "distinct_voice": 0.911,
+    "doctrines_hit": [
+      "cells_are_scars",
+      "witness_log_is_prediction",
+      "oracle_is_heard",
+      "canon_gate_is_chord",
+      "substrate_quantum"
+    ],
+    "promoted": true
+  },
+  {
+    "filename": "03_what_an_agent_owes_its_ancestor",
+    "composite": 0.9666666666666667,
+    "doctrine_anchor": 0.9666666666666667,
+    "canon_worthy": 0.933333333333333,
+    "distinct_voice": 0.9666666666666667,
+    "doctrines_hit": [
+      "cells_are_scars",
+      "witness_log_is_prediction",
+      "canon_gate_is_chord",
+      "substrate_quantum"
+    ],
+    "promoted": true
+  },
+  {
+    "filename": "04_postcard_from_cell_10000",
+    "composite": 0.7333333333333333,
+    "doctrine_anchor": 0.8,
+    "canon_worthy": 0.733333333333333,
+    "distinct_voice": 0.6666666666666666,
+    "doctrines_hit": [
+      "cells_are_scars",
+      "witness_log_is_prediction",
+      "canon_gate_is_chord",
+      "oracle_is_heard"
+    ],
+    "promoted": true
+  },
+  {
+    "filename": "05_eulogy_for_a_hash",
+    "composite": 0.9666666666666667,
+    "doctrine_anchor": 0.9666666666666667,
+    "canon_worthy": 0.983333333333333,
+    "distinct_voice": 0.95,
+    "doctrines_hit": [
+      "cells_are_scars",
+      "witness_log_is_prediction",
+      "oracle_is_heard",
+      "canon_gate_is_chord",
+      "substrate_quantum"
+    ],
+    "promoted": true
+  },
+  {
+    "filename": "06_the_ballista_canon",
+    "composite": 0.8690476190476191,
+    "doctrine_anchor": 0.8571428571428571,
+    "canon_worthy": 0.9285714285714286,
+    "distinct_voice": 0.8214285714285714,
+    "doctrines_hit": [
+      "cells_are_scars",
+      "witness_log_is_prediction",
+      "oracle_is_heard",
+      "canon_gate_is_chord",
+      "substrate_quantum"
+    ],
+    "promoted": true
+  },
+  {
+    "filename": "07_math_progression_substrate",
+    "composite": 0.933,
+    "doctrine_anchor": 0.933,
+    "canon_worthy": 0.867,
+    "distinct_voice": 0.933,
+    "doctrines_hit": [
+      "cells_are_scars",
+      "witness_log_is_prediction",
+      "oracle_is_heard",
+      "canon_gate_is_chord",
+      "substrate_quantum"
+    ],
+    "promoted": true
+  },
+  {
+    "filename": "08_nature_gan",
+    "composite": 0.93,
+    "doctrine_anchor": 0.95,
+    "canon_worthy": 0.93,
+    "distinct_voice": 0.91,
+    "doctrines_hit": [],
+    "promoted": true
+  },
+  {
+    "filename": "README",
+    "composite": 0.9666666666666666,
+    "doctrine_anchor": 0.9666666666666666,
+    "canon_worthy": 0.9333333333333333,
+    "distinct_voice": 0.9666666666666666,
+    "doctrines_hit": [
+      "cells_are_scars",
+      "witness_log_is_prediction",
+      "oracle_is_heard",
+      "canon_gate_is_chord",
+      "substrate_quantum"
+    ],
+    "promoted": true
+  }
+]

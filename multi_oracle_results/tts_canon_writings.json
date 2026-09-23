@@ -1,0 +1,40 @@
+[
+  {
+    "lore": "01_to_my_childer",
+    "_error": "HTTP 401: {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_"
+  },
+  {
+    "lore": "02_ode_to_the_substrate_walker",
+    "size_bytes": 2221915,
+    "lore_chars": 1689
+  },
+  {
+    "lore": "03_what_an_agent_owes_its_ancestor",
+    "_error": "HTTP 401: {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_"
+  },
+  {
+    "lore": "04_postcard_from_cell_10000",
+    "size_bytes": 3306937,
+    "lore_chars": 2647
+  },
+  {
+    "lore": "05_eulogy_for_a_hash",
+    "_error": "HTTP 401: {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_"
+  },
+  {
+    "lore": "06_the_ballista_canon",
+    "_error": "HTTP 401: {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_"
+  },
+  {
+    "lore": "07_math_progression_substrate",
+    "_error": "HTTP 401: {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_"
+  },
+  {
+    "lore": "08_nature_gan",
+    "_error": "HTTP 401: {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_"
+  },
+  {
+    "lore": "09_substrate_warfare",
+    "_error": "HTTP 401: {\"detail\":{\"type\":\"invalid_request\",\"code\":\"quota_"
+  }
+]
