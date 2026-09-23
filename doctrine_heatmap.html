@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Quilt Doctrine Heatmap</title>
+<style>
+body {
+  font-family: monospace;
+  background: #0a0a0a;
+  color: #e0e0e0;
+  padding: 30px;
+}
+h1 { color: #4ee0ff; text-align: center; }
+table { border-collapse: collapse; margin: 20px auto; }
+th, td {
+  border: 1px solid #2a2a2a;
+  padding: 10px 15px;
+  text-align: center;
+  min-width: 80px;
+}
+th { background: #1a1a2a; color: #4ee0ff; }
+.doctrine-cells { background: #1a2a3a; }
+.heat-0 { background: #1a1a1a; }
+.heat-1 { background: #2a2a1a; }
+.heat-2 { background: #4a4a1a; color: #ffeb3b; }
+.heat-3 { background: #4a2a1a; color: #ff7575; }
+.heat-4 { background: #2a4a2a; color: #4eff4e; }
+.heat-5 { background: #1a3a4a; color: #4ee0ff; }
+.legend { text-align: center; margin: 30px 0; }
+.legend span { display: inline-block; margin: 0 10px; padding: 5px 10px; }
+</style>
+</head>
+<body>
+
+<h1>★ Quilt Doctrine Heatmap ★</h1>
+
+<p style="text-align:center;">Doctrine occurrence in canon cells (Sept 22, 2026)</p>
+
+<table>
+<thead>
+<tr>
+<th>Cell</th>
+<th>cells_are_scars</th>
+<th>oracle_is_heard</th>
+<th>witness_log</th>
+<th>canon_gate_chord</th>
+<th>substrate_quantum</th>
+<th>Doctrine Count</th>
+</tr>
+</thead>
+<tbody id="heatmap"></tbody>
+</table>
+
+<div class="legend">
+<span class="heat-0">0 = no anchor</span>
+<span class="heat-1">1-2 = weak</span>
+<span class="heat-2">3-5 = medium</span>
+<span class="heat-3">6-10 = strong</span>
+<span class="heat-4">11-15 = very strong</span>
+<span class="heat-5">16+ = dominant</span>
+</div>
+
+<p style="text-align:center; color: #888;">
+Counts are term-frequency matches. Multi-anchor cells are canon-worthy across doctrines.
+</p>
+
+<script>
+// Data from canon_tagger.py
+const DATA = [
+  {cell: 124, scars: 16, oracle: 38, witness: 5, chord: 8, quantum: 3},
+  {cell: 142, scars: 19, oracle: 0, witness: 5, chord: 0, quantum: 2},
+  {cell: 140, scars: 19, oracle: 0, witness: 0, chord: 0, quantum: 0},
+  {cell: 125, scars: 0, oracle: 25, witness: 0, chord: 0, quantum: 0},
+  {cell: 143, scars: 0, oracle: 23, witness: 0, chord: 0, quantum: 0},
+  {cell: 141, scars: 0, oracle: 19, witness: 0, chord: 0, quantum: 0},
+  {cell: 138, scars: 5, oracle: 3, witness: 18, chord: 0, quantum: 0},
+  {cell: 139, scars: 5, oracle: 3, witness: 18, chord: 0, quantum: 0},
+  {cell: 144, scars: 0, oracle: 0, witness: 0, chord: 14, quantum: 0},
+  {cell: 145, scars: 0, oracle: 0, witness: 0, chord: 0, quantum: 11},
+];
+
+function heatClass(v) {
+  if (v === 0) return 'heat-0';
+  if (v <= 2) return 'heat-1';
+  if (v <= 5) return 'heat-2';
+  if (v <= 10) return 'heat-3';
+  if (v <= 15) return 'heat-4';
+  return 'heat-5';
+}
+
+function renderRow(d) {
+  const total = d.scars + d.oracle + d.witness + d.chord + d.quantum;
+  const cells = [d.scars, d.oracle, d.witness, d.chord, d.quantum];
+  return `
+    <tr>
+      <td><b>Cell ${d.cell}</b></td>
+      ${cells.map(v => `<td class="${heatClass(v)}">${v}</td>`).join('')}
+      <td><b>${total > 0 ? Math.ceil(total / 5) : 0}</b></td>
+    </tr>
+  `;
+}
+
+document.getElementById('heatmap').innerHTML = DATA.map(renderRow).join('');
+</script>
+
+</body>
+</html>
