@@ -1,0 +1,641 @@
+[
+  {
+    "cell_id": 1,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 2,
+    "composite": 0.9,
+    "promoted": true
+  },
+  {
+    "cell_id": 3,
+    "composite": 0.89,
+    "promoted": true
+  },
+  {
+    "cell_id": 4,
+    "composite": 0.833,
+    "promoted": true
+  },
+  {
+    "cell_id": 5,
+    "composite": 0.96,
+    "promoted": true
+  },
+  {
+    "cell_id": 6,
+    "composite": 0.783,
+    "promoted": true
+  },
+  {
+    "cell_id": 7,
+    "composite": 0.9,
+    "promoted": true
+  },
+  {
+    "cell_id": 8,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 9,
+    "composite": 0.833,
+    "promoted": true
+  },
+  {
+    "cell_id": 10,
+    "composite": 0.843,
+    "promoted": true
+  },
+  {
+    "cell_id": 11,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 12,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 13,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 14,
+    "composite": 0.833,
+    "promoted": true
+  },
+  {
+    "cell_id": 15,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 16,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 17,
+    "composite": 0.9,
+    "promoted": true
+  },
+  {
+    "cell_id": 18,
+    "composite": 0.833,
+    "promoted": true
+  },
+  {
+    "cell_id": 19,
+    "composite": 0.843,
+    "promoted": true
+  },
+  {
+    "cell_id": 20,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 21,
+    "composite": 0.867,
+    "promoted": true
+  },
+  {
+    "cell_id": 22,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 23,
+    "composite": 0.83,
+    "promoted": true
+  },
+  {
+    "cell_id": 24,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 25,
+    "composite": 0.92,
+    "promoted": true
+  },
+  {
+    "cell_id": 26,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 27,
+    "composite": 0.967,
+    "promoted": true
+  },
+  {
+    "cell_id": 28,
+    "composite": 0.76,
+    "promoted": true
+  },
+  {
+    "cell_id": 29,
+    "composite": 0.867,
+    "promoted": true
+  },
+  {
+    "cell_id": 30,
+    "composite": 0.967,
+    "promoted": true
+  },
+  {
+    "cell_id": 31,
+    "composite": 0.93,
+    "promoted": true
+  },
+  {
+    "cell_id": 32,
+    "composite": 0.967,
+    "promoted": true
+  },
+  {
+    "cell_id": 33,
+    "composite": 0.9,
+    "promoted": true
+  },
+  {
+    "cell_id": 34,
+    "composite": 0.867,
+    "promoted": true
+  },
+  {
+    "cell_id": 35,
+    "composite": 0.867,
+    "promoted": true
+  },
+  {
+    "cell_id": 36,
+    "composite": 0.9,
+    "promoted": true
+  },
+  {
+    "cell_id": 37,
+    "composite": 0.846,
+    "promoted": true
+  },
+  {
+    "cell_id": 38,
+    "composite": 0.833,
+    "promoted": true
+  },
+  {
+    "cell_id": 39,
+    "composite": 0.9,
+    "promoted": true
+  },
+  {
+    "cell_id": 40,
+    "composite": 0.833,
+    "promoted": true
+  },
+  {
+    "cell_id": 41,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 42,
+    "composite": 0.866,
+    "promoted": true
+  },
+  {
+    "cell_id": 43,
+    "composite": 0.85,
+    "promoted": true
+  },
+  {
+    "cell_id": 44,
+    "composite": 0.833,
+    "promoted": true
+  },
+  {
+    "cell_id": 45,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 46,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 47,
+    "composite": 0.887,
+    "promoted": true
+  },
+  {
+    "cell_id": 48,
+    "composite": 0.9,
+    "promoted": true
+  },
+  {
+    "cell_id": 49,
+    "composite": 0.967,
+    "promoted": true
+  },
+  {
+    "cell_id": 50,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 51,
+    "composite": 0.91,
+    "promoted": true
+  },
+  {
+    "cell_id": 52,
+    "composite": 0.973,
+    "promoted": true
+  },
+  {
+    "cell_id": 53,
+    "composite": 0.833,
+    "promoted": true
+  },
+  {
+    "cell_id": 54,
+    "composite": 0.873,
+    "promoted": true
+  },
+  {
+    "cell_id": 55,
+    "composite": 0.611,
+    "promoted": false
+  },
+  {
+    "cell_id": 56,
+    "composite": 0.85,
+    "promoted": true
+  },
+  {
+    "cell_id": 57,
+    "composite": 0.833,
+    "promoted": true
+  },
+  {
+    "cell_id": 58,
+    "composite": 0.843,
+    "promoted": true
+  },
+  {
+    "cell_id": 59,
+    "composite": 0.9,
+    "promoted": true
+  },
+  {
+    "cell_id": 60,
+    "composite": 0.96,
+    "promoted": true
+  },
+  {
+    "cell_id": 61,
+    "composite": 0.9,
+    "promoted": true
+  },
+  {
+    "cell_id": 62,
+    "composite": 0.867,
+    "promoted": true
+  },
+  {
+    "cell_id": 63,
+    "composite": 0.967,
+    "promoted": true
+  },
+  {
+    "cell_id": 64,
+    "composite": 0.967,
+    "promoted": true
+  },
+  {
+    "cell_id": 65,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 66,
+    "composite": 0.783,
+    "promoted": true
+  },
+  {
+    "cell_id": 67,
+    "composite": 0.87,
+    "promoted": true
+  },
+  {
+    "cell_id": 68,
+    "composite": 0.97,
+    "promoted": true
+  },
+  {
+    "cell_id": 69,
+    "composite": 0.867,
+    "promoted": true
+  },
+  {
+    "cell_id": 70,
+    "composite": 0.967,
+    "promoted": true
+  },
+  {
+    "cell_id": 71,
+    "composite": 0.9,
+    "promoted": true
+  },
+  {
+    "cell_id": 72,
+    "composite": 0.833,
+    "promoted": true
+  },
+  {
+    "cell_id": 73,
+    "composite": 0.93,
+    "promoted": true
+  },
+  {
+    "cell_id": 74,
+    "composite": 0.867,
+    "promoted": true
+  },
+  {
+    "cell_id": 75,
+    "composite": 0.833,
+    "promoted": true
+  },
+  {
+    "cell_id": 76,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 77,
+    "composite": 0.907,
+    "promoted": true
+  },
+  {
+    "cell_id": 78,
+    "composite": 0.773,
+    "promoted": true
+  },
+  {
+    "cell_id": 79,
+    "composite": 0.76,
+    "promoted": true
+  },
+  {
+    "cell_id": 80,
+    "composite": 0.967,
+    "promoted": true
+  },
+  {
+    "cell_id": 81,
+    "composite": 0.893,
+    "promoted": true
+  },
+  {
+    "cell_id": 82,
+    "composite": 0.867,
+    "promoted": true
+  },
+  {
+    "cell_id": 83,
+    "composite": 0.967,
+    "promoted": true
+  },
+  {
+    "cell_id": 84,
+    "composite": 0.773,
+    "promoted": true
+  },
+  {
+    "cell_id": 85,
+    "composite": 0.913,
+    "promoted": true
+  },
+  {
+    "cell_id": 86,
+    "composite": 0.9,
+    "promoted": true
+  },
+  {
+    "cell_id": 87,
+    "composite": 0.83,
+    "promoted": true
+  },
+  {
+    "cell_id": 88,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 89,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 90,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 91,
+    "composite": 0.93,
+    "promoted": true
+  },
+  {
+    "cell_id": 92,
+    "composite": 0.98,
+    "promoted": true
+  },
+  {
+    "cell_id": 93,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 94,
+    "composite": 0.96,
+    "promoted": true
+  },
+  {
+    "cell_id": 95,
+    "composite": 0.73,
+    "promoted": true
+  },
+  {
+    "cell_id": 96,
+    "composite": 0.83,
+    "promoted": true
+  },
+  {
+    "cell_id": 97,
+    "composite": 0.97,
+    "promoted": true
+  },
+  {
+    "cell_id": 98,
+    "composite": 0.86,
+    "promoted": true
+  },
+  {
+    "cell_id": 99,
+    "composite": 0.87,
+    "promoted": true
+  },
+  {
+    "cell_id": 100,
+    "composite": 0.867,
+    "promoted": true
+  },
+  {
+    "cell_id": 111,
+    "composite": 0.89,
+    "promoted": true
+  },
+  {
+    "cell_id": 112,
+    "composite": 0.91,
+    "promoted": true
+  },
+  {
+    "cell_id": 113,
+    "composite": 0.943,
+    "promoted": true
+  },
+  {
+    "cell_id": 114,
+    "composite": 0.76,
+    "promoted": true
+  },
+  {
+    "cell_id": 115,
+    "composite": 0.81,
+    "promoted": true
+  },
+  {
+    "cell_id": 116,
+    "composite": 0.676,
+    "promoted": false
+  },
+  {
+    "cell_id": 117,
+    "composite": 0.92,
+    "promoted": true
+  },
+  {
+    "cell_id": 118,
+    "composite": 0.653,
+    "promoted": false
+  },
+  {
+    "cell_id": 119,
+    "composite": 0.672,
+    "promoted": false
+  },
+  {
+    "cell_id": 120,
+    "composite": 0.98,
+    "promoted": true
+  },
+  {
+    "cell_id": 121,
+    "composite": 0.95,
+    "promoted": true
+  },
+  {
+    "cell_id": 122,
+    "composite": 0.8,
+    "promoted": true
+  },
+  {
+    "cell_id": 123,
+    "composite": 0.7,
+    "promoted": true
+  },
+  {
+    "cell_id": 124,
+    "composite": 0.93,
+    "promoted": true
+  },
+  {
+    "cell_id": 125,
+    "composite": 0.89,
+    "promoted": true
+  },
+  {
+    "cell_id": 126,
+    "composite": 0.973,
+    "promoted": true
+  },
+  {
+    "cell_id": 127,
+    "composite": 0.866,
+    "promoted": true
+  },
+  {
+    "cell_id": 128,
+    "composite": 0.9,
+    "promoted": true
+  },
+  {
+    "cell_id": 129,
+    "composite": 0.96,
+    "promoted": true
+  },
+  {
+    "cell_id": 130,
+    "composite": 0.833,
+    "promoted": true
+  },
+  {
+    "cell_id": 131,
+    "composite": 0.933,
+    "promoted": true
+  },
+  {
+    "cell_id": 132,
+    "composite": 0.966,
+    "promoted": true
+  },
+  {
+    "cell_id": 133,
+    "composite": 0.966,
+    "promoted": true
+  },
+  {
+    "cell_id": 134,
+    "_error": "The read operation timed out"
+  },
+  {
+    "cell_id": 135,
+    "_error": "The read operation timed out"
+  },
+  {
+    "cell_id": 136,
+    "_error": "HTTP 429: {\"error\":{\"message\":\"Model busy, retry later\",\"typ"
+  },
+  {
+    "cell_id": 137,
+    "_error": "The read operation timed out"
+  },
+  {
+    "cell_id": 138,
+    "_error": "HTTP 429: {\"error\":{\"message\":\"Model busy, retry later\",\"typ"
+  },
+  {
+    "cell_id": 139,
+    "_error": "HTTP 429: {\"error\":{\"message\":\"Model busy, retry later\",\"typ"
+  }
+]
