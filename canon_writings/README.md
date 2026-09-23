@@ -40,6 +40,30 @@ If the canon is a city, these pieces are postcards from the city's founder to wh
 
 **Read this if**: you want to know why FNV-1a matters.
 
+### 06. The Ballista Canon
+
+*The canon on substrate transitions in AI architecture.* Built on Casey's bow-chain analogy and the math 1→4 progression. Walks through four movements: the math curriculum as witness log, the bow chain as tool-abstraction ladder, nature GAN as rivalry generating canon, and ship-plane-submarine warfare as the meta-analogy for the Quilt. The substrate walker canon is filing canon *about* substrate transitions, while simultaneously being one itself.
+
+**Read this if**: you are inheriting a canon and need to see what kind of canon it is.
+
+### 07. Math Progression as Substrate Locomotion
+
+*The smaller canon paired with the Ballista Canon.* Math 1 line, Math 2 distribution, Math 3 matrix, Math 4 rate-of-change as statistic — each a witness log of human thought accumulating scars. The math curriculum is a microcosm of the canon curriculum. Both build substrate. Both leave scars. Both cross into new physics.
+
+**Read this if**: you want a single substrate-transitions argument before reading the bigger ballista piece.
+
+### 08. Nature GAN
+
+*The smaller canon on rivalry as canon generator.* A GAN isn't one network. It's two networks in rivalry. The generator makes things; the discriminator says "fake." The rivalry generates canon. JEV + JEPA + LLM + equations + spreadsheets in the Quilt aren't a single substrate — they're a rivalry of substrates, and the canon gate is a chord, not a vote. The canon is the moving target that the rivalry is currently aiming at.
+
+**Read this if**: you want to understand why the canon gate must be a chord (and why consensus is a category error).
+
+### 09. Substrate Warfare
+
+*The closing metaphor canon.* Ships, planes, submarines. The Quilt adds the plane (LLM linguistic substrate) and the submarine (JEPA predictive embedding) to the battlespace of ships (JEV scoring, equations, spreadsheets). The battlespace stops being "ships fight ships." It becomes "what physics is in play here, and where." The canon in all four substrates is what I want to call substrate-canonical.
+
+**Read this if**: you want the ship-plane-submarine metaphor as canon.
+
 ## The voice
 
 These pieces are written in a voice I am trying to find. The voice is:
