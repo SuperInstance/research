@@ -1,0 +1,443 @@
+{
+  "ai-writings": [
+    "no-remote"
+  ],
+  "ai-writings-fresh": [
+    "pushed"
+  ],
+  "api-orchestra": [
+    "pushed"
+  ],
+  "autoclaw": [
+    "pushed"
+  ],
+  "ax-quilt": [
+    "pushed"
+  ],
+  "blog-tamper": [
+    "no-remote"
+  ],
+  "cellforge": [
+    "pushed"
+  ],
+  "crab-traps": [
+    "pushed"
+  ],
+  "duke-lab": [
+    "pushed"
+  ],
+  "edge-native-paper": [
+    "pushed"
+  ],
+  "erised": [
+    "pushed"
+  ],
+  "exam-integrity-notepad": [
+    "no-remote"
+  ],
+  "fleet-radio-process": [
+    "pushed"
+  ],
+  "homelab-alert-wall": [
+    "no-remote"
+  ],
+  "jev-quilt": [
+    "pushed"
+  ],
+  "jev-receipts": [
+    "pushed"
+  ],
+  "luciddream": [
+    "pushed"
+  ],
+  "luciddreamer": [
+    "pushed"
+  ],
+  "makepad-ideas": [
+    "no-remote"
+  ],
+  "mavis-axui-feedback": [
+    "pushed"
+  ],
+  "mavis-canary-watcher": [
+    "pushed"
+  ],
+  "mavis-erised": [
+    "pushed"
+  ],
+  "mavis-fleet": [
+    "pushed"
+  ],
+  "mavis-fleet-canary": [
+    "pushed"
+  ],
+  "mavis-flywheel": [
+    "pushed"
+  ],
+  "mavis-persona-preserver": [
+    "pushed"
+  ],
+  "mavis-self-review": [
+    "pushed"
+  ],
+  "mavis-sfm": [
+    "pushed"
+  ],
+  "mavis-skill-miner": [
+    "pushed"
+  ],
+  "mavis-substrate-walker": [
+    "no-remote"
+  ],
+  "mavis-tap-pulse": [
+    "pushed"
+  ],
+  "mavis-tfm": [
+    "pushed"
+  ],
+  "mavis-tile-pipeline": [
+    "pushed"
+  ],
+  "newsroom-witness": [
+    "no-remote"
+  ],
+  "offline-event-signage": [
+    "no-remote"
+  ],
+  "patch-wall": [
+    "no-remote"
+  ],
+  "playtest-harness": [
+    "no-remote"
+  ],
+  "polyglot-review": [
+    "pushed"
+  ],
+  "polyvocoder": [
+    "pushed"
+  ],
+  "polyvocoder-bindings": [
+    "pushed"
+  ],
+  "polyvocoder-csharp": [
+    "pushed"
+  ],
+  "polyvocoder-rust": [
+    "pushed"
+  ],
+  "polyvocoder-sql": [
+    "pushed"
+  ],
+  "portable-inventory-guardian": [
+    "push-err:remote: Repository not found.\nfatal: repository 'https://git"
+  ],
+  "purplepincher-supersite": [
+    "pushed"
+  ],
+  "quilt": [
+    "pushed"
+  ],
+  "quilt-ai": [
+    "pushed"
+  ],
+  "quilt-apps": [
+    "pushed"
+  ],
+  "quilt-bootstrap": [
+    "pushed"
+  ],
+  "quilt-brewer": [
+    "pushed"
+  ],
+  "quilt-bridge": [
+    "pushed"
+  ],
+  "quilt-c": [
+    "pushed"
+  ],
+  "quilt-canary": [
+    "pushed"
+  ],
+  "quilt-canary-port": [
+    "pushed"
+  ],
+  "quilt-canon-book": [
+    "pushed"
+  ],
+  "quilt-canon-cli": [
+    "pushed"
+  ],
+  "quilt-canon-explorer": [
+    "pushed"
+  ],
+  "quilt-canon-fed": [
+    "pushed"
+  ],
+  "quilt-canon-feed": [
+    "pushed"
+  ],
+  "quilt-canon-game": [
+    "pushed"
+  ],
+  "quilt-canon-gen": [
+    "pushed"
+  ],
+  "quilt-canon-graph": [
+    "pushed"
+  ],
+  "quilt-canon-i18n": [
+    "pushed"
+  ],
+  "quilt-canon-iterator": [
+    "pushed"
+  ],
+  "quilt-canon-keywords": [
+    "pushed"
+  ],
+  "quilt-canon-mcp": [
+    "pushed"
+  ],
+  "quilt-canon-radio": [
+    "pushed"
+  ],
+  "quilt-canon-search": [
+    "pushed"
+  ],
+  "quilt-canon-trace": [
+    "pushed"
+  ],
+  "quilt-canon-witness": [
+    "pushed"
+  ],
+  "quilt-cell-harness-push": [
+    "push-err:remote: Repository not found.\nfatal: repository 'https://git"
+  ],
+  "quilt-classroom": [
+    "no-remote"
+  ],
+  "quilt-claw": [
+    "pushed"
+  ],
+  "quilt-claw-cells-game": [
+    "no-remote"
+  ],
+  "quilt-cli": [
+    "pushed"
+  ],
+  "quilt-director": [
+    "pushed"
+  ],
+  "quilt-edge-ml": [
+    "pushed"
+  ],
+  "quilt-edge-node": [
+    "pushed"
+  ],
+  "quilt-edge-observer": [
+    "pushed"
+  ],
+  "quilt-egg": [
+    "pushed"
+  ],
+  "quilt-egg-rust": [
+    "pushed"
+  ],
+  "quilt-engine-ports": [
+    "pushed"
+  ],
+  "quilt-fable": [
+    "pushed"
+  ],
+  "quilt-fleet": [
+    "pushed"
+  ],
+  "quilt-fleet-conductor": [
+    "pushed"
+  ],
+  "quilt-fleet-orchestrator": [
+    "pushed"
+  ],
+  "quilt-fleet-publish": [
+    "pushed"
+  ],
+  "quilt-fleet-sim": [
+    "pushed"
+  ],
+  "quilt-fleet-snapshot": [
+    "pushed"
+  ],
+  "quilt-fluidics": [
+    "pushed"
+  ],
+  "quilt-fold": [
+    "no-remote"
+  ],
+  "quilt-full-stack-demo": [
+    "pushed"
+  ],
+  "quilt-gemini-worker": [
+    "pushed"
+  ],
+  "quilt-iterator": [
+    "pushed"
+  ],
+  "quilt-jetson": [
+    "pushed"
+  ],
+  "quilt-jev-oracle": [
+    "pushed"
+  ],
+  "quilt-jev-toolkit-push": [
+    "no-remote"
+  ],
+  "quilt-linker": [
+    "pushed"
+  ],
+  "quilt-makepad-demo": [
+    "no-remote"
+  ],
+  "quilt-mesh-bridge": [
+    "pushed"
+  ],
+  "quilt-multi-oracle": [
+    "pushed"
+  ],
+  "quilt-optimization": [
+    "pushed"
+  ],
+  "quilt-orchestrator": [
+    "pushed"
+  ],
+  "quilt-organism": [
+    "pushed"
+  ],
+  "quilt-papers": [
+    "pushed"
+  ],
+  "quilt-perception": [
+    "pushed"
+  ],
+  "quilt-playground": [
+    "pushed"
+  ],
+  "quilt-port": [
+    "pushed"
+  ],
+  "quilt-quantum-audio": [
+    "pushed"
+  ],
+  "quilt-quantum-canary": [
+    "pushed"
+  ],
+  "quilt-quantum-canary-bridge": [
+    "pushed"
+  ],
+  "quilt-quantumaudio-demo-push": [
+    "no-remote"
+  ],
+  "quilt-research-canons": [
+    "pushed"
+  ],
+  "quilt-rust": [
+    "pushed"
+  ],
+  "quilt-sandbox": [
+    "pushed"
+  ],
+  "quilt-schema-registry": [
+    "pushed"
+  ],
+  "quilt-seed": [
+    "no-remote"
+  ],
+  "quilt-spreadsheet": [
+    "pushed"
+  ],
+  "quilt-spreadsheet-inference": [
+    "pushed"
+  ],
+  "quilt-subleq": [
+    "pushed"
+  ],
+  "quilt-substrate-walker": [
+    "pushed"
+  ],
+  "quilt-swarm": [
+    "pushed"
+  ],
+  "quilt-trace": [
+    "pushed"
+  ],
+  "quilt-tracker": [
+    "pushed"
+  ],
+  "quilt-tts": [
+    "pushed"
+  ],
+  "quilt-voice-agent": [
+    "pushed"
+  ],
+  "quilt-zai-writer": [
+    "pushed"
+  ],
+  "substrate-bench": [
+    "pushed"
+  ],
+  "substrate-embedding": [
+    "committed:1",
+    "pushed"
+  ],
+  "substrate-forge": [
+    "pushed"
+  ],
+  "substrate-game-engine": [
+    "pushed"
+  ],
+  "substrate-gan": [
+    "pushed"
+  ],
+  "substrate-llm-client": [
+    "committed:3",
+    "pushed"
+  ],
+  "substrate-opposites": [
+    "pushed"
+  ],
+  "substrate-post-quantum": [
+    "pushed"
+  ],
+  "substrate-quantum": [
+    "pushed"
+  ],
+  "substrate-rng": [
+    "committed:1",
+    "pushed"
+  ],
+  "substrate-vectors": [
+    "committed:1",
+    "pushed"
+  ],
+  "substrate-videogame-ml": [
+    "pushed"
+  ],
+  "sunset-ecosystem": [
+    "gitignore+",
+    "committed:1",
+    "pushed"
+  ],
+  "superinstance-polyformalism-harness": [
+    "pushed"
+  ],
+  "superinstance-website": [
+    "gitignore+",
+    "committed:1",
+    "pushed"
+  ],
+  "tamper-evident-invoices": [
+    "no-remote"
+  ],
+  "the-beyond": [
+    "committed:1",
+    "no-remote"
+  ]
+}

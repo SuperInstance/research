@@ -1,0 +1,173 @@
+{
+  "name": "Canon Stress Test",
+  "signals": [
+    {
+      "cadence": "perfect_authentic",
+      "confidence": 0.836,
+      "description": "Full resolution \u2014 canon (mean_p=0.836)",
+      "resolution_strength": 1.0,
+      "is_resolved": true
+    },
+    {
+      "cadence": "perfect_authentic",
+      "confidence": 0.831,
+      "description": "Full resolution \u2014 canon (mean_p=0.831)",
+      "resolution_strength": 1.0,
+      "is_resolved": true
+    },
+    {
+      "cadence": "perfect_authentic",
+      "confidence": 0.83,
+      "description": "Full resolution \u2014 canon (mean_p=0.830)",
+      "resolution_strength": 1.0,
+      "is_resolved": true
+    },
+    {
+      "cadence": "perfect_authentic",
+      "confidence": 0.819,
+      "description": "Full resolution \u2014 canon (mean_p=0.819)",
+      "resolution_strength": 1.0,
+      "is_resolved": true
+    },
+    {
+      "cadence": "perfect_authentic",
+      "confidence": 0.815,
+      "description": "Full resolution \u2014 canon (mean_p=0.815)",
+      "resolution_strength": 1.0,
+      "is_resolved": true
+    },
+    {
+      "cadence": "perfect_authentic",
+      "confidence": 0.785,
+      "description": "Full resolution \u2014 canon (mean_p=0.785)",
+      "resolution_strength": 1.0,
+      "is_resolved": true
+    },
+    {
+      "cadence": "plagal",
+      "confidence": 0.713,
+      "description": "Gentle resolution \u2014 canon-leaning (mean_p=0.713)",
+      "resolution_strength": 0.85,
+      "is_resolved": true
+    },
+    {
+      "cadence": "plagal",
+      "confidence": 0.684,
+      "description": "Gentle resolution \u2014 canon-leaning (mean_p=0.684)",
+      "resolution_strength": 0.85,
+      "is_resolved": true
+    },
+    {
+      "cadence": "plagal",
+      "confidence": 0.75,
+      "description": "Gentle resolution \u2014 canon-leaning (mean_p=0.750)",
+      "resolution_strength": 0.85,
+      "is_resolved": true
+    },
+    {
+      "cadence": "plagal",
+      "confidence": 0.741,
+      "description": "Gentle resolution \u2014 canon-leaning (mean_p=0.741)",
+      "resolution_strength": 0.85,
+      "is_resolved": true
+    },
+    {
+      "cadence": "plagal",
+      "confidence": 0.731,
+      "description": "Gentle resolution \u2014 canon-leaning (mean_p=0.731)",
+      "resolution_strength": 0.85,
+      "is_resolved": true
+    },
+    {
+      "cadence": "plagal",
+      "confidence": 0.761,
+      "description": "Gentle resolution \u2014 canon-leaning (mean_p=0.761)",
+      "resolution_strength": 0.85,
+      "is_resolved": true
+    },
+    {
+      "cadence": "plagal",
+      "confidence": 0.754,
+      "description": "Gentle resolution \u2014 canon-leaning (mean_p=0.754)",
+      "resolution_strength": 0.85,
+      "is_resolved": true
+    },
+    {
+      "cadence": "plagal",
+      "confidence": 0.764,
+      "description": "Gentle resolution \u2014 canon-leaning (mean_p=0.764)",
+      "resolution_strength": 0.85,
+      "is_resolved": true
+    },
+    {
+      "cadence": "deceptive",
+      "confidence": 0.45,
+      "description": "False resolution \u2014 speculative (mean_p=0.450)",
+      "resolution_strength": 0.3,
+      "is_resolved": false
+    },
+    {
+      "cadence": "deceptive",
+      "confidence": 0.41,
+      "description": "False resolution \u2014 speculative (mean_p=0.410)",
+      "resolution_strength": 0.3,
+      "is_resolved": false
+    },
+    {
+      "cadence": "deceptive",
+      "confidence": 0.46,
+      "description": "False resolution \u2014 speculative (mean_p=0.460)",
+      "resolution_strength": 0.3,
+      "is_resolved": false
+    },
+    {
+      "cadence": "half",
+      "confidence": 0.3,
+      "description": "Suspension \u2014 parked (mean_p=0.300)",
+      "resolution_strength": 0.1,
+      "is_resolved": false
+    },
+    {
+      "cadence": "phrygian",
+      "confidence": 0.117,
+      "description": "Dramatic pause \u2014 rejected (mean_p=0.117)",
+      "resolution_strength": 0.05,
+      "is_resolved": false
+    },
+    {
+      "cadence": "phrygian",
+      "confidence": 0.096,
+      "description": "Dramatic pause \u2014 rejected (mean_p=0.096)",
+      "resolution_strength": 0.05,
+      "is_resolved": false
+    },
+    {
+      "cadence": "phrygian",
+      "confidence": 0.04,
+      "description": "Dramatic pause \u2014 rejected (mean_p=0.040)",
+      "resolution_strength": 0.05,
+      "is_resolved": false
+    },
+    {
+      "cadence": "phrygian",
+      "confidence": 0.03,
+      "description": "Dramatic pause \u2014 rejected (mean_p=0.030)",
+      "resolution_strength": 0.05,
+      "is_resolved": false
+    }
+  ],
+  "summary": {
+    "name": "Canon Stress Test",
+    "n_signals": 22,
+    "kinds": {
+      "perfect_authentic": 6,
+      "plagal": 8,
+      "deceptive": 3,
+      "half": 1,
+      "phrygian": 4
+    },
+    "mean_resolution": 0.6363636363636365,
+    "current_cadence": "phrygian",
+    "current_strength": 0.05
+  }
+}

@@ -1,0 +1,22 @@
+{
+ "repo": "conductor",
+ "swept_at": "2026-09-30T05:53:54Z",
+ "findings": [],
+ "ops": [
+  {
+   "kind": "email address",
+   "distinct": 3,
+   "samples": [
+    "+@pytest.fixture",
+    "casey@superinstance.com",
+    "fleet@superinstance.dev"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 89875,
+  "gitleaks": 0,
+  "high_entropy_strings": 0
+ }
+}

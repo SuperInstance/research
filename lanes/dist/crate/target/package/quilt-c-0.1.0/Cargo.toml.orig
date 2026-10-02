@@ -1,0 +1,23 @@
+[package]
+name = "quilt-c"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70"
+description = "The Quilt cell-fabric runtime in C99 — BIND/LINK/EFFECT/VIEW/TICK — with safe Rust bindings over the reference kernel."
+license = "Apache-2.0"
+repository = "https://github.com/SuperInstance/quilt-c"
+homepage = "https://github.com/SuperInstance/quilt-c"
+documentation = "https://github.com/SuperInstance/quilt-c"
+readme = "README.md"
+keywords = ["c99", "cellular", "graph", "reproducibility", "opcodes"]
+categories = ["science", "api-bindings", "data-structures"]
+build = "build.rs"
+links = "quilt"
+include = ["src/**", "include/**", "build.rs", "README.md", "LICENSE"]
+
+[lib]
+name = "quilt_c"
+path = "src/lib.rs"
+
+[build-dependencies]
+cc = "1.0"

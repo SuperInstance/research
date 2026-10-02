@@ -1,0 +1,10 @@
+{
+ "substrate": "quilt",
+ "experiment_id": "quilt-20260923T144452Z",
+ "type": "load_canon",
+ "started_at": "2026-09-23T14:44:52.599975Z",
+ "finished_at": "2026-09-23T14:44:52.604804Z",
+ "metric": 2.0,
+ "status": "success",
+ "id": "ecf6b4290e3358ad"
+}

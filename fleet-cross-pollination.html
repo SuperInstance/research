@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fleet Cross-Pollination Report — Quilt-Elevated Repos</title>
+<style>
+  :root {
+    --bg: #0a0e1a;
+    --panel: #131829;
+    --text: #d8e2ff;
+    --dim: #6e7a99;
+    --accent: #66ffd9;
+    --warn: #ffd866;
+    --hp: #ff6b3d;
+    --xp: #b46aff;
+    --gold: #ffe066;
+    --border: #1f2640;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: radial-gradient(ellipse at top, #1a0e2a, #0a0e1a 70%);
+    color: var(--text);
+    font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
+    min-height: 100vh;
+    padding: 2rem 1.5rem;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 1100px; margin: 0 auto; }
+  h1 { color: var(--accent); font-size: 2.2rem; margin-bottom: 0.5rem; }
+  h2 { color: var(--accent); margin: 2rem 0 0.5rem; font-size: 1.2rem; }
+  h3 { color: var(--warn); margin: 1rem 0 0.4rem; font-size: 1rem; }
+  p { margin-bottom: 0.8rem; }
+  .ledin { color: var(--dim); margin-bottom: 1.5rem; }
+  .hero {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.85rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 0.5rem 0.7rem;
+    border-bottom: 1px solid var(--border);
+  }
+  th { color: var(--dim); font-weight: 600; }
+  td { color: var(--text); }
+  td a { color: var(--accent); }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem;
+  }
+  .panel h3 { color: var(--accent); margin: 0 0 0.5rem; }
+  .panel p { font-size: 0.85rem; }
+  .panel a { color: var(--accent); }
+  .repo-cell {
+    background: var(--panel);
+    border-left: 4px solid var(--xp);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    margin: 0.8rem 0;
+  }
+  .repo-cell h3 { margin: 0 0 0.4rem; }
+  .repo-cell .meta { font-size: 0.8rem; color: var(--dim); }
+  .quote {
+    border-left: 3px solid var(--warn);
+    padding: 0.6rem 1rem;
+    color: var(--warn);
+    background: var(--panel);
+    border-radius: 0 6px 6px 0;
+    margin: 1rem 0;
+    font-style: italic;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .demo {
+    background: var(--panel);
+    border: 1px dashed var(--border);
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin: 1rem 0;
+  }
+  .demo .num {
+    display: inline-block;
+    background: var(--gold);
+    color: var(--bg);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 28px;
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Fleet Cross-Pollination Report</h1>
+<p class="ledin">
+  Every Quilt-elevated repo is part of a shared substrate. What looks
+  like 5 unrelated imports is actually <strong>5 views of the same
+  canonical cell-graph pattern</strong>. This report surfaces the
+  cross-pollination opportunities.
+</p>
+
+<h2>The 5 Quilt-elevated repos (this batch)</h2>
+
+<div class="grid">
+  <div class="repo-cell">
+    <h3>quilt-Countroller</h3>
+    <div class="meta">Embedded UI / 5×5 LED + inputs · 32 cells · <a href="https://github.com/SuperInstance/quilt-Countroller">repo</a></div>
+    <p>From EmbarcaTech capstone. Pico W + NeoPixel matrix + joystick + buttons + buzzers. The hello-world of the substrate.</p>
+  </div>
+
+  <div class="repo-cell">
+    <h3>ChainForgeLegend-Quilt</h3>
+    <div class="meta">Distributed transactions · 8 cells · <a href="https://github.com/SuperInstance/ChainForgeLegend-Quilt">repo</a></div>
+    <p>From harutosati/ChainForgeLegend. React app, real-time distributed transaction engine. The cell-graph projection makes the component tree addressable.</p>
+  </div>
+
+  <div class="repo-cell">
+    <h3>collab-drawing-quilt</h3>
+    <div class="meta">Multi-user TCP drawing · 3 server cells + N client cells · <a href="https://github.com/SuperInstance/collaborative-realtime-drawing-system-quilt">repo</a></div>
+    <p>From mominyar. Java/JavaFX/TCP shared canvas. The broadcast hub IS a router.</p>
+  </div>
+
+  <div class="repo-cell">
+    <h3>MCPMempool-quilt</h3>
+    <div class="meta">Priority scheduling · 1 root + N op cells · <a href="https://github.com/SuperInstance/MCPMempool-quilt">repo</a></div>
+    <p>From fuad403273. TypeScript auto-scaling memory-pool manager. Every mempool op is a tappable cell.</p>
+  </div>
+
+  <div class="repo-cell">
+    <h3>Quilt-Robotic-Arm</h3>
+    <div class="meta">Physical robot · 5 input + 4 joint + 1 end-effector · <a href="https://github.com/SuperInstance/Quilt-Robotic-Arm---Gesture-Controlled">repo</a></div>
+    <p>From a college hardware project. 4-link arm + flex-sensor glove. Forward kinematics become typed links.</p>
+  </div>
+</div>
+
+<h2>The unified 3-cell abstraction</h2>
+
+<p>Every program in the fleet has <strong>inputs, state, outputs</strong>. The Quilt projection makes this explicit:</p>
+
+<table>
+  <thead>
+    <tr><th>Repo</th><th>Inputs</th><th>State</th><th>Outputs</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Countroller</td>
+      <td>joystick, 3 buttons</td>
+      <td>25 LED cells + 2 buzzer + OLED</td>
+      <td>LED matrix, sounds, text</td>
+    </tr>
+    <tr>
+      <td>ChainForgeLegend</td>
+      <td>CLI arg, item text</td>
+      <td>items list, inputValue</td>
+      <td>item list, header</td>
+    </tr>
+    <tr>
+      <td>collab-drawing</td>
+      <td>TCP socket, mouse drag</td>
+      <td>canvas (strokes)</td>
+      <td>rendered canvas, broadcast</td>
+    </tr>
+    <tr>
+      <td>MCPMempool</td>
+      <td>enqueue ops</td>
+      <td>mempool queue</td>
+      <td>scheduled ops</td>
+    </tr>
+    <tr>
+      <td>Robotic Arm</td>
+      <td>5 flex sensors + IMU</td>
+      <td>joint angles + end-effector</td>
+      <td>servo commands</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>The cross-pollination matrix</h2>
+
+<p>Every cell in any one repo has an analogue in every other. The integration demos come from these natural mappings:</p>
+
+<table>
+  <thead>
+    <tr><th></th><th>Countroller</th><th>ChainForge</th><th>Collab Draw</th><th>MCPMempool</th><th>Robotic Arm</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Countroller</th>
+      <td>—</td>
+      <td>Buttons = ledger entries</td>
+      <td>Strokes = button presses</td>
+      <td>Ops = button events</td>
+      <td>Joints = LED cells</td>
+    </tr>
+    <tr>
+      <th>ChainForge</th>
+      <td>List items = LED cells</td>
+      <td>—</td>
+      <td>Cells = canvas strokes</td>
+      <td>Priority = ordering</td>
+      <td>Signals = transactions</td>
+    </tr>
+    <tr>
+      <th>Collab Draw</th>
+      <td>Canvas = LED matrix</td>
+      <td>Cells = canvas strokes</td>
+      <td>—</td>
+      <td>Cells = pending ops</td>
+      <td>End-effector = strokes</td>
+    </tr>
+    <tr>
+      <th>MCPMempool</th>
+      <td>Scheduler runs at 60Hz</td>
+      <td>Each op = transaction</td>
+      <td>Each op = TCP msg</td>
+      <td>—</td>
+      <td>Each op = sensor read</td>
+    </tr>
+    <tr>
+      <th>Robotic Arm</th>
+      <td>Glove sensor → joint</td>
+      <td>Glove = transaction</td>
+      <td>Drone = canvas stroke</td>
+      <td>Sensor = enqueued op</td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Integration demos — what we can ship</h2>
+
+<div class="demo">
+  <h3><span class="num">1</span> Collaborative arm drawing</h3>
+  <p><strong>Robotic Arm + Collab-Draw.</strong> The arm draws on the shared canvas. Multiple captains see the strokes appear in real time. The arm's joint angles ARE the stroke data.</p>
+  <p>Effort: ~16-22 hours. Mostly UI plumbing.</p>
+</div>
+
+<div class="demo">
+  <h3><span class="num">2</span> Priority-scheduled canvas</h3>
+  <p><strong>Collab-Draw + MCPMempool.</strong> Strokes enter the mempool with priorities (urgent vs routine). The scheduler queues them and the canvas renders in priority order.</p>
+  <p>Effort: ~8-12 hours. Reuses MCPMempool scheduler directly.</p>
+</div>
+
+<div class="demo">
+  <h3><span class="num">3</span> Distributed count controller</h3>
+  <p><strong>ChainForge + Countroller.</strong> A chain of Countrollers, each running a piece of the chain. The 5×5 LED matrix visualizes the current block hash. Witness chain = the distributed ledger.</p>
+  <p>Effort: ~16-22 hours. Needs network setup + LED-to-hash mapping.</p>
+</div>
+
+<div class="demo">
+  <h3><span class="num">4</span> Robotic arm as trading-cell subscriber</h3>
+  <p><strong>Robotic Arm + (paper-trading from CUDA-Q spec).</strong> The arm performs a physical gesture when the planning quantum picks a trade. Captain sees the gesture, knows the quantum's call.</p>
+  <p>Effort: ~8-12 hours. Smaller demo, very visible.</p>
+</div>
+
+<div class="quote">
+  <p>
+    "Every program in the SuperInstance fleet should:
+    stand alone — kill as a solo piece even without Quilt context;
+    synergize — connect via cell-graph primitives;
+    cross-pollinate — patterns transfer."
+  </p>
+</div>
+
+<h2>The Quilt doc standard — applied to all 5</h2>
+
+<p>Every Quilt-elevated repo ships three docs (<code>UPSTREAM.md</code>, <code>QUILT.md</code>,
+<code>PLAIN_LANGUAGE.md</code>) plus a landing-page README.</p>
+
+<table>
+  <thead>
+    <tr><th>Repo</th><th>UPSTREAM</th><th>QUILT</th><th>PLAIN_LANGUAGE</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>quilt-Countroller</td><td>✅</td><td>✅</td><td>✅</td></tr>
+    <tr><td>Quilt-Robotic-Arm</td><td>✅</td><td>✅</td><td>✅</td></tr>
+    <tr><td>ChainForgeLegend-Quilt</td><td>✅</td><td>✅</td><td>✅</td></tr>
+    <tr><td>collab-drawing-quilt</td><td>✅</td><td>✅</td><td>✅</td></tr>
+    <tr><td>MCPMempool-quilt</td><td>✅</td><td>✅</td><td>✅</td></tr>
+  </tbody>
+</table>
+
+<h2>Recommended next ports</h2>
+
+<ol>
+  <li><strong>Paper trading</strong> (CUDA-Q first use case) — Ties the planning layer to a working product.</li>
+  <li><strong>DAW step sequencer</strong> — Music cells; MIDI is universal; audibility.</li>
+  <li><strong>Collaborative arm drawing</strong> (Demo 1 above) — Cross-pollination between 2 existing repos.</li>
+  <li><strong>LLM prompt playground</strong> — Token cells; visible AI work; educational.</li>
+  <li><strong>Spreadsheet macro recorder</strong> — The spreadsheet is the runtime; record actions as cells.</li>
+</ol>
+
+<p style="margin-top: 2rem; color: var(--dim); font-size: 0.8rem; text-align: center;">
+  Generated by Mavis (root) · 2026-09-15 ·
+  <a href="https://github.com/SuperInstance/superinstance-website">superinstance-website</a> ·
+  <a href="fleet-cross-pollination.md">raw markdown</a>
+</p>
+
+</div>
+</body>
+</html>

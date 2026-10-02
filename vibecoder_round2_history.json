@@ -1,0 +1,237 @@
+{
+  "timestamp": 1790009603.6929786,
+  "iso": "2026-09-21T16:53:23Z",
+  "history": [
+    {
+      "score": 10008,
+      "best_streak": 10,
+      "diversity": 10,
+      "canon": 59,
+      "distract": 41,
+      "novel": 0,
+      "mean_p": 0.593,
+      "config": {
+        "canon_bias": 0.5,
+        "novel_bias": 0.0,
+        "spike_threshold": 0.5,
+        "cooldown_ticks": 1,
+        "reasoning": "baseline"
+      },
+      "round": 1
+    },
+    {
+      "score": 13047,
+      "best_streak": 11,
+      "diversity": 10,
+      "canon": 73,
+      "distract": 27,
+      "novel": 0,
+      "mean_p": 0.694,
+      "config": {
+        "canon_bias": 0.7,
+        "novel_bias": 0.0,
+        "spike_threshold": 0.7,
+        "cooldown_ticks": 1,
+        "reasoning": "canon-only"
+      },
+      "round": 2
+    },
+    {
+      "score": 9775,
+      "best_streak": 8,
+      "diversity": 20,
+      "canon": 55,
+      "distract": 17,
+      "novel": 28,
+      "mean_p": 0.652,
+      "config": {
+        "canon_bias": 0.5,
+        "novel_bias": 0.3,
+        "spike_threshold": 0.6,
+        "cooldown_ticks": 1,
+        "reasoning": "diversity"
+      },
+      "round": 3
+    },
+    {
+      "score": 13852,
+      "best_streak": 15,
+      "diversity": 18,
+      "canon": 75,
+      "distract": 7,
+      "novel": 18,
+      "mean_p": 0.775,
+      "config": {
+        "canon_bias": 0.8,
+        "novel_bias": 0.15,
+        "spike_threshold": 0.6,
+        "cooldown_ticks": 3,
+        "reasoning": "Round 2's canon-heavy config scored best (13047, streak 11); push canon higher while keeping small novel share to gain diversity beyond 10, and longer cooldown to reduce wasted spikes on distractors."
+      },
+      "round": 4,
+      "reasoning": "Round 2's canon-heavy config scored best (13047, streak 11); push canon higher while keeping small novel share to gain diversity beyond 10, and longer cooldown to reduce wasted spikes on distractors."
+    },
+    {
+      "score": 15372,
+      "best_streak": 23,
+      "diversity": 15,
+      "canon": 86,
+      "distract": 0,
+      "novel": 14,
+      "mean_p": 0.845,
+      "config": {
+        "canon_bias": 0.85,
+        "novel_bias": 0.15,
+        "spike_threshold": 0.6,
+        "cooldown_ticks": 4,
+        "reasoning": "Round 4 (canon 0.8, novel 0.15, cooldown 3) was best: score 13852, streak 15, diversity 18. Push canon slightly higher and lengthen cooldown a bit to cut remaining distractor hits, keeping novel share for diversity gains."
+      },
+      "round": 5,
+      "reasoning": "Round 4 (canon 0.8, novel 0.15, cooldown 3) was best: score 13852, streak 15, diversity 18. Push canon slightly higher and lengthen cooldown a bit to cut remaining distractor hits, keeping novel share for diversity gains."
+    },
+    {
+      "score": 15498,
+      "best_streak": 45,
+      "diversity": 14,
+      "canon": 90,
+      "distract": 0,
+      "novel": 10,
+      "mean_p": 0.855,
+      "config": {
+        "canon_bias": 0.9,
+        "novel_bias": 0.1,
+        "spike_threshold": 0.65,
+        "cooldown_ticks": 5,
+        "reasoning": "Round 5 (0.85/0.15, cooldown 4) hit 15372 with streak 23 and zero distractors. Continue gradient: raise canon to 0.9, keep novel 0.1 for diversity, slightly raise spike_threshold to 0.65 to demand stronger canon evidence, and cooldown 5 to further suppress wasted spikes."
+      },
+      "round": 6,
+      "reasoning": "Round 5 (0.85/0.15, cooldown 4) hit 15372 with streak 23 and zero distractors. Continue gradient: raise canon to 0.9, keep novel 0.1 for diversity, slightly raise spike_threshold to 0.65 to demand stronger canon evidence, and cooldown 5 to further suppress wasted spikes."
+    },
+    {
+      "score": 17224,
+      "best_streak": 46,
+      "diversity": 13,
+      "canon": 96,
+      "distract": 0,
+      "novel": 4,
+      "mean_p": 0.883,
+      "config": {
+        "canon_bias": 0.92,
+        "novel_bias": 0.08,
+        "spike_threshold": 0.7,
+        "cooldown_ticks": 6,
+        "reasoning": "Round 6 (0.9/0.1, thr 0.65, cd 5) hit 15498 with streak 45 and zero distractors. Continue the winning gradient: raise canon to 0.92, slightly raise threshold to 0.7 for stronger canon evidence, and cooldown 6 to further suppress distractor spikes, keeping a small novel share for diversity."
+      },
+      "round": 7,
+      "reasoning": "Round 6 (0.9/0.1, thr 0.65, cd 5) hit 15498 with streak 45 and zero distractors. Continue the winning gradient: raise canon to 0.92, slightly raise threshold to 0.7 for stronger canon evidence, and cooldown 6 to further suppress distractor spikes, keeping a small novel share for diversity."
+    },
+    {
+      "score": 16639,
+      "best_streak": 59,
+      "diversity": 14,
+      "canon": 91,
+      "distract": 0,
+      "novel": 9,
+      "mean_p": 0.866,
+      "config": {
+        "canon_bias": 0.95,
+        "novel_bias": 0.05,
+        "spike_threshold": 0.75,
+        "cooldown_ticks": 7,
+        "reasoning": "Rounds 5-7 show monotonic gains as canon share and threshold rise with zero distractors (17224, streak 46). Continue gradient: canon 0.95, threshold 0.75, cooldown 7, keeping small novel share for diversity."
+      },
+      "round": 8,
+      "reasoning": "Rounds 5-7 show monotonic gains as canon share and threshold rise with zero distractors (17224, streak 46). Continue gradient: canon 0.95, threshold 0.75, cooldown 7, keeping small novel share for diversity."
+    },
+    {
+      "score": 15848,
+      "best_streak": 46,
+      "diversity": 14,
+      "canon": 89,
+      "distract": 0,
+      "novel": 11,
+      "mean_p": 0.855,
+      "config": {
+        "canon_bias": 0.93,
+        "novel_bias": 0.07,
+        "spike_threshold": 0.72,
+        "cooldown_ticks": 6,
+        "reasoning": "Round 7 (0.92/0.08, thr 0.7, cd 6) was best on score (17224); round 8 pushed too hard (canon 0.95, thr 0.75, cd 7) and score dropped to 16639 despite a longer streak, suggesting the gradient has overshot. Step back to near round 7 settings with slight refinement: canon 0.93, threshold 0.72, cooldown 6, keeping small novel share for diversity."
+      },
+      "round": 9,
+      "reasoning": "Round 7 (0.92/0.08, thr 0.7, cd 6) was best on score (17224); round 8 pushed too hard (canon 0.95, thr 0.75, cd 7) and score dropped to 16639 despite a longer streak, suggesting the gradient has overshot. Step back to near round 7 settings with slight refinement: canon 0.93, threshold 0.72, cooldown 6, keeping small novel share for diversity."
+    },
+    {
+      "score": 16415,
+      "best_streak": 34,
+      "diversity": 13,
+      "canon": 92,
+      "distract": 0,
+      "novel": 8,
+      "mean_p": 0.872,
+      "config": {
+        "canon_bias": 0.92,
+        "novel_bias": 0.08,
+        "spike_threshold": 0.7,
+        "cooldown_ticks": 6,
+        "reasoning": "Round 7 (0.92/0.08, thr 0.7, cd 6) remains the best score (17224, streak 46, zero distractors); rounds 8-9's variations scored lower, so return exactly to the round 7 optimum."
+      },
+      "round": 10,
+      "reasoning": "Round 7 (0.92/0.08, thr 0.7, cd 6) remains the best score (17224, streak 46, zero distractors); rounds 8-9's variations scored lower, so return exactly to the round 7 optimum."
+    }
+  ],
+  "pareto_count": 5,
+  "best_score": {
+    "score": 17224,
+    "best_streak": 46,
+    "diversity": 13,
+    "canon": 96,
+    "distract": 0,
+    "novel": 4,
+    "mean_p": 0.883,
+    "config": {
+      "canon_bias": 0.92,
+      "novel_bias": 0.08,
+      "spike_threshold": 0.7,
+      "cooldown_ticks": 6,
+      "reasoning": "Round 6 (0.9/0.1, thr 0.65, cd 5) hit 15498 with streak 45 and zero distractors. Continue the winning gradient: raise canon to 0.92, slightly raise threshold to 0.7 for stronger canon evidence, and cooldown 6 to further suppress distractor spikes, keeping a small novel share for diversity."
+    },
+    "round": 7,
+    "reasoning": "Round 6 (0.9/0.1, thr 0.65, cd 5) hit 15498 with streak 45 and zero distractors. Continue the winning gradient: raise canon to 0.92, slightly raise threshold to 0.7 for stronger canon evidence, and cooldown 6 to further suppress distractor spikes, keeping a small novel share for diversity."
+  },
+  "best_streak": {
+    "score": 16639,
+    "best_streak": 59,
+    "diversity": 14,
+    "canon": 91,
+    "distract": 0,
+    "novel": 9,
+    "mean_p": 0.866,
+    "config": {
+      "canon_bias": 0.95,
+      "novel_bias": 0.05,
+      "spike_threshold": 0.75,
+      "cooldown_ticks": 7,
+      "reasoning": "Rounds 5-7 show monotonic gains as canon share and threshold rise with zero distractors (17224, streak 46). Continue gradient: canon 0.95, threshold 0.75, cooldown 7, keeping small novel share for diversity."
+    },
+    "round": 8,
+    "reasoning": "Rounds 5-7 show monotonic gains as canon share and threshold rise with zero distractors (17224, streak 46). Continue gradient: canon 0.95, threshold 0.75, cooldown 7, keeping small novel share for diversity."
+  },
+  "best_diversity": {
+    "score": 9775,
+    "best_streak": 8,
+    "diversity": 20,
+    "canon": 55,
+    "distract": 17,
+    "novel": 28,
+    "mean_p": 0.652,
+    "config": {
+      "canon_bias": 0.5,
+      "novel_bias": 0.3,
+      "spike_threshold": 0.6,
+      "cooldown_ticks": 1,
+      "reasoning": "diversity"
+    },
+    "round": 3
+  }
+}

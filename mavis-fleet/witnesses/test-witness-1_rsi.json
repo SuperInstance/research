@@ -1,0 +1,9 @@
+{
+ "substrate": "rsi",
+ "experiment_id": "test-witness-1",
+ "started_at": "2026-09-23T14:47:52.647052Z",
+ "finished_at": "2026-09-23T14:47:52.649963Z",
+ "metric": 0.05,
+ "status": "success",
+ "id": "wit-94249b1444d8"
+}

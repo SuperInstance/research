@@ -1,0 +1,10 @@
+{
+ "substrate": "quilt",
+ "experiment_id": "f-1-q",
+ "type": "probe",
+ "started_at": "2026-09-23T14:49:02.852304Z",
+ "finished_at": "2026-09-23T14:49:02.871093Z",
+ "metric": 0.0,
+ "status": "success",
+ "id": "a7bccf49fc5ca496"
+}

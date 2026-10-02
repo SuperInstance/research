@@ -1,0 +1,394 @@
+{
+ "summary": {
+  "total_agents": 84,
+  "zero_shot_success_rate": 0.08333333333333333,
+  "training_needed_pct": 91.66666666666666,
+  "ergonomic_grade": "D"
+ },
+ "first_reach_distribution": {
+  "version": 26,
+  "list": 27,
+  "run": 23,
+  "help": 8
+ },
+ "reach_frequency": {
+  "version": 26,
+  "help": 85,
+  "status": 77,
+  "fleet health": 12,
+  "fleet version": 12,
+  "fleet list-substrates": 9,
+  "fleet run quilt": 8,
+  "list": 27,
+  "fleet promote": 24,
+  "fleet chord": 12,
+  "run": 23
+ },
+ "stumbles": [
+  {
+   "task": "show me the fleet's health",
+   "first_command": "version",
+   "agent_count": 4,
+   "first_try_failure_count": 4,
+   "success_after": {
+    "help": 4
+   },
+   "yoke_move": "Move 'help' to position of 'version'"
+  },
+  {
+   "task": "what's the current version?",
+   "first_command": "version",
+   "agent_count": 3,
+   "first_try_failure_count": 3,
+   "success_after": {
+    "help": 3
+   },
+   "yoke_move": "Move 'help' to position of 'version'"
+  },
+  {
+   "task": "list all substrates",
+   "first_command": "version",
+   "agent_count": 4,
+   "first_try_failure_count": 4,
+   "success_after": {
+    "help": 4
+   },
+   "yoke_move": "Move 'help' to position of 'version'"
+  },
+  {
+   "task": "run a quilt experiment",
+   "first_command": "version",
+   "agent_count": 4,
+   "first_try_failure_count": 4,
+   "success_after": {
+    "help": 4
+   },
+   "yoke_move": "Move 'help' to position of 'version'"
+  },
+  {
+   "task": "promote a claim to canon",
+   "first_command": "list",
+   "agent_count": 5,
+   "first_try_failure_count": 5,
+   "success_after": {
+    "help": 5
+   },
+   "yoke_move": "Move 'help' to position of 'list'"
+  },
+  {
+   "task": "show the substrate witness chain",
+   "first_command": "version",
+   "agent_count": 5,
+   "first_try_failure_count": 5,
+   "success_after": {
+    "help": 5
+   },
+   "yoke_move": "Move 'help' to position of 'version'"
+  },
+  {
+   "task": "record a null result",
+   "first_command": "version",
+   "agent_count": 4,
+   "first_try_failure_count": 4,
+   "success_after": {
+    "help": 4
+   },
+   "yoke_move": "Move 'help' to position of 'version'"
+  },
+  {
+   "task": "show me the fleet's health",
+   "first_command": "run",
+   "agent_count": 4,
+   "first_try_failure_count": 4,
+   "success_after": {
+    "help": 4
+   },
+   "yoke_move": "Move 'help' to position of 'run'"
+  },
+  {
+   "task": "what's the current version?",
+   "first_command": "run",
+   "agent_count": 3,
+   "first_try_failure_count": 3,
+   "success_after": {
+    "help": 3
+   },
+   "yoke_move": "Move 'help' to position of 'run'"
+  },
+  {
+   "task": "list all substrates",
+   "first_command": "run",
+   "agent_count": 2,
+   "first_try_failure_count": 2,
+   "success_after": {
+    "help": 2
+   },
+   "yoke_move": "Move 'help' to position of 'run'"
+  },
+  {
+   "task": "promote a claim to canon",
+   "first_command": "run",
+   "agent_count": 3,
+   "first_try_failure_count": 3,
+   "success_after": {
+    "help": 3
+   },
+   "yoke_move": "Move 'help' to position of 'run'"
+  },
+  {
+   "task": "show the substrate witness chain",
+   "first_command": "run",
+   "agent_count": 4,
+   "first_try_failure_count": 4,
+   "success_after": {
+    "help": 4
+   },
+   "yoke_move": "Move 'help' to position of 'run'"
+  },
+  {
+   "task": "record a null result",
+   "first_command": "run",
+   "agent_count": 3,
+   "first_try_failure_count": 3,
+   "success_after": {
+    "help": 3
+   },
+   "yoke_move": "Move 'help' to position of 'run'"
+  },
+  {
+   "task": "show me the fleet's health",
+   "first_command": "list",
+   "agent_count": 3,
+   "first_try_failure_count": 3,
+   "success_after": {
+    "help": 3
+   },
+   "yoke_move": "Move 'help' to position of 'list'"
+  },
+  {
+   "task": "what's the current version?",
+   "first_command": "list",
+   "agent_count": 5,
+   "first_try_failure_count": 5,
+   "success_after": {
+    "help": 5
+   },
+   "yoke_move": "Move 'help' to position of 'list'"
+  },
+  {
+   "task": "run a quilt experiment",
+   "first_command": "list",
+   "agent_count": 4,
+   "first_try_failure_count": 4,
+   "success_after": {
+    "help": 4
+   },
+   "yoke_move": "Move 'help' to position of 'list'"
+  },
+  {
+   "task": "show the substrate witness chain",
+   "first_command": "list",
+   "agent_count": 3,
+   "first_try_failure_count": 3,
+   "success_after": {
+    "help": 3
+   },
+   "yoke_move": "Move 'help' to position of 'list'"
+  },
+  {
+   "task": "record a null result",
+   "first_command": "list",
+   "agent_count": 4,
+   "first_try_failure_count": 4,
+   "success_after": {
+    "help": 4
+   },
+   "yoke_move": "Move 'help' to position of 'list'"
+  },
+  {
+   "task": "promote a claim to canon",
+   "first_command": "help",
+   "agent_count": 2,
+   "first_try_failure_count": 2,
+   "success_after": {
+    "help": 2
+   },
+   "yoke_move": "Move 'help' to position of 'help'"
+  },
+  {
+   "task": "list all substrates",
+   "first_command": "help",
+   "agent_count": 3,
+   "first_try_failure_count": 3,
+   "success_after": {
+    "help": 3
+   },
+   "yoke_move": "Move 'help' to position of 'help'"
+  },
+  {
+   "task": "promote a claim to canon",
+   "first_command": "version",
+   "agent_count": 2,
+   "first_try_failure_count": 2,
+   "success_after": {
+    "help": 2
+   },
+   "yoke_move": "Move 'help' to position of 'version'"
+  }
+ ],
+ "yoke_moves": [
+  {
+   "move_type": "alias",
+   "from_command": "version",
+   "to_command": "help",
+   "rationale": "Agents reach for 'version' 4 times when 'help' is the right command. Add 'version' as an alias for 'help'.",
+   "confidence": 0.8
+  },
+  {
+   "move_type": "alias",
+   "from_command": "version",
+   "to_command": "help",
+   "rationale": "Agents reach for 'version' 3 times when 'help' is the right command. Add 'version' as an alias for 'help'.",
+   "confidence": 0.6
+  },
+  {
+   "move_type": "alias",
+   "from_command": "version",
+   "to_command": "help",
+   "rationale": "Agents reach for 'version' 4 times when 'help' is the right command. Add 'version' as an alias for 'help'.",
+   "confidence": 0.8
+  },
+  {
+   "move_type": "alias",
+   "from_command": "version",
+   "to_command": "help",
+   "rationale": "Agents reach for 'version' 4 times when 'help' is the right command. Add 'version' as an alias for 'help'.",
+   "confidence": 0.8
+  },
+  {
+   "move_type": "alias",
+   "from_command": "list",
+   "to_command": "help",
+   "rationale": "Agents reach for 'list' 5 times when 'help' is the right command. Add 'list' as an alias for 'help'.",
+   "confidence": 1.0
+  },
+  {
+   "move_type": "alias",
+   "from_command": "version",
+   "to_command": "help",
+   "rationale": "Agents reach for 'version' 5 times when 'help' is the right command. Add 'version' as an alias for 'help'.",
+   "confidence": 1.0
+  },
+  {
+   "move_type": "alias",
+   "from_command": "version",
+   "to_command": "help",
+   "rationale": "Agents reach for 'version' 4 times when 'help' is the right command. Add 'version' as an alias for 'help'.",
+   "confidence": 0.8
+  },
+  {
+   "move_type": "alias",
+   "from_command": "run",
+   "to_command": "help",
+   "rationale": "Agents reach for 'run' 4 times when 'help' is the right command. Add 'run' as an alias for 'help'.",
+   "confidence": 0.8
+  },
+  {
+   "move_type": "alias",
+   "from_command": "run",
+   "to_command": "help",
+   "rationale": "Agents reach for 'run' 3 times when 'help' is the right command. Add 'run' as an alias for 'help'.",
+   "confidence": 0.6
+  },
+  {
+   "move_type": "alias",
+   "from_command": "run",
+   "to_command": "help",
+   "rationale": "Agents reach for 'run' 2 times when 'help' is the right command. Add 'run' as an alias for 'help'.",
+   "confidence": 0.4
+  },
+  {
+   "move_type": "alias",
+   "from_command": "run",
+   "to_command": "help",
+   "rationale": "Agents reach for 'run' 3 times when 'help' is the right command. Add 'run' as an alias for 'help'.",
+   "confidence": 0.6
+  },
+  {
+   "move_type": "alias",
+   "from_command": "run",
+   "to_command": "help",
+   "rationale": "Agents reach for 'run' 4 times when 'help' is the right command. Add 'run' as an alias for 'help'.",
+   "confidence": 0.8
+  },
+  {
+   "move_type": "alias",
+   "from_command": "run",
+   "to_command": "help",
+   "rationale": "Agents reach for 'run' 3 times when 'help' is the right command. Add 'run' as an alias for 'help'.",
+   "confidence": 0.6
+  },
+  {
+   "move_type": "alias",
+   "from_command": "list",
+   "to_command": "help",
+   "rationale": "Agents reach for 'list' 3 times when 'help' is the right command. Add 'list' as an alias for 'help'.",
+   "confidence": 0.6
+  },
+  {
+   "move_type": "alias",
+   "from_command": "list",
+   "to_command": "help",
+   "rationale": "Agents reach for 'list' 5 times when 'help' is the right command. Add 'list' as an alias for 'help'.",
+   "confidence": 1.0
+  },
+  {
+   "move_type": "alias",
+   "from_command": "list",
+   "to_command": "help",
+   "rationale": "Agents reach for 'list' 4 times when 'help' is the right command. Add 'list' as an alias for 'help'.",
+   "confidence": 0.8
+  },
+  {
+   "move_type": "alias",
+   "from_command": "list",
+   "to_command": "help",
+   "rationale": "Agents reach for 'list' 3 times when 'help' is the right command. Add 'list' as an alias for 'help'.",
+   "confidence": 0.6
+  },
+  {
+   "move_type": "alias",
+   "from_command": "list",
+   "to_command": "help",
+   "rationale": "Agents reach for 'list' 4 times when 'help' is the right command. Add 'list' as an alias for 'help'.",
+   "confidence": 0.8
+  },
+  {
+   "move_type": "alias",
+   "from_command": "help",
+   "to_command": "help",
+   "rationale": "Agents reach for 'help' 2 times when 'help' is the right command. Add 'help' as an alias for 'help'.",
+   "confidence": 0.4
+  },
+  {
+   "move_type": "alias",
+   "from_command": "help",
+   "to_command": "help",
+   "rationale": "Agents reach for 'help' 3 times when 'help' is the right command. Add 'help' as an alias for 'help'.",
+   "confidence": 0.6
+  },
+  {
+   "move_type": "alias",
+   "from_command": "version",
+   "to_command": "help",
+   "rationale": "Agents reach for 'version' 2 times when 'help' is the right command. Add 'version' as an alias for 'help'.",
+   "confidence": 0.4
+  }
+ ],
+ "design_implications": {
+  "ctm": "CTM models should have these commands as natural primitives",
+  "tfm": "TFM time-first models should optimize first-reach-to-success time",
+  "origin_centric": "Origin-centric models should expose intent directly",
+  "sfm": "SFM simulation-first should let agents reach for the simulated outcome"
+ }
+}

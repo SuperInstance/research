@@ -1,0 +1,18 @@
+=== DeepSeek Reasoner canon lore gen ===
+
+[1/5] seed=70051917 doctrine=oracle_is_heard
+  🌟 comp=0.717 (15.8s)
+
+[2/5] seed=90625407 doctrine=cells_are_scars
+  🌟 comp=0.717 (17.2s)
+
+[3/5] seed=57322595 doctrine=canon_gate_is_chord
+  🌟 comp=0.770 (15.0s)
+
+[4/5] seed=6358192 doctrine=witness_log_is_prediction
+  🌟 comp=0.710 (17.4s)
+
+[5/5] seed=45919340 doctrine=substrate_quantum
+     comp=0.613 (17.8s)
+
+=== 4/5 PROMOTED ===

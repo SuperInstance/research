@@ -1,0 +1,124 @@
+{
+  "iso": "2026-09-21T20:37:07Z",
+  "concept": "t_minus_joints",
+  "rooms": {
+    "cosmic": {
+      "lens": "panorama",
+      "shadows": [
+        "growth",
+        "cycles",
+        "memory",
+        "oracle"
+      ]
+    },
+    "quantum": {
+      "lens": "microscope",
+      "shadows": [
+        "superposition",
+        "measurement",
+        "collapse",
+        "entanglement"
+      ]
+    },
+    "cellular": {
+      "lens": "biological",
+      "shadows": [
+        "scar",
+        "tissue",
+        "division",
+        "metabolism"
+      ]
+    }
+  },
+  "anchors": [
+    {
+      "id": "t-9.5",
+      "target_t": -9.5,
+      "piece": "WR23 \u2014 Joint Geometry",
+      "room": "cosmic",
+      "cells": [
+        "cell-\u03b1",
+        "cell-\u03b3",
+        "cell-\u03b2"
+      ],
+      "hash": "0x9e4a7c2f1b8d3056"
+    },
+    {
+      "id": "t-4.0",
+      "target_t": -4.0,
+      "piece": "WR24 \u2014 Quantum Ether",
+      "room": "quantum",
+      "cells": [
+        "cell-\u03b1",
+        "cell-\u03b4"
+      ],
+      "hash": "0x4b1f8a2e9c7d6031"
+    },
+    {
+      "id": "t+0.5",
+      "target_t": 0.5,
+      "piece": "WR22 \u2014 Scar Topology (already published)",
+      "room": "cellular",
+      "cells": [
+        "cell-\u03b3",
+        "cell-\u03b2",
+        "cell-\u03b4",
+        "cell-\u03b5"
+      ],
+      "hash": "0xc7b3d4f5a8e12067"
+    }
+  ],
+  "joints": [
+    {
+      "id": "joint-0aaad9b4915cf884",
+      "cells": [
+        "cell-\u03b1",
+        "cell-\u03b2"
+      ],
+      "agreement": "witness_log_is_prediction is canon",
+      "t": -9.0,
+      "stability": 0.804
+    },
+    {
+      "id": "joint-2f9177f9adaa4125",
+      "cells": [
+        "cell-\u03b2",
+        "cell-\u03b3"
+      ],
+      "agreement": "substrate_is_grown is canon",
+      "t": -8.5,
+      "stability": 0.325
+    },
+    {
+      "id": "joint-242b0e7e05f69f04",
+      "cells": [
+        "cell-\u03b1",
+        "cell-\u03b4"
+      ],
+      "agreement": "substrate_is_grown is canon",
+      "t": -8.0,
+      "stability": 0.708
+    },
+    {
+      "id": "joint-b17aab250e64a1a9",
+      "cells": [
+        "cell-\u03b2",
+        "cell-\u03b4"
+      ],
+      "agreement": "oracle_is_heard requires external witness",
+      "t": -3.0,
+      "stability": 0.361
+    },
+    {
+      "id": "joint-30fadbbc00fbe2e1",
+      "cells": [
+        "cell-\u03b3",
+        "cell-\u03b5"
+      ],
+      "agreement": "lenia_flows is canon",
+      "t": 0.0,
+      "stability": 0.137
+    }
+  ],
+  "h1_loops": 5
+}

@@ -1,0 +1,146 @@
+[
+ {
+  "move_type": "alias",
+  "from_command": "version",
+  "to_command": "fleet health",
+  "rationale": "Agents reach for 'version' 2 times when 'fleet health' is the right command. Add 'version' as an alias for 'fleet health'.",
+  "evidence_count": 0,
+  "confidence": 0.4,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "version",
+  "to_command": "fleet version",
+  "rationale": "Agents reach for 'version' 3 times when 'fleet version' is the right command. Add 'version' as an alias for 'fleet version'.",
+  "evidence_count": 0,
+  "confidence": 0.6,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "version",
+  "to_command": "fleet list-substrates",
+  "rationale": "Agents reach for 'version' 3 times when 'fleet list-substrates' is the right command. Add 'version' as an alias for 'fleet list-substrates'.",
+  "evidence_count": 0,
+  "confidence": 0.6,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "version",
+  "to_command": "fleet run quilt",
+  "rationale": "Agents reach for 'version' 3 times when 'fleet run quilt' is the right command. Add 'version' as an alias for 'fleet run quilt'.",
+  "evidence_count": 0,
+  "confidence": 0.6,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "version",
+  "to_command": "fleet promote",
+  "rationale": "Agents reach for 'version' 3 times when 'fleet promote' is the right command. Add 'version' as an alias for 'fleet promote'.",
+  "evidence_count": 0,
+  "confidence": 0.6,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "version",
+  "to_command": "fleet chord",
+  "rationale": "Agents reach for 'version' 2 times when 'fleet chord' is the right command. Add 'version' as an alias for 'fleet chord'.",
+  "evidence_count": 0,
+  "confidence": 0.4,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "list",
+  "to_command": "fleet health",
+  "rationale": "Agents reach for 'list' 5 times when 'fleet health' is the right command. Add 'list' as an alias for 'fleet health'.",
+  "evidence_count": 0,
+  "confidence": 1.0,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "run",
+  "to_command": "fleet version",
+  "rationale": "Agents reach for 'run' 3 times when 'fleet version' is the right command. Add 'run' as an alias for 'fleet version'.",
+  "evidence_count": 0,
+  "confidence": 0.6,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "run",
+  "to_command": "fleet list-substrates",
+  "rationale": "Agents reach for 'run' 3 times when 'fleet list-substrates' is the right command. Add 'run' as an alias for 'fleet list-substrates'.",
+  "evidence_count": 0,
+  "confidence": 0.6,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "run",
+  "to_command": "fleet promote",
+  "rationale": "Agents reach for 'run' 3 times when 'fleet promote' is the right command. Add 'run' as an alias for 'fleet promote'.",
+  "evidence_count": 0,
+  "confidence": 0.6,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "run",
+  "to_command": "fleet chord",
+  "rationale": "Agents reach for 'run' 3 times when 'fleet chord' is the right command. Add 'run' as an alias for 'fleet chord'.",
+  "evidence_count": 0,
+  "confidence": 0.6,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "list",
+  "to_command": "fleet version",
+  "rationale": "Agents reach for 'list' 2 times when 'fleet version' is the right command. Add 'list' as an alias for 'fleet version'.",
+  "evidence_count": 0,
+  "confidence": 0.4,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "list",
+  "to_command": "fleet run quilt",
+  "rationale": "Agents reach for 'list' 3 times when 'fleet run quilt' is the right command. Add 'list' as an alias for 'fleet run quilt'.",
+  "evidence_count": 0,
+  "confidence": 0.6,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "list",
+  "to_command": "fleet promote",
+  "rationale": "Agents reach for 'list' 2 times when 'fleet promote' is the right command. Add 'list' as an alias for 'fleet promote'.",
+  "evidence_count": 0,
+  "confidence": 0.4,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "list",
+  "to_command": "fleet chord",
+  "rationale": "Agents reach for 'list' 3 times when 'fleet chord' is the right command. Add 'list' as an alias for 'fleet chord'.",
+  "evidence_count": 0,
+  "confidence": 0.6,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "help",
+  "to_command": "fleet health",
+  "rationale": "Agents reach for 'help' 2 times when 'fleet health' is the right command. Add 'help' as an alias for 'fleet health'.",
+  "evidence_count": 0,
+  "confidence": 0.4,
+  "proposed_at": ""
+ }
+]

@@ -1,0 +1,62 @@
+{
+ "repo": "tminus-os",
+ "swept_at": "2026-09-30T05:55:40Z",
+ "findings": [
+  {
+   "tool": "gitleaks",
+   "rule": "generic-api-key",
+   "file": "CLOUDFLARE_FLEET_INVENTORY.md",
+   "commit": "46402fcd4c",
+   "excerpt": "API. A\u2026TED` (24 chars)"
+  },
+  {
+   "tool": "grep",
+   "kind": "credential assignment",
+   "group": "protocol",
+   "count": 4,
+   "excerpt": "TOKEN=\u2026oml> (25 chars)"
+  },
+  {
+   "tool": "grep",
+   "kind": "low-entropy hex (cf account id, exactly 32)",
+   "group": "protocol",
+   "count": 33,
+   "excerpt": "049ff5\u2026aae6 (32 chars)"
+  }
+ ],
+ "ops": [
+  {
+   "kind": "ipv4",
+   "distinct": 4,
+   "samples": [
+    "0.0.0.0",
+    "10.0.0.24",
+    "127.0.0.1",
+    "147.224.38.131"
+   ]
+  },
+  {
+   "kind": "vessel name",
+   "distinct": 1,
+   "samples": [
+    "F/V EILEEN"
+   ]
+  },
+  {
+   "kind": "email address",
+   "distinct": 4,
+   "samples": [
+    "+@pytest.fixture",
+    "agent@openclaw.local",
+    "crew@superinstance.ai",
+    "docbot@superinstance.ai"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 1555533,
+  "gitleaks": 1,
+  "high_entropy_strings": 222
+ }
+}

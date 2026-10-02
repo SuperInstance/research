@@ -1,0 +1,21 @@
+{
+ "repo": "crdt-gcounter",
+ "swept_at": "2026-09-30T05:50:13Z",
+ "findings": [],
+ "ops": [
+  {
+   "kind": "email address",
+   "distinct": 2,
+   "samples": [
+    "mavis@superinstance.local",
+    "superinstance@users.noreply.github.com"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 34138,
+  "gitleaks": 0,
+  "high_entropy_strings": 2
+ }
+}

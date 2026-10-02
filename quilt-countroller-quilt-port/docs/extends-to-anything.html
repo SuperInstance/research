@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Countroller extends to anything — Quilt polyformal ports</title>
+<style>
+  :root {
+    --bg: #0a0e1a;
+    --panel: #131829;
+    --text: #d8e2ff;
+    --dim: #6e7a99;
+    --accent: #66ffd9;
+    --warn: #ffd866;
+    --hp: #ff6b3d;
+    --xp: #b46aff;
+    --gold: #ffe066;
+    --led: #ff4466;
+    --border: #1f2640;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: radial-gradient(ellipse at top, #1a0e2a, #0a0e1a 70%);
+    color: var(--text);
+    font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
+    min-height: 100vh;
+    padding: 2rem 1.5rem;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 1100px; margin: 0 auto; }
+  h1 { color: var(--accent); font-size: 2.2rem; margin-bottom: 0.5rem; }
+  h2 { color: var(--accent); margin: 2rem 0 0.5rem; font-size: 1.2rem; }
+  h3 { color: var(--warn); margin: 1rem 0 0.4rem; font-size: 1rem; }
+  p { margin-bottom: 0.8rem; }
+  .ledin { color: var(--dim); margin-bottom: 1.5rem; }
+  .hero {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem;
+  }
+  .panel.ports {
+    border-left: 4px solid var(--accent);
+  }
+  .panel h3 {
+    color: var(--accent);
+    margin: 0 0 0.4rem;
+    font-size: 1.05rem;
+  }
+  .panel .emoji { font-size: 1.5rem; margin-right: 0.4rem; }
+  .panel p { font-size: 0.85rem; }
+  .cell-link { font-size: 0.75rem; color: var(--dim); font-family: monospace; }
+  .matrix {
+    display: grid;
+    grid-template-columns: repeat(5, 28px);
+    gap: 3px;
+    margin: 0.6rem 0;
+  }
+  .matrix .led {
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    background: #1f2640;
+    border: 1px solid var(--border);
+  }
+  .matrix .led.on { background: var(--led); box-shadow: 0 0 6px var(--led); }
+  .matrix .led.green { background: #4cff7c; box-shadow: 0 0 6px #4cff7c; }
+  .matrix .led.blue  { background: #4caeff; box-shadow: 0 0 6px #4caeff; }
+  .matrix .led.gold  { background: var(--gold); box-shadow: 0 0 6px var(--gold); }
+  .matrix .led.purple { background: var(--xp); box-shadow: 0 0 6px var(--xp); }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.85rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 0.5rem 0.7rem;
+    border-bottom: 1px solid var(--border);
+  }
+  th { color: var(--dim); font-weight: 600; }
+  td { color: var(--text); }
+  .ports-list {
+    margin: 0;
+    padding-left: 1.2rem;
+    font-size: 0.85rem;
+    color: var(--text);
+  }
+  .ports-list li { margin-bottom: 0.4rem; }
+  .code {
+    background: #06081a;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 0.6rem 0.8rem;
+    font-family: monospace;
+    font-size: 0.8rem;
+    color: var(--accent);
+    overflow-x: auto;
+    margin: 0.5rem 0;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .quote {
+    border-left: 3px solid var(--warn);
+    padding: 0.6rem 1rem;
+    color: var(--warn);
+    background: var(--panel);
+    border-radius: 0 6px 6px 0;
+    margin: 1rem 0;
+    font-style: italic;
+  }
+  .panels-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  @media (max-width: 700px) {
+    .panels-row { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>The Countroller extends to anything</h1>
+<p class="ledin">
+  <a href="https://github.com/SuperInstance/quilt-Countroller">quilt-Countroller</a>
+  is a 5×5 LED matrix, a joystick, three buttons, and two buzzers on a Raspberry Pi Pico W.
+  32 cells. 32 typed links. The smallest possible hello-world of the Quilt substrate.
+  <strong>The same cell-graph ports to anything.</strong>
+</p>
+
+<div class="hero">
+  <h3>The thesis</h3>
+  <p>
+    Every program can be Quilt-ported because Quilt is a visualization and intermediation
+    layer for IO. The Countroller's 5×5 LED matrix is small enough to be canonical —
+    the minimum cell-graph that demonstrates the substrate. Once you have the 32 cells,
+    you can refactor any program into cells. Every program becomes a spreadsheet you can
+    watch.
+  </p>
+</div>
+
+<h2>The 32 cells (the canonical substrate)</h2>
+<div class="panels-row">
+  <div class="panel">
+    <h3>Inputs (4 cells)</h3>
+    <ul class="ports-list">
+      <li><span class="cell-link">joystick</span> — (x, y) in [-1, 1]</li>
+      <li><span class="cell-link">button_a</span> — press count</li>
+      <li><span class="cell-link">button_b</span> — press count</li>
+      <li><span class="cell-link">joystick_button</span> — center click</li>
+    </ul>
+  </div>
+  <div class="panel">
+    <h3>Outputs (28 cells)</h3>
+    <ul class="ports-list">
+      <li><span class="cell-link">buzzer_1</span>, <span class="cell-link">buzzer_2</span> — frequency</li>
+      <li><span class="cell-link">oled</span> — text message</li>
+      <li><span class="cell-link">led_0_0</span> ... <span class="cell-link">led_4_4</span> — 25 LEDs (5×5)</li>
+    </ul>
+  </div>
+  <div class="panel">
+    <h3>Patterns (3)</h3>
+    <ul class="ports-list">
+      <li><strong>heart</strong> — 17 lit cells, red</li>
+      <li><strong>if</strong> — EmbarcaTech initials, green</li>
+      <li><strong>pi</strong> — stylized π, blue</li>
+    </ul>
+  </div>
+</div>
+
+<h3>The cell-graph rendered</h3>
+<div class="panels-row">
+  <div class="panel">
+    <strong>idle</strong>
+    <div class="matrix">
+      <div class="led"></div><div class="led"></div><div class="led"></div><div class="led"></div><div class="led"></div>
+      <div class="led"></div><div class="led"></div><div class="led"></div><div class="led"></div><div class="led"></div>
+      <div class="led"></div><div class="led"></div><div class="led"></div><div class="led"></div><div class="led"></div>
+      <div class="led"></div><div class="led"></div><div class="led"></div><div class="led"></div><div class="led"></div>
+      <div class="led"></div><div class="led"></div><div class="led"></div><div class="led"></div><div class="led"></div>
+    </div>
+  </div>
+  <div class="panel">
+    <strong>heart</strong>
+    <div class="matrix">
+      <div class="led"></div><div class="led on"></div><div class="led on"></div><div class="led on"></div><div class="led"></div>
+      <div class="led on"></div><div class="led on"></div><div class="led on"></div><div class="led on"></div><div class="led on"></div>
+      <div class="led on"></div><div class="led on"></div><div class="led on"></div><div class="led on"></div><div class="led on"></div>
+      <div class="led"></div><div class="led on"></div><div class="led on"></div><div class="led on"></div><div class="led"></div>
+      <div class="led"></div><div class="led"></div><div class="led on"></div><div class="led"></div><div class="led"></div>
+    </div>
+  </div>
+  <div class="panel">
+    <strong>π (pi)</strong>
+    <div class="matrix">
+      <div class="led blue"></div><div class="led blue"></div><div class="led blue"></div><div class="led blue"></div><div class="led blue"></div>
+      <div class="led blue"></div><div class="led"></div><div class="led"></div><div class="led"></div><div class="led"></div>
+      <div class="led blue"></div><div class="led"></div><div class="led blue"></div><div class="led"></div><div class="led"></div>
+      <div class="led blue"></div><div class="led"></div><div class="led"></div><div class="led"></div><div class="led"></div>
+      <div class="led blue"></div><div class="led"></div><div class="led"></div><div class="led"></div><div class="led"></div>
+    </div>
+  </div>
+</div>
+
+<h2>The 5 ports — same cell-graph, every runtime</h2>
+
+<div class="grid">
+  <div class="panel ports">
+    <h3><span class="emoji">🪛</span>Pico firmware</h3>
+    <p>Real hardware. WS2812 LEDs, ADC joystick, GPIO buttons, PWM buzzers, I2C OLED. Upstream C port on Pico SDK. The same 32 cells, the same witness chain, the same typed LINKs.</p>
+    <div class="cell-link">language: C / Pico SDK</div>
+  </div>
+
+  <div class="panel ports">
+    <h3><span class="emoji">🐍</span>Python simulator</h3>
+    <p>Pure Python. No hardware needed. Runs the same cell-graph in any 3.10+ interpreter. Used for tests, demos, and the witness replay mechanism. <strong>This is the reference port.</strong></p>
+    <div class="cell-link">status: ✓ shipped (28 tests passing)</div>
+  </div>
+
+  <div class="panel ports">
+    <h3><span class="emoji">⚡</span>Rust / no_std</h3>
+    <p>Same cell-graph on Rust + the Quilt-ESP32 / Quilt-Pico runtime. ~3KB flash headroom. The substrate compiles to bare metal; the witness chain persists across reboots.</p>
+    <div class="cell-link">language: Rust + no_std + embedded HAL</div>
+  </div>
+
+  <div class="panel ports">
+    <h3><span class="emoji">🌐</span>TypeScript / browser</h3>
+    <p>Same cells, canvas pixels instead of NeoPixels. WebBluetooth connects to a real Pico for live data. WebGPU-accelerated render for large matrices. The browser becomes the simulator.</p>
+    <div class="cell-link">language: TypeScript + WebGPU + WebBluetooth</div>
+  </div>
+
+  <div class="panel ports">
+    <h3><span class="emoji">📡</span>JSON-API</h3>
+    <p>The cell-graph exposed as REST. Deploy to a Cloudflare Worker; the same endpoint contract works against the Python simulator, the Pico firmware, or the Rust runtime. <code>GET /cells</code>, <code>POST /cells/&lt;addr&gt;/effect</code>, <code>GET /witness</code>.</p>
+    <div class="cell-link">language: Python stdlib HTTP server / Cloudflare Workers</div>
+  </div>
+</div>
+
+<div class="hero">
+  <h3>The pattern: ports to anything</h3>
+  <p>The 32 cells aren't bound to LEDs. They describe an IO fabric. Replace the NeoPixels with:</p>
+  <ul class="ports-list">
+    <li><strong>Robot joint positions</strong> — 25 servos in a 5×5 grid; LED cells become joint angles, joystick becomes the controller</li>
+    <li><strong>MIDI notes in a DAW</strong> — 25 channels of a step sequencer; LED cells become gate states, joystick becomes the tempo knob, buttons become play/stop/record</li>
+    <li><strong>Token positions in an LLM prompt</strong> — 25 most-recent tokens; LED cells become attention scores, joystick becomes cursor, buttons become submit/regenerate</li>
+    <li><strong>Portfolio positions in a trading app</strong> — 25 positions; LED cells become P&L heat, joystick becomes allocation slider, buttons become buy/sell</li>
+    <li><strong>Browser canvas pixels</strong> — 25 tiles of a UI; LED cells become tile colors, joystick becomes cursor, buttons become action triggers</li>
+  </ul>
+  <p style="margin-top: 1rem;">
+    <strong>One cell schema. N substrates.</strong> That's the polyformalism payoff — the Quilt becomes the intermediate layer, and the same visual contract ports to anything.
+  </p>
+</div>
+
+<h2>How it actually works</h2>
+
+<h3>The 5+1 opcodes</h3>
+<table>
+  <thead>
+    <tr><th>Opcode</th><th>What it does</th><th>Countroller example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>BIND</strong></td><td>Mount a cell at an address</td><td><code>BIND(LEDCell("led_2_2"))</code></td></tr>
+    <tr><td><strong>LINK</strong></td><td>Create a typed edge between cells</td><td><code>LINK("button_a", "buzzer_1", "sounds")</code></td></tr>
+    <tr><td><strong>EFFECT</strong></td><td>Mutate a cell's value with an inverse</td><td><code>EFFECT(button_a, press)</code> → value++, inverse sets value--</td></tr>
+    <tr><td><strong>VIEW</strong></td><td>Read a cell's value (pure)</td><td><code>VIEW(led_2_2)</code> → (r, g, b)</td></tr>
+    <tr><td><strong>TICK</strong></td><td>Advance the substrate clock</td><td><code>TICK(dt=0.016)</code> → 60Hz loop</td></tr>
+    <tr><td><strong>FORGET</strong></td><td>Retire a cell (run inverses)</td><td><code>FORGET(led_2_2)</code> → turn off, free witness</td></tr>
+  </tbody>
+</table>
+
+<h3>The witness chain</h3>
+<p>
+  Every state change appends to a witness chain. The chain is append-only, witness-stamped, and replayable.
+  The same witness log format works across all 5 ports — replay a session recorded on the Pico in the browser,
+  replay a browser session on the Rust firmware, replay a Rust session in the Python simulator.
+</p>
+
+<div class="code">EFFECT button_a → 1 @ tick=83
+EFFECT buzzer_1 → 1000 @ tick=84
+EFFECT oled → "   Button A: 1" @ tick=85
+EFFECT joystick → (-0.6, -0.6) @ tick=86
+EFFECT joystick_button → 1 @ tick=87
+PATTERN heart rendered (17 cells)</div>
+
+<h2>The far-future first principles</h2>
+
+<div class="quote">
+  <p>
+    "The stitching is the portings and protocols; but the emergent quality of the patchwork quilt is the entanglement."
+  </p>
+  <p style="margin-top: 0.5rem;">
+    "The quantum is, for the most part, not the producer, it is the engineer's intuition. it is the guide of the moment, not the stable throughput. this is one of the paradigm shifts at it's core that quilt enables. like a real-time strategy perspective that a general has versus the first-person-shooter sagent perspective of an actor in the theater of war."
+  </p>
+  <p style="margin-top: 0.5rem;">— Casey DiGennaro, September 2026</p>
+</div>
+
+<p>
+  The far-future version of this is:
+</p>
+<ul class="ports-list">
+  <li>Every program is a cell-graph. The substrate is universal.</li>
+  <li>Every cell is observable — frame timing, memory, witness chain.</li>
+  <li>Every IO port becomes a typed LINK. Every substrate becomes a cell value.</li>
+  <li>The Quilt is the intermediate layer — never the runtime, always the visualization.</li>
+  <li>Quilt-portable means: the same cell-graph runs in Pico, browser, server, robot, DAW, trading app.</li>
+  <li>The CUDA-Q planning layer proposes which cells to LINK. Classical substrate commits.</li>
+  <li>Quilt work backwards from far-future application first: what does the spreadsheet of the year 2032 look like? The answer: a Countroller, but with a million cells.</li>
+</ul>
+
+<p style="margin-top: 2rem; color: var(--dim); font-size: 0.8rem;">
+  <a href="https://github.com/SuperInstance/quilt-Countroller">quilt-Countroller</a> · <a href="https://github.com/SuperInstance/Quilt-Robotic-Arm---Gesture-Controlled">Quilt-Robotic-Arm</a> · <a href="https://github.com/SuperInstance/quilt-esp32">quilt-esp32</a> · <a href="https://github.com/SuperInstance/quilt-cordis">quilt-cordis</a>
+</p>
+
+</div>
+</body>
+</html>

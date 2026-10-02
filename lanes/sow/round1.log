@@ -1,0 +1,25 @@
+--- Mistral-Small-3.2-24B-Instruct-2506 ---
+1. **Compare the Python environments**: Use `pip list` or `pip freeze` in both the installed package environment and the git clone environment to list all installed packages and their versions.
+
+2. **Check the installation method**: Verify how the package was installed in each case (e.g., `pip install`, `pip install -e`, or source installation) by checking the output of `pip show <package_name>` or inspecting the `site-packages` directory.
+
+3. **Inspect the `verify.py` script location**: Confirm the exact file path of `verify.py` when run in both environments using `print(__file__)` or `import verify; print(verify.__file__)`.
+
+4. **List all files and resources imported by `verify.py`**: Run 
+
+--- gemma-3-27b-it ---
+Okay, here's a numbered decomposition of the task "A run of quilt-c's verify.py reports FAILED with 0 assertions passed when run from an installed Python package, but 1285 passed when run from a git clone. Find the cause.", aiming for 4-8 concrete steps, following the example provided.
+
+1. **Record the exact `verify.py` invocation command** used in both the successful (git clone) and failing (installed package) scenarios. Include the full path to `verify.py` and any arguments. This establishes the baseline.
+
+2. **List the contents of the top-level directory** of the git clone *and* the installed package's location.  Specifically, record all files and subdirectories present in each. This will
+
+--- Llama-3.3-70B-Instruct ---
+Here is a decomposition of the task:
+
+1. Run `verify.py` from the installed Python package and capture the full output, including any error messages, to a file named `installed_output.txt`.
+2. Run `verify.py` from the git clone and capture the full output, including any error messages, to a file named `git_clone_output.txt`.
+3. Compare the contents of `installed_output.txt` and `git_clone_output.txt` using a diff tool to identify any differences in the output.
+4. Identify the first test or assertion that fails when running `verify.py` from the installed Python package, and note the specific error message or exception that occurs.
+5. Use a debugger or print statements to trace the execution o
+

@@ -1,0 +1,29 @@
+{
+ "repo": "si-streamer",
+ "swept_at": "2026-09-30T05:55:13Z",
+ "findings": [],
+ "ops": [
+  {
+   "kind": "ipv4",
+   "distinct": 1,
+   "samples": [
+    "0.0.0.0"
+   ]
+  },
+  {
+   "kind": "email address",
+   "distinct": 3,
+   "samples": [
+    "+@pytest.fixture",
+    "casey@superinstance.com",
+    "fleet@superinstance.dev"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 77103,
+  "gitleaks": 0,
+  "high_entropy_strings": 0
+ }
+}

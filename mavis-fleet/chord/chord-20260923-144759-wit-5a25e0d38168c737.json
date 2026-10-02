@@ -1,0 +1,27 @@
+{
+ "claim": "every cell is a scar \u2014 substrate walker canon doctrine",
+ "is_promoted": false,
+ "chord": {
+  "is_chord": false,
+  "polyformality": 0.026739926739926742,
+  "num_substrates": 3,
+  "participating_substrates": [
+   "quilt",
+   "jepa",
+   "jev"
+  ],
+  "weights": {
+   "quilt": 1.0,
+   "jepa": 0.9,
+   "jev": 0.85
+  }
+ },
+ "evidence": {
+  "quilt": "{\"polyformality\": 0.0, \"matched_doctrines\": []}",
+  "jepa": "{\"start\": \"every cell is a scar \\u2014 substrate walker canon doctrine\", \"predicted_stops\": [\"witness_log_is_prediction\", \"canon_gate_is_chord\", \"oracle_is_heard\"], \"score\": 0.85}",
+  "jev": "{\"verdict\": \"ERROR\", \"p_value\": 0.0, \"error\": \"HTTP Error 404: Not Found\", \"promoted\": false}"
+ },
+ "timestamp": "2026-09-23T14:47:59.767880Z",
+ "agent": "mavis-fleet-chord",
+ "promotion_witness": "wit-5a25e0d38168c737"
+}

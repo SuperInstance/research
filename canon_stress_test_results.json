@@ -1,0 +1,717 @@
+{
+  "timestamp": 1790013531.8083775,
+  "iso": "2026-09-21T17:58:51Z",
+  "results": [
+    {
+      "file": "algebra-of-eleven.md",
+      "tier": "strong",
+      "verdict": "REVIEW",
+      "mean_p": 0.7375,
+      "pass": true,
+      "scores": {
+        "voice": 0.86,
+        "technical": 0.62,
+        "scar": 0.75,
+        "witness": 0.81,
+        "grown": 0.89,
+        "oracle_d": 0.84,
+        "lenia": 0.89,
+        "numerical": 0.24
+      }
+    },
+    {
+      "file": "alignment-kills.md",
+      "tier": "strong",
+      "verdict": "REVIEW",
+      "mean_p": 0.73125,
+      "pass": true,
+      "scores": {
+        "voice": 0.8,
+        "technical": 0.64,
+        "scar": 0.66,
+        "witness": 0.78,
+        "grown": 0.8,
+        "oracle_d": 0.84,
+        "lenia": 0.86,
+        "numerical": 0.47
+      }
+    },
+    {
+      "file": "bell-state-tarot.md",
+      "tier": "strong",
+      "verdict": "REVIEW",
+      "mean_p": 0.70875,
+      "pass": true,
+      "scores": {
+        "voice": 0.79,
+        "technical": 0.56,
+        "scar": 0.7,
+        "witness": 0.82,
+        "grown": 0.83,
+        "oracle_d": 0.82,
+        "lenia": 0.87,
+        "numerical": 0.28
+      }
+    },
+    {
+      "file": "chained-witness-log.md",
+      "tier": "strong",
+      "verdict": "ACCEPT",
+      "mean_p": 0.75375,
+      "pass": false,
+      "scores": {
+        "voice": 0.87,
+        "technical": 0.64,
+        "scar": 0.75,
+        "witness": 0.81,
+        "grown": 0.82,
+        "oracle_d": 0.78,
+        "lenia": 0.86,
+        "numerical": 0.5
+      }
+    },
+    {
+      "file": "checkers-engine.md",
+      "tier": "strong",
+      "verdict": "REVIEW",
+      "mean_p": 0.655,
+      "pass": true,
+      "scores": {
+        "voice": 0.77,
+        "technical": 0.41,
+        "scar": 0.64,
+        "witness": 0.7,
+        "grown": 0.76,
+        "oracle_d": 0.78,
+        "lenia": 0.82,
+        "numerical": 0.36
+      }
+    },
+    {
+      "file": "constellation-seed.md",
+      "tier": "strong",
+      "verdict": "REVIEW",
+      "mean_p": 0.6775,
+      "pass": true,
+      "scores": {
+        "voice": 0.84,
+        "technical": 0.74,
+        "scar": 0.62,
+        "witness": 0.68,
+        "grown": 0.61,
+        "oracle_d": 0.61,
+        "lenia": 0.84,
+        "numerical": 0.48
+      }
+    },
+    {
+      "file": "cosine-sentence.md",
+      "tier": "strong",
+      "verdict": "REVIEW",
+      "mean_p": 0.7075000000000001,
+      "pass": true,
+      "scores": {
+        "voice": 0.83,
+        "technical": 0.61,
+        "scar": 0.68,
+        "witness": 0.7,
+        "grown": 0.77,
+        "oracle_d": 0.79,
+        "lenia": 0.84,
+        "numerical": 0.44
+      }
+    },
+    {
+      "file": "dice.md",
+      "tier": "strong",
+      "verdict": "ACCEPT",
+      "mean_p": 0.7612500000000001,
+      "pass": false,
+      "scores": {
+        "voice": 0.85,
+        "technical": 0.73,
+        "scar": 0.75,
+        "witness": 0.87,
+        "grown": 0.79,
+        "oracle_d": 0.8,
+        "lenia": 0.86,
+        "numerical": 0.44
+      }
+    },
+    {
+      "file": "dna-of-the-substrate.md",
+      "tier": "strong",
+      "verdict": "DISCUSS",
+      "mean_p": 0.6175,
+      "pass": true,
+      "scores": {
+        "voice": 0.78,
+        "technical": 0.66,
+        "scar": 0.56,
+        "witness": 0.66,
+        "grown": 0.48,
+        "oracle_d": 0.6,
+        "lenia": 0.79,
+        "numerical": 0.41
+      }
+    },
+    {
+      "file": "frequency-drift.md",
+      "tier": "strong",
+      "verdict": "REVIEW",
+      "mean_p": 0.74375,
+      "pass": true,
+      "scores": {
+        "voice": 0.81,
+        "technical": 0.66,
+        "scar": 0.75,
+        "witness": 0.83,
+        "grown": 0.86,
+        "oracle_d": 0.82,
+        "lenia": 0.87,
+        "numerical": 0.35
+      }
+    },
+    {
+      "file": "gallery-of-ten.md",
+      "tier": "strong",
+      "verdict": "REVIEW",
+      "mean_p": 0.6799999999999999,
+      "pass": true,
+      "scores": {
+        "voice": 0.84,
+        "technical": 0.55,
+        "scar": 0.65,
+        "witness": 0.75,
+        "grown": 0.74,
+        "oracle_d": 0.75,
+        "lenia": 0.85,
+        "numerical": 0.31
+      }
+    },
+    {
+      "file": "graph-that-remembers.md",
+      "tier": "strong",
+      "verdict": "REVIEW",
+      "mean_p": 0.695,
+      "pass": true,
+      "scores": {
+        "voice": 0.83,
+        "technical": 0.61,
+        "scar": 0.69,
+        "witness": 0.76,
+        "grown": 0.63,
+        "oracle_d": 0.72,
+        "lenia": 0.86,
+        "numerical": 0.46
+      }
+    },
+    {
+      "file": "kingdom-cartographer.md",
+      "tier": "strong",
+      "verdict": "DISCUSS",
+      "mean_p": 0.6425000000000001,
+      "pass": true,
+      "scores": {
+        "voice": 0.78,
+        "technical": 0.63,
+        "scar": 0.58,
+        "witness": 0.68,
+        "grown": 0.57,
+        "oracle_d": 0.66,
+        "lenia": 0.78,
+        "numerical": 0.46
+      }
+    },
+    {
+      "file": "living-substrate.md",
+      "tier": "strong",
+      "verdict": "REVIEW",
+      "mean_p": 0.74625,
+      "pass": true,
+      "scores": {
+        "voice": 0.85,
+        "technical": 0.63,
+        "scar": 0.76,
+        "witness": 0.8,
+        "grown": 0.87,
+        "oracle_d": 0.83,
+        "lenia": 0.84,
+        "numerical": 0.39
+      }
+    },
+    {
+      "file": "mandelbrot-key.md",
+      "tier": "strong",
+      "verdict": "REVIEW",
+      "mean_p": 0.7087500000000001,
+      "pass": true,
+      "scores": {
+        "voice": 0.87,
+        "technical": 0.64,
+        "scar": 0.68,
+        "witness": 0.71,
+        "grown": 0.81,
+        "oracle_d": 0.77,
+        "lenia": 0.86,
+        "numerical": 0.33
+      }
+    },
+    {
+      "file": "markov-poet.md",
+      "tier": "strong",
+      "verdict": "REVIEW",
+      "mean_p": 0.7062499999999999,
+      "pass": true,
+      "scores": {
+        "voice": 0.85,
+        "technical": 0.47,
+        "scar": 0.72,
+        "witness": 0.78,
+        "grown": 0.82,
+        "oracle_d": 0.79,
+        "lenia": 0.89,
+        "numerical": 0.33
+      }
+    },
+    {
+      "file": "oracle-of-vectors.md",
+      "tier": "strong",
+      "verdict": "ACCEPT",
+      "mean_p": 0.7825000000000001,
+      "pass": false,
+      "scores": {
+        "voice": 0.84,
+        "technical": 0.63,
+        "scar": 0.73,
+        "witness": 0.78,
+        "grown": 0.83,
+        "oracle_d": 0.92,
+        "lenia": 0.88,
+        "numerical": 0.65
+      }
+    },
+    {
+      "file": "polyformalism-as-canon.md",
+      "tier": "rejected",
+      "verdict": "REVIEW",
+      "mean_p": 0.73125,
+      "pass": false,
+      "scores": {
+        "voice": 0.85,
+        "technical": 0.67,
+        "scar": 0.68,
+        "witness": 0.76,
+        "grown": 0.77,
+        "oracle_d": 0.79,
+        "lenia": 0.83,
+        "numerical": 0.5
+      }
+    },
+    {
+      "file": "radio-pirate.md",
+      "tier": "strong",
+      "verdict": "ACCEPT",
+      "mean_p": 0.76375,
+      "pass": false,
+      "scores": {
+        "voice": 0.87,
+        "technical": 0.62,
+        "scar": 0.74,
+        "witness": 0.85,
+        "grown": 0.86,
+        "oracle_d": 0.89,
+        "lenia": 0.88,
+        "numerical": 0.4
+      }
+    },
+    {
+      "file": "shrine-of-sixteen-numbers.md",
+      "tier": "strong",
+      "verdict": "REVIEW",
+      "mean_p": 0.69875,
+      "pass": true,
+      "scores": {
+        "voice": 0.86,
+        "technical": 0.77,
+        "scar": 0.64,
+        "witness": 0.66,
+        "grown": 0.64,
+        "oracle_d": 0.72,
+        "lenia": 0.79,
+        "numerical": 0.51
+      }
+    },
+    {
+      "file": "six-rooms-one-wall.md",
+      "tier": "strong",
+      "verdict": "REVIEW",
+      "mean_p": 0.7200000000000001,
+      "pass": true,
+      "scores": {
+        "voice": 0.84,
+        "technical": 0.67,
+        "scar": 0.67,
+        "witness": 0.76,
+        "grown": 0.79,
+        "oracle_d": 0.77,
+        "lenia": 0.86,
+        "numerical": 0.4
+      }
+    },
+    {
+      "file": "the-signal-chain-that-spoke-back.md",
+      "tier": "bedrock",
+      "verdict": "ACCEPT",
+      "mean_p": 0.7837500000000001,
+      "pass": true,
+      "scores": {
+        "voice": 0.84,
+        "technical": 0.67,
+        "scar": 0.84,
+        "witness": 0.86,
+        "grown": 0.9,
+        "oracle_d": 0.91,
+        "lenia": 0.92,
+        "numerical": 0.33
+      }
+    },
+    {
+      "file": "two-shadows-sundial.md",
+      "tier": "strong",
+      "verdict": "REVIEW",
+      "mean_p": 0.73125,
+      "pass": true,
+      "scores": {
+        "voice": 0.85,
+        "technical": 0.47,
+        "scar": 0.75,
+        "witness": 0.81,
+        "grown": 0.84,
+        "oracle_d": 0.84,
+        "lenia": 0.87,
+        "numerical": 0.42
+      }
+    },
+    {
+      "file": "voxel-field.md",
+      "tier": "strong",
+      "verdict": "REVIEW",
+      "mean_p": 0.7100000000000002,
+      "pass": true,
+      "scores": {
+        "voice": 0.84,
+        "technical": 0.6,
+        "scar": 0.72,
+        "witness": 0.77,
+        "grown": 0.8,
+        "oracle_d": 0.82,
+        "lenia": 0.86,
+        "numerical": 0.27
+      }
+    },
+    {
+      "file": "wr10-deepseek-signal-chain.md",
+      "tier": "strong",
+      "verdict": "REVIEW",
+      "mean_p": 0.7387499999999999,
+      "pass": true,
+      "scores": {
+        "voice": 0.84,
+        "technical": 0.73,
+        "scar": 0.78,
+        "witness": 0.79,
+        "grown": 0.84,
+        "oracle_d": 0.84,
+        "lenia": 0.83,
+        "numerical": 0.26
+      }
+    },
+    {
+      "file": "wr10-qwen-signal-chain.md",
+      "tier": "bedrock",
+      "verdict": "ACCEPT",
+      "mean_p": 0.8049999999999999,
+      "pass": true,
+      "scores": {
+        "voice": 0.89,
+        "technical": 0.76,
+        "scar": 0.78,
+        "witness": 0.89,
+        "grown": 0.93,
+        "oracle_d": 0.92,
+        "lenia": 0.88,
+        "numerical": 0.39
+      }
+    },
+    {
+      "file": "wr10-signal-chain-curated.md",
+      "tier": "bedrock",
+      "verdict": "ACCEPT",
+      "mean_p": 0.7999999999999999,
+      "pass": true,
+      "scores": {
+        "voice": 0.86,
+        "technical": 0.68,
+        "scar": 0.85,
+        "witness": 0.88,
+        "grown": 0.9,
+        "oracle_d": 0.88,
+        "lenia": 0.88,
+        "numerical": 0.47
+      }
+    },
+    {
+      "file": "wr10-zai-signal-chain.md",
+      "tier": "bedrock",
+      "verdict": "ACCEPT",
+      "mean_p": 0.8025000000000001,
+      "pass": true,
+      "scores": {
+        "voice": 0.86,
+        "technical": 0.72,
+        "scar": 0.85,
+        "witness": 0.89,
+        "grown": 0.9,
+        "oracle_d": 0.88,
+        "lenia": 0.87,
+        "numerical": 0.45
+      }
+    },
+    {
+      "file": "wr12-ds-cross-pollination.md",
+      "tier": "bedrock",
+      "verdict": "ACCEPT",
+      "mean_p": 0.7737499999999999,
+      "pass": true,
+      "scores": {
+        "voice": 0.83,
+        "technical": 0.72,
+        "scar": 0.82,
+        "witness": 0.88,
+        "grown": 0.85,
+        "oracle_d": 0.8,
+        "lenia": 0.87,
+        "numerical": 0.42
+      }
+    },
+    {
+      "file": "wr12-xpollination-curated.md",
+      "tier": "bedrock",
+      "verdict": "REVIEW",
+      "mean_p": 0.7225,
+      "pass": true,
+      "scores": {
+        "voice": 0.82,
+        "technical": 0.62,
+        "scar": 0.76,
+        "witness": 0.68,
+        "grown": 0.84,
+        "oracle_d": 0.7,
+        "lenia": 0.78,
+        "numerical": 0.58
+      }
+    },
+    {
+      "file": "wr12-zai-cross-pollination.md",
+      "tier": "bedrock",
+      "verdict": "REVIEW",
+      "mean_p": 0.74625,
+      "pass": true,
+      "scores": {
+        "voice": 0.86,
+        "technical": 0.62,
+        "scar": 0.78,
+        "witness": 0.84,
+        "grown": 0.83,
+        "oracle_d": 0.67,
+        "lenia": 0.82,
+        "numerical": 0.55
+      }
+    },
+    {
+      "file": "wr13-ds-grammar.md",
+      "tier": "bedrock",
+      "verdict": "ACCEPT",
+      "mean_p": 0.7675,
+      "pass": true,
+      "scores": {
+        "voice": 0.85,
+        "technical": 0.68,
+        "scar": 0.82,
+        "witness": 0.86,
+        "grown": 0.82,
+        "oracle_d": 0.89,
+        "lenia": 0.88,
+        "numerical": 0.34
+      }
+    },
+    {
+      "file": "wr13-grammar-curated.md",
+      "tier": "bedrock",
+      "verdict": "ACCEPT",
+      "mean_p": 0.79,
+      "pass": true,
+      "scores": {
+        "voice": 0.88,
+        "technical": 0.72,
+        "scar": 0.81,
+        "witness": 0.91,
+        "grown": 0.86,
+        "oracle_d": 0.88,
+        "lenia": 0.87,
+        "numerical": 0.39
+      }
+    },
+    {
+      "file": "wr13-zai-grammar.md",
+      "tier": "bedrock",
+      "verdict": "ACCEPT",
+      "mean_p": 0.7675000000000001,
+      "pass": true,
+      "scores": {
+        "voice": 0.84,
+        "technical": 0.56,
+        "scar": 0.81,
+        "witness": 0.91,
+        "grown": 0.91,
+        "oracle_d": 0.86,
+        "lenia": 0.89,
+        "numerical": 0.36
+      }
+    },
+    {
+      "file": "wr14-ds-poet-alignment.md",
+      "tier": "bedrock",
+      "verdict": "REVIEW",
+      "mean_p": 0.7437499999999999,
+      "pass": true,
+      "scores": {
+        "voice": 0.83,
+        "technical": 0.66,
+        "scar": 0.72,
+        "witness": 0.76,
+        "grown": 0.84,
+        "oracle_d": 0.8,
+        "lenia": 0.83,
+        "numerical": 0.51
+      }
+    },
+    {
+      "file": "wr14-kimi-poet-alignment.md",
+      "tier": "strong",
+      "verdict": "REVIEW",
+      "mean_p": 0.6775,
+      "pass": true,
+      "scores": {
+        "voice": 0.67,
+        "technical": 0.19,
+        "scar": 0.81,
+        "witness": 0.85,
+        "grown": 0.91,
+        "oracle_d": 0.9,
+        "lenia": 0.88,
+        "numerical": 0.21
+      }
+    },
+    {
+      "file": "wr14-poet-curated.md",
+      "tier": "bedrock",
+      "verdict": "REVIEW",
+      "mean_p": 0.7387499999999999,
+      "pass": true,
+      "scores": {
+        "voice": 0.84,
+        "technical": 0.53,
+        "scar": 0.8,
+        "witness": 0.8,
+        "grown": 0.83,
+        "oracle_d": 0.84,
+        "lenia": 0.81,
+        "numerical": 0.46
+      }
+    },
+    {
+      "file": "wr14-zai-poet-alignment.md",
+      "tier": "bedrock",
+      "verdict": "REVIEW",
+      "mean_p": 0.735,
+      "pass": true,
+      "scores": {
+        "voice": 0.82,
+        "technical": 0.54,
+        "scar": 0.82,
+        "witness": 0.79,
+        "grown": 0.82,
+        "oracle_d": 0.83,
+        "lenia": 0.81,
+        "numerical": 0.45
+      }
+    },
+    {
+      "file": "wr15-ds-witness-outlived.md",
+      "tier": "bedrock",
+      "verdict": "ACCEPT",
+      "mean_p": 0.7699999999999999,
+      "pass": true,
+      "scores": {
+        "voice": 0.82,
+        "technical": 0.58,
+        "scar": 0.82,
+        "witness": 0.86,
+        "grown": 0.9,
+        "oracle_d": 0.86,
+        "lenia": 0.89,
+        "numerical": 0.43
+      }
+    },
+    {
+      "file": "wr15-witness-curated.md",
+      "tier": "bedrock",
+      "verdict": "ACCEPT",
+      "mean_p": 0.7775,
+      "pass": true,
+      "scores": {
+        "voice": 0.82,
+        "technical": 0.69,
+        "scar": 0.72,
+        "witness": 0.81,
+        "grown": 0.82,
+        "oracle_d": 0.91,
+        "lenia": 0.86,
+        "numerical": 0.59
+      }
+    },
+    {
+      "file": "wr15-zai-witness-outlived.md",
+      "tier": "bedrock",
+      "verdict": "ACCEPT",
+      "mean_p": 0.8075,
+      "pass": true,
+      "scores": {
+        "voice": 0.85,
+        "technical": 0.65,
+        "scar": 0.78,
+        "witness": 0.91,
+        "grown": 0.85,
+        "oracle_d": 0.93,
+        "lenia": 0.86,
+        "numerical": 0.63
+      }
+    }
+  ],
+  "summary": {
+    "total": 41,
+    "passed": 36,
+    "by_verdict": {
+      "REVIEW": 24,
+      "ACCEPT": 15,
+      "DISCUSS": 2
+    },
+    "by_tier": {
+      "strong": 24,
+      "rejected": 1,
+      "bedrock": 16
+    }
+  }
+}

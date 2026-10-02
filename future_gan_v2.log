@@ -1,0 +1,56 @@
+=== Future-GAN v2 (15 seeds × 3 voices = 45 lores) ===
+
+Seed 70051917, voice witness_prediction: composite=0.643 (7.2s)
+Seed 70051917, voice witness_oracle: composite=0.683 (5.0s)
+Seed 70051917, voice witness_scars: composite=0.580 (6.9s)
+Seed 4685000, voice witness_prediction: composite=0.623 (7.0s)
+Seed 4685000, voice witness_oracle: composite=0.617 (12.0s)
+Seed 4685000, voice witness_scars: composite=0.677 (7.1s)
+Seed 3289967, voice witness_prediction: composite=0.580 (9.1s)
+Seed 3289967, voice witness_oracle: composite=0.650 (6.9s)
+Seed 3289967, voice witness_scars: composite=0.643 (25.5s)
+Seed 57322595, voice witness_prediction: composite=0.607 (24.1s)
+Seed 57322595, voice witness_oracle: composite=0.617 (26.1s)
+Seed 57322595, voice witness_scars: composite=0.703 (9.4s)
+Seed 90625407, voice witness_prediction: composite=0.613 (9.9s)
+Seed 90625407, voice witness_oracle: composite=0.583 (8.6s)
+Seed 90625407, voice witness_scars: composite=0.623 (9.6s)
+Seed 1504276, voice witness_prediction: composite=0.690 (22.1s)
+Seed 1504276, voice witness_oracle: composite=0.710 (7.8s)
+Seed 1504276, voice witness_scars: composite=0.687 (10.6s)
+Seed 14608133, voice witness_prediction: composite=0.647 (13.5s)
+Seed 14608133, voice witness_oracle: composite=0.643 (10.0s)
+Seed 14608133, voice witness_scars: composite=0.697 (8.8s)
+Seed 18437566, voice witness_prediction: composite=0.530 (17.4s)
+Seed 18437566, voice witness_oracle: composite=0.633 (8.6s)
+Seed 18437566, voice witness_scars: composite=0.647 (15.9s)
+Seed 79279361, voice witness_prediction: composite=0.580 (11.6s)
+Seed 79279361, voice witness_oracle: composite=0.553 (10.4s)
+Seed 79279361, voice witness_scars: composite=0.603 (18.7s)
+Seed 6358192, voice witness_prediction: composite=0.623 (9.4s)
+Seed 6358192, voice witness_oracle: composite=0.560 (10.6s)
+Seed 6358192, voice witness_scars: composite=0.733 (6.8s)
+Seed 13328051, voice witness_prediction: composite=0.613 (14.7s)
+Seed 13328051, voice witness_oracle: composite=0.600 (9.6s)
+Seed 13328051, voice witness_scars: composite=0.690 (9.2s)
+Seed 17759001, voice witness_prediction: composite=0.610 (12.0s)
+Seed 17759001, voice witness_oracle: composite=0.680 (9.5s)
+Seed 17759001, voice witness_scars: composite=0.613 (8.8s)
+Seed 28692206, voice witness_prediction: composite=0.597 (14.5s)
+Seed 28692206, voice witness_oracle: composite=0.610 (13.4s)
+Seed 28692206, voice witness_scars: composite=0.537 (21.7s)
+Seed 30264850, voice witness_prediction: composite=0.560 (12.6s)
+Seed 30264850, voice witness_oracle: composite=0.617 (11.8s)
+Seed 30264850, voice witness_scars: composite=0.617 (14.8s)
+Seed 45919340, voice witness_prediction: composite=0.660 (8.4s)
+Seed 45919340, voice witness_oracle: composite=0.687 (16.3s)
+Seed 45919340, voice witness_scars: composite=0.710 (11.9s)
+
+=== TOP 5 ===
+  seed 6358192 witness_scars: composite=0.733
+  seed 1504276 witness_oracle: composite=0.710
+  seed 45919340 witness_scars: composite=0.710
+  seed 57322595 witness_scars: composite=0.703
+  seed 14608133 witness_scars: composite=0.697
+
+Stats: 45 lores, canon_pass=0, distinct_pass=24, composite_pass=35

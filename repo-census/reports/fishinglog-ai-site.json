@@ -1,0 +1,32 @@
+{
+ "repo": "fishinglog-ai-site",
+ "swept_at": "2026-09-30T05:54:02Z",
+ "findings": [
+  {
+   "tool": "grep",
+   "kind": "low-entropy hex (cf account id, exactly 32)",
+   "group": "protocol",
+   "count": 2,
+   "excerpt": "049ff5\u2026aae6 (32 chars)"
+  }
+ ],
+ "ops": [
+  {
+   "kind": "email address",
+   "distinct": 17,
+   "samples": [
+    "Casey.digennaro@gmail.com",
+    "a@b.com",
+    "alice@example.com",
+    "bob@fish.com",
+    "carol@example.com"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 99045,
+  "gitleaks": 0,
+  "high_entropy_strings": 68
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "substrate": "jepa",
+ "experiment_id": "fleet-jepa",
+ "started_at": "2026-09-23T14:50:28.594385Z",
+ "finished_at": "2026-09-23T14:50:28.594414Z",
+ "metric": 0.85,
+ "status": "success",
+ "id": "91e5311486a2c0a3"
+}

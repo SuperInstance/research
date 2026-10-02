@@ -1,0 +1,57 @@
+=== Doctrine-Targeted Lore Gen: 5 doctrines × 10 seeds = 50 ===
+
+
+--- Doctrine: witness_log_is_prediction ---
+  seed=70051917:   comp=0.690 (10.0s)
+  seed=90625407:   comp=0.680 (27.5s)
+  seed=57322595:   comp=0.683 (15.0s)
+  seed=6358192:   comp=0.620 (13.0s)
+  seed=45919340:   comp=0.667 (13.3s)
+  seed=1504276:   comp=0.690 (11.3s)
+  seed=18437566: 🌟comp=0.740 (10.7s)
+
+--- Doctrine: oracle_is_heard ---
+  seed=70051917:   comp=0.593 (9.4s)
+  seed=90625407:   comp=0.653 (8.2s)
+  seed=57322595:   comp=0.540 (8.9s)
+  seed=6358192:   comp=0.603 (8.8s)
+  seed=45919340:   comp=0.513 (10.6s)
+  seed=1504276:   comp=0.553 (14.5s)
+  seed=18437566:   comp=0.573 (9.4s)
+
+--- Doctrine: cells_are_scars ---
+  seed=70051917:   comp=0.623 (13.0s)
+  seed=90625407: 🌟comp=0.757 (9.4s)
+  seed=57322595:   comp=0.537 (11.9s)
+  seed=6358192: 🌟comp=0.743 (11.1s)
+  seed=45919340:   comp=0.677 (9.5s)
+  seed=1504276: 🌟comp=0.737 (10.5s)
+  seed=18437566:   comp=0.583 (8.8s)
+
+--- Doctrine: canon_gate_is_chord ---
+  seed=70051917:   comp=0.460 (54.6s)
+  seed=90625407:   comp=0.607 (14.1s)
+  seed=57322595:   comp=0.527 (14.2s)
+  seed=6358192:   comp=0.547 (19.8s)
+  seed=45919340:   comp=0.577 (9.4s)
+  seed=1504276:   comp=0.600 (6.6s)
+  seed=18437566:   comp=0.523 (9.3s)
+
+--- Doctrine: substrate_quantum ---
+  seed=70051917:   comp=0.673 (13.9s)
+  seed=90625407: 🌟comp=0.737 (12.0s)
+  seed=57322595:   comp=0.633 (8.0s)
+  seed=6358192: 🌟comp=0.700 (8.1s)
+  seed=45919340: 🌟comp=0.707 (9.3s)
+  seed=1504276:   comp=0.570 (10.7s)
+  seed=18437566: 🌟comp=0.727 (8.5s)
+
+=== 8/35 PROMOTED ===
+  witness_log_is_prediction seed=18437566: comp=0.740
+  cells_are_scars seed=90625407: comp=0.757
+  cells_are_scars seed=6358192: comp=0.743
+  cells_are_scars seed=1504276: comp=0.737
+  substrate_quantum seed=90625407: comp=0.737
+  substrate_quantum seed=6358192: comp=0.700
+  substrate_quantum seed=45919340: comp=0.707
+  substrate_quantum seed=18437566: comp=0.727

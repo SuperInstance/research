@@ -1,0 +1,102 @@
+{
+  "audit": "fleet_canary",
+  "iso": "2026-09-21T20:35:23Z",
+  "canary_string": "caf\u00e9 \u0394 \u65e5\u672c\u8a9e",
+  "expected": "0x24a555471370b18d",
+  "actual": "0x24a555471370b18d",
+  "verified": true,
+  "ships": [
+    {
+      "ship": "TS: substrate-bench",
+      "path": "/workspace/repos/substrate-bench",
+      "canary_pinned": true,
+      "context": "et canary (Issue #16): fnv1a-64(\"caf\u00e9 \u0394 \u65e5\u672c\u8a9e\") === 0x024a555471370b18d.\n *\n * Every published substrate ship pins this v"
+    },
+    {
+      "ship": "TS: substrate-embedding",
+      "path": "/workspace/repos/substrate-embedding",
+      "canary_pinned": true,
+      "context": "et canary (Issue #16): fnv1a-64(\"caf\u00e9 \u0394 \u65e5\u672c\u8a9e\") === 0x024a555471370b18d.\n *\n * Every published substrate ship pins this v"
+    },
+    {
+      "ship": "TS: substrate-forge",
+      "path": "/workspace/repos/substrate-forge",
+      "canary_pinned": true,
+      "context": "et canary (Issue #16): fnv1a-64(\"caf\u00e9 \u0394 \u65e5\u672c\u8a9e\") === 0x024a555471370b18d.\n *\n * Every published substrate ship pins this v"
+    },
+    {
+      "ship": "TS: substrate-game-engine",
+      "path": "/workspace/repos/substrate-game-engine",
+      "canary_pinned": true,
+      "context": "et canary (Issue #16): fnv1a-64(\"caf\u00e9 \u0394 \u65e5\u672c\u8a9e\") === 0x024a555471370b18d.\n *\n * Every published substrate ship pins this v"
+    },
+    {
+      "ship": "TS: substrate-gan",
+      "path": "/workspace/repos/substrate-gan",
+      "canary_pinned": true,
+      "context": "et canary (Issue #16): fnv1a-64(\"caf\u00e9 \u0394 \u65e5\u672c\u8a9e\") === 0x024a555471370b18d.\n *\n * Every published substrate ship pins this v"
+    },
+    {
+      "ship": "TS: substrate-llm-client",
+      "path": "/workspace/repos/substrate-llm-client",
+      "canary_pinned": true,
+      "context": "ary (Issue #16) ---\n// fnv1a-64(\"caf\u00e9 \u0394 \u65e5\u672c\u8a9e\") === 0x024a555471370b18d\n// The substrate-rng FNV-1a basis 0xcbf29ce484222"
+    },
+    {
+      "ship": "TS: substrate-opposites",
+      "path": "/workspace/repos/substrate-opposites",
+      "canary_pinned": true,
+      "context": "et canary (Issue #16): fnv1a-64(\"caf\u00e9 \u0394 \u65e5\u672c\u8a9e\") === 0x024a555471370b18d.\n *\n * Every published substrate ship pins this v"
+    },
+    {
+      "ship": "TS: substrate-post-quantum",
+      "path": "/workspace/repos/substrate-post-quantum",
+      "canary_pinned": true,
+      "context": "et canary (Issue #16): fnv1a-64(\"caf\u00e9 \u0394 \u65e5\u672c\u8a9e\") === 0x024a555471370b18d.\n *\n * Every published substrate ship pins this v"
+    },
+    {
+      "ship": "TS: substrate-quantum",
+      "path": "/workspace/repos/substrate-quantum",
+      "canary_pinned": true,
+      "context": "et canary (Issue #16): fnv1a-64(\"caf\u00e9 \u0394 \u65e5\u672c\u8a9e\") === 0x024a555471370b18d.\n *\n * Every published substrate ship pins this v"
+    },
+    {
+      "ship": "TS: substrate-rng",
+      "path": "/workspace/repos/substrate-rng",
+      "canary_pinned": true,
+      "context": "et canary (Issue #16): fnv1a-64(\"caf\u00e9 \u0394 \u65e5\u672c\u8a9e\") === 0x024a555471370b18d.\n *\n * Every published substrate ship pins this v"
+    },
+    {
+      "ship": "TS: substrate-vectors",
+      "path": "/workspace/repos/substrate-vectors",
+      "canary_pinned": true,
+      "context": "et canary (Issue #16): fnv1a-64(\"caf\u00e9 \u0394 \u65e5\u672c\u8a9e\") === 0x024a555471370b18d.\n *\n * Every published substrate ship pins this v"
+    },
+    {
+      "ship": "TS: substrate-videogame-ml",
+      "path": "/workspace/repos/substrate-videogame-ml",
+      "canary_pinned": true,
+      "context": "et canary (Issue #16): fnv1a-64(\"caf\u00e9 \u0394 \u65e5\u672c\u8a9e\") === 0x024a555471370b18d.\n *\n * Every published substrate ship pins this v"
+    },
+    {
+      "ship": "TS: jev-receipts",
+      "path": "/workspace/repos/jev-receipts",
+      "canary_pinned": true,
+      "context": "quilt PR #3:\n *   fnv1a-1a-UTF8(\"caf\u00e9 \u0394 \u65e5\u672c\u8a9e\") === 0x024a555471370b18d\n * duke-lab's runArgument already averages the 16"
+    },
+    {
+      "ship": "Python: jev-quilt",
+      "path": "/workspace/repos/jev-quilt",
+      "canary_pinned": true,
+      "context": ". Pins the fleet canary: fnv1a-64(\"caf\u00e9 \u0394 \u65e5\u672c\u8a9e\") = 0x024a555471370b18d. Includes backends, bookkeeper, cell, q16, and ty"
+    },
+    {
+      "ship": "Rust: jev-quilt (ports/rust)",
+      "path": "/workspace/repos/jev-quilt/ports/rust",
+      "canary_pinned": true,
+      "context": "bar\", 0x85944171f73967e8),\n        (\"caf\u00e9 \u0394 \u65e5\u672c\u8a9e\", 0x024a555471370b18d),\n        (\"FNV-1a canary 0xcbf29ce484222325\", 0x"
+    }
+  ],
+  "pinned_count": 15,
+  "total_ships": 15
+}

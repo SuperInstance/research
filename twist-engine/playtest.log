@@ -1,0 +1,135 @@
+twist-engine · playtest
+============================================================
+  ✓ server up on http://127.0.0.1:8765
+
+  → open http://127.0.0.1:8765/index.html
+  [console] error: Failed to load resource: the server responded with a status of 404 (File not found)
+
+=== MODE: TWIST ===
+  metrics:
+TWIST
+1.060°
+MEAN REGISTRY
+0.0001
+SUPERCELL LAMBDA
+54.1 cells
+MAGIC WINDOWS
+19
+IN A WINDOW
+YES — CORRELATED
+  title:    TWIST
+  sub:      two lattices, one deliberate misalignment
+  doctrine: no new atoms — a new angle. the property is in the twist.
+  slider before/after: [] → []
+  after SNAP: []
+
+=== MODE: FLOCK ===
+  metrics:
+FICTION
+MURMURATION
+BIRDS
+196
+MEAN SPEED
+1.05
+POLARIZATION
+0.118
+RULE
+seven neighbors. no plan. no architect.
+  title:    FLOCK
+  sub:      relational rules only — no world-model anywhere
+  doctrine: the word builds the group. four nouns, same birds.
+
+=== MODE: CHIRP ===
+  metrics:
+TWIST / ELEMENT
+45.0°
+ELEMENTS
+12 TRANSDUCERS
+CONTACT RANGE
+—
+CONTACT BEARING
+—
+CLOSURE
+AWAITING SECOND PING
+  title:    CHIRP
+  sub:      twelve transducers — resolution bought with bandwidth, position bought with time
+  doctrine: the box rings. listen in time for what you cannot see in space.
+  beam sweep test:
+    +30: TWIST / ELEMENT
+43.9°
+ELEMENTS
+12 TRANSDUCERS
+CONTACT RANGE
+—
+CONTACT BEARING
+—
+CLOSURE
+AWAITING SECOND PING
+    -30: TWIST / ELEMENT
+43.9°
+ELEMENTS
+12 TRANSDUCERS
+CONTACT RANGE
+—
+CONTACT BEARING
+—
+CLOSURE
+AWAITING SECOND PING
+
+=== MODE: QUILT ===
+  metrics:
+TEMPO TWIST
+6.0%
+V — SNAPS
+158
+E — RELATIONS
+172
+C — COMPONENTS
+37
+B1 — HOLES
+51
+  title:    QUILT
+  sub:      two sub-lattices twisted in tempo; the step-back is computed, live
+  doctrine: the pattern is not in any hook. b1 = E − V + C — the ledger counts the holes.
+  after pushing delta to 0.35:
+    35.0%
+    325
+    775
+    5
+    455
+
+  ✓ screenshot: /tmp/twist-engine-twist.png
+  ✓ screenshot: /tmp/twist-engine-quilt.png
+  ✓ screenshot: /tmp/twist-engine-flock.png
+  ✓ screenshot: /tmp/twist-engine-chirp.png
+
+============================================================
+PLAYTEST RESULTS
+============================================================
+
+TWIST:
+  title: TWIST
+  sub: two lattices, one deliberate misalignment
+  doctrine: no new atoms — a new angle. the property is in the twist.
+  slider_change: [] → []
+  snap_to: []
+
+FLOCK:
+  title: FLOCK
+  sub: relational rules only — no world-model anywhere
+  doctrine: the word builds the group. four nouns, same birds.
+  fictions_cycled: ['murmuration', 'pack', 'kennel', 'parliament']
+
+CHIRP:
+  title: CHIRP
+  sub: twelve transducers — resolution bought with bandwidth, position bought with time
+  doctrine: the box rings. listen in time for what you cannot see in space.
+  beam_sweep: {'+30': 'TWIST / ELEMENT\n43.9°\nELEMENTS\n12 TRANSDUCERS\nCONTACT RANGE\n—\nCONTACT BEARING\n—\nCLOSURE\nAWAITING SECOND PING', '-30': 'TWIST / ELEMENT\n43.9°\nELEMENTS\n12 TRANSDUCERS\nCONTACT RANGE\n—\nCONTACT BEARING\n—\nCLOSURE\nAWAITING SECOND PING'}
+
+QUILT:
+  title: QUILT
+  sub: two sub-lattices twisted in tempo; the step-back is computed, live
+  doctrine: the pattern is not in any hook. b1 = E − V + C — the ledger counts the holes.
+  b1_after_twist: ['35.0%', '325', '775', '5', '455']
+  step_back_pressed: True
+

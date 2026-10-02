@@ -1,0 +1,116 @@
+{
+  "timestamp": 1790006981.8055813,
+  "iso": "2026-09-21T16:09:41Z",
+  "jepa_scores": [
+    {
+      "session": 0,
+      "correct": 0,
+      "total": 49,
+      "rate": 0.0
+    },
+    {
+      "session": 1,
+      "correct": 0,
+      "total": 49,
+      "rate": 0.0
+    },
+    {
+      "session": 2,
+      "correct": 0,
+      "total": 49,
+      "rate": 0.0
+    },
+    {
+      "session": 3,
+      "correct": 0,
+      "total": 49,
+      "rate": 0.0
+    },
+    {
+      "session": 4,
+      "correct": 0,
+      "total": 49,
+      "rate": 0.0
+    }
+  ],
+  "jepa_mean": 0.0,
+  "jev_sessions": [
+    {
+      "session": 0,
+      "mean_p": 0.7225,
+      "individual": [
+        0.53,
+        0.91,
+        0.95,
+        0.98,
+        0.3,
+        0.76,
+        0.9,
+        0.45
+      ],
+      "latency_s": 0.2220001220703125
+    },
+    {
+      "session": 1,
+      "mean_p": 0.71625,
+      "individual": [
+        0.54,
+        0.91,
+        0.96,
+        0.98,
+        0.28,
+        0.73,
+        0.9,
+        0.43
+      ],
+      "latency_s": 0.25684165954589844
+    },
+    {
+      "session": 2,
+      "mean_p": 0.7150000000000001,
+      "individual": [
+        0.53,
+        0.91,
+        0.95,
+        0.98,
+        0.27,
+        0.74,
+        0.9,
+        0.44
+      ],
+      "latency_s": 0.23451948165893555
+    },
+    {
+      "session": 3,
+      "mean_p": 0.72375,
+      "individual": [
+        0.53,
+        0.91,
+        0.96,
+        0.99,
+        0.29,
+        0.75,
+        0.91,
+        0.45
+      ],
+      "latency_s": 0.22513556480407715
+    },
+    {
+      "session": 4,
+      "mean_p": 0.7237500000000001,
+      "individual": [
+        0.55,
+        0.92,
+        0.96,
+        0.98,
+        0.29,
+        0.75,
+        0.9,
+        0.44
+      ],
+      "latency_s": 0.2580721378326416
+    }
+  ],
+  "jev_grand_mean": 0.7202500000000001,
+  "verdict": "BEDROCK CANON \u2014 witness-log-is-the-prediction is confirmed across 5 sessions"
+}

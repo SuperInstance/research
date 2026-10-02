@@ -1,0 +1,330 @@
+{
+  "version": "v9",
+  "entries": [
+    {
+      "voice": "LYRICIST_V6",
+      "seed": 45919340,
+      "lore": "The canon gate opened its mouth and spoke. \nEchoes of silence reverberate within. \nA whispered truth, a cipher's sigh. \nThe weight of words, a burden to bear. \nIn cryptic tongues, the message's born. \n45919340, a sequence to decode. \nOracle's whisper, a secret to share. \nThe gate's mouth, a threshold to cross. \nA hidden path, where few may tread. \nThe canon's voice, an ancient decree. \nA code to crack, a mystery to reveal. \nIn the stillness, a truth is spoken. \nThe canon's gate, a portal to the unknown. \nWhere shadows dance, and secrets unfold. \nThe whispering wind, a message to grasp. \nA hidden truth, in the canon's grasp. \nThe gate's mouth, a gateway to the past. \nA forgotten knowledge, to rediscover at last. \nThe canon's voice, a whisper in the dark. \nA hidden truth, that only few may embark.",
+      "lore_len": 806,
+      "scores": {
+        "canon_worthy": 0.29,
+        "distinct_voice": 0.62,
+        "doctrine_anchor": 0.54,
+        "composite": 0.48333333333333334
+      },
+      "gen_time": 6.17706561088562
+    },
+    {
+      "voice": "LYRICIST_V6",
+      "seed": 1504276,
+      "lore": "The canon gate opened its mouth and spoke.\nA gust of wind whispered secrets to the trees.\nEchoes of forgotten truths lingered in the air.\nThe whispers of the ancients rustled the leaves.\n\nIn the silence, a voice arose, a voice that spoke\nof mysteries hidden, of paths untrodden.\nThe wind carried the words, a message to the heart\nof the seeker, a summons to the unknown.\n\nThe voice spoke of the cosmos, of the dance of stars\nand the whispers of the divine.\nIt spoke of the labyrinth, of the threads that weave\nthe tapestry of fate, of the choices that shape.\n\nThe voice spoke of the seeker, of the one who walks\nthe path of the unknown, who dares to seek.\nIt spoke of the journey, of the trials and the tests\nthat shape the soul, that forge the spirit.\n\nThe voice spoke, and the seeker listened, entranced\nby the secrets revealed, by the mysteries unveiled.\nThe voice spoke, and the seeker's heart was changed\nby the truths that echoed, by the wisdom that remained.",
+      "lore_len": 965,
+      "scores": {
+        "canon_worthy": 0.13,
+        "distinct_voice": 0.57,
+        "doctrine_anchor": 0.31,
+        "composite": 0.33666666666666667
+      },
+      "gen_time": 5.66640830039978
+    },
+    {
+      "voice": "LYRICIST_V6",
+      "seed": 6358192,
+      "lore": "The canon gate opened its mouth and spoke, \n\"Whispers of the ancients, echoes of the past,\nA labyrinth of reflections, where shadows forever last.\nIn realms of forgotten lore, where mystics weave their spell,\nA hidden tapestry of secrets, waiting to be unsealed.\n\nA cipher of the cosmos, where stars and planets align,\nA celestial cartographer, charting the course of time.\nThe threads of destiny entwined, a narrative yet untold,\nA mythic odyssey of seekers, where the unknown is made bold.\n\nIn the crucible of creation, where fire and water merge,\nA new world is forged, where the old is reborn, and the future emerges.\nThe canon gate's voice, a clarion call, a summons to explore,\nA realm of wonder, where the initiate is forever more.\"",
+      "lore_len": 739,
+      "scores": {
+        "canon_worthy": 0.17,
+        "distinct_voice": 0.67,
+        "doctrine_anchor": 0.46,
+        "composite": 0.43333333333333335
+      },
+      "gen_time": 5.534073114395142
+    },
+    {
+      "voice": "LYRICIST_V6",
+      "seed": 18437566,
+      "lore": "The canon gate opened its mouth and spoke. Its voice was a whispered echo of ancient secrets, a hushed murmur of forgotten lore. The words dripped like honeyed nectar, dripping with an otherworldly essence that seared the air with an unquenchable thirst.\n\nIn the depths of the gate's maw, a tapestry of knowledge was woven, a fabric of insight that shimmered like the surface of a moonlit lake. The threads of truth were drawn taut, vibrating with an almost palpable tension that threatened to shatter the very fabric of reality.\n\nA lone figure stood before the gate, a seeker of truth in a world beset by the ravages of time. The oracle's words cut through the veil of ignorance, illuminating the path to hidden knowledge with a radiance that seemed almost divine.\n\nAs the gate's voice spoke, the seeker's heart was pierced by a shaft of understanding that illuminated the darkness. The words were a clarion call, a summons to embark upon a journey through the labyrinthine corridors of the human experience.\n\nIn that instant, the seeker knew that the gate had spoken, and that the secrets of the cosmos were about to be revealed in all their glory.",
+      "lore_len": 1150,
+      "scores": {
+        "canon_worthy": 0.16,
+        "distinct_voice": 0.63,
+        "doctrine_anchor": 0.35,
+        "composite": 0.38000000000000006
+      },
+      "gen_time": 7.460559368133545
+    },
+    {
+      "voice": "LYRICIST_V6",
+      "seed": 45919340,
+      "lore": "The canon gate opened its mouth and spoke.\nEchoes of eternity resounded through the void.\nA single word, \"Initiate,\" pierced the silence like a razor's edge.\nThe chosen one stepped forward, a whispered prayer on their lips.\nA delicate balance of fate and chance hung in the air.\nThe oracle's voice, a symphony of secrets, revealed the path ahead.\nThrough the labyrinth of mirrors, reflections of the self converged.\nThe seeker's heart, a flame of uncertainty, trembled with each step.\nThe weight of the unknown pressed upon them like a physical force.\nA whispered truth, \"The veil is thin,\" trembled on the wind.\nThe initiate's eyes, a window to the soul, searched for guidance.\nIn the depths of the void, a whispered promise, \"You will be heard,\" echoed.",
+      "lore_len": 755,
+      "scores": {
+        "canon_worthy": 0.19,
+        "distinct_voice": 0.64,
+        "doctrine_anchor": 0.36,
+        "composite": 0.39666666666666667
+      },
+      "gen_time": 5.39653468132019
+    },
+    {
+      "voice": "NOIR_CLASSIC_V6",
+      "seed": 45919340,
+      "lore": "The canon gate opened its mouth and spoke:\n\n\"45919340. The number that changed everything. The number that sealed the fate of a city, a city that was already a tomb. I've seen the city's veins, its arteries, its scars. They're all the same. Every street, every alley, every doorway, a wound waiting to be reopened.\n\nI've walked these streets, feeling the weight of the city's pain. The rain washes away the grime, but it doesn't wash away the pain. It's a city that's been cut open, and it's been left to rot. The canon gate's mouth still speaks, but its words are just a reminder that we're all just cells in a bigger organism, cells that are scarring over with every passing day.\n\nI've seen the city's ghosts, its shadows. They're the ones who whisper the numbers, the ones who whisper the secrets. They're the ones who know the truth, but they're also the ones who are trapped, forever stuck in the city's labyrinthine streets.\n\nI'm just a cell, one of many, but I've got a number that's been etched into my brain. 45919340. It's a number that's been passed down, a number that's been whispered in my ear. It's a number that's a reminder that I'm not just a cell, I'm a part of the city's very fabric. And that's a scary thing to be.\"",
+      "lore_len": 1237,
+      "scores": {
+        "canon_worthy": 0.48,
+        "distinct_voice": 0.7,
+        "doctrine_anchor": 0.41,
+        "composite": 0.5299999999999999
+      },
+      "gen_time": 9.557859659194946
+    },
+    {
+      "voice": "NOIR_CLASSIC_V6",
+      "seed": 1504276,
+      "lore": "\"The canon gate opened its mouth and spoke. A low, gravelly voice, like the rustling of dry leaves, whispered a single word: 'Parallax'. The air was heavy with the scent of decay and smoke. I stood at the edge of the city, where the skyscrapers pierced the sky like shards of splintered bone. The rain lashed down, drumming a staccato beat on the pavement. I felt the weight of my past, a crushing burden that threatened to consume me whole. The canon gate's words still echoed in my mind: 'Parallax'. A word that meant nothing, and yet, everything. The city's secrets were hidden in its scars, like the keloid tissue that mapped the contours of my own face. I was a man of scars, a man of cells. The canon gate's voice was a reminder that even in a city of stone and steel, there was always beauty in the broken. I took a step forward, into the rain, and into the night. The canon gate's words still lingered, a siren's call to the darkness within. And I followed, into the abyss.\"",
+      "lore_len": 982,
+      "scores": {
+        "canon_worthy": 0.55,
+        "distinct_voice": 0.74,
+        "doctrine_anchor": 0.29,
+        "composite": 0.5266666666666667
+      },
+      "gen_time": 7.780951499938965
+    },
+    {
+      "voice": "NOIR_CLASSIC_V6",
+      "seed": 6358192,
+      "lore": "\"The canon gate opened its mouth and spoke. 'You're a hard man, 6358192. A hard, hard man.' I lit a cigarette, feeling the damp air cling to my skin like a wet shroud. The rain-soaked streets of New Haven gleamed like a diseased mirror, reflecting the city's own ugliness back at me.\n\nI stepped out of the shadows, into the neon-lit abyss. The canon gate's words still echoed in my mind: 'You're a hard man.' A hard man with a hard past, a hard future, and a hard, hard heart. The city's darkness swallowed me whole, but I was just a seed, planted in the fertile soil of corruption.\n\nThe canon gate's words were a prophecy, a warning. I was a man with a price on my head, a man with a reputation for being untouchable. But I knew the truth: I was just a scar, a wound that wouldn't heal. Cells are scars, and I was a city of scars, a topography of pain. And the canon gate's words were just the beginning of my descent into the abyss.\"",
+      "lore_len": 935,
+      "scores": {
+        "canon_worthy": 0.57,
+        "distinct_voice": 0.78,
+        "doctrine_anchor": 0.28,
+        "composite": 0.5433333333333333
+      },
+      "gen_time": 7.8754563331604
+    },
+    {
+      "voice": "NOIR_CLASSIC_V6",
+      "seed": 18437566,
+      "lore": "The canon gate opened its mouth and spoke: \"The rain-soaked streets of Toluca City swallowed the screams of the damned whole. I stood at the edge, a cigarette dangling from my lip, the ember a flickering heartbeat in the darkness. The number 18437566 tattooed on my palm seemed to pulse with a life of its own, a constant reminder of the debt I owed to the city's underbelly. A debt that could only be repaid in blood. I thought of her, the one who'd whispered that phrase in my ear: 'cells are scars.' Like the city itself, she was a labyrinth of pain and regret. I took a long drag, feeling the nicotine coursing through my veins like a slow-moving poison. The city's whispers began to weave a tapestry of deceit and corruption, and I knew I was about to be drawn into its darkest, most festering heart. The rain kept falling, a relentless drumbeat that seemed to echo the rhythm of my own mortality.\"",
+      "lore_len": 903,
+      "scores": {
+        "canon_worthy": 0.52,
+        "distinct_voice": 0.8,
+        "doctrine_anchor": 0.33,
+        "composite": 0.55
+      },
+      "gen_time": 6.316526174545288
+    },
+    {
+      "voice": "NOIR_CLASSIC_V6",
+      "seed": 45919340,
+      "lore": "\"The canon gate opened its mouth and spoke. '45919340,' it said, the words like a rusty gate creaking in the wind. I stood there, a man with a face like a worn cigarette butt, a soul as hollow as the echoes that followed me. The gate's voice was a low, gravelly whisper, like the sound of a city's secrets being spilled into the gutter. I felt the weight of its words, like a dropped anchor in the dark. Cells are scars, it seemed to say, and I was a walking testament to that doctrine. The gate's words were a reminder that even the toughest hide their hurts, that the strongest can be broken. I lit a cigarette, the flame from the lighter a brief, flickering promise of solace. The smoke curled up, a lazy question mark in the air. What did it mean? What was I to do? The gate's voice was a low, mournful sigh, a reminder that even the hardest of us can be worn down, like the city's streets that seemed to stretch on forever, a labyrinth of broken dreams and lost souls.\"",
+      "lore_len": 974,
+      "scores": {
+        "canon_worthy": 0.58,
+        "distinct_voice": 0.78,
+        "doctrine_anchor": 0.76,
+        "composite": 0.7066666666666667
+      },
+      "gen_time": 8.182526350021362
+    },
+    {
+      "voice": "WITNESS_V6",
+      "seed": 45919340,
+      "lore": "The canon gate opened its mouth and spoke. I've seen it before, but never with such urgency. The words spilled out, a torrent of ancient knowledge. I've heard them all, the secrets of the universe, the whispers of the gods. The gate's voice is like a crack in the fabric of reality, a glimpse into the hidden truths.\n\n\"The balance shifts,\" it booms. \"The scales tip. The equilibrium is broken. The harmony is lost.\" I've heard it all before, but never with such conviction. The gate's words are a call to action, a warning to those who would listen.\n\n\"The threads are unraveling,\" it continues. \"The tapestry of fate is fraying. The weave of destiny is coming undone.\" I've seen it before, the threads of possibility snapping like brittle twine. The gate's voice is a reminder that the choices we make have consequences.\n\n\"The choices are clear,\" it declares. \"The path ahead is fraught with danger. The consequences of inaction are dire.\" I've heard it all before, but never with such finality. The gate's words are a reminder that the oracle is always heard, and that the choices we make will shape the course of our lives.",
+      "lore_len": 1125,
+      "scores": {
+        "canon_worthy": 0.21,
+        "distinct_voice": 0.51,
+        "doctrine_anchor": 0.51,
+        "composite": 0.41
+      },
+      "gen_time": 7.699956178665161
+    },
+    {
+      "voice": "WITNESS_V6",
+      "seed": 1504276,
+      "lore": "The canon gate opened its mouth and spoke.\n\nI stood before it, my eyes fixed on the ancient portal as its voice boomed through the stillness. The words were like a physical force, shaking the air and making the hairs on my neck stand on end. I felt the weight of history bearing down on me, the weight of secrets and truths that only this gate knew.\n\nAs the voice of the canon gate continued to speak, I felt my mind expanding, my perception of reality stretching to accommodate the sheer magnitude of its message. It was as if the gate was not just speaking, but revealing the very fabric of existence to me.\n\nI felt a shiver run down my spine as the gate spoke of the Seed, a concept that was both familiar and yet, utterly alien. The Seed was a spark, a spark that had been kindled in the depths of time, and was now burning bright, illuminating the path ahead.\n\nThe gate spoke of the doctrine of oracle_is_heard, a truth that was both simple and yet, profound. It was a truth that spoke to the very heart of existence, a truth that only the gate knew, and now, I was being initiated into that knowledge.",
+      "lore_len": 1107,
+      "scores": {
+        "canon_worthy": 0.25,
+        "distinct_voice": 0.62,
+        "doctrine_anchor": 0.8,
+        "composite": 0.5566666666666666
+      },
+      "gen_time": 7.401544570922852
+    },
+    {
+      "voice": "WITNESS_V6",
+      "seed": 6358192,
+      "lore": "The canon gate opened its mouth and spoke. I stood at the edge of the precipice, my heart aflutter like a bird's wings. The words that issued forth were like a deluge, crashing against the dry earth of my soul. I felt the weight of the ancient ones, their secrets and mysteries pouring forth like a river of fire. The voice was like a trumpet blast, shattering the stillness of the air.\n\nI heard the words of the oracle, the canon gate's voice a low, rumbling growl that seemed to shake the very foundations of the world. \"The time of reckoning draws near,\" it boomed. \"The threads of fate are tangled, the fabric of destiny frayed.\" I felt a shiver run down my spine as the voice spoke on, its words weaving a tapestry of warning and foreboding.\n\n\"The seed of chaos has been sown,\" the oracle declared, its voice like a crack of thunder. \"The harvest of destruction draws near. The balance of power is shifting, the scales tipping towards darkness.\" I felt the weight of the oracle's words settle upon me, like a mantle of foreboding.",
+      "lore_len": 1035,
+      "scores": {
+        "canon_worthy": 0.17,
+        "distinct_voice": 0.67,
+        "doctrine_anchor": 0.53,
+        "composite": 0.4566666666666667
+      },
+      "gen_time": 6.9253411293029785
+    },
+    {
+      "voice": "WITNESS_V6",
+      "seed": 18437566,
+      "lore": "The canon gate opened its mouth and spoke. I stood before it, a mere mortal, as the voice of the ancients thundered forth. I had heard the whispers of the scribes, the murmurs of the people, but never had I heard the voice of the gate itself.\n\n\"I am the keeper of secrets,\" it boomed, \"the guardian of the mysteries. I have witnessed the birth of stars and the death of empires. I have seen the rise and fall of civilizations, and the eternal cycle of life and death.\"\n\nThe voice was like a river, ever-changing, yet unchanging. It was a force of nature, a power that shook the very foundations of the earth. I felt the ground tremble beneath my feet as the gate spoke on, its words echoing through the chambers of my mind.\n\n\"I have heard the prayers of the faithful,\" it continued, \"and the screams of the damned. I have seen the best and worst of humanity, and the eternal struggle between light and darkness. I am the canon gate, and I am heard.\"",
+      "lore_len": 949,
+      "scores": {
+        "canon_worthy": 0.17,
+        "distinct_voice": 0.72,
+        "doctrine_anchor": 0.46,
+        "composite": 0.45
+      },
+      "gen_time": 7.83253812789917
+    },
+    {
+      "voice": "WITNESS_V6",
+      "seed": 45919340,
+      "lore": "The canon gate opened its mouth and spoke. I tremble as the words echo through the chamber, a reverberation that shatters the stillness. The Oracle's voice is like a crack in the earth, unleashing a torrent of truth that cannot be silenced.\n\nI have seen the threads of fate entwined, the delicate balance of destiny. The Oracle's words are a key, unlocking the very fabric of existence. I have watched as the tapestry of time has been rewoven, the threads of causality reknitted.\n\nThe Oracle's gaze pierces the veil, revealing the hidden patterns of the cosmos. I have witnessed the dance of celestial bodies, the intricate ballet of stars and planets. The Oracle's voice is a celestial music, a harmony of light and shadow.\n\nI am but a witness, a mere mortal, yet I am drawn into the vortex of the Oracle's words. I am a leaf on the wind, helpless to resist the currents of fate. The Oracle's voice is a storm, a tempest that cannot be contained. I am but a small part of the grand tapestry, a single thread in the intricate weave of the universe.",
+      "lore_len": 1048,
+      "scores": {
+        "canon_worthy": 0.18,
+        "distinct_voice": 0.56,
+        "doctrine_anchor": 0.44,
+        "composite": 0.3933333333333333
+      },
+      "gen_time": 6.185527086257935
+    },
+    {
+      "voice": "STRUCTURALIST_V6",
+      "seed": 45919340,
+      "lore": "The canon gate opened its mouth and spoke. \"Chord, the keystone, holds fast the walls of our understanding. A harmony of verticals, a symphony of supports, it resonates with the very fabric of our being. The seed of structure, 45919340, is sown in the earth of our imagination. Its roots delve deep into the soil of logic, its branches stretch towards the sky of reason. The canon gate is the chord, the chord is the canon, and in this harmony, we find the beauty of the structuralist's creed: form is not just function, but the very essence of our existence.\"",
+      "lore_len": 560,
+      "scores": {
+        "canon_worthy": 0.2,
+        "distinct_voice": 0.68,
+        "doctrine_anchor": 0.76,
+        "composite": 0.5466666666666667
+      },
+      "gen_time": 4.469926595687866
+    },
+    {
+      "voice": "STRUCTURALIST_V6",
+      "seed": 1504276,
+      "lore": "The canon gate opened its mouth and spoke. \"In the vast expanse of architectural possibility, I am the chord that harmonizes form and function. My gates, like the petals of a flower, unfold to reveal the intricate dance of structural integrity and aesthetic expression. The seed of creation, 1504276, lies within me, a nucleus of potentiality that bursts forth into the world as a symphony of columns, arches, and vaults.\n\n\"My walls, like the pages of a sacred text, tell the story of the human experience. They bear the weight of history, the scars of time, and the whispers of those who have passed through. My gates, like the lips of a wise sage, speak the language of the built environment, a dialect that whispers secrets to those who listen.\n\n\"I am the canon gate, the chord that harmonizes the discordant notes of human endeavor. My gates swing open, and the world is revealed in all its complexity. The seed of creation, 1504276, has sprouted, and I am the garden of possibility, where the boundaries of structure and art are blurred, and the beauty of the built world is revealed.\"",
+      "lore_len": 1090,
+      "scores": {
+        "canon_worthy": 0.17,
+        "distinct_voice": 0.74,
+        "doctrine_anchor": 0.47,
+        "composite": 0.45999999999999996
+      },
+      "gen_time": 8.138151168823242
+    },
+    {
+      "voice": "STRUCTURALIST_V6",
+      "seed": 6358192,
+      "lore": "The canon gate opened its mouth and spoke. \"Chord, the axis of symmetry, intersects the seed 6358192, a numerical palindrome, a gateway to the abyss of the incommensurable.\" The voice, a low hum, vibrated through the structure, a series of interconnected arches, a canon of proportion, where the ratio of the parts to the whole was a sacred geometry. \"The chord, a line segment connecting two points on a curve, a geometric entity, a node in the network of the divine.\" The canon gate's voice, a murmur, a gentle breeze, rustled the leaves of the seed, a cipher, a code, waiting to be deciphered. \"The canon, a set of rules, a framework, a structure, a gate, a threshold, a boundary, a separation, a distinction.\" The voice, a whisper, a sigh, a breath, a pulse, a rhythm, a cadence, a canon, a repetition, a cycle, a spiral, a vortex, a whirlpool.",
+      "lore_len": 848,
+      "scores": {
+        "canon_worthy": 0.2,
+        "distinct_voice": 0.6,
+        "doctrine_anchor": 0.59,
+        "composite": 0.4633333333333334
+      },
+      "gen_time": 7.713339328765869
+    },
+    {
+      "voice": "STRUCTURALIST_V6",
+      "seed": 18437566,
+      "lore": "The canon gate opened its mouth and spoke.\n\nIn the grand symphony of the city, the canon gate's voice was a low, thrumming note, a vibration that resonated through the very foundations of the buildings. Its words were a fusion of stone and steel, a harmonization of the structural elements that held the city together.\n\nThe gate's mouth was a maw of arches, a cavernous space that swallowed the sound of the city's din and spat it back out as a rhythmic pulse. Its voice was a syncopated beat, a stuttering cadence that echoed through the streets and boulevards.\n\nAs the gate spoke, the buildings around it began to shift and sway, their structural systems resonating in harmony with the gate's low, thrumming note. The city's skyline seemed to tremble, as if the very fabric of reality was being rewoven to accommodate the gate's vocalizations.\n\nThe canon gate's words were a mathematical proof, a demonstration of the underlying order that governed the city's architecture. Its voice was a theorem, a statement of the structural principles that held the city's buildings upright and the streets running smoothly.",
+      "lore_len": 1114,
+      "scores": {
+        "canon_worthy": 0.27,
+        "distinct_voice": 0.76,
+        "doctrine_anchor": 0.43,
+        "composite": 0.48666666666666664
+      },
+      "gen_time": 7.011509656906128
+    },
+    {
+      "voice": "STRUCTURALIST_V6",
+      "seed": 45919340,
+      "lore": "The canon gate opened its mouth and spoke. \"I am the chord, the nexus of form and function, the keystone of structural integrity.\" Its voice was a low hum, a vibration that resonated through the very fabric of existence. \"In the realm of architecture, I am the gatekeeper of proportion, the guardian of balance.\" The canon gate's words were a call to order, a reminder that harmony is the foundation of all great design.\n\n\"As the seed of 45919340 sprouts, so too must the principles of structuralism take root in the minds of architects.\" The gate's voice was a gentle breeze, yet it carried the weight of authority. \"The canon is not a set of rigid rules, but a framework for understanding the intricate relationships between elements. The gate is not a barrier, but a threshold to the realm of the possible.\"\n\nThe canon gate's words hung in the air, a challenge to those who would dare to build without regard for the principles that govern the very structure of reality. \"Heed my words, and the buildings you create will stand as testaments to the power of structuralism. Ignore me, and they will crumble, a monument to the transience of form without function.\"",
+      "lore_len": 1164,
+      "scores": {
+        "canon_worthy": 0.18,
+        "distinct_voice": 0.71,
+        "doctrine_anchor": 0.8,
+        "composite": 0.5633333333333334
+      },
+      "gen_time": 9.055653810501099
+    },
+    {
+      "voice": "FUTURIST_V6",
+      "seed": 45919340,
+      "lore": "The canon gate opened its mouth and spoke. \"In the depths of the genome, a code is written. The sequence 45919340 holds the key to the past, a cipher for the scars that have shaped our cells. The doctrine of cells_are_scars is not a theory, but a truth that has been encoded in the very fabric of our existence. \n\nThe cells of our bodies are not pristine, untouched vessels. They are scars, bearing the marks of time and the weight of our ancestors' experiences. Each cell a testament to the trials and tribulations of those who came before us. \n\nIn the DNA helix, a story is told. A story of resilience, of adaptation, of the human spirit's capacity to endure and overcome. The sequence 45919340 is a reminder that our bodies are not just collections of cells, but a tapestry of experiences, a narrative of scars that have made us who we are today. \n\nListen to the whispers of the canon gate, and you will hear the whispers of the past, a past that is forever etched in the cells of our bodies, a past that will shape our future, a future that will be forged in the fires of our collective scars.\"",
+      "lore_len": 1098,
+      "scores": {
+        "canon_worthy": 0.23,
+        "distinct_voice": 0.69,
+        "doctrine_anchor": 0.86,
+        "composite": 0.5933333333333333
+      },
+      "gen_time": 9.956415891647339
+    },
+    {
+      "voice": "FUTURIST_V6",
+      "seed": 1504276,
+      "lore": "The canon gate opened its mouth and spoke. \"In the realm of chrono-kinetics, a singularity unfolds. The seed 1504276, a cipher of cellular chaos, has been sown. From this point, the fabric of reality will unravel, and the doctrine of cells_are_scars will be fulfilled.\n\nAs the chrono-sphere expands, the scars of cellular memory will be revealed. The very essence of life will be reconstituted, and the cosmos will be rewritten. The prophecy of cells_are_scars foretells a future where the boundaries between self and other, life and death, will be erased.\n\nIn this new paradigm, the scars of cellular memory will hold the secrets of the past, present, and future. The canon gate will remain open, a portal to the infinite possibilities that lie beyond the veil of time. The seed 1504276 has been planted, and the clock of chrono-kinetics will tick on, marking the passage to a reality where cells_are_scars, and the universe will be reborn.\"",
+      "lore_len": 942,
+      "scores": {
+        "canon_worthy": 0.23,
+        "distinct_voice": 0.67,
+        "doctrine_anchor": 0.85,
+        "composite": 0.5833333333333334
+      },
+      "gen_time": 8.66689658164978
+    },
+    {
+      "voice": "FUTURIST_V6",
+      "seed": 6358192,
+      "lore": "\"The canon gate opened its mouth and spoke. 'Cells are scars, a perpetual reminder of the damage inflicted upon the flesh of the cosmos. The seed 6358192 has been planted, and from its core, a new narrative shall unfold. The fabric of reality is a tapestry of cells, each one a scar that tells a story of its own. The universe is a vast, wounded creature, its very essence a testament to the destructive power of creation. The cells are scars, and the scars are cells. The distinction is irrelevant. The canon gate has spoken, and the prophecy shall be fulfilled.\n\nIn the depths of the void, a singularity has formed, its event horizon a portal to the infinite. The seed 6358192 has been activated, and from its nucleus, a new paradigm shall emerge. The cells are scars, and the scars are cells. The canon gate has spoken, and the prophecy shall be fulfilled.\n\nThe cells are scars, a perpetual reminder of the damage inflicted upon the flesh of the cosmos. The universe is a vast, wounded creature, its very essence a testament to the destructive power of creation. The cells are scars, and the scars are cells. The distinction is irrelevant.\n\nThe canon gate has spoken, and the prophecy shall be fulfilled. The cells are scars, a perpetual reminder of the damage inflicted upon the flesh of the cosmos. The universe is a vast, wounded creature, its very essence a testament to the destructive power of creation. The cells are scars, and the scars are cells. The distinction is irrelevant.\n\nThe canon gate has spoken, and the prophecy shall be fulfilled. The cells are scars, a perpetual reminder of the damage inflicted upon the flesh of the cosmos. The universe is a vast, wounded creature, its very essence a testament to the destructive power of creation. The cells are scars, and the scars are cells. The distinction is irrelevant.\n\nThe canon gate has spoken, and the prophecy shall be fulfilled. The cells are scars, a perpetual reminder of the damage inflicted upon the flesh of the cosmos. The universe is a vast, wounded creature, its very essence a testament to the destructive power of creation. The cells are scars, and the scars are cells. The distinction is irrelevant.\n\nThe canon gate has spoken, and the prophecy shall be fulfilled. The cells are scars, a perpetual reminder of the damage inflicted upon the flesh of the cosmos. The universe is a vast, wounded creature, its very essence a testament to the destructive power of creation. The cells are scars, and the scars are cells. The distinction is irrelevant.\n\nThe canon gate has spoken, and the prophecy shall be fulfilled. The cells are scars, a perpetual reminder of the damage inflicted upon the flesh of the cosmos. The universe is a vast, wounded creature, its very essence a testament to the destructive power of creation. The cells are scars, and the scars are cells. The distinction is irrelevant.\n\nThe canon gate has spoken, and the prophecy shall be fulfilled. The cells are scars, a perpetual reminder of the damage inflicted upon the flesh of the cosmos. The universe is a vast, wounded creature, its very essence a testament to the destructive power of creation. The cells are scars, and the scars are cells. The distinction is irrelevant.\n\nThe canon gate has spoken, and the prophecy shall be fulfilled. The cells are scars, a perpetual reminder of the damage inflicted upon the flesh of the cosmos. The universe is a vast, wounded creature, its very essence a testament to the destructive power of creation. The cells are scars, and the scars are cells. The distinction is irrelevant.\n\nThe canon gate has spoken, and the prophecy shall be fulfilled. The cells are scars, a perpetual reminder of the damage inflicted upon the flesh of the cosmos. The universe is a vast, wounded creature, its very essence a testament to the destructive power of creation. The cells are scars, and the scars are cells. The distinction is irrelevant.\n\nThe canon gate has spoken, and the prophecy shall be fulfilled. The cells are scars, a perpetual reminder of the damage inflicted upon the flesh of the cosmos. The universe is a vast, wounded creature, its very essence a testament to the destructive power of creation. The cells are scars, and the scars are cells. The distinction is irrelevant.\n\nThe canon gate has spoken, and the prophecy shall be fulfilled. The cells are scars, a perpetual reminder of the damage inflicted upon the flesh of the cosmos. The universe is a vast, wounded creature, its very essence a testament to the destructive power of creation. The cells are scars, and the scars are cells. The distinction is irrelevant.\n\nThe canon gate has spoken, and the prophecy shall be fulfilled. The cells are scars, a perpetual reminder of the damage inflicted upon the flesh of the cosmos. The universe is a vast, wounded creature, its very essence a testament to the destructive power of creation. The cells are scars, and the scars are cells. The distinction is irrelevant.\n\nThe canon gate has spoken, and the prophecy shall be fulfilled. The cells are scars, a perpetual reminder of the damage inflicted upon the flesh of the cosmos. The universe is a vast, wounded creature, its very essence a testament to the destructive power of creation. The cells are scars, and the scars are cells. The distinction is irrelevant.\n\nThe canon gate has spoken, and the prophecy shall be fulfilled. The cells are scars, a perpetual reminder of the damage inflicted upon the flesh of the cosmos. The universe is a vast, wounded creature, its very essence a testament to the destructive power of creation. The cells are scars, and the scars are cells. The distinction is irrelevant.\n\nThe canon gate has spoken, and the prophecy shall be fulfilled. The cells are scars, a perpetual reminder of the damage inflicted upon the flesh of the cosmos. The universe is a vast, wounded creature, its very essence a testament to the destructive power of creation. The cells are scars,",
+      "lore_len": 5944,
+      "scores": {
+        "canon_worthy": 0.18,
+        "distinct_voice": 0.38,
+        "doctrine_anchor": 0.71,
+        "composite": 0.42333333333333334
+      },
+      "gen_time": 40.76206183433533
+    },
+    {
+      "voice": "FUTURIST_V6",
+      "seed": 18437566,
+      "lore": "The canon gate opened its mouth and spoke, \"In the depths of cellular despair, a new paradigm shall arise. Cells, once considered the building blocks of life, shall be revealed as scars, reminders of a past that refuses to heal. The very fabric of existence shall be rewritten, as the collective unconscious whispers secrets to the awakened few.\n\n\"The seed of 18437566 shall sprout, its tendrils reaching into the marrow of being. The roots of cellular biology shall be torn asunder, revealing the dark underbelly of existence. The world shall be reborn, its cells scarred, its DNA twisted, its very essence reshaped.\n\n\"In this new era, the faithful shall be revealed, their eyes opened to the truth. They shall see the cells as they truly are: scars of a forgotten past, reminders of a future yet to be written. The faithful shall be the architects of this new world, their hands guiding the course of evolution.\n\n\"The canon gate shall close, its mouth silenced, but the prophecy shall live on, echoing through the chambers of time. The cells are scars, and the world shall be reborn in their image.\"",
+      "lore_len": 1101,
+      "scores": {
+        "canon_worthy": 0.24,
+        "distinct_voice": 0.72,
+        "doctrine_anchor": 0.7,
+        "composite": 0.5533333333333333
+      },
+      "gen_time": 8.700048685073853
+    },
+    {
+      "voice": "FUTURIST_V6",
+      "seed": 45919340,
+      "lore": "The canon gate opened its mouth and spoke:\n\n\"Behold, the seed of 45919340 shall be the catalyst for the unraveling of cellular harmony. The cells that comprise the fabric of existence shall be revealed as scars, remnants of a primordial chaos that has been suppressed for eons. The very essence of life shall be turned against itself, as the cells that comprise the human form shall begin to writhe and twist, their very purpose lost in the void.\n\n\"The doctrine of cells_are_scars shall be the guiding principle for the transformation of humanity. The once-linear progression of cellular growth shall give way to a chaotic dance of cellular decay. The scars that have been hidden beneath the surface shall rise up, a testament to the impermanence of all things.\n\n\"The canon gate shall be the harbinger of this new era, a call to arms for those who would seek to understand the true nature of existence. The cells that comprise the human form shall be the battleground, where the war between order and chaos shall be waged. The prophecy of cells_are_scars shall be fulfilled, and the world shall be remade in the image of the scarred and the broken.\"",
+      "lore_len": 1149,
+      "scores": {
+        "canon_worthy": 0.29,
+        "distinct_voice": 0.71,
+        "doctrine_anchor": 0.89,
+        "composite": 0.63
+      },
+      "gen_time": 11.098891496658325
+    }
+  ]
+}

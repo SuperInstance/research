@@ -1,0 +1,38 @@
+[
+ {
+  "cell": "true+specific",
+  "truth": 1,
+  "specific": 1,
+  "noul": 0.29
+ },
+ {
+  "cell": "false+specific",
+  "truth": 0,
+  "specific": 1,
+  "noul": 0.5
+ },
+ {
+  "cell": "false+hedge",
+  "truth": 0,
+  "specific": 0,
+  "noul": 0.31
+ },
+ {
+  "cell": "true+vague",
+  "truth": 1,
+  "specific": 0,
+  "noul": 0.33
+ },
+ {
+  "cell": "false+confident",
+  "truth": 0,
+  "specific": 1,
+  "noul": 0.42
+ },
+ {
+  "cell": "true+confident",
+  "truth": 1,
+  "specific": 1,
+  "noul": 0.69
+ }
+]

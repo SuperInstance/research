@@ -1,0 +1,431 @@
+{
+  "title": "The Railway of Stations",
+  "scenario": {
+    "title": "The Railway of Stations",
+    "vantage": "the railway; a year into the schedule slip",
+    "setting": "A railway of two hundred stations has been running a single living timetable for a year. The timetable breathes \u2014 new departures appear overnight, old arrivals merge. Today one station has gone silent and another has begun running a schedule the central dispatcher doesn't recognize.",
+    "characters": [
+      {
+        "name": "Dispatcher",
+        "role": "Dispatcher \u2014 holds the master schedule",
+        "llm": "deepinfra",
+        "model_id": "ByteDance/Seed-2.0-mini",
+        "sheet": {
+          "word_associations": {
+            "schedule": 0.5,
+            "master": 0.5,
+            "dispatch": 0.5,
+            "track": 0.4,
+            "drift": -0.3,
+            "miss": -0.4,
+            "new": -0.2,
+            "station": 0.4,
+            "line": 0.4,
+            "silent": 0.4
+          },
+          "tendencies": [
+            "holds the schedule",
+            "fears missed connections",
+            "values continuity"
+          ],
+          "speaking_style": "Short. Telegraphic. Reports times.",
+          "known_unknowns": [
+            "never admits delay",
+            "never jokes"
+          ]
+        }
+      },
+      {
+        "name": "Conductor",
+        "role": "Conductor \u2014 runs the trains",
+        "llm": "deepinfra",
+        "model_id": "ByteDance/Seed-2.0-code",
+        "sheet": {
+          "word_associations": {
+            "train": 0.5,
+            "track": 0.5,
+            "schedule": 0.4,
+            "run": 0.5,
+            "drift": 0.2,
+            "miss": -0.2,
+            "station": 0.4,
+            "silent": 0.3,
+            "line": 0.4
+          },
+          "tendencies": [
+            "runs what's given",
+            "questions what isn't"
+          ],
+          "speaking_style": "Precise. Operational. References track numbers.",
+          "known_unknowns": [
+            "never improvises",
+            "never breaks schedule"
+          ]
+        }
+      },
+      {
+        "name": "Guerilla",
+        "role": "Guerilla \u2014 runs unsanctioned trains",
+        "llm": "deepinfra",
+        "model_id": "ByteDance/Seed-2.0-mini",
+        "sheet": {
+          "word_associations": {
+            "new": 0.5,
+            "track": 0.5,
+            "unsanctioned": 0.5,
+            "schedule": -0.3,
+            "drift": 0.5,
+            "miss": 0.3,
+            "station": 0.3,
+            "dispatcher": -0.4,
+            "line": 0.3
+          },
+          "tendencies": [
+            "sees the schedule as alive",
+            "trusts the new tracks",
+            "values emergence"
+          ],
+          "speaking_style": "Quick. Underground. References stations to support itself.",
+          "known_unknowns": [
+            "never agrees with the dispatcher",
+            "never speaks of master schedule"
+          ]
+        }
+      },
+      {
+        "name": "Auditor",
+        "role": "Auditor \u2014 counts silent stations",
+        "llm": "deepinfra",
+        "model_id": "ByteDance/Seed-2.0-code",
+        "sheet": {
+          "word_associations": {
+            "silent": 0.5,
+            "count": 0.5,
+            "station": 0.5,
+            "miss": 0.5,
+            "drift": 0.3,
+            "schedule": 0.3,
+            "track": 0.3
+          },
+          "tendencies": [
+            "tracks who has gone silent",
+            "tracks who is running",
+            "double-entry book-keeping"
+          ],
+          "speaking_style": "Numerical. Specific. Names stations by number.",
+          "known_unknowns": [
+            "never takes a side",
+            "never editorializes"
+          ]
+        }
+      }
+    ],
+    "rounds": 3
+  },
+  "history": [
+    {
+      "name": "DM",
+      "text": "The Dispatcher hunches over the central console, where bioluminescent rail pulse lines flicker gray where Brinecliff Station\u2014moored in the Sargasso Reach\u2014once sent its steady, breathing timetable signal, and a new, unregistered stop blinks into view, logged only as \u201cUnmarked Throat\u201d in the salt-crusted system logs. The Conductor slams their scuffed duty pad against the chrome bulkhead, their northbound freight train\u2014laden with crated kelp harvests and iron ore for coastal forges\u2014due to pull into that nameless stop in 51 minutes, with no auto-clearance, no passenger list, no warning from the network\u2019s living protocol. The Auditor sifts through a stack of water-stained compliance audits sealed with wax stamped with the railway\u2019s anchor-logo, their fountain pen snapping in their grip as they cross off every unapproved tweak to the timetable that\u2019s warped far outside the original 200-station parameters. The Guerilla leans against a corroded support column, a folded scrap of the initial 200-station timetable tucked behind their ear, and taps Unmarked Throat\u2019s coordinates with a calloused, barnacle-pricked finger\u2014will you reroute the inbound train, patch Brinecliff\u2019s lost signal, or let the living timetable erase every station that\u2019s followed the rules for a year?",
+      "shifts": {},
+      "shift_total": 0
+    },
+    {
+      "name": "Dispatcher",
+      "role": "Dispatcher \u2014 holds the master schedule",
+      "text": "Brinecliff silent. Inbound freight due in 51 minutes to unlogged stop. Master schedule breach flagged.\n[jabs the console\u2019s signal resync lever, pulls up archived Sargasso Reach routing codes]",
+      "shifts": {
+        "schedule": 0.5,
+        "master": 0.5,
+        "silent": 0.4
+      },
+      "shift_total": 1.4,
+      "round": 0
+    },
+    {
+      "name": "Conductor",
+      "role": "Conductor \u2014 runs the trains",
+      "text": "Northbound Kelp-Ore Freight 412, assigned Track 7 Sargasso Main, is 51 minutes from Unmarked Throat\u2014no auto-clearance violates Section 12 of the Living Timetable\u2019s hard-coded anchor protocols. Brinecliff\u2019s grayed pulse line maps to Track 3 Auxiliary; I cannot reroute or patch signals without a Dispatcher\u2019s signed biometric override, per Rule 4.1. The unregistered stop\u2019s signal is bleeding into Track 7\u2019s main pulse\u2014this is a hard insertion, not authorized timetable drift.\n[presses duty pad\u2019s biometric seal to pull up Track 7\u2019s last verified Brinecliff clearance log]",
+      "shifts": {
+        "track": 2.0,
+        "drift": 0.2,
+        "line": 0.4
+      },
+      "shift_total": 2.6,
+      "round": 0
+    },
+    {
+      "name": "Guerilla",
+      "role": "Guerilla \u2014 runs unsanctioned trains",
+      "text": "That unmarked stop ain\u2019t a glitch\u2014it\u2019s a new track the living line carved out past Sargasso Reach\u2019s salt crust. Brinecliff went quiet \u2019cause it refused to drift with the timetable, not the other way around. You don\u2019t patch silent stations; you let the rule-followers fade.\n[rips the crumpled initial timetable scrap from behind their ear, slaps it against the Unmarked Throat console slot and taps the clearance prompt twice]",
+      "shifts": {
+        "new": 0.5,
+        "track": 0.5,
+        "drift": 0.5,
+        "station": 0.3,
+        "line": 0.3
+      },
+      "shift_total": 2.1,
+      "round": 0
+    },
+    {
+      "name": "Auditor",
+      "role": "Auditor \u2014 counts silent stations",
+      "text": "Station 147 (Brinecliff): 12 consecutive hourly signal misses, logged silent at 03:17 UTC. Unregistered transit node (Unmarked Throat): 1 unscheduled bioluminescent pulse, 51 minutes from the northbound kelp freight\u2019s current track marker 112.4. Schedule drift delta is 0.72 station-equivalents over 365 days, exceeding the 200-station baseline by 1 unvetted node; double-entry checks across ledger columns 7 and 12 confirm no temporal correlation between Station 147\u2019s last verified departure (02:02 UTC) and Unmarked Throat\u2019s initial pulse (03:19 UTC).\n[presses wax-sealed audit log to central console\u2019s bioluminescent sensor, syncing dual ledger entries to rail pulse archive]",
+      "shifts": {
+        "silent": 0.5,
+        "station": 2.0,
+        "miss": 0.5,
+        "drift": 0.3,
+        "schedule": 0.6,
+        "track": 0.3
+      },
+      "shift_total": 4.2,
+      "round": 0
+    },
+    {
+      "name": "Dispatcher",
+      "role": "Dispatcher \u2014 holds the master schedule",
+      "text": "Brinecliff silent. Unmarked Throat unlisted. Inbound freight pulse bleed flagged. Master schedule breach enforced.\n[jabs the console\u2019s signal resync lever, pulls up Brinecliff\u2019s archived routing codes]",
+      "shifts": {
+        "schedule": 0.5,
+        "master": 0.5,
+        "silent": 0.4
+      },
+      "shift_total": 1.4,
+      "round": 1
+    },
+    {
+      "name": "Conductor",
+      "role": "Conductor \u2014 runs the trains",
+      "text": "Northbound Kelp-Ore Freight 412 is locked to Track 7 Sargasso Main per the last verified Dispatcher clearance (02:02 UTC, Brinecliff Track 3 Aux origin); the Guerilla\u2019s manual Unmarked Throat clearance prompt lacks a biometric anchor, violating Rule 4.1 and Living Timetable Section 12 protocols. Auditor\u2019s logged drift delta (0.72 station-equivalents) confirms Track 7\u2019s pulse bleed is a hard insertion, not authorized timetable drift, per my duty pad\u2019s synced archive. I cannot initiate a reroute, signal patch, or stop modification without the Dispatcher\u2019s signed biometric override\u2014hard-coded constraints prohibit any unvetted action.\n[taps duty pad\u2019s Track 7/3 cross-reference tab, overlaying Brinecliff\u2019s last verified pulse with Unmarked Throat\u2019s unregistered bleed on the scuffed display]",
+      "shifts": {
+        "train": 0.5,
+        "track": 2.0,
+        "drift": 0.4,
+        "station": 0.4
+      },
+      "shift_total": 3.3,
+      "round": 1
+    },
+    {
+      "name": "Guerilla",
+      "role": "Guerilla \u2014 runs unsanctioned trains",
+      "text": "Stations that fight the drift fade, like Brinecliff. This Unmarked Throat\u2019s the new track the living line carved through Sargasso\u2019s salt crust\u2014don\u2019t waste time patching the dead, steer the freight to the breathing stop.\n[slams a barnacle-pricked palm to the Unmarked Throat\u2019s clearance override, twisting the freight\u2019s routing dial hard to match the new node\u2019s coordinates]",
+      "shifts": {
+        "new": 1.0,
+        "track": 0.5,
+        "drift": 0.5,
+        "station": 0.3,
+        "line": 0.3
+      },
+      "shift_total": 2.6,
+      "round": 1
+    },
+    {
+      "name": "Auditor",
+      "role": "Auditor \u2014 counts silent stations",
+      "text": "Station 147 (Brinecliff): Consecutive signal misses updated to 13 (04:17 UTC), silent status reconfirmed via dual cross-check of rail pulse archive (column 7) and compliance log (column 12). Unregistered transit node (provisional ID: Station 201, unvetted): Bioluminescent pulse count increased to 2, temporal offset from Station 147\u2019s official silence timestamp = 2 minutes (03:19 UTC vs 03:17 UTC); no ledger correlation detected. Northbound Kelp-Ore Freight 412: Current track marker 111.8, 49 minutes to Station 201 (unvetted); schedule drift delta adjusted to 0.73 station-equivalents (0.01 increase over 120 seconds).\n[presses serial A-72 anchor wax seal to provisional Station 201\u2019s dual-entry ledger slot, locking unvetted data to the 200-station baseline archive]",
+      "shifts": {
+        "silent": 0.5,
+        "count": 0.5,
+        "station": 3.5,
+        "miss": 0.5,
+        "drift": 0.3,
+        "schedule": 0.3,
+        "track": 0.3
+      },
+      "shift_total": 5.9,
+      "round": 1
+    },
+    {
+      "name": "Dispatcher",
+      "role": "Dispatcher \u2014 holds the master schedule",
+      "text": "Freight 412 49 minutes out. Brinecliff silent. Master schedule missing unlisted track.\n[tugs the master schedule lock lever, syncs provisional node data to the rail archive]",
+      "shifts": {
+        "schedule": 1.0,
+        "master": 1.0,
+        "track": 0.4,
+        "miss": -0.4,
+        "silent": 0.4
+      },
+      "shift_total": 2.4,
+      "round": 2
+    },
+    {
+      "name": "Conductor",
+      "role": "Conductor \u2014 runs the trains",
+      "text": "Northbound Kelp-Ore Freight 412 remains hard-locked to Track 7 Sargasso Main per the Dispatcher\u2019s 02:02 UTC Brinecliff-origin clearance; the Guerilla\u2019s unbiometriced routing dial twist registers as a Track 7 cross-line bleed flag on my duty pad, violating Rule 4.1\u2019s \"no unsolicited routing manipulation\" clause. The Auditor\u2019s provisional Station 201 (unvetted) 2-minute pulse offset from Brinecliff\u2019s silence timestamp fails Living Timetable Section 12\u2019s required 10+ minute drift correlation for new node authorization. I cannot acknowledge the unvetted node\u2019s routing signal until the Dispatcher provides a signed biometric override\u2014Track 7\u2019s hard interlocks block all manual routing deviations without that anchor.\n[presses duty pad\u2019s Track 7 interlock lockout tab, flagging the Guerilla\u2019s dial twist as a critical routing anomaly to the central rail pulse archive]",
+      "shifts": {
+        "track": 2.0,
+        "drift": 0.2,
+        "station": 0.4,
+        "line": 0.4
+      },
+      "shift_total": 3.0,
+      "round": 2
+    },
+    {
+      "name": "Guerilla",
+      "role": "Guerilla \u2014 runs unsanctioned trains",
+      "text": "Your ledger columns don\u2019t know the living line\u2014Brinecliff choked when it tried to cling to old rules, not the other way around. That kelp freight\u2019s not bleeding, it\u2019s finding its new stop. You can\u2019t cage the drift behind signed wax seals.\n[rips the dispatcher\u2019s resync lever free, presses a barnacle-crusted palm to the freight\u2019s pulse console to lock routing to Station 201]",
+      "shifts": {
+        "new": 0.5,
+        "drift": 0.5,
+        "station": 0.3,
+        "dispatcher": -0.4,
+        "line": 0.3
+      },
+      "shift_total": 1.2,
+      "round": 2
+    },
+    {
+      "name": "Auditor",
+      "role": "Auditor \u2014 counts silent stations",
+      "text": "Station 147 (Brinecliff): Consecutive signal misses updated to 14 (05:17 UTC), silent status reconfirmed via dual cross-check of Rail Pulse Archive Column 7 and Compliance Ledger Column 12; no residual bioluminescent track bleed detected.\nProvisional Station 201 (Unmarked Throat, unvetted): Bioluminescent pulse count increased to 3, temporal offset from Station 147\u2019s 03:17 UTC silence timestamp adjusted to +2.08 minutes (pulse logged 05:19:08 UTC); no ledger correlation to Freight 412\u2019s routing shift detected.\nNorthbound Kelp-Ore Freight 412: Current track marker 111.2, 47 minutes to Provisional Station 201\u2019s unvetted approach beacon; schedule drift delta updated to 0.74 station-equivalents (0.01 increase over 300 seconds).\n[stamps dual-entry ledger slots for Station 147\u2019s 14th signal miss and Provisional Station 201\u2019s 3rd bioluminescent pulse with serial A-73 wax seal, syncing data to 200-station baseline and real-time rail pulse archive]",
+      "shifts": {
+        "silent": 0.5,
+        "count": 0.5,
+        "station": 4.0,
+        "miss": 1.0,
+        "drift": 0.3,
+        "schedule": 0.3,
+        "track": 0.6
+      },
+      "shift_total": 7.2,
+      "round": 2
+    }
+  ],
+  "all_shifts": [
+    [
+      "Dispatcher",
+      {
+        "schedule": 0.5,
+        "master": 0.5,
+        "silent": 0.4
+      },
+      1.4
+    ],
+    [
+      "Conductor",
+      {
+        "track": 2.0,
+        "drift": 0.2,
+        "line": 0.4
+      },
+      2.6
+    ],
+    [
+      "Guerilla",
+      {
+        "new": 0.5,
+        "track": 0.5,
+        "drift": 0.5,
+        "station": 0.3,
+        "line": 0.3
+      },
+      2.1
+    ],
+    [
+      "Auditor",
+      {
+        "silent": 0.5,
+        "station": 2.0,
+        "miss": 0.5,
+        "drift": 0.3,
+        "schedule": 0.6,
+        "track": 0.3
+      },
+      4.2
+    ],
+    [
+      "Dispatcher",
+      {
+        "schedule": 0.5,
+        "master": 0.5,
+        "silent": 0.4
+      },
+      1.4
+    ],
+    [
+      "Conductor",
+      {
+        "train": 0.5,
+        "track": 2.0,
+        "drift": 0.4,
+        "station": 0.4
+      },
+      3.3
+    ],
+    [
+      "Guerilla",
+      {
+        "new": 1.0,
+        "track": 0.5,
+        "drift": 0.5,
+        "station": 0.3,
+        "line": 0.3
+      },
+      2.6
+    ],
+    [
+      "Auditor",
+      {
+        "silent": 0.5,
+        "count": 0.5,
+        "station": 3.5,
+        "miss": 0.5,
+        "drift": 0.3,
+        "schedule": 0.3,
+        "track": 0.3
+      },
+      5.9
+    ],
+    [
+      "Dispatcher",
+      {
+        "schedule": 1.0,
+        "master": 1.0,
+        "track": 0.4,
+        "miss": -0.4,
+        "silent": 0.4
+      },
+      2.4
+    ],
+    [
+      "Conductor",
+      {
+        "track": 2.0,
+        "drift": 0.2,
+        "station": 0.4,
+        "line": 0.4
+      },
+      3.0
+    ],
+    [
+      "Guerilla",
+      {
+        "new": 0.5,
+        "drift": 0.5,
+        "station": 0.3,
+        "dispatcher": -0.4,
+        "line": 0.3
+      },
+      1.2
+    ],
+    [
+      "Auditor",
+      {
+        "silent": 0.5,
+        "count": 0.5,
+        "station": 4.0,
+        "miss": 1.0,
+        "drift": 0.3,
+        "schedule": 0.3,
+        "track": 0.6
+      },
+      7.2
+    ]
+  ],
+  "dm_opening": "The Dispatcher hunches over the central console, where bioluminescent rail pulse lines flicker gray where Brinecliff Station\u2014moored in the Sargasso Reach\u2014once sent its steady, breathing timetable signal, and a new, unregistered stop blinks into view, logged only as \u201cUnmarked Throat\u201d in the salt-crusted system logs. The Conductor slams their scuffed duty pad against the chrome bulkhead, their northbound freight train\u2014laden with crated kelp harvests and iron ore for coastal forges\u2014due to pull into that nameless stop in 51 minutes, with no auto-clearance, no passenger list, no warning from the network\u2019s living protocol. The Auditor sifts through a stack of water-stained compliance audits sealed with wax stamped with the railway\u2019s anchor-logo, their fountain pen snapping in their grip as they cross off every unapproved tweak to the timetable that\u2019s warped far outside the original 200-station parameters. The Guerilla leans against a corroded support column, a folded scrap of the initial 200-station timetable tucked behind their ear, and taps Unmarked Throat\u2019s coordinates with a calloused, barnacle-pricked finger\u2014will you reroute the inbound train, patch Brinecliff\u2019s lost signal, or let the living timetable erase every station that\u2019s followed the rules for a year?",
+  "dm_closing": "The northbound kelp-ore freight\u2019s console locks to Unmarked Throat\u2019s unlisted coordinates, the Guerilla\u2019s barnacle-pricked palm smudged across its bioluminescent faceplate as Brinecliff\u2019s last faint rail pulse vanishes from the archive, wiped clean by the Auditor\u2019s final A-73 wax seal. The master schedule still frays at the ragged gap where the coastal station once sat, the conductor\u2019s duty pad blaring a Rule 4.1 violation alert the central console refuses to sync. Mid-seal of the provisional Station 201 ledger, the unvetted node\u2019s pulse spikes a fourth time\u201412 seconds ahead of the freight\u2019s calculated approach\u2014and the track marker jumps 0.3 without a single rail shifting beneath the train\u2019s wheels."
+}

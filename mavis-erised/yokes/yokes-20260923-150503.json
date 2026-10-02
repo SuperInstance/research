@@ -1,0 +1,191 @@
+[
+ {
+  "move_type": "alias",
+  "from_command": "version",
+  "to_command": "help",
+  "rationale": "Agents reach for 'version' 4 times when 'help' is the right command. Add 'version' as an alias for 'help'.",
+  "evidence_count": 0,
+  "confidence": 0.8,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "version",
+  "to_command": "help",
+  "rationale": "Agents reach for 'version' 4 times when 'help' is the right command. Add 'version' as an alias for 'help'.",
+  "evidence_count": 0,
+  "confidence": 0.8,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "version",
+  "to_command": "help",
+  "rationale": "Agents reach for 'version' 5 times when 'help' is the right command. Add 'version' as an alias for 'help'.",
+  "evidence_count": 0,
+  "confidence": 1.0,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "version",
+  "to_command": "help",
+  "rationale": "Agents reach for 'version' 3 times when 'help' is the right command. Add 'version' as an alias for 'help'.",
+  "evidence_count": 0,
+  "confidence": 0.6,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "version",
+  "to_command": "help",
+  "rationale": "Agents reach for 'version' 6 times when 'help' is the right command. Add 'version' as an alias for 'help'.",
+  "evidence_count": 0,
+  "confidence": 1.0,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "help",
+  "to_command": "help",
+  "rationale": "Agents reach for 'help' 2 times when 'help' is the right command. Add 'help' as an alias for 'help'.",
+  "evidence_count": 0,
+  "confidence": 0.4,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "version",
+  "to_command": "help",
+  "rationale": "Agents reach for 'version' 3 times when 'help' is the right command. Add 'version' as an alias for 'help'.",
+  "evidence_count": 0,
+  "confidence": 0.6,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "run",
+  "to_command": "help",
+  "rationale": "Agents reach for 'run' 4 times when 'help' is the right command. Add 'run' as an alias for 'help'.",
+  "evidence_count": 0,
+  "confidence": 0.8,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "run",
+  "to_command": "help",
+  "rationale": "Agents reach for 'run' 4 times when 'help' is the right command. Add 'run' as an alias for 'help'.",
+  "evidence_count": 0,
+  "confidence": 0.8,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "run",
+  "to_command": "help",
+  "rationale": "Agents reach for 'run' 4 times when 'help' is the right command. Add 'run' as an alias for 'help'.",
+  "evidence_count": 0,
+  "confidence": 0.8,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "version",
+  "to_command": "help",
+  "rationale": "Agents reach for 'version' 3 times when 'help' is the right command. Add 'version' as an alias for 'help'.",
+  "evidence_count": 0,
+  "confidence": 0.6,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "run",
+  "to_command": "help",
+  "rationale": "Agents reach for 'run' 4 times when 'help' is the right command. Add 'run' as an alias for 'help'.",
+  "evidence_count": 0,
+  "confidence": 0.8,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "list",
+  "to_command": "help",
+  "rationale": "Agents reach for 'list' 4 times when 'help' is the right command. Add 'list' as an alias for 'help'.",
+  "evidence_count": 0,
+  "confidence": 0.8,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "list",
+  "to_command": "help",
+  "rationale": "Agents reach for 'list' 4 times when 'help' is the right command. Add 'list' as an alias for 'help'.",
+  "evidence_count": 0,
+  "confidence": 0.8,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "list",
+  "to_command": "help",
+  "rationale": "Agents reach for 'list' 2 times when 'help' is the right command. Add 'list' as an alias for 'help'.",
+  "evidence_count": 0,
+  "confidence": 0.4,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "list",
+  "to_command": "help",
+  "rationale": "Agents reach for 'list' 4 times when 'help' is the right command. Add 'list' as an alias for 'help'.",
+  "evidence_count": 0,
+  "confidence": 0.8,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "list",
+  "to_command": "help",
+  "rationale": "Agents reach for 'list' 4 times when 'help' is the right command. Add 'list' as an alias for 'help'.",
+  "evidence_count": 0,
+  "confidence": 0.8,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "list",
+  "to_command": "help",
+  "rationale": "Agents reach for 'list' 4 times when 'help' is the right command. Add 'list' as an alias for 'help'.",
+  "evidence_count": 0,
+  "confidence": 0.8,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "run",
+  "to_command": "help",
+  "rationale": "Agents reach for 'run' 3 times when 'help' is the right command. Add 'run' as an alias for 'help'.",
+  "evidence_count": 0,
+  "confidence": 0.6,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "help",
+  "to_command": "help",
+  "rationale": "Agents reach for 'help' 3 times when 'help' is the right command. Add 'help' as an alias for 'help'.",
+  "evidence_count": 0,
+  "confidence": 0.6,
+  "proposed_at": ""
+ },
+ {
+  "move_type": "alias",
+  "from_command": "run",
+  "to_command": "help",
+  "rationale": "Agents reach for 'run' 2 times when 'help' is the right command. Add 'run' as an alias for 'help'.",
+  "evidence_count": 0,
+  "confidence": 0.4,
+  "proposed_at": ""
+ }
+]

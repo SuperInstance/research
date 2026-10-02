@@ -1,0 +1,16 @@
+{
+  "piece": "wr20-zai-ten-archetypes",
+  "mean_p": 0.789,
+  "doctrines_hit": {
+    "witness_log_is_prediction": 17,
+    "substrate_is_grown": 20,
+    "oracle_is_heard": 4,
+    "cells_are_scars": 11,
+    "lenia_flows": 0
+  },
+  "fnv_count": 17,
+  "box_muller_count": 10,
+  "cosine_count": 8,
+  "witness_count": 17,
+  "verdict": "ACCEPT"
+}

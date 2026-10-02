@@ -1,0 +1,27 @@
+{
+ "repo": "si-research",
+ "swept_at": "2026-09-30T05:55:08Z",
+ "findings": [],
+ "ops": [
+  {
+   "kind": "vessel name",
+   "distinct": 1,
+   "samples": [
+    "F/V EILEEN"
+   ]
+  },
+  {
+   "kind": "email address",
+   "distinct": 1,
+   "samples": [
+    "fleet@superinstance.dev"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 19061,
+  "gitleaks": 0,
+  "high_entropy_strings": 0
+ }
+}

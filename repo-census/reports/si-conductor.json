@@ -1,0 +1,22 @@
+{
+ "repo": "si-conductor",
+ "swept_at": "2026-09-30T05:54:57Z",
+ "findings": [],
+ "ops": [
+  {
+   "kind": "email address",
+   "distinct": 3,
+   "samples": [
+    "+@pytest.fixture",
+    "casey@superinstance.com",
+    "fleet@superinstance.dev"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 108602,
+  "gitleaks": 0,
+  "high_entropy_strings": 0
+ }
+}

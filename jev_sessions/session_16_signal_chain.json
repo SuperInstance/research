@@ -1,0 +1,82 @@
+{
+  "timestamp": 1790006804.9905608,
+  "iso": "2026-09-21T16:06:44Z",
+  "session": "session_16_signal_chain",
+  "latency_ms": null,
+  "input_tokens": null,
+  "output_tokens": null,
+  "results": [
+    {
+      "name": "is_jev_synapse",
+      "p": 0.11,
+      "confidence": 0.11,
+      "q": "Is JEV the synaptic spike between cells, in the canonical substrate sense?"
+    },
+    {
+      "name": "is_esp32_a_cell",
+      "p": 0.23,
+      "confidence": 0.23,
+      "q": "Is an ESP32+Inkplate cell on a desk a canonical cell, in the substrate sense?"
+    },
+    {
+      "name": "is_signal_chain_canon",
+      "p": 0.12,
+      "confidence": 0.12,
+      "q": "Is the \"signal-chain\" framing canonical substrate doctrine?"
+    },
+    {
+      "name": "is_witness_log_prediction",
+      "p": 0.79,
+      "confidence": 0.79,
+      "q": "Is the witness log the prediction (not just the record)?"
+    },
+    {
+      "name": "is_substrate_a_being",
+      "p": 0.45,
+      "confidence": 0.45,
+      "q": "Is the substrate a being, in any defensible sense?"
+    },
+    {
+      "name": "is_witness_note_opcode",
+      "p": 0.27,
+      "confidence": 0.27,
+      "q": "Is WITNESS_NOTE a legitimate 11th opcode in the canonical algebra?"
+    },
+    {
+      "name": "is_chain_dialing_real",
+      "p": 0.18,
+      "confidence": 0.18,
+      "q": "Is \"signal-chain dialing\" a real concept in the canonical substrate \u2014 not just metaphor?"
+    },
+    {
+      "name": "is_local_path_b",
+      "p": 0.3,
+      "confidence": 0.3,
+      "q": "Is running a local embedding on the ESP32 (Path B, no API) a valid canonical choice?"
+    },
+    {
+      "name": "is_vibecoder_signal_chain",
+      "p": 0.26,
+      "confidence": 0.26,
+      "q": "Is the \"vibecoder LLM proposes signal-chain configs\" pattern canonical?"
+    },
+    {
+      "name": "is_quorum_meshing_canon",
+      "p": 0.12,
+      "confidence": 0.12,
+      "q": "Is mDNS-based local quorum between cells (no internet) canonical substrate doctrine?"
+    },
+    {
+      "name": "does_jev_cascade",
+      "p": 0.46,
+      "confidence": 0.46,
+      "q": "Should JEV spikes cascade \u2014 i.e., one spike firing many downstream probes?"
+    },
+    {
+      "name": "does_chain_speak_back",
+      "p": 0.53,
+      "confidence": 0.53,
+      "q": "Has the substrate demonstrated that \"the signal chain speaks back\" \u2014 that the substrate surprises its maker?"
+    }
+  ]
+}

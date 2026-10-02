@@ -1,0 +1,16 @@
+[package]
+name = "substrate-merger"
+version = "0.1.0"
+edition = "2021"
+description = "MERGER opcode (R10) for substrate observation primitive"
+license = "MIT"
+authors = ["SuperInstance"]
+repository = "https://github.com/SuperInstance/substrate-merger"
+readme = "README.md"
+keywords = ["observation", "substrate", "jev-quilt", "merger"]
+categories = ["data-structures"]
+
+[dependencies]
+observation-primitive = "0.1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

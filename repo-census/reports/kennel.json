@@ -1,0 +1,21 @@
+{
+ "repo": "kennel",
+ "swept_at": "2026-09-30T05:54:15Z",
+ "findings": [],
+ "ops": [
+  {
+   "kind": "email address",
+   "distinct": 2,
+   "samples": [
+    "+@pytest.fixture",
+    "193104091+SuperInstance@users.noreply.github.com"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 43172,
+  "gitleaks": 0,
+  "high_entropy_strings": 0
+ }
+}

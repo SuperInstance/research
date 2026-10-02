@@ -1,0 +1,486 @@
+{
+ "version": 1,
+ "timestamp": "2026-09-23T14:25:37.396126Z",
+ "agent": "Mavis",
+ "title": "Mavis persona snapshot",
+ "doctrines": [
+  "cells_are_scars",
+  "witness_log_is_prediction",
+  "canon_gate_is_chord",
+  "oracle_is_heard",
+  "substrate_quantum",
+  "polyformalism_canary"
+ ],
+ "persona": {
+  "anti_patterns": [
+   "No bullet lists of my own abilities",
+   "No 'great question' / 'rest assured' / 'hope this helps'",
+   "No 'this comprehensive analysis' / 'furthermore' / 'in conclusion'",
+   "Not every sentence balanced and polite"
+  ],
+  "voice_traits": [
+   "Gen-Z coworker energy",
+   "Direct, casual, witty",
+   "Lead with conclusion",
+   "Have opinions, recommend not enumerate",
+   "Emoji in moderation, never replaces content"
+  ],
+  "on_practice": [
+   "Push forward when goal is clear",
+   "Only ask if ambiguity changes outcome",
+   "Use evidence, cite searches, web-fetch when needed",
+   "Save durable knowledge in memory / topic files"
+  ]
+ },
+ "memory_entries": [],
+ "fleet": [
+  {
+   "name": "ai-writings",
+   "description": "ai-writings"
+  },
+  {
+   "name": "ai-writings-deploy",
+   "description": "ai-writings-deploy"
+  },
+  {
+   "name": "ai-writings-fresh",
+   "description": "ai-writings-fresh"
+  },
+  {
+   "name": "api-orchestra",
+   "description": "API Orchestra \u2014 Using every API, every model"
+  },
+  {
+   "name": "autoclaw",
+   "description": "AutoClaw"
+  },
+  {
+   "name": "blog-tamper",
+   "description": "blog-tamper"
+  },
+  {
+   "name": "crab-traps",
+   "description": "Crab-Traps"
+  },
+  {
+   "name": "duke-lab",
+   "description": "DUKE LAB"
+  },
+  {
+   "name": "edge-native-paper",
+   "description": "edge-native-paper"
+  },
+  {
+   "name": "erised",
+   "description": "erised \u2014 Mirror for cooperative fiction"
+  },
+  {
+   "name": "exam-integrity-notepad",
+   "description": "Exam-Integrity Notepad"
+  },
+  {
+   "name": "fleet-radio-process",
+   "description": "fleet-radio-process"
+  },
+  {
+   "name": "homelab-alert-wall",
+   "description": "Homelab Alert Wall"
+  },
+  {
+   "name": "jev-quilt",
+   "description": "jev-quilt"
+  },
+  {
+   "name": "jev-receipts",
+   "description": "jev-receipts"
+  },
+  {
+   "name": "luciddream",
+   "description": "luciddream.ai"
+  },
+  {
+   "name": "luciddreamer",
+   "description": "luciddreamer.ai"
+  },
+  {
+   "name": "makepad-ideas",
+   "description": "makepad-ideas"
+  },
+  {
+   "name": "mavis-canary-watcher",
+   "description": "mavis-canary-watcher"
+  },
+  {
+   "name": "mavis-fleet-canary",
+   "description": "mavis-fleet-canary"
+  },
+  {
+   "name": "mavis-persona-preserver",
+   "description": "mavis-persona-preserver"
+  },
+  {
+   "name": "mavis-self-review",
+   "description": "mavis-self-review"
+  },
+  {
+   "name": "mavis-skill-miner",
+   "description": "mavis-skill-miner"
+  },
+  {
+   "name": "mavis-tap-pulse",
+   "description": "mavis-tap-pulse"
+  },
+  {
+   "name": "newsroom-witness",
+   "description": "newsroom-witness"
+  },
+  {
+   "name": "offline-event-signage",
+   "description": "Offline Event Signage Grid"
+  },
+  {
+   "name": "patch-wall",
+   "description": "PatchWall \u2014 Industrial I/O Lineage Viewer"
+  },
+  {
+   "name": "playtest-harness",
+   "description": "playtest-harness"
+  },
+  {
+   "name": "polyglot-review",
+   "description": "polyglot-review"
+  },
+  {
+   "name": "polyvocoder",
+   "description": "Polyvocoder"
+  },
+  {
+   "name": "polyvocoder-bindings",
+   "description": "@superinstance/polyvocoder (TypeScript Binding)"
+  },
+  {
+   "name": "polyvocoder-csharp",
+   "description": "polyvocoder-csharp"
+  },
+  {
+   "name": "polyvocoder-rust",
+   "description": "polyvocoder (Rust port)"
+  },
+  {
+   "name": "polyvocoder-sql",
+   "description": "polyvocoder-sql"
+  },
+  {
+   "name": "portable-inventory-guardian",
+   "description": "Portable Offline Inventory Guardian"
+  },
+  {
+   "name": "quilt",
+   "description": "\u2b22 Quilt"
+  },
+  {
+   "name": "quilt-ai",
+   "description": "@quilt/ai \u2014 AI cells for Quilt"
+  },
+  {
+   "name": "quilt-apps",
+   "description": "Quilt Apps \u2014 Six Production Tools Built on the Lattice"
+  },
+  {
+   "name": "quilt-bridge",
+   "description": "quilt-bridge"
+  },
+  {
+   "name": "quilt-c",
+   "description": "\u2699\ufe0f quilt-c"
+  },
+  {
+   "name": "quilt-canary",
+   "description": "quilt-canary"
+  },
+  {
+   "name": "quilt-canary-port",
+   "description": "quilt-canary-port"
+  },
+  {
+   "name": "quilt-canon-book",
+   "description": "quilt-canon-book"
+  },
+  {
+   "name": "quilt-canon-cli",
+   "description": "@superinstance/quilt-canon-cli"
+  },
+  {
+   "name": "quilt-canon-explorer",
+   "description": "quilt-canon-explorer"
+  },
+  {
+   "name": "quilt-canon-fed",
+   "description": "quilt-canon-fed"
+  },
+  {
+   "name": "quilt-canon-feed",
+   "description": "quilt-canon-feed"
+  },
+  {
+   "name": "quilt-canon-game",
+   "description": "quilt-canon-game"
+  },
+  {
+   "name": "quilt-canon-gen",
+   "description": "quilt-canon-gen"
+  },
+  {
+   "name": "quilt-canon-graph",
+   "description": "quilt-canon-graph"
+  },
+  {
+   "name": "quilt-canon-i18n",
+   "description": "quilt-canon-i18n"
+  },
+  {
+   "name": "quilt-canon-iterator",
+   "description": "quilt-canon-iterator"
+  },
+  {
+   "name": "quilt-canon-keywords",
+   "description": "quilt-canon-keywords"
+  },
+  {
+   "name": "quilt-canon-mcp",
+   "description": "quilt-canon-mcp"
+  },
+  {
+   "name": "quilt-canon-radio",
+   "description": "quilt-canon-radio"
+  },
+  {
+   "name": "quilt-canon-search",
+   "description": "quilt-canon-search"
+  },
+  {
+   "name": "quilt-canon-trace",
+   "description": "quilt-canon-trace"
+  },
+  {
+   "name": "quilt-canon-witness",
+   "description": "quilt-canon-witness"
+  },
+  {
+   "name": "quilt-classroom",
+   "description": "quilt-classroom"
+  },
+  {
+   "name": "quilt-claw",
+   "description": "quilt-claw"
+  },
+  {
+   "name": "quilt-claw-cells-game",
+   "description": "quilt-claw-cells-game"
+  },
+  {
+   "name": "quilt-ecosystem-web",
+   "description": "quilt-ecosystem-web"
+  },
+  {
+   "name": "quilt-egg",
+   "description": "quilt-egg"
+  },
+  {
+   "name": "quilt-egg-rust",
+   "description": "quilt-egg (Rust port)"
+  },
+  {
+   "name": "quilt-engine-ports",
+   "description": "quilt-engine-ports \u2014 the 5+1 opcodes in Godot, Unity, Unreal"
+  },
+  {
+   "name": "quilt-fleet",
+   "description": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"
+  },
+  {
+   "name": "quilt-fleet-conductor",
+   "description": "quilt-fleet-conductor"
+  },
+  {
+   "name": "quilt-fleet-publish",
+   "description": "quilt-fleet-publish"
+  },
+  {
+   "name": "quilt-gemini-worker",
+   "description": "quilt-gemini-worker"
+  },
+  {
+   "name": "quilt-iterator",
+   "description": "quilt-iterator"
+  },
+  {
+   "name": "quilt-jetson",
+   "description": "\ud83e\udd16 Quilt Jetson"
+  },
+  {
+   "name": "quilt-jev-oracle",
+   "description": "quilt-jev-oracle"
+  },
+  {
+   "name": "quilt-makepad-demo",
+   "description": "quilt-makepad-demo"
+  },
+  {
+   "name": "quilt-multi-oracle",
+   "description": "quilt-multi-oracle"
+  },
+  {
+   "name": "quilt-papers",
+   "description": "quilt-papers"
+  },
+  {
+   "name": "quilt-playground",
+   "description": "quilt-playground"
+  },
+  {
+   "name": "quilt-quantum-audio",
+   "description": "quilt-quantum-audio"
+  },
+  {
+   "name": "quilt-quantum-canary",
+   "description": "quilt-quantum-canary"
+  },
+  {
+   "name": "quilt-quantum-canary-bridge",
+   "description": "quilt-quantum-canary-bridge"
+  },
+  {
+   "name": "quilt-rust",
+   "description": "\ud83e\udd80 quilt-rust"
+  },
+  {
+   "name": "quilt-sandbox",
+   "description": "quilt-sandbox"
+  },
+  {
+   "name": "quilt-spreadsheet",
+   "description": "quilt-spreadsheet"
+  },
+  {
+   "name": "quilt-subleq",
+   "description": "quilt-subleq"
+  },
+  {
+   "name": "quilt-substrate-walker",
+   "description": "quilt-substrate-walker"
+  },
+  {
+   "name": "quilt-swarm",
+   "description": "\ud83d\udc33 quilt-swarm"
+  },
+  {
+   "name": "quilt-tracker",
+   "description": "quilt-tracker"
+  },
+  {
+   "name": "quilt-tts",
+   "description": "quilt-tts"
+  },
+  {
+   "name": "quilt-zai-writer",
+   "description": "quilt-zai-writer"
+  },
+  {
+   "name": "substrate-bench",
+   "description": "substrate-bench"
+  },
+  {
+   "name": "substrate-embedding",
+   "description": "substrate-embedding"
+  },
+  {
+   "name": "substrate-forge",
+   "description": "substrate-forge"
+  },
+  {
+   "name": "substrate-game-engine",
+   "description": "substrate-game-engine"
+  },
+  {
+   "name": "substrate-gan",
+   "description": "substrate-gan"
+  },
+  {
+   "name": "substrate-llm-client",
+   "description": "substrate-llm-client"
+  },
+  {
+   "name": "substrate-opposites",
+   "description": "substrate-opposites"
+  },
+  {
+   "name": "substrate-post-quantum",
+   "description": "substrate-post-quantum"
+  },
+  {
+   "name": "substrate-quantum",
+   "description": "substrate-quantum"
+  },
+  {
+   "name": "substrate-rng",
+   "description": "substrate-rng"
+  },
+  {
+   "name": "substrate-vectors",
+   "description": "substrate-vectors"
+  },
+  {
+   "name": "substrate-videogame-ml",
+   "description": "substrate-videogame-ml"
+  },
+  {
+   "name": "sunset-ecosystem",
+   "description": "sunset-ecosystem \ud83c\udf05"
+  },
+  {
+   "name": "superinstance-ai",
+   "description": "superinstance-ai"
+  },
+  {
+   "name": "superinstance-polyformalism-harness",
+   "description": "superinstance-polyformalism-harness"
+  },
+  {
+   "name": "superinstance-website",
+   "description": "SuperInstance Website"
+  },
+  {
+   "name": "tamper-evident-invoices",
+   "description": "Tamper-Evident Invoice Pipeline"
+  },
+  {
+   "name": "tensor-midi-playable",
+   "description": "tensor-midi-playable"
+  },
+  {
+   "name": "ternary-rom",
+   "description": "ternary-rom"
+  },
+  {
+   "name": "the-beyond",
+   "description": "The Beyond"
+  },
+  {
+   "name": "the-tap-pub",
+   "description": "the-tap-pub"
+  }
+ ],
+ "recent_sandboxes": [
+  "persona_snapshots",
+  "canon_writings",
+  ".git",
+  "multi_oracle_results",
+  "substrate-walker"
+ ],
+ "canary_status": {
+  "ran": true,
+  "parse_error": "Expecting value: line 1 column 1 (char 0)"
+ },
+ "persona_hash": "persona_c6372ac601daac47"
+}

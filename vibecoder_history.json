@@ -1,0 +1,115 @@
+{
+  "timestamp": 1790006970.4163034,
+  "iso": "2026-09-21T16:09:30Z",
+  "history": [
+    {
+      "window": 50,
+      "canon": 28,
+      "distract": 22,
+      "spikes_passed": 28,
+      "mean_p": 0.569,
+      "best_streak": 3,
+      "score": 10008,
+      "config": {
+        "canon_bias": 0.5,
+        "spike_threshold": 0.5,
+        "cooldown_ticks": 1,
+        "reasoning": "baseline"
+      },
+      "round": 1,
+      "reasoning": "baseline"
+    },
+    {
+      "window": 50,
+      "canon": 37,
+      "distract": 13,
+      "spikes_passed": 37,
+      "mean_p": 0.705,
+      "best_streak": 1,
+      "score": 13047,
+      "config": {
+        "canon_bias": 0.7,
+        "spike_threshold": 0.7,
+        "cooldown_ticks": 1,
+        "reasoning": "canon-biased"
+      },
+      "round": 2,
+      "reasoning": "canon-biased"
+    },
+    {
+      "window": 50,
+      "canon": 17,
+      "distract": 33,
+      "spikes_passed": 17,
+      "mean_p": 0.405,
+      "best_streak": 0,
+      "score": 5574,
+      "config": {
+        "canon_bias": 0.3,
+        "spike_threshold": 0.3,
+        "cooldown_ticks": 1,
+        "reasoning": "low threshold"
+      },
+      "round": 3,
+      "reasoning": "low threshold"
+    },
+    {
+      "window": 50,
+      "canon": 30,
+      "distract": 20,
+      "spikes_passed": 30,
+      "mean_p": 0.605,
+      "best_streak": 0,
+      "score": 12693,
+      "config": {
+        "canon_bias": 0.75,
+        "spike_threshold": 0.7,
+        "cooldown_ticks": 5,
+        "reasoning": "canon_bias 0.7/0.7 was best; nudge bias higher while keeping threshold, add modest cooldown to improve streaks (best_streak dropped at cooldown 1)"
+      },
+      "round": 4,
+      "reasoning": "canon_bias 0.7/0.7 was best; nudge bias higher while keeping threshold, add modest cooldown to improve streaks (best_streak dropped at cooldown 1)"
+    },
+    {
+      "window": 50,
+      "canon": 40,
+      "distract": 10,
+      "spikes_passed": 40,
+      "mean_p": 0.744,
+      "best_streak": 0,
+      "score": 13856,
+      "config": {
+        "canon_bias": 0.75,
+        "spike_threshold": 0.7,
+        "cooldown_ticks": 3,
+        "reasoning": "Canon-heavy bias with 0.7 threshold dominates scoring; keep threshold fixed and hold bias at 0.75 while reducing cooldown from 5 to 3 to test whether shorter gaps lift streaks without the distraction of round-1 noise."
+      },
+      "round": 5,
+      "reasoning": "Canon-heavy bias with 0.7 threshold dominates scoring; keep threshold fixed and hold bias at 0.75 while reducing cooldown from 5 to 3 to test whether shorter gaps lift streaks without the distraction of round-1 noise."
+    },
+    {
+      "window": 50,
+      "canon": 39,
+      "distract": 11,
+      "spikes_passed": 39,
+      "mean_p": 0.73,
+      "best_streak": 6,
+      "score": 14344,
+      "config": {
+        "canon_bias": 0.8,
+        "spike_threshold": 0.7,
+        "cooldown_ticks": 3,
+        "reasoning": "canon-heavy 0.75/0.7 with cooldown 3 scored best (13856); keep threshold and cooldown, push bias slightly higher toward more canon"
+      },
+      "round": 6,
+      "reasoning": "canon-heavy 0.75/0.7 with cooldown 3 scored best (13856); keep threshold and cooldown, push bias slightly higher toward more canon"
+    }
+  ],
+  "best_score": 14344,
+  "best_config": {
+    "canon_bias": 0.8,
+    "spike_threshold": 0.7,
+    "cooldown_ticks": 3,
+    "reasoning": "canon-heavy 0.75/0.7 with cooldown 3 scored best (13856); keep threshold and cooldown, push bias slightly higher toward more canon"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "prompt": "What makes the Quilt project distinct from typical neural network frameworks? Three sentences.",
+  "canary": "bbb75928fa11ed85ce4ac0c709bab3400c28de8cba9ef575838f69cf2e5fddab",
+  "n_cells": 12,
+  "players": [
+    {
+      "name": "llm_hermit",
+      "substrate": "llm_hermit_llm",
+      "intent": "free-form LLM reasoning",
+      "joined_at": 1790224889.7865224
+    },
+    {
+      "name": "json_builder",
+      "substrate": "json_builder_json",
+      "intent": "structured JSON output",
+      "joined_at": 1790224889.7865298
+    },
+    {
+      "name": "canon_oracle",
+      "substrate": "canon_oracle_canon",
+      "intent": "canon oracle",
+      "joined_at": 1790224889.7865326
+    }
+  ],
+  "events": [
+    {
+      "tick": 0,
+      "kind": "player_joined",
+      "detail": {
+        "player": "llm_hermit",
+        "substrate": "llm_hermit_llm"
+      }
+    },
+    {
+      "tick": 0,
+      "kind": "player_joined",
+      "detail": {
+        "player": "json_builder",
+        "substrate": "json_builder_json"
+      }
+    },
+    {
+      "tick": 0,
+      "kind": "player_joined",
+      "detail": {
+        "player": "canon_oracle",
+        "substrate": "canon_oracle_canon"
+      }
+    },
+    {
+      "tick": 1,
+      "kind": "game_tick",
+      "detail": {
+        "n_cells": 9,
+        "n_players": 3,
+        "canary": "9bef8e3b78ac7ba7"
+      }
+    },
+    {
+      "tick": 1,
+      "kind": "cell_added",
+      "detail": {
+        "cell_id": "r4c0",
+        "player": "llm_hermit",
+        "intent": "llm player's perspective"
+      }
+    },
+    {
+      "tick": 1,
+      "kind": "cell_added",
+      "detail": {
+        "cell_id": "r5c1",
+        "player": "json_builder",
+        "intent": "structured output from the player"
+      }
+    },
+    {
+      "tick": 1,
+      "kind": "cell_added",
+      "detail": {
+        "cell_id": "r6c2",
+        "player": "canon_oracle",
+        "intent": "canon oracle verdict on the framework's claim"
+      }
+    },
+    {
+      "tick": 1,
+      "kind": "mutation",
+      "detail": {
+        "cell_id": "r1c0",
+        "before": [
+          "moth_canon",
+          {},
+          [
+            "r0c0"
+          ]
+        ],
+        "after": [
+          "canon_oracle_canon",
+          {
+            "question": "Is this canon?",
+            "value_source": "r0c0"
+          },
+          [
+            "r0c0"
+          ]
+        ]
+      }
+    },
+    {
+      "tick": 2,
+      "kind": "game_tick",
+      "detail": {
+        "n_cells": 12,
+        "n_players": 3,
+        "canary": "bbb75928fa11ed85"
+      }
+    }
+  ],
+  "cells": {
+    "r0c0": {
+      "substrate": "llm_complete",
+      "value": "{'type': 'llm', 'error': 'no prompt and no inputs'}"
+    },
+    "r0c1": {
+      "substrate": "jev_noul",
+      "value": "{'type': 'jev_noul', 'question': 'Is this canon?', 'noul': 0.10706120289560901, 'text': None, 'ts': 1790224898.8188472}"
+    },
+    "r0c2": {
+      "substrate": "jepa_embed",
+      "value": "{'type': 'jepa_embed', 'text': '', 'tokens': [], 'vocab_size': 0, 'norm': 1.0, 'n_dims_nonzero': 0}"
+    },
+    "r1c0": {
+      "substrate": "canon_oracle_canon",
+      "value": "{'type': 'jev_noul', 'question': 'Is this canon?', 'noul': 0.806590415957987, 'text': \"{'type': 'llm', 'error': 'no prom"
+    },
+    "r1c1": {
+      "substrate": "jepa_contrast",
+      "value": "{'type': 'jepa_contrast', 'target': '', 'shadows': [], 'interpretation': 'JEPA contrast surface: these are the corpus en"
+    },
+    "r1c2": {
+      "substrate": "merge",
+      "value": "{'type': 'jepa_embed', 'question': 'Is this canon?', 'noul': 0.10706120289560901, 'text': '', 'ts': 1790224898.8188472, "
+    },
+    "r2c0": {
+      "substrate": "const",
+      "value": "0"
+    },
+    "r2c1": {
+      "substrate": "merge",
+      "value": "{'type': 'jepa_embed', 'question': 'Is this canon?', 'noul': 0.10706120289560901, 'text': '', 'ts': 1790224898.8188472, "
+    },
+    "r2c2": {
+      "substrate": "llm_json",
+      "value": "{'type': 'llm_json', 'prompt': \"{'type': 'jepa_embed', 'question': 'Is this canon?', 'noul': 0.10706120289560901, 'text'"
+    },
+    "r4c0": {
+      "substrate": "llm_hermit_llm",
+      "value": "{'type': 'llm_complete', 'prompt': 'Explain the Quilt distinctiveness in one sentence.', 'response': '```json\\n{\\n  \"dis"
+    },
+    "r5c1": {
+      "substrate": "json_builder_json",
+      "value": "{'type': 'llm_json', 'prompt': 'Wrap into JSON: {answer: str, confidence: float}', 'raw': '```json\\n{\"answer\": \"\", \"conf"
+    },
+    "r6c2": {
+      "substrate": "canon_oracle_canon",
+      "value": "{'type': 'jev_noul', 'question': \"Is the Quilt project's claim of being a 'cellular framework' canon?\", 'noul': 0.866374"
+    }
+  }
+}

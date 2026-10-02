@@ -1,0 +1,6 @@
+include LICENSE
+include quilt_cell/verify.py
+include quilt_cell/Makefile
+recursive-include quilt_cell/src *.c
+recursive-include quilt_cell/include *.h
+recursive-include quilt_cell/tests *.c

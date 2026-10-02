@@ -1,0 +1,51 @@
+{
+ "summary": {
+  "total_agents": 12,
+  "zero_shot_success_rate": 0.16666666666666666,
+  "training_needed_pct": 83.33333333333334,
+  "ergonomic_grade": "D"
+ },
+ "first_reach_distribution": {
+  "version": 5,
+  "run": 4,
+  "list": 3
+ },
+ "reach_frequency": {
+  "version": 5,
+  "fleet health": 3,
+  "fleet version": 3,
+  "fleet list-substrates": 2,
+  "fleet list-agents": 2,
+  "fleet run quilt": 2,
+  "fleet run moth": 2,
+  "run": 4,
+  "list": 3
+ },
+ "stumbles": [
+  {
+   "task": "run a quilt experiment",
+   "first_command": "version",
+   "agent_count": 2,
+   "first_try_failure_count": 2,
+   "success_after": {
+    "fleet run quilt": 2
+   },
+   "yoke_move": "Move 'fleet run quilt' to position of 'version'"
+  }
+ ],
+ "yoke_moves": [
+  {
+   "move_type": "alias",
+   "from_command": "version",
+   "to_command": "fleet run quilt",
+   "rationale": "Agents reach for 'version' 2 times when 'fleet run quilt' is the right command. Add 'version' as an alias for 'fleet run quilt'.",
+   "confidence": 0.4
+  }
+ ],
+ "design_implications": {
+  "ctm": "CTM models should have these commands as natural primitives",
+  "tfm": "TFM time-first models should optimize first-reach-to-success time",
+  "origin_centric": "Origin-centric models should expose intent directly",
+  "sfm": "SFM simulation-first should let agents reach for the simulated outcome"
+ }
+}

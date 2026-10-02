@@ -1,0 +1,10 @@
+{
+  "timestamp": 1790908544.372198,
+  "iso": "2026-10-02T02:35:44Z",
+  "n_train": 80,
+  "n_test": 20,
+  "log_size": 200,
+  "linear_baseline": {
+    "exact_match_rate": 0.0
+  }
+}

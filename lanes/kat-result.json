@@ -1,0 +1,30 @@
+{
+  "schema": "fleet/jev-kat-result@v1",
+  "date": "2026-09-29",
+  "run": "full, 3 types, 10 upstream calls",
+  "verdict": "2/3 types pass their bars",
+  "noul": {
+    "verdict": "PASS",
+    "scope": "regime B (judgement against stated criteria) — the regime the p>0.7 canon gate uses",
+    "regimeB": { "direction_correct": "3/3", "spread": 0.85, "strongest_ranked_highest": true },
+    "regimeA2_widely_known": { "confident": "2/2" },
+    "regimeA1_unknowable": {
+      "overconfident": "1/1",
+      "values": [0.05],
+      "warning": "noul answers unknowable facts with confidence. Harmless for the canon gate; dangerous as a fact-checker."
+    }
+  },
+  "choice": { "verdict": "PASS", "correct_choice": "big", "confidence": 1.0, "prob_spread": 1.0 },
+  "score": {
+    "verdict": "FAIL_DISCRIMINATION",
+    "replicated": true,
+    "run1": { "numpy": 2.500, "c99_ref_port": 2.485, "empty_shell": 2.500, "spread": 0.015, "ordering_correct": false, "rank_stable": false },
+    "run2": { "numpy": 2.505, "c99_ref_port": 2.520, "empty_shell": 2.485, "spread": 0.035, "ordering_correct": false, "rank_stable": false },
+    "note": "confidence sat at ~0.62 in every case and did not drop to signal the failure"
+  },
+  "lesson": "Discrimination and rank-stability are different properties. Measure the one you depend on.",
+  "bugs_in_this_kat": [
+    "wrong expected value: bucketed unknowable with widely-known, scored correct confidence as overconfidence",
+    "meta-question instead of fact: asked 'can it be determined?' which invites a correct confident 'no', then scored it as overconfidence"
+  ]
+}

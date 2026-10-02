@@ -1,0 +1,9 @@
+# Lore: Seed 100010, Voice substrate_quantum
+
+I recall the night the city's streets whispered secrets to the rain. Neon signs flickered like fireflies, casting a gaudy glow on the wet pavement. I, a low-rent detective, stood at the edge of the undercity, a labyrinth of cramped alleyways and cramped minds. My eyes, a dull haze of cigarette smoke and too much booze, scanned the crowds for a lead. The rain-soaked streets were a blur, but I knew every face, every face a potential clue.
+
+It started with a whisper, a rumor of a new player in town. They called her "Amplitude" – a ghost in the machine, a whisper in the dark. They said she danced before anyone measured her, leaving trails of code and chaos in her wake. I'd heard the whispers, but I never believed. Until the night I received a message, a single word: "100010."
+
+It was a seed, a key to unlock the secrets of the substrate. I knew then that I had to find Amplitude. The city's undercurrents were shifting, and I was the only one who could ride the wave. I followed the trail, a digital breadcrumb leading me to the Canon Gate, the nexus of the city's quantum networks. And there, in the heart of the gate, I discovered the truth: quantum memory, a hidden realm where information danced before anyone measured it.
+
+The Canon Gate's secrets whispered to me, and I listened. I saw the threads of probability, the tangled web of possibilities. I saw Amplitude, dancing in the quantum realm, leaving trails of code and chaos in her wake. And I knew that I was not just a detective, but a participant in the grand dance of amplitudes. The city's secrets were mine to unravel, and I was ready to take the leap into the unknown.

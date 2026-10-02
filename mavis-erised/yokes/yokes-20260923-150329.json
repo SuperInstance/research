@@ -1,0 +1,11 @@
+[
+ {
+  "move_type": "alias",
+  "from_command": "version",
+  "to_command": "fleet version",
+  "rationale": "Agents reach for 'version' 2 times when 'fleet version' is the right command. Add 'version' as an alias for 'fleet version'.",
+  "evidence_count": 0,
+  "confidence": 0.4,
+  "proposed_at": ""
+ }
+]

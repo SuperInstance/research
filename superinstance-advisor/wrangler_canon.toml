@@ -1,0 +1,13 @@
+name = "canon-api-worker"
+main = "canon_api_worker.js"
+compatibility_date = "2024-09-23"
+
+[ai]
+binding = "AI"
+
+[[kv_namespaces]]
+binding = "CELL_WITNESS_KV"
+id = "f1882454a316494ebd8b9a75fe7856df"
+
+[triggers]
+crons = ["0 */6 * * *"]

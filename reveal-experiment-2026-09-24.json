@@ -1,0 +1,63 @@
+{
+  "distilled": {
+    "name": "quilt-fable",
+    "substrate_kind": "narrative",
+    "description": "Fable substrate \u2014 multi-voice narrative using mavis-tap-pulse 3-voice chord",
+    "polarity_rules": {
+      "ok": "ACCEPT",
+      "diverges": "DRIFT",
+      "break": "REFUSE",
+      "unknown": "DRIFT"
+    },
+    "operations": [
+      "chain_intact",
+      "reset",
+      "by_polarity"
+    ],
+    "tests": [
+      "test_compose_3_voice_chord",
+      "test_voice_assignment",
+      "test_harmonic_consonance",
+      "test_meter_validation",
+      "test_refusal_on_break",
+      "test_chain_intact",
+      "test_chain_broken_detected",
+      "test_by_polarity"
+    ]
+  },
+  "comparison": {
+    "match": false,
+    "diffs": [
+      "polarity_rules: {'diverges', 'ok', 'break'} vs {'DRIFT', 'ACCEPT', 'REFUSE'}",
+      "operations: {'harmonize', 'narrate', 'voice', 'compose'} vs {'reset', 'chain_intact', 'by_polarity'}",
+      "tests: {'test_compose_3_voice_chord', 'test_refusal_on_break', 'test_meter_validation', 'test_voice_assignment', 'test_harmonic_consonance'} vs {'test_compose_3_voice_chord', 'test_refusal_on_break', 'test_chain_intact', 'test_chain_broken_detected', 'test_meter_validation', 'test_by_polarity', 'test_voice_assignment', 'test_harmonic_consonance'}"
+    ],
+    "distilled": {
+      "name": "quilt-fable",
+      "substrate_kind": "narrative",
+      "description": "Fable substrate \u2014 multi-voice narrative using mavis-tap-pulse 3-voice chord",
+      "polarity_rules": {
+        "ok": "ACCEPT",
+        "diverges": "DRIFT",
+        "break": "REFUSE",
+        "unknown": "DRIFT"
+      },
+      "operations": [
+        "chain_intact",
+        "reset",
+        "by_polarity"
+      ],
+      "tests": [
+        "test_compose_3_voice_chord",
+        "test_voice_assignment",
+        "test_harmonic_consonance",
+        "test_meter_validation",
+        "test_refusal_on_break",
+        "test_chain_intact",
+        "test_chain_broken_detected",
+        "test_by_polarity"
+      ]
+    },
+    "original_recipe_name": "quilt-fable"
+  }
+}

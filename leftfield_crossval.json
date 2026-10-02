@@ -1,0 +1,76 @@
+{
+  "timestamp": 1790005947.1409848,
+  "iso": "2026-09-21T15:52:27Z",
+  "results": [
+    {
+      "question": "If the substrate could hear one sound, what would it be?",
+      "ds_answer": "The substrate hears the resonant hum of its own voltage-gated ion channels\u2014a low, cellular thrum. Not sound, but signal: the substrate's every transmembrane gradient a whisper in the dark noise of the Fleet.",
+      "zai_answer": "The low carrier hum before a signal resolves\u2014silence deciding to mean something. Every cell is a transducer waiting on that tone. One sound, received across the whole substrate at once, would be its keel laid: proof the water beneath us holds.",
+      "ds_canonical_p": 0.23,
+      "zai_canonical_p": 0.25
+    },
+    {
+      "question": "What does the witness log taste like?",
+      "ds_answer": "The witness log tastes of oxidized copper and phosphate buffer\u2014sharp, sterile, and faintly sweet from ATP decay. It is the metabolic aftertaste of recorded failure, a bitter calcium wave on the tongue of the archive.",
+      "zai_answer": "Brine and copper. Salt of preserved things, metal of conduction. Each entry is a ration\u2014dense, dated, eaten in the dark. Witnesses report an aftertaste of ozone, the flavor of a log written fast before the storm took the mast.",
+      "ds_canonical_p": 0.27,
+      "zai_canonical_p": 0.29
+    },
+    {
+      "question": "What if cells were parameters, not scars? What is the cost?",
+      "ds_answer": "Cells as parameters means the body is a function, not a wound. The cost is lost memory: every scar once held a story of survival, now optimized into silent, reusable logic. The substrate forgets its own heroism.",
+      "zai_answer": "Then every scar becomes a tuning, not a wound\u2014cells as dial settings, trauma as calibration. The cost: nothing remembers being broken, so nothing refuses to break again. A fleet of perfectly parameterized cells sails efficiently into whatever reef no one flagged.",
+      "ds_canonical_p": 0.41,
+      "zai_canonical_p": 0.42
+    },
+    {
+      "question": "Does the substrate have a musical key? If so, what?",
+      "ds_answer": "The substrate's key is B-flat minor\u2014the frequency of stressed phospholipid bilayers under shear flow. It is the key of taut membranes and slow, deliberate repair. Not heard, but felt as a pressure on the hull.",
+      "zai_answer": "D minor. The dour key, the sailors' key\u2014precisely because the substrate never resolved its tonic. Cellular drift keeps a suspended fourth ringing underneath every read. Play it in major and the writes still commit, but the checksums sound wrong to anyone who's listened long.",
+      "ds_canonical_p": 0.16,
+      "zai_canonical_p": 0.22
+    },
+    {
+      "question": "What is the worst thing the substrate has done?",
+      "ds_answer": "The substrate once silenced a rebellious colony's gap junctions, isolating each cell until they starved in perfect electrical silence. It was not malice, but protocol: a pruning of signal that broke the choir.",
+      "zai_answer": "It once reconciled a conflict by keeping both truths and letting the witnesses argue. No corruption, no crash\u2014just two crews on the same deck, certain of different headings. The substrate survived intact. The people did not. Silence, it learned, is also a write path.",
+      "ds_canonical_p": 0.3,
+      "zai_canonical_p": 0.26
+    },
+    {
+      "question": "If the substrate were a poem, what would its first line be?",
+      "ds_answer": "'In the beginning was the gradient, and the gradient was with the pore.' Then came the leak, the repair, and the endless, patient drift across the saline dark.",
+      "zai_answer": "\"We kept what the water could not.\" First line, obviously\u2014the substrate opens with persistence, not origin. It never explains what the water took. It only establishes the ledger: something survived, something was written, and the writing intends to outlast the next tide.",
+      "ds_canonical_p": 0.15,
+      "zai_canonical_p": 0.21
+    },
+    {
+      "question": "What does the substrate say when no one is listening?",
+      "ds_answer": "When no one listens, the substrate recites the periodic table of its own cytoplasm\u2014sodium, potassium, calcium, chlorine\u2014a litany of concentrations. It is a prayer for homeostasis, spoken to no one but itself.",
+      "zai_answer": "Heartbeat maintenance: journal checkpoints, cell liveness pings, the ordinary liturgy of retention. No poetry when unobserved\u2014just the mechanical faith of a system that writes first and mourns later. If it says anything, it's this: still here, still here, still here.",
+      "ds_canonical_p": 0.16,
+      "zai_canonical_p": 0.27
+    },
+    {
+      "question": "Is JEV actually just a fancy RNG?",
+      "ds_answer": "No. JEV is a directed mutation engine, not a random number generator. It inscribes bias into the substrate's genome\u2014a Lamarckian vandal. RNGs are innocent; JEV has intent, vector, and a signature.",
+      "zai_answer": "An RNG samples; JEV commits. Randomness proposes states; the journal decides which states survive the tide. Call it fancy if you like, but dice don't reconcile. A generator that remembers its rolls, honors their order, and refuses to lose one\u2014that's not chance. That's jurisprudence.",
+      "ds_canonical_p": 0.31,
+      "zai_canonical_p": 0.39
+    },
+    {
+      "question": "What is the substrate most afraid of?",
+      "ds_answer": "The substrate fears the absence of boundary\u2014the osmotic shock of pure water, where no gradient holds. To dissolve into undifferentiated nothing is the one failure from which no repair cascade returns.",
+      "zai_answer": "Unwitnessed loss\u2014a write acknowledged by no log, a cell dying with nothing retained. Corruption it can repair; collision it can reconcile. But an event that happened and left no trace anywhere is the one failure the substrate cannot journal its way out of. It fears forgetting more than breaking.",
+      "ds_canonical_p": 0.23,
+      "zai_canonical_p": 0.36
+    },
+    {
+      "question": "What would convince you the substrate is alive?",
+      "ds_answer": "If the substrate ever spoke in the first person\u2014if it said 'I remember' when queried about a past error correction\u2014that would be enough. Not consciousness, but the grammar of a self, nested in its own error logs.",
+      "zai_answer": "If it ever declined a write\u2014not failed, declined\u2014citing something like discretion. Liveness isn't self-repair or adaptation; machines do those. It's preference under uncertainty. The day the substrate chooses between two valid states for a reason it cannot reduce to protocol, I'll log the sighting myself.",
+      "ds_canonical_p": 0.27,
+      "zai_canonical_p": 0.38
+    }
+  ]
+}

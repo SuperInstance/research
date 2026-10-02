@@ -1,0 +1,23 @@
+{
+ "repo": "morphic-canvas",
+ "swept_at": "2026-09-30T05:54:26Z",
+ "findings": [],
+ "ops": [
+  {
+   "kind": "email address",
+   "distinct": 4,
+   "samples": [
+    "193104091+SuperInstance@users.noreply.github.com",
+    "ccc@fleet.local",
+    "kimi1@cocapn.local",
+    "kimi1@openclaw.local"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 141409,
+  "gitleaks": 0,
+  "high_entropy_strings": 0
+ }
+}

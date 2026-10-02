@@ -1,0 +1,73 @@
+{
+  "timestamp": 1790013676.261139,
+  "iso": "2026-09-21T18:01:16Z",
+  "grid_shape": [
+    40,
+    60
+  ],
+  "n_steps": 30,
+  "components_per_step": [
+    5,
+    5,
+    0,
+    0,
+    0,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "flow_summary": {
+    "comp_0": {
+      "kind": "oscillator",
+      "avg_size": 4.111111111111111,
+      "avg_mass": 2.0253566053211762,
+      "n_steps": 27
+    },
+    "comp_1": {
+      "kind": "oscillator",
+      "avg_size": 4.111111111111111,
+      "avg_mass": 2.03309776256172,
+      "n_steps": 27
+    },
+    "comp_2": {
+      "kind": "oscillator",
+      "avg_size": 4.111111111111111,
+      "avg_mass": 2.033097762651185,
+      "n_steps": 27
+    },
+    "comp_3": {
+      "kind": "oscillator",
+      "avg_size": 4.111111111111111,
+      "avg_mass": 2.0253566053211762,
+      "n_steps": 27
+    },
+    "comp_4": {
+      "kind": "oscillator",
+      "avg_size": 4.111111111111111,
+      "avg_mass": 2.036561778901622,
+      "n_steps": 27
+    }
+  }
+}

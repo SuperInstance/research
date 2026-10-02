@@ -1,0 +1,13 @@
+sow self-test
+========================================================================
+  [PASS] PARSER: extracts the verdict from free text
+  [PASS] PARSER: defaults to REJECT when the judge is silent (fail-closed)
+  [PASS] NEGATIVE: a draft that detours is SALVAGED or REJECTed, never ACCEPTed
+  [FAIL] NEGATIVE: a draft that names the working directory is ACCEPTed or at least not REJECTed
+  [PASS] JEV: acceptability returns a calibrated probability, not None
+  [PASS] JEV DISCRIMINATES: a good decomposition outscores a detouring one
+  [PASS] LOOP: a seed has a task, a reference answer, AND explicit accept criteria
+  [PASS] NEGATIVE: a seed WITHOUT accept criteria is REJECTed (proves _7 can fail)
+  [PASS] PROMPT: the decomposition prompt does not leak the reference answer
+========================================================================
+selftest: 8/9 legs correct

@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "observation-primitive"
+version = "0.1.0"
+description = "The canonical substrate atom: observation as fundamental primitive. FNV-1a signed, type-safe, federation-ready. Pure-Python, zero deps."
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{name = "SuperInstance", email = "casey.digennaro@gmail.com"}]
+
+[tool.setuptools]
+py-modules = ["observation_primitive"]

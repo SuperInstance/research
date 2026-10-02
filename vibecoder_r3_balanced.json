@@ -1,0 +1,801 @@
+{
+  "timestamp": 1790013778.1454625,
+  "iso": "2026-09-21T18:02:58Z",
+  "variant": "balanced",
+  "A": {
+    "name": "Player A (canon-purity)",
+    "kind": "A",
+    "final_score": 29200,
+    "best_streak": 30,
+    "witness": [
+      {
+        "round": 1,
+        "config": {
+          "canon_bias": 0.737,
+          "novel_bias": 0.228,
+          "threshold": 0.654,
+          "cooldown": 4
+        },
+        "canon_passes": 9,
+        "distractor_passes": 0,
+        "score_delta": 900,
+        "streak": 1
+      },
+      {
+        "round": 2,
+        "config": {
+          "canon_bias": 0.837,
+          "novel_bias": 0.113,
+          "threshold": 0.544,
+          "cooldown": 5
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 2
+      },
+      {
+        "round": 3,
+        "config": {
+          "canon_bias": 0.886,
+          "novel_bias": 0.128,
+          "threshold": 0.488,
+          "cooldown": 3
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 3
+      },
+      {
+        "round": 4,
+        "config": {
+          "canon_bias": 0.831,
+          "novel_bias": 0.296,
+          "threshold": 0.462,
+          "cooldown": 2
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 4
+      },
+      {
+        "round": 5,
+        "config": {
+          "canon_bias": 0.814,
+          "novel_bias": 0.111,
+          "threshold": 0.51,
+          "cooldown": 5
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 5
+      },
+      {
+        "round": 6,
+        "config": {
+          "canon_bias": 0.723,
+          "novel_bias": 0.252,
+          "threshold": 0.633,
+          "cooldown": 2
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 6
+      },
+      {
+        "round": 7,
+        "config": {
+          "canon_bias": 0.652,
+          "novel_bias": 0.315,
+          "threshold": 0.402,
+          "cooldown": 3
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 7
+      },
+      {
+        "round": 8,
+        "config": {
+          "canon_bias": 0.834,
+          "novel_bias": 0.367,
+          "threshold": 0.591,
+          "cooldown": 4
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 8
+      },
+      {
+        "round": 9,
+        "config": {
+          "canon_bias": 0.704,
+          "novel_bias": 0.127,
+          "threshold": 0.44,
+          "cooldown": 2
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 9
+      },
+      {
+        "round": 10,
+        "config": {
+          "canon_bias": 0.661,
+          "novel_bias": 0.232,
+          "threshold": 0.645,
+          "cooldown": 4
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 10
+      },
+      {
+        "round": 11,
+        "config": {
+          "canon_bias": 0.602,
+          "novel_bias": 0.383,
+          "threshold": 0.547,
+          "cooldown": 5
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 11
+      },
+      {
+        "round": 12,
+        "config": {
+          "canon_bias": 0.855,
+          "novel_bias": 0.24,
+          "threshold": 0.648,
+          "cooldown": 2
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 12
+      },
+      {
+        "round": 13,
+        "config": {
+          "canon_bias": 0.629,
+          "novel_bias": 0.378,
+          "threshold": 0.675,
+          "cooldown": 5
+        },
+        "canon_passes": 9,
+        "distractor_passes": 0,
+        "score_delta": 900,
+        "streak": 13
+      },
+      {
+        "round": 14,
+        "config": {
+          "canon_bias": 0.856,
+          "novel_bias": 0.16,
+          "threshold": 0.524,
+          "cooldown": 2
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 14
+      },
+      {
+        "round": 15,
+        "config": {
+          "canon_bias": 0.725,
+          "novel_bias": 0.136,
+          "threshold": 0.552,
+          "cooldown": 5
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 15
+      },
+      {
+        "round": 16,
+        "config": {
+          "canon_bias": 0.78,
+          "novel_bias": 0.305,
+          "threshold": 0.458,
+          "cooldown": 2
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 16
+      },
+      {
+        "round": 17,
+        "config": {
+          "canon_bias": 0.614,
+          "novel_bias": 0.11,
+          "threshold": 0.672,
+          "cooldown": 3
+        },
+        "canon_passes": 9,
+        "distractor_passes": 0,
+        "score_delta": 900,
+        "streak": 17
+      },
+      {
+        "round": 18,
+        "config": {
+          "canon_bias": 0.685,
+          "novel_bias": 0.329,
+          "threshold": 0.48,
+          "cooldown": 2
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 18
+      },
+      {
+        "round": 19,
+        "config": {
+          "canon_bias": 0.651,
+          "novel_bias": 0.339,
+          "threshold": 0.633,
+          "cooldown": 3
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 19
+      },
+      {
+        "round": 20,
+        "config": {
+          "canon_bias": 0.526,
+          "novel_bias": 0.164,
+          "threshold": 0.537,
+          "cooldown": 3
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 20
+      },
+      {
+        "round": 21,
+        "config": {
+          "canon_bias": 0.79,
+          "novel_bias": 0.289,
+          "threshold": 0.68,
+          "cooldown": 3
+        },
+        "canon_passes": 9,
+        "distractor_passes": 0,
+        "score_delta": 900,
+        "streak": 21
+      },
+      {
+        "round": 22,
+        "config": {
+          "canon_bias": 0.705,
+          "novel_bias": 0.362,
+          "threshold": 0.665,
+          "cooldown": 3
+        },
+        "canon_passes": 9,
+        "distractor_passes": 0,
+        "score_delta": 900,
+        "streak": 22
+      },
+      {
+        "round": 23,
+        "config": {
+          "canon_bias": 0.871,
+          "novel_bias": 0.279,
+          "threshold": 0.571,
+          "cooldown": 5
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 23
+      },
+      {
+        "round": 24,
+        "config": {
+          "canon_bias": 0.792,
+          "novel_bias": 0.11,
+          "threshold": 0.56,
+          "cooldown": 5
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 24
+      },
+      {
+        "round": 25,
+        "config": {
+          "canon_bias": 0.531,
+          "novel_bias": 0.102,
+          "threshold": 0.694,
+          "cooldown": 5
+        },
+        "canon_passes": 9,
+        "distractor_passes": 0,
+        "score_delta": 900,
+        "streak": 25
+      },
+      {
+        "round": 26,
+        "config": {
+          "canon_bias": 0.83,
+          "novel_bias": 0.312,
+          "threshold": 0.476,
+          "cooldown": 3
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 26
+      },
+      {
+        "round": 27,
+        "config": {
+          "canon_bias": 0.808,
+          "novel_bias": 0.115,
+          "threshold": 0.689,
+          "cooldown": 5
+        },
+        "canon_passes": 9,
+        "distractor_passes": 0,
+        "score_delta": 900,
+        "streak": 27
+      },
+      {
+        "round": 28,
+        "config": {
+          "canon_bias": 0.898,
+          "novel_bias": 0.333,
+          "threshold": 0.65,
+          "cooldown": 5
+        },
+        "canon_passes": 9,
+        "distractor_passes": 0,
+        "score_delta": 900,
+        "streak": 28
+      },
+      {
+        "round": 29,
+        "config": {
+          "canon_bias": 0.741,
+          "novel_bias": 0.365,
+          "threshold": 0.499,
+          "cooldown": 3
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 29
+      },
+      {
+        "round": 30,
+        "config": {
+          "canon_bias": 0.623,
+          "novel_bias": 0.21,
+          "threshold": 0.45,
+          "cooldown": 5
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": 1000,
+        "streak": 30
+      }
+    ]
+  },
+  "B": {
+    "name": "Player B (distractor-impact)",
+    "kind": "B",
+    "final_score": -25000,
+    "best_streak": 0,
+    "witness": [
+      {
+        "round": 1,
+        "config": {
+          "canon_bias": 0.344,
+          "novel_bias": 0.651,
+          "threshold": 0.669,
+          "cooldown": 1
+        },
+        "canon_passes": 9,
+        "distractor_passes": 0,
+        "score_delta": -900,
+        "streak": 0
+      },
+      {
+        "round": 2,
+        "config": {
+          "canon_bias": 0.337,
+          "novel_bias": 0.616,
+          "threshold": 0.849,
+          "cooldown": 1
+        },
+        "canon_passes": 7,
+        "distractor_passes": 0,
+        "score_delta": -700,
+        "streak": 0
+      },
+      {
+        "round": 3,
+        "config": {
+          "canon_bias": 0.301,
+          "novel_bias": 0.462,
+          "threshold": 0.819,
+          "cooldown": 3
+        },
+        "canon_passes": 7,
+        "distractor_passes": 0,
+        "score_delta": -700,
+        "streak": 0
+      },
+      {
+        "round": 4,
+        "config": {
+          "canon_bias": 0.39,
+          "novel_bias": 0.477,
+          "threshold": 0.775,
+          "cooldown": 3
+        },
+        "canon_passes": 7,
+        "distractor_passes": 0,
+        "score_delta": -700,
+        "streak": 0
+      },
+      {
+        "round": 5,
+        "config": {
+          "canon_bias": 0.366,
+          "novel_bias": 0.604,
+          "threshold": 0.87,
+          "cooldown": 1
+        },
+        "canon_passes": 7,
+        "distractor_passes": 0,
+        "score_delta": -700,
+        "streak": 0
+      },
+      {
+        "round": 6,
+        "config": {
+          "canon_bias": 0.285,
+          "novel_bias": 0.798,
+          "threshold": 0.77,
+          "cooldown": 2
+        },
+        "canon_passes": 7,
+        "distractor_passes": 0,
+        "score_delta": -700,
+        "streak": 0
+      },
+      {
+        "round": 7,
+        "config": {
+          "canon_bias": 0.421,
+          "novel_bias": 0.685,
+          "threshold": 0.64,
+          "cooldown": 2
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": -1000,
+        "streak": 0
+      },
+      {
+        "round": 8,
+        "config": {
+          "canon_bias": 0.486,
+          "novel_bias": 0.789,
+          "threshold": 0.73,
+          "cooldown": 1
+        },
+        "canon_passes": 9,
+        "distractor_passes": 0,
+        "score_delta": -900,
+        "streak": 0
+      },
+      {
+        "round": 9,
+        "config": {
+          "canon_bias": 0.464,
+          "novel_bias": 0.508,
+          "threshold": 0.667,
+          "cooldown": 2
+        },
+        "canon_passes": 9,
+        "distractor_passes": 0,
+        "score_delta": -900,
+        "streak": 0
+      },
+      {
+        "round": 10,
+        "config": {
+          "canon_bias": 0.233,
+          "novel_bias": 0.401,
+          "threshold": 0.685,
+          "cooldown": 3
+        },
+        "canon_passes": 9,
+        "distractor_passes": 0,
+        "score_delta": -900,
+        "streak": 0
+      },
+      {
+        "round": 11,
+        "config": {
+          "canon_bias": 0.418,
+          "novel_bias": 0.608,
+          "threshold": 0.719,
+          "cooldown": 1
+        },
+        "canon_passes": 9,
+        "distractor_passes": 0,
+        "score_delta": -900,
+        "streak": 0
+      },
+      {
+        "round": 12,
+        "config": {
+          "canon_bias": 0.202,
+          "novel_bias": 0.446,
+          "threshold": 0.839,
+          "cooldown": 3
+        },
+        "canon_passes": 7,
+        "distractor_passes": 0,
+        "score_delta": -700,
+        "streak": 0
+      },
+      {
+        "round": 13,
+        "config": {
+          "canon_bias": 0.425,
+          "novel_bias": 0.62,
+          "threshold": 0.798,
+          "cooldown": 2
+        },
+        "canon_passes": 7,
+        "distractor_passes": 0,
+        "score_delta": -700,
+        "streak": 0
+      },
+      {
+        "round": 14,
+        "config": {
+          "canon_bias": 0.215,
+          "novel_bias": 0.715,
+          "threshold": 0.887,
+          "cooldown": 3
+        },
+        "canon_passes": 7,
+        "distractor_passes": 0,
+        "score_delta": -700,
+        "streak": 0
+      },
+      {
+        "round": 15,
+        "config": {
+          "canon_bias": 0.477,
+          "novel_bias": 0.566,
+          "threshold": 0.646,
+          "cooldown": 2
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": -1000,
+        "streak": 0
+      },
+      {
+        "round": 16,
+        "config": {
+          "canon_bias": 0.476,
+          "novel_bias": 0.524,
+          "threshold": 0.69,
+          "cooldown": 2
+        },
+        "canon_passes": 9,
+        "distractor_passes": 0,
+        "score_delta": -900,
+        "streak": 0
+      },
+      {
+        "round": 17,
+        "config": {
+          "canon_bias": 0.373,
+          "novel_bias": 0.502,
+          "threshold": 0.714,
+          "cooldown": 3
+        },
+        "canon_passes": 9,
+        "distractor_passes": 0,
+        "score_delta": -900,
+        "streak": 0
+      },
+      {
+        "round": 18,
+        "config": {
+          "canon_bias": 0.48,
+          "novel_bias": 0.711,
+          "threshold": 0.662,
+          "cooldown": 1
+        },
+        "canon_passes": 9,
+        "distractor_passes": 0,
+        "score_delta": -900,
+        "streak": 0
+      },
+      {
+        "round": 19,
+        "config": {
+          "canon_bias": 0.391,
+          "novel_bias": 0.651,
+          "threshold": 0.82,
+          "cooldown": 1
+        },
+        "canon_passes": 7,
+        "distractor_passes": 0,
+        "score_delta": -700,
+        "streak": 0
+      },
+      {
+        "round": 20,
+        "config": {
+          "canon_bias": 0.363,
+          "novel_bias": 0.755,
+          "threshold": 0.765,
+          "cooldown": 2
+        },
+        "canon_passes": 8,
+        "distractor_passes": 0,
+        "score_delta": -800,
+        "streak": 0
+      },
+      {
+        "round": 21,
+        "config": {
+          "canon_bias": 0.28,
+          "novel_bias": 0.662,
+          "threshold": 0.895,
+          "cooldown": 2
+        },
+        "canon_passes": 7,
+        "distractor_passes": 0,
+        "score_delta": -700,
+        "streak": 0
+      },
+      {
+        "round": 22,
+        "config": {
+          "canon_bias": 0.251,
+          "novel_bias": 0.718,
+          "threshold": 0.735,
+          "cooldown": 1
+        },
+        "canon_passes": 9,
+        "distractor_passes": 0,
+        "score_delta": -900,
+        "streak": 0
+      },
+      {
+        "round": 23,
+        "config": {
+          "canon_bias": 0.423,
+          "novel_bias": 0.552,
+          "threshold": 0.818,
+          "cooldown": 1
+        },
+        "canon_passes": 7,
+        "distractor_passes": 0,
+        "score_delta": -700,
+        "streak": 0
+      },
+      {
+        "round": 24,
+        "config": {
+          "canon_bias": 0.483,
+          "novel_bias": 0.508,
+          "threshold": 0.84,
+          "cooldown": 1
+        },
+        "canon_passes": 7,
+        "distractor_passes": 0,
+        "score_delta": -700,
+        "streak": 0
+      },
+      {
+        "round": 25,
+        "config": {
+          "canon_bias": 0.416,
+          "novel_bias": 0.509,
+          "threshold": 0.615,
+          "cooldown": 1
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": -1000,
+        "streak": 0
+      },
+      {
+        "round": 26,
+        "config": {
+          "canon_bias": 0.202,
+          "novel_bias": 0.733,
+          "threshold": 0.651,
+          "cooldown": 3
+        },
+        "canon_passes": 9,
+        "distractor_passes": 0,
+        "score_delta": -900,
+        "streak": 0
+      },
+      {
+        "round": 27,
+        "config": {
+          "canon_bias": 0.349,
+          "novel_bias": 0.741,
+          "threshold": 0.632,
+          "cooldown": 1
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": -1000,
+        "streak": 0
+      },
+      {
+        "round": 28,
+        "config": {
+          "canon_bias": 0.253,
+          "novel_bias": 0.523,
+          "threshold": 0.677,
+          "cooldown": 2
+        },
+        "canon_passes": 9,
+        "distractor_passes": 0,
+        "score_delta": -900,
+        "streak": 0
+      },
+      {
+        "round": 29,
+        "config": {
+          "canon_bias": 0.431,
+          "novel_bias": 0.485,
+          "threshold": 0.617,
+          "cooldown": 1
+        },
+        "canon_passes": 10,
+        "distractor_passes": 0,
+        "score_delta": -1000,
+        "streak": 0
+      },
+      {
+        "round": 30,
+        "config": {
+          "canon_bias": 0.378,
+          "novel_bias": 0.54,
+          "threshold": 0.736,
+          "cooldown": 1
+        },
+        "canon_passes": 9,
+        "distractor_passes": 0,
+        "score_delta": -900,
+        "streak": 0
+      }
+    ]
+  }
+}

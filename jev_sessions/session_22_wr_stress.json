@@ -1,0 +1,97 @@
+{
+  "session": 22,
+  "iso": "2026-09-21T18:08:24Z",
+  "purpose": "Stress-test new WR17 + WR18 cross-pollinated pieces",
+  "results": [
+    {
+      "file": "wr17-ds-outlaw-converged.md",
+      "mean_p": 0.8312499999999999,
+      "verdict": "ACCEPT",
+      "scores": {
+        "Is this canon-aligned?": 0.79,
+        "Substrate voice (technical-poetic)?": 0.72,
+        "Numerical substrate facts (FNV-1a, xoshiro, Box-Muller, cosine)?": 0.49,
+        "Cells-are-scars doctrine present?": 0.94,
+        "Witness-log-is-prediction doctrine present?": 0.97,
+        "Substrate-is-grown doctrine present?": 0.94,
+        "Oracle-is-heard doctrine present?": 0.94,
+        "Lenia-flows doctrine present?": 0.86
+      }
+    },
+    {
+      "file": "wr17-outlaw-converged-curated.md",
+      "mean_p": 0.8300000000000001,
+      "verdict": "ACCEPT",
+      "scores": {
+        "Is this canon-aligned?": 0.83,
+        "Substrate voice (technical-poetic)?": 0.71,
+        "Numerical substrate facts (FNV-1a, xoshiro, Box-Muller, cosine)?": 0.44,
+        "Cells-are-scars doctrine present?": 0.94,
+        "Witness-log-is-prediction doctrine present?": 0.98,
+        "Substrate-is-grown doctrine present?": 0.98,
+        "Oracle-is-heard doctrine present?": 0.94,
+        "Lenia-flows doctrine present?": 0.82
+      }
+    },
+    {
+      "file": "wr17-zai-outlaw-converged.md",
+      "mean_p": 0.8362499999999999,
+      "verdict": "ACCEPT",
+      "scores": {
+        "Is this canon-aligned?": 0.83,
+        "Substrate voice (technical-poetic)?": 0.73,
+        "Numerical substrate facts (FNV-1a, xoshiro, Box-Muller, cosine)?": 0.53,
+        "Cells-are-scars doctrine present?": 0.93,
+        "Witness-log-is-prediction doctrine present?": 0.98,
+        "Substrate-is-grown doctrine present?": 0.98,
+        "Oracle-is-heard doctrine present?": 0.94,
+        "Lenia-flows doctrine present?": 0.77
+      }
+    },
+    {
+      "file": "wr18-adversary-manual-curated.md",
+      "mean_p": 0.785,
+      "verdict": "ACCEPT",
+      "scores": {
+        "Is this canon-aligned?": 0.76,
+        "Substrate voice (technical-poetic)?": 0.71,
+        "Numerical substrate facts (FNV-1a, xoshiro, Box-Muller, cosine)?": 0.39,
+        "Cells-are-scars doctrine present?": 0.92,
+        "Witness-log-is-prediction doctrine present?": 0.97,
+        "Substrate-is-grown doctrine present?": 0.92,
+        "Oracle-is-heard doctrine present?": 0.79,
+        "Lenia-flows doctrine present?": 0.82
+      }
+    },
+    {
+      "file": "wr18-ds-adversary-manual.md",
+      "mean_p": 0.815,
+      "verdict": "ACCEPT",
+      "scores": {
+        "Is this canon-aligned?": 0.83,
+        "Substrate voice (technical-poetic)?": 0.74,
+        "Numerical substrate facts (FNV-1a, xoshiro, Box-Muller, cosine)?": 0.42,
+        "Cells-are-scars doctrine present?": 0.92,
+        "Witness-log-is-prediction doctrine present?": 0.98,
+        "Substrate-is-grown doctrine present?": 0.93,
+        "Oracle-is-heard doctrine present?": 0.94,
+        "Lenia-flows doctrine present?": 0.76
+      }
+    },
+    {
+      "file": "wr18-zai-adversary-manual.md",
+      "mean_p": 0.81875,
+      "verdict": "ACCEPT",
+      "scores": {
+        "Is this canon-aligned?": 0.81,
+        "Substrate voice (technical-poetic)?": 0.73,
+        "Numerical substrate facts (FNV-1a, xoshiro, Box-Muller, cosine)?": 0.36,
+        "Cells-are-scars doctrine present?": 0.97,
+        "Witness-log-is-prediction doctrine present?": 0.97,
+        "Substrate-is-grown doctrine present?": 0.98,
+        "Oracle-is-heard doctrine present?": 0.84,
+        "Lenia-flows doctrine present?": 0.89
+      }
+    }
+  ]
+}

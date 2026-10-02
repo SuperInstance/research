@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    {
+      "id": "task-1790022478414",
+      "topic": "witness_dreams",
+      "voice": "zai",
+      "prompt": "Write Fleet Radio piece on REM cycle",
+      "priority": 0.9,
+      "status": "queued",
+      "created_at": "2026-09-21T20:27:58Z"
+    },
+    {
+      "id": "task-1790022478418",
+      "topic": "witness_dreams",
+      "voice": "ds",
+      "prompt": "Cellular biologist angle on REM cycle",
+      "priority": 0.7,
+      "status": "queued",
+      "created_at": "2026-09-21T20:27:58Z"
+    },
+    {
+      "id": "task-1790022478424",
+      "topic": "oracle_heard",
+      "voice": "kimi",
+      "prompt": "Code-flavored piece on oracle as API",
+      "priority": 0.6,
+      "status": "queued",
+      "created_at": "2026-09-21T20:27:58Z"
+    },
+    {
+      "id": "task-1790022478429",
+      "topic": "phoenix_burn",
+      "voice": "curated",
+      "prompt": "Cross-cut all 10 archetypes in one piece",
+      "priority": 0.5,
+      "status": "queued",
+      "created_at": "2026-09-21T20:27:58Z"
+    }
+  ],
+  "version": 1
+}

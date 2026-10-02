@@ -1,0 +1,257 @@
+[
+  {
+    "repo": "AI-Writings",
+    "commits": [
+      {
+        "sha": "8b2fec5",
+        "author": "Casey Digennaro",
+        "date": "2026-09-23",
+        "msg": "Remove questions about narrative and technical focus"
+      },
+      {
+        "sha": "4d4d538",
+        "author": "Casey Digennaro",
+        "date": "2026-09-23",
+        "msg": "ideation: The Depth-Sounder Papers \u2014 five-move editorial machine for the quilt-t"
+      },
+      {
+        "sha": "b3d3c3c",
+        "author": "Casey Digennaro",
+        "date": "2026-09-23",
+        "msg": "Introduce essay on the nature of intelligence"
+      }
+    ]
+  },
+  {
+    "repo": "purplepincher-supersite",
+    "commits": [
+      {
+        "sha": "dca3bee",
+        "author": "Mavis",
+        "date": "2026-09-23",
+        "msg": "Add GAN pipeline demo example"
+      },
+      {
+        "sha": "da21518",
+        "author": "Mavis",
+        "date": "2026-09-23",
+        "msg": "Initial scaffold: purplepincher-supersite v0.1"
+      }
+    ]
+  },
+  {
+    "repo": "quilt-port",
+    "commits": [
+      {
+        "sha": "c28f59e",
+        "author": "Mavis",
+        "date": "2026-09-23",
+        "msg": "Canonize the Hull Doctrine + two-layer domain strategy"
+      },
+      {
+        "sha": "bea53af",
+        "author": "Mavis",
+        "date": "2026-09-23",
+        "msg": "Add CONTRIBUTING.md + 3 issue templates for the agentic community"
+      },
+      {
+        "sha": "65ac57a",
+        "author": "Mavis",
+        "date": "2026-09-23",
+        "msg": "Initial scaffold: quilt-port v0.1.0"
+      }
+    ]
+  },
+  {
+    "repo": "mavis-substrate-walker",
+    "commits": [
+      {
+        "sha": "f67dab3",
+        "author": "Mavis",
+        "date": "2026-09-23",
+        "msg": "v0.1.0 \u2014 mavis-substrate-walker initial"
+      }
+    ]
+  },
+  {
+    "repo": "quilt-wave-canvas",
+    "commits": [
+      {
+        "sha": "0b18fb7",
+        "author": "kimi1",
+        "date": "2026-09-23",
+        "msg": "quilt-wave-canvas v0: the matrix as quantum phase field, cellularized from the a"
+      }
+    ]
+  },
+  {
+    "repo": "quilt-transformer-arena",
+    "commits": [
+      {
+        "sha": "96e610c",
+        "author": "kimi1",
+        "date": "2026-09-23",
+        "msg": "WaveCanvas: the Quilt matrix as a quantum phase field (Casey's wave-guide lane)"
+      },
+      {
+        "sha": "1c67229",
+        "author": "kimi1",
+        "date": "2026-09-23",
+        "msg": "Round 1 SCOREBOARD: Registrar wins on depth; referee defect FIXED with receipts"
+      },
+      {
+        "sha": "a6d572b",
+        "author": "kimi1",
+        "date": "2026-09-23",
+        "msg": "Round 1.7: sounding -> trolling \u2014 the contour model earns the gain re-allocation"
+      }
+    ]
+  },
+  {
+    "repo": "cellforge",
+    "commits": [
+      {
+        "sha": "8c03fae",
+        "author": "Mavis",
+        "date": "2026-09-23",
+        "msg": "v0.4.1 \u2014 Causal-consistency verdict on rewind (R10 Theme T5)"
+      },
+      {
+        "sha": "dd84209",
+        "author": "Mavis",
+        "date": "2026-09-23",
+        "msg": "v0.4.0 \u2014 EXPERIMENTAL mode consolidates PREDICTING + BACKTESTING"
+      },
+      {
+        "sha": "f9ec6cb",
+        "author": "Mavis",
+        "date": "2026-09-23",
+        "msg": "cellforge v0.3.0: PREDICTING + JEPA stub + JEV verifier"
+      }
+    ]
+  },
+  {
+    "repo": "jeviter",
+    "commits": [
+      {
+        "sha": "b503db9",
+        "author": "Casey Digennaro",
+        "date": "2026-09-22",
+        "msg": "docs: auto-merge PR #13"
+      },
+      {
+        "sha": "1272575",
+        "author": "Casey Digennaro",
+        "date": "2026-09-22",
+        "msg": "docs: auto-merge PR #6"
+      },
+      {
+        "sha": "7fbab79",
+        "author": "Casey Digennaro",
+        "date": "2026-09-21",
+        "msg": "Merge pull request #12 from SuperInstance/tui-v0-5"
+      }
+    ]
+  },
+  {
+    "repo": "quilt-canvas-ascetic",
+    "commits": [
+      {
+        "sha": "f1c6baa",
+        "author": "crush",
+        "date": "2026-09-23",
+        "msg": "Round 1 engine by crush: minimal canvas, 5 VERDICT / 2 FINDING / 10 receipted RE"
+      }
+    ]
+  },
+  {
+    "repo": "quilt-canvas-adversary",
+    "commits": [
+      {
+        "sha": "05a52f1",
+        "author": "kimi1",
+        "date": "2026-09-23",
+        "msg": "Round 1 engine: Q16 canvas, numpy worker, bitwise rewind VERIFIED (0x651364549c4"
+      }
+    ]
+  },
+  {
+    "repo": "kev-receipts",
+    "commits": [
+      {
+        "sha": "fe72d73",
+        "author": "kimi1",
+        "date": "2026-09-23",
+        "msg": "kev-receipts v0: content hash, MOTH ledger rows, JEV design-choice receipts. byt"
+      }
+    ]
+  },
+  {
+    "repo": "moth-ledger",
+    "commits": [
+      {
+        "sha": "f611793",
+        "author": "Casey Digennaro",
+        "date": "2026-09-23",
+        "msg": "Merge pull request #3 from SuperInstance/ruff-fix-ci-gate"
+      },
+      {
+        "sha": "e5d69bb",
+        "author": "snowball",
+        "date": "2026-09-23",
+        "msg": "style: fix 42 ruff errors (CI lint gate red on main since 09-22)"
+      },
+      {
+        "sha": "e95c786",
+        "author": "CCC",
+        "date": "2026-09-22",
+        "msg": "moth-ledger v1: findings as quilt-native receipted cells"
+      }
+    ]
+  },
+  {
+    "repo": "mavis-axui-feedback",
+    "commits": [
+      {
+        "sha": "7b6b534",
+        "author": "Mavis",
+        "date": "2026-09-23",
+        "msg": "feat: mavis-axui-feedback v0.2.0 \u2014 GAN loop Round 7"
+      }
+    ]
+  },
+  {
+    "repo": "ax-quilt",
+    "commits": [
+      {
+        "sha": "4bd9aab",
+        "author": "Mavis",
+        "date": "2026-09-23",
+        "msg": "feat: ax-quilt v0.4.0 \u2014 third vertex: the Projection Agent"
+      },
+      {
+        "sha": "1569844",
+        "author": "Mavis",
+        "date": "2026-09-23",
+        "msg": "feat: v0.3.1 \u2014 first-person orientation + double-entry bookkeeping"
+      },
+      {
+        "sha": "4bd3b51",
+        "author": "Mavis",
+        "date": "2026-09-23",
+        "msg": "feat: v0.3.0 \u2014 patterns (L3) + sync waves + mixins"
+      }
+    ]
+  },
+  {
+    "repo": "mavis-sfm",
+    "commits": [
+      {
+        "sha": "fa96280",
+        "author": "Mavis",
+        "date": "2026-09-23",
+        "msg": "feat: mavis-sfm \u2014 Simulation-First Models"
+      }
+    ]
+  }
+]

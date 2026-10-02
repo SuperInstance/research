@@ -1,0 +1,47 @@
+{
+  "bridges": [
+    {
+      "title": "bridge-from-substrate-to-cell",
+      "tag": "bridge-from-substrate-to-cell"
+    },
+    {
+      "title": "bridge-from-fleet-to-canon",
+      "tag": "bridge-from-fleet-to-canon"
+    },
+    {
+      "title": "bridge-from-witness-to-shape",
+      "tag": "bridge-from-witness-to-shape"
+    },
+    {
+      "title": "bridge-from-cell-to-fleet",
+      "tag": "bridge-from-cell-to-fleet"
+    },
+    {
+      "title": "bridge-from-polyformal-to-rune-quilt",
+      "tag": "bridge-from-polyformal-to-rune-quilt"
+    }
+  ],
+  "auto": [
+    {
+      "tag": "auto-the-cell-that-does-not-know-it-is-a-cell"
+    },
+    {
+      "tag": "auto-the-cell-that-forgets-its-own-address"
+    },
+    {
+      "tag": "auto-the-witness-log-that-outgrows-its-cell"
+    }
+  ],
+  "ensemble": [
+    {
+      "question": "would have used multi-LLM but DeepSeek was rate-limited",
+      "note": "ensemble phase skipped due to provider outage"
+    }
+  ],
+  "cost_total": 0.0,
+  "start_canon_size": 22,
+  "end_canon_size": 46,
+  "pieces_added": 24,
+  "closed_loop_rate": "5/5",
+  "note": "Bridges + auto pieces hand-written following Quilt canon style. Embedded via Cloudflare bge-base-en-v1.5. Ensemble phase deferred \u2014 provider was rate-limited."
+}

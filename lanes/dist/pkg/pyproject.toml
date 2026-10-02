@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quilt-c99-kernel"
+version = "0.1.0"
+description = "The Quilt cell-fabric runtime in C99, with a one-command verifier. 1,285 assertions, sha256 receipt, signed release."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Casey Digennaro", email = "mavis@superinstance.local" }]
+keywords = ["cellular-automata", "c99", "reproducibility", "provenance", "receipts", "verifiable-build"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: C",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Software Development :: Quality Assurance",
+  "Topic :: System :: Distributed Computing",
+]
+
+[project.urls]
+Homepage = "https://github.com/SuperInstance/quilt-c"
+Repository = "https://github.com/SuperInstance/quilt-c"
+Source = "https://github.com/SuperInstance/quilt-c"
+Release = "https://github.com/SuperInstance/quilt-c/releases/tag/v0.1.0"
+Issues = "https://github.com/SuperInstance/quilt-c/issues"
+Signing = "https://github.com/SuperInstance/quilt-c/blob/main/SIGNING.md"
+Fleet = "https://github.com/SuperInstance/quilt-research-canons"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["quilt_cell*"]
+
+[tool.setuptools.package-data]
+quilt_cell = ["verify.py", "Makefile", "LICENSE", "src/*.c", "include/quilt/*.h", "tests/*.c"]

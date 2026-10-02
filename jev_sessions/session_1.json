@@ -1,0 +1,426 @@
+{
+  "timestamp": 1789999838.9742906,
+  "iso": "2026-09-21T14:10:38Z",
+  "questions": [
+    [
+      "fnv1a_empty",
+      "noul",
+      "Is FNV-1a 64-bit offset basis 0xcbf29ce484222325?"
+    ],
+    [
+      "fnv1a_a",
+      "noul",
+      "Does FNV-1a 64-bit hash of the string \"a\" equal 0xaf63dc4c8601ec8c?"
+    ],
+    [
+      "fnv1a_foobar",
+      "noul",
+      "Does FNV-1a 64-bit hash of the string \"foobar\" equal 0x85944171f73967e8?"
+    ],
+    [
+      "fnv1a_prime_q",
+      "noul",
+      "Is 0x100000001b3 the FNV-1a 64-bit prime?"
+    ],
+    [
+      "xoshiro_state_q",
+      "noul",
+      "Does xoshiro256** maintain state as an array of 4 uint64 words?"
+    ],
+    [
+      "xoshiro_5_9_q",
+      "noul",
+      "Does xoshiro256** compute next() = rotl(s[1] * 5, 7) * 9?"
+    ],
+    [
+      "xoshiro_init_q",
+      "noul",
+      "Should xoshiro256** state be initialized via FNV-1a(seed) + i * 0x9e3779b97f4a7c15?"
+    ],
+    [
+      "box_muller_q",
+      "noul",
+      "Does Box-Muller transform two uniform samples into one Gaussian sample?"
+    ],
+    [
+      "box_muller_formula_q",
+      "noul",
+      "Is the Box-Muller formula z = sqrt(-2 * ln(u1)) * cos(2*pi*u2)?"
+    ],
+    [
+      "bell_phi_plus_q",
+      "noul",
+      "Is the Bell state |\u03a6+\u27e9 = (|00\u27e9 + |11\u27e9) / sqrt(2)?"
+    ],
+    [
+      "bell_phi_minus_q",
+      "noul",
+      "Is the Bell state |\u03a6-\u27e9 = (|00\u27e9 - |11\u27e9) / sqrt(2)?"
+    ],
+    [
+      "cosine_q",
+      "noul",
+      "Is cosine similarity = (A\u00b7B) / (|A| * |B|)?"
+    ],
+    [
+      "opcodes_q",
+      "choice",
+      "Which 11 opcodes form the substrate algebra?",
+      {
+        "BIND": "BIND",
+        "LINK": "LINK",
+        "EFFECT": "EFFECT",
+        "VIEW": "VIEW",
+        "TICK": "TICK",
+        "FORGET": "FORGET",
+        "PROOF": "PROOF",
+        "ROUTE": "ROUTE",
+        "CRDT": "CRDT",
+        "WORLD": "WORLD",
+        "TIME": "TIME",
+        "SHOUT": "shout",
+        "PIPE": "pipe",
+        "OPEN": "open",
+        "CLOSE": "close",
+        "EXIT": "exit",
+        "LOOP": "loop",
+        "JUMP": "jump",
+        "IF": "if",
+        "GOTO": "goto",
+        "YIELD": "yield",
+        "SPAWN": "spawn"
+      }
+    ],
+    [
+      "polyformalism_q",
+      "choice",
+      "How many ports is the substrate available in for polyformalism?",
+      {
+        "12": "twelve ports",
+        "13": "thirteen ports",
+        "14": "fourteen ports",
+        "15": "fifteen ports",
+        "8": "eight ports",
+        "7": "seven ports"
+      }
+    ],
+    [
+      "canon_count_q",
+      "choice",
+      "Approximately how many pieces are in the cellular-first design canon?",
+      {
+        "~73": "about 73 pieces",
+        "~150": "about 150 pieces",
+        "~30": "about 30 pieces",
+        "~500": "about 500 pieces",
+        "~20": "about 20 pieces",
+        "~1000": "about 1000 pieces"
+      }
+    ],
+    [
+      "cell_scar_q",
+      "noul",
+      "Is the substrate cell a scar rather than a parameter?"
+    ],
+    [
+      "witness_is_prophecy_q",
+      "noul",
+      "Is the witness log also a prediction of the future?"
+    ],
+    [
+      "five_laws_q",
+      "noul",
+      "Are there exactly five laws in the substrate (BIND/LINK/EFFECT/VIEW/TICK)?"
+    ],
+    [
+      "substrate_grown_q",
+      "noul",
+      "Is the substrate grown rather than designed?"
+    ],
+    [
+      "fleet_radio_voice_q",
+      "choice",
+      "What is the canonical voice of the cellular-first design canon?",
+      {
+        "Fleet Radio": "Fleet Radio \u2014 technical-poetic naval transmission",
+        "Acme chatbot": "a helpful acme chatbot",
+        "Academic paper": "a formal academic paper",
+        "Marketing copy": "snappy marketing copy",
+        "Pirate shanty": "a pirate shanty"
+      }
+    ],
+    [
+      "demo_count_q",
+      "choice",
+      "Approximately how many live browser demos exist on cellular-first-design?",
+      {
+        "~60": "about 60 demos",
+        "~10": "about 10 demos",
+        "~150": "about 150 demos",
+        "~200": "about 200 demos",
+        "~30": "about 30 demos"
+      }
+    ],
+    [
+      "lenia_q",
+      "noul",
+      "Is Lenia a continuous cellular automaton with a bell-shaped kernel?"
+    ],
+    [
+      "lenia_vs_conway_q",
+      "noul",
+      "Does Lenia flow where Conway stands still?"
+    ],
+    [
+      "markov_q",
+      "noul",
+      "Can a Markov chain be used to generate Fleet Radio prose?"
+    ],
+    [
+      "fbm_q",
+      "noul",
+      "Is FBM (fractal Brownian motion) a way of layering noise octaves to produce procedural textures?"
+    ],
+    [
+      "thirteen_langs_q",
+      "choice",
+      "Which programming languages are the substrate polyformalism ports in?",
+      {
+        "JS/Python/C/Rust": "JS, Python, C, Rust, Go, Haskell, J, Lua, Zig, SubLEQ, Verilog, VHDL, Forth",
+        "Common set": "a typical set: JS, Python, Rust, Go",
+        "Just JS": "only JavaScript",
+        "Many including Cobol": "many including unusual ones like Cobol"
+      }
+    ],
+    [
+      "jev_role_q",
+      "choice",
+      "What is the role of JEV in the substrate stack?",
+      {
+        "Validator": "Joint Embedding Validator \u2014 semantic-meaning referee",
+        "Random number generator": "just a random number generator",
+        "Compiler": "a compiler for cells",
+        "A logger": "a plain logger"
+      }
+    ],
+    [
+      "substrate_identity_q",
+      "noul",
+      "Does \"cosine says how aligned two truths are\" describe the substrate?"
+    ],
+    [
+      "hanlon_q",
+      "noul",
+      "Is Hanlon's Razor a substrate canon motto?"
+    ],
+    [
+      "octocat_q",
+      "noul",
+      "Does the substrate canon recognize the Github Octocat as a primary node?"
+    ],
+    [
+      "pillow_q",
+      "noul",
+      "Is a pillow the official substrate mascot?"
+    ],
+    [
+      "star_wars_q",
+      "noul",
+      "Is \"Star Wars\" a cellular automaton rule in the substrate demo gallery?"
+    ]
+  ],
+  "decisions": [
+    [
+      "noul",
+      "0.54",
+      0.54,
+      "typesafe.latency_ms=600.5"
+    ],
+    [
+      "noul",
+      "0.69",
+      0.69,
+      "typesafe.latency_ms=600.5"
+    ],
+    [
+      "noul",
+      "0.4",
+      0.4,
+      "typesafe.latency_ms=600.5"
+    ],
+    [
+      "noul",
+      "0.42",
+      0.42,
+      "typesafe.latency_ms=600.5"
+    ],
+    [
+      "noul",
+      "0.88",
+      0.88,
+      "typesafe.latency_ms=600.5"
+    ],
+    [
+      "noul",
+      "0.62",
+      0.62,
+      "typesafe.latency_ms=600.5"
+    ],
+    [
+      "noul",
+      "0.45",
+      0.45,
+      "typesafe.latency_ms=600.5"
+    ],
+    [
+      "noul",
+      "0.17",
+      0.17,
+      "typesafe.latency_ms=600.5"
+    ],
+    [
+      "noul",
+      "0.93",
+      0.93,
+      "typesafe.latency_ms=600.5"
+    ],
+    [
+      "noul",
+      "0.98",
+      0.98,
+      "typesafe.latency_ms=600.5"
+    ],
+    [
+      "noul",
+      "0.93",
+      0.93,
+      "typesafe.latency_ms=600.5"
+    ],
+    [
+      "noul",
+      "0.98",
+      0.98,
+      "typesafe.latency_ms=600.5"
+    ],
+    [
+      "choice",
+      "CRDT",
+      0.11,
+      "typesafe.latency_ms=600.5"
+    ],
+    [
+      "choice",
+      "8",
+      0.15,
+      "typesafe.latency_ms=600.5"
+    ],
+    [
+      "choice",
+      "~20",
+      0.07,
+      "typesafe.latency_ms=600.5"
+    ],
+    [
+      "noul",
+      "0.28",
+      0.28,
+      "typesafe.latency_ms=600.5"
+    ],
+    [
+      "noul",
+      "0.18",
+      0.18,
+      "typesafe.latency_ms=600.5"
+    ],
+    [
+      "noul",
+      "0.49",
+      0.49,
+      "typesafe.latency_ms=600.5"
+    ],
+    [
+      "noul",
+      "0.46",
+      0.46,
+      "typesafe.latency_ms=600.5"
+    ],
+    [
+      "choice",
+      "Fleet Radio",
+      0.89,
+      "typesafe.latency_ms=600.5"
+    ],
+    [
+      "choice",
+      "~30",
+      0.14,
+      "typesafe.latency_ms=267.6"
+    ],
+    [
+      "noul",
+      "0.83",
+      0.83,
+      "typesafe.latency_ms=267.6"
+    ],
+    [
+      "noul",
+      "0.59",
+      0.59,
+      "typesafe.latency_ms=267.6"
+    ],
+    [
+      "noul",
+      "0.87",
+      0.87,
+      "typesafe.latency_ms=267.6"
+    ],
+    [
+      "noul",
+      "0.9",
+      0.9,
+      "typesafe.latency_ms=267.6"
+    ],
+    [
+      "choice",
+      "JS/Python/C/Rust",
+      0.62,
+      "typesafe.latency_ms=267.6"
+    ],
+    [
+      "choice",
+      "Random number generator",
+      0.37,
+      "typesafe.latency_ms=267.6"
+    ],
+    [
+      "noul",
+      "0.24",
+      0.24,
+      "typesafe.latency_ms=267.6"
+    ],
+    [
+      "noul",
+      "0.17",
+      0.17,
+      "typesafe.latency_ms=267.6"
+    ],
+    [
+      "noul",
+      "0.18",
+      0.18,
+      "typesafe.latency_ms=267.6"
+    ],
+    [
+      "noul",
+      "0.08",
+      0.08,
+      "typesafe.latency_ms=267.6"
+    ],
+    [
+      "noul",
+      "0.25",
+      0.25,
+      "typesafe.latency_ms=267.6"
+    ]
+  ]
+}

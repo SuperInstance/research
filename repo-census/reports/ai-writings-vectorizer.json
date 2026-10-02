@@ -1,0 +1,48 @@
+{
+ "repo": "ai-writings-vectorizer",
+ "swept_at": "2026-09-30T05:51:07Z",
+ "findings": [
+  {
+   "tool": "grep",
+   "kind": "credential assignment",
+   "group": "protocol",
+   "count": 2,
+   "excerpt": "token \u2026-abc (27 chars)"
+  },
+  {
+   "tool": "grep",
+   "kind": "low-entropy hex (cf account id, exactly 32)",
+   "group": "protocol",
+   "count": 9,
+   "excerpt": "049ff5\u2026aae6 (32 chars)"
+  }
+ ],
+ "ops": [
+  {
+   "kind": "vessel name",
+   "distinct": 10,
+   "samples": [
+    "F/V Cormorant",
+    "F/V DeepInfra rocks gently at anchor",
+    "F/V EILEEN",
+    "F/V Iron Maiden",
+    "F/V NORTHERN CURRENT"
+   ]
+  },
+  {
+   "kind": "email address",
+   "distinct": 3,
+   "samples": [
+    "+@pytest.fixture",
+    "Casey.digennaro@gmail.com",
+    "fleet@superinstance.dev"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 94131435,
+  "gitleaks": 0,
+  "high_entropy_strings": 1300
+ }
+}

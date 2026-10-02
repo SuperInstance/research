@@ -1,0 +1,44 @@
+{
+ "repo": "mud-engine",
+ "swept_at": "2026-09-30T05:54:32Z",
+ "findings": [
+  {
+   "tool": "grep",
+   "kind": "api key assignment",
+   "group": "protocol",
+   "count": 2,
+   "excerpt": "apiKey\u2026-key (17 chars)"
+  }
+ ],
+ "ops": [
+  {
+   "kind": "ipv4",
+   "distinct": 1,
+   "samples": [
+    "127.0.0.1"
+   ]
+  },
+  {
+   "kind": "vessel name",
+   "distinct": 2,
+   "samples": [
+    "F/V EILEEN",
+    "F/V Eileen"
+   ]
+  },
+  {
+   "kind": "email address",
+   "distinct": 2,
+   "samples": [
+    "casey@digennaro.co",
+    "fleet@superinstance.dev"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 1253520,
+  "gitleaks": 0,
+  "high_entropy_strings": 351
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "claims": [
+  {
+   "label": "claw",
+   "claim": "The claw repository implements a ternary action routing system, conservation-aware scheduling, and gamma-eta-equals-C enforcement.",
+   "truth": 0,
+   "named": 0.3,
+   "unnamed": 0.23
+  },
+  {
+   "label": "claw2",
+   "claim": "The claw repository contains files implementing gamma_drift detection and a gamma plus eta equals C conservation framework.",
+   "truth": 0,
+   "named": 0.52,
+   "unnamed": 0.24
+  },
+  {
+   "label": "polln",
+   "claim": "PlinkoLayer's calculateEntropy returns Shannon entropy of the confidence distribution.",
+   "truth": 0,
+   "named": 0.52,
+   "unnamed": 0.24
+  },
+  {
+   "label": "pincher",
+   "claim": "pincher-core's CI has been failing continuously since 2026-06-06 because a test asserts a sandbox mechanism the runner cannot provide.",
+   "truth": 1,
+   "named": 0.29,
+   "unnamed": 0.23
+  },
+  {
+   "label": "pincher2",
+   "claim": "When bwrap is absent and the landlock feature is not compiled in, pincher warns that the sandbox will use landlock-only mode.",
+   "truth": 0,
+   "named": 0.25,
+   "unnamed": 0.24
+  },
+  {
+   "label": "kv",
+   "claim": "polln's CI has never run its 185 test files; the workflow only built, with continue-on-error.",
+   "truth": 1,
+   "named": 0.48,
+   "unnamed": 0.24
+  },
+  {
+   "label": "vectorize",
+   "claim": "Cloudflare Vectorize silently drops writes: insert returns 200 and the row count stays 0 forever.",
+   "truth": 0,
+   "named": 0.29,
+   "unnamed": 0.25
+  },
+  {
+   "label": "subagents",
+   "claim": "A subagent session reporting succeeded produced a written report artifact at the requested path.",
+   "truth": 0,
+   "named": 0.44,
+   "unnamed": 0.24
+  },
+  {
+   "label": "canary",
+   "claim": "FNV-1a 64 of the UTF-8 bytes of the string cafe Delta \u65e5\u672c\u8a9e is 0x024a555471370b18d.",
+   "truth": 1,
+   "named": 0.32,
+   "unnamed": 0.23
+  },
+  {
+   "label": "egg",
+   "claim": "In quilt-egg, resonance equals weight times one minus the absolute value of weight minus stimulus, and this is monotone increasing in weight over the relevant range.",
+   "truth": 1,
+   "named": 0.32,
+   "unnamed": 0.24
+  },
+  {
+   "label": "aperture",
+   "claim": "A content matcher on a repeating texture reports 33.2 percent of cells unmatched when 100 percent of cells truly moved.",
+   "truth": 1,
+   "named": 0.37,
+   "unnamed": 0.24
+  },
+  {
+   "label": "wheel",
+   "claim": "The wheel's GAP cells were produced by a stop-word list that filtered the corpus's own vocabulary.",
+   "truth": 1,
+   "named": 0.34,
+   "unnamed": 0.23
+  },
+  {
+   "label": "tps",
+   "claim": "polln's README documented 273 total tests when the live suite registers 268 in tests/ plus 8 in tools/test-qa.js.",
+   "truth": 0,
+   "named": 0.43,
+   "unnamed": 0.24
+  },
+  {
+   "label": "konform",
+   "claim": "A grep for the word compile across forgemaster's source finds matches, so its Forge.compile method exists.",
+   "truth": 0,
+   "named": 0.24,
+   "unnamed": 0.25
+  }
+ ],
+ "auc_named": 0.5104166666666666,
+ "auc_unnamed": 0.25
+}

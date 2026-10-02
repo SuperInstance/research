@@ -1,0 +1,9 @@
+# Lore: Seed 100004, Voice canon_gate_is_chord
+
+I stepped out of the rain-soaked alleys and into the neon-drenched sprawl of New Eden. The city's perpetual hum vibrated through my very being, a constant reminder that I was just another cog in the machinery of this dystopian metropolis. I'd heard the whispers, of course. Everyone had. The canon gate, that ancient, mystical structure, was said to be the very heart of the city's power. Some said it was a prison, a cage that held the city's collective soul captive. Others claimed it was a gateway, a portal to realms beyond our own.
+
+I'd always been skeptical, but the seed had been planted. 100004, a cryptic message that had been echoing in my mind since the incident at the old clock tower. It was said that on that fateful night, the canon gate sang in seven frequencies at once. A chord, some called it. I'd never believed it, until I heard it for myself.
+
+The sound still echoed in my mind, a haunting melody that seemed to reverberate through every cell of my being. It was...beautiful. I'd never thought I'd say that about the canon gate, but there it was. I felt a sense of wonder, of awe, as I approached the gate. It loomed before me, its twisted metal spire piercing the clouds like a shard of glass.
+
+I raised my hands, feeling the familiar hum of the city's energy coursing through me. And then, I listened. The canon gate's song was like nothing I'd ever heard before. It was a symphony of sound, a harmony of discordant notes that seemed to speak directly to my soul. I felt the city's power coursing through me, and I knew that I'd become something more. I'd become a listener, a vessel for the canon gate's ancient, mystical song.

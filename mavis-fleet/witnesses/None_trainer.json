@@ -1,0 +1,9 @@
+{
+ "substrate": "trainer",
+ "experiment_id": null,
+ "started_at": "2026-09-23T14:45:20.837627Z",
+ "finished_at": "2026-09-23T14:45:20.837724Z",
+ "metric": 1.0,
+ "status": "failed",
+ "id": "910b67dee91e145e"
+}

@@ -1,0 +1,84 @@
+{
+  "prompt": "What are the practical differences between JEPA (Joint Embedding Predictive Architecture) and contrastive learning? Three sentences.",
+  "iterations": [
+    {
+      "i": 0,
+      "n_cells": 9,
+      "notes": "initial design",
+      "new_cells": [
+        "r0c0",
+        "r1c0",
+        "r1c1",
+        "r1c2",
+        "r2c0"
+      ]
+    }
+  ],
+  "final_cells": [
+    {
+      "id": "r0c0",
+      "row": 0,
+      "col": 0,
+      "substrate": "llm_complete",
+      "value": "{'type': 'llm_complete', 'prompt': 'Decompose JEPA vs contrastive learning into key differences', 'r"
+    },
+    {
+      "id": "r1c0",
+      "row": 1,
+      "col": 0,
+      "substrate": "jepa_embed",
+      "value": "{'type': 'jepa_embed', 'text': '', 'tokens': [], 'vocab_size': 0, 'norm': 1.0, 'n_dims_nonzero': 0}"
+    },
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "substrate": "jepa_contrast",
+      "value": "{'type': 'jepa_contrast', 'target': '', 'shadows': [], 'interpretation': 'JEPA contrast surface: the"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "substrate": "moth_canon",
+      "value": "{'type': 'moth_canon', 'scheme': 'QPAM', 'canon_signature': 'bdfd1cc328d4f9d8', 'measurement_bits': "
+    },
+    {
+      "id": "r2c0",
+      "row": 2,
+      "col": 0,
+      "substrate": "jev_noul",
+      "value": "{'type': 'jev_noul', 'question': 'Is this canon?', 'noul': 0.10706120289560901, 'text': None, 'ts': "
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "substrate": "jev_choice",
+      "value": "{'error': \"TypeError: jev_choice() missing 2 required keyword-only arguments: 'question' and 'option"
+    },
+    {
+      "id": "r3c0",
+      "row": 3,
+      "col": 0,
+      "substrate": "merge",
+      "value": "{'type': 'moth_canon', 'question': 'Is this canon?', 'noul': 0.10706120289560901, 'text': None, 'ts'"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "substrate": "llm_json",
+      "value": "{'type': 'llm_json', 'prompt': 'Synthesize JEPA vs contrastive learning differences in JSON format',"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "substrate": "echo",
+      "value": "{'type': 'llm_json', 'prompt': 'Synthesize JEPA vs contrastive learning differences in JSON format',"
+    }
+  ],
+  "elapsed": 36.27735185623169,
+  "n_witnesses": 9
+}

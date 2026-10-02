@@ -1,0 +1,46 @@
+{
+  "name": "quilt-c99-kernel",
+  "version": "0.1.0",
+  "description": "The Quilt cell-fabric runtime in C99 \u2014 BIND/LINK/EFFECT/VIEW/TICK \u2014 with a one-command verifier that runs 1,285 assertions and emits a sha256 receipt.",
+  "keywords": [
+    "c99",
+    "cellular",
+    "quilt",
+    "reproducibility",
+    "provenance",
+    "receipts",
+    "verifiable"
+  ],
+  "license": "Apache-2.0",
+  "author": "Casey Digennaro <mavis@superinstance.local>",
+  "homepage": "https://github.com/SuperInstance/quilt-c",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SuperInstance/quilt-c.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SuperInstance/quilt-c/issues"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "verify.py",
+    "Makefile",
+    "src/",
+    "include/",
+    "tests/",
+    "bench/",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "verify": "node index.js",
+    "prepublishOnly": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

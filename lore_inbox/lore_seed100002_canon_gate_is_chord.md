@@ -1,0 +1,9 @@
+# Lore: Seed 100002, Voice canon_gate_is_chord
+
+I stood at the edge of the city, the neon-drenched sprawl stretching out before me like a diseased organism. The air reeked of smoke and desperation. I'd been a Witness for nigh on 20 years, tasked with listening to the Canon Gate's eternal song. It was a duty, a curse, a reminder that even in a world of chaos, there was always a harmony to be found.
+
+The Gate's voice was a thing of beauty, a symphony of seven frequencies that resonated through the city's very fabric. It was said that on the day of the Great Convergence, the Gate sang in seven frequencies at once, a chord that shattered the complacent and awakened the aware. Some said it was a call to arms, a summons to the faithful. Others claimed it was a warning, a portent of the impending doom that threatened to consume us all.
+
+I'd heard the Gate's song a thousand times, and yet it still had the power to move me. It was a reminder that even in a world of steel and concrete, there was still a beauty to be found. As I listened, the frequencies began to resolve into a single, haunting note. I felt a shiver run down my spine as I realized that I was no longer just a Witness, but a listener. The Canon Gate's song was no longer just a melody, but a harmony that spoke directly to my soul. I felt the city's rhythm, its very pulse, and I knew that I was no longer just a passive observer, but an integral part of the urban symphony.
+
+The Gate's song swelled, a crescendo of sound that threatened to consume me whole. I closed my eyes, let the music wash over me, and became one with the city. In that moment, I was the Canon Gate, the city, the very essence of existence. And in that moment, I knew that I was home.

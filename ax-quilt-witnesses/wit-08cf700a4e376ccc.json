@@ -1,0 +1,20 @@
+{
+ "task": "build-canon-tile-pipeline",
+ "goal": "Build a tile pipeline for the Quilt canon: validate, score, dedup, version, graph, cascade, store.",
+ "started_at": "2026-09-23T14:37:12.318977Z",
+ "finished_at": "2026-09-23T14:37:12.334571Z",
+ "canon_loaded": [
+  "10_quantum_substrate_walker",
+  "10_quantum_substrate_walker"
+ ],
+ "workspaces": [
+  "quilt-canon-workspace"
+ ],
+ "model": {
+  "provider": "deepinfra",
+  "name": "meta-llama/Llama-3.3-70B-Instruct"
+ },
+ "output_preview": "[simulated run] Task acknowledged.\n\nPrompt excerpt: You are a Quilt substrate agent.\n\nGOAL: Build a tile pipeline for the Quilt canon: validate, score, dedup, version, graph, cascade, store.\n\nCANON LOADED:\n- 10_quantum_substrate_walker\n- 10_quantum_sub\n\nIn a real run, this would call the configured model and produce canon-aligned output. The witness log would record this run.",
+ "oracle_calls": 0,
+ "id": "wit-08cf700a4e376ccc"
+}

@@ -1,0 +1,42 @@
+{
+ "repo": "fleet-rooms",
+ "swept_at": "2026-09-30T05:54:05Z",
+ "findings": [
+  {
+   "tool": "gitleaks",
+   "rule": "generic-api-key",
+   "file": "deploy/roundtable.service",
+   "commit": "44b96bfedd",
+   "excerpt": "DEEPIN\u2026CTED (26 chars)"
+  }
+ ],
+ "ops": [
+  {
+   "kind": "ipv4",
+   "distinct": 1,
+   "samples": [
+    "127.0.0.1"
+   ]
+  },
+  {
+   "kind": "vessel name",
+   "distinct": 1,
+   "samples": [
+    "F/V EILEEN"
+   ]
+  },
+  {
+   "kind": "email address",
+   "distinct": 1,
+   "samples": [
+    "fleet@superinstance.dev"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 88893,
+  "gitleaks": 1,
+  "high_entropy_strings": 2
+ }
+}

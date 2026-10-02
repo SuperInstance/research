@@ -1,0 +1,183 @@
+{
+  "choice": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "dominant_explanation": {
+        "type": "choice",
+        "choice": "falsifiers_without_substance",
+        "confidence": 0.91,
+        "probabilities": {
+          "unanchored_to_outsiders": 0.06,
+          "insufficient_scale": 0.0,
+          "falsifiers_without_substance": 0.94,
+          "predictions_are_dishonest": 0.0
+        }
+      }
+    },
+    "usage": {
+      "input_tokens": 590,
+      "output_tokens": 79
+    }
+  },
+  "score": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "quilt-c": {
+        "type": "score",
+        "score": 2.68,
+        "confidence": 0.51,
+        "legend": {
+          "0": "0 \u2014 invisible: no README, or the README does not explain what it is.",
+          "1": "1 \u2014 described: a README explains it, but there is nothing to run.",
+          "2": "2 \u2014 runnable: a stranger can execute something in under 10 minutes.",
+          "3": "3 \u2014 verifiable: runnable, with a machine-checkable receipt or test suite a stranger can independently confirm.",
+          "4": "4 \u2014 composable: an outside agent can depend on it through a stable interface and get a receipt back."
+        },
+        "probabilities": {
+          "0": 0.1,
+          "1": 0.05,
+          "2": 0.05,
+          "3": 0.67,
+          "4": 0.13
+        }
+      },
+      "quilt": {
+        "type": "score",
+        "score": 2.7,
+        "confidence": 0.52,
+        "legend": {
+          "0": "0 \u2014 invisible: no README, or the README does not explain what it is.",
+          "1": "1 \u2014 described: a README explains it, but there is nothing to run.",
+          "2": "2 \u2014 runnable: a stranger can execute something in under 10 minutes.",
+          "3": "3 \u2014 verifiable: runnable, with a machine-checkable receipt or test suite a stranger can independently confirm.",
+          "4": "4 \u2014 composable: an outside agent can depend on it through a stable interface and get a receipt back."
+        },
+        "probabilities": {
+          "0": 0.09,
+          "1": 0.06,
+          "2": 0.06,
+          "3": 0.65,
+          "4": 0.14
+        }
+      },
+      "fleet-seeds": {
+        "type": "score",
+        "score": 2.68,
+        "confidence": 0.48,
+        "legend": {
+          "0": "0 \u2014 invisible: no README, or the README does not explain what it is.",
+          "1": "1 \u2014 described: a README explains it, but there is nothing to run.",
+          "2": "2 \u2014 runnable: a stranger can execute something in under 10 minutes.",
+          "3": "3 \u2014 verifiable: runnable, with a machine-checkable receipt or test suite a stranger can independently confirm.",
+          "4": "4 \u2014 composable: an outside agent can depend on it through a stable interface and get a receipt back."
+        },
+        "probabilities": {
+          "0": 0.1,
+          "1": 0.06,
+          "2": 0.06,
+          "3": 0.63,
+          "4": 0.15
+        }
+      },
+      "MicroMoth-quilt": {
+        "type": "score",
+        "score": 2.62,
+        "confidence": 0.46,
+        "legend": {
+          "0": "0 \u2014 invisible: no README, or the README does not explain what it is.",
+          "1": "1 \u2014 described: a README explains it, but there is nothing to run.",
+          "2": "2 \u2014 runnable: a stranger can execute something in under 10 minutes.",
+          "3": "3 \u2014 verifiable: runnable, with a machine-checkable receipt or test suite a stranger can independently confirm.",
+          "4": "4 \u2014 composable: an outside agent can depend on it through a stable interface and get a receipt back."
+        },
+        "probabilities": {
+          "0": 0.11,
+          "1": 0.06,
+          "2": 0.06,
+          "3": 0.63,
+          "4": 0.14
+        }
+      },
+      "quilt-gpu-lab": {
+        "type": "score",
+        "score": 2.74,
+        "confidence": 0.51,
+        "legend": {
+          "0": "0 \u2014 invisible: no README, or the README does not explain what it is.",
+          "1": "1 \u2014 described: a README explains it, but there is nothing to run.",
+          "2": "2 \u2014 runnable: a stranger can execute something in under 10 minutes.",
+          "3": "3 \u2014 verifiable: runnable, with a machine-checkable receipt or test suite a stranger can independently confirm.",
+          "4": "4 \u2014 composable: an outside agent can depend on it through a stable interface and get a receipt back."
+        },
+        "probabilities": {
+          "0": 0.1,
+          "1": 0.05,
+          "2": 0.04,
+          "3": 0.65,
+          "4": 0.16
+        }
+      },
+      "mavis-pincher": {
+        "type": "score",
+        "score": 2.66,
+        "confidence": 0.49,
+        "legend": {
+          "0": "0 \u2014 invisible: no README, or the README does not explain what it is.",
+          "1": "1 \u2014 described: a README explains it, but there is nothing to run.",
+          "2": "2 \u2014 runnable: a stranger can execute something in under 10 minutes.",
+          "3": "3 \u2014 verifiable: runnable, with a machine-checkable receipt or test suite a stranger can independently confirm.",
+          "4": "4 \u2014 composable: an outside agent can depend on it through a stable interface and get a receipt back."
+        },
+        "probabilities": {
+          "0": 0.11,
+          "1": 0.06,
+          "2": 0.04,
+          "3": 0.65,
+          "4": 0.14
+        }
+      },
+      "AI-Writings": {
+        "type": "score",
+        "score": 2.76,
+        "confidence": 0.56,
+        "legend": {
+          "0": "0 \u2014 invisible: no README, or the README does not explain what it is.",
+          "1": "1 \u2014 described: a README explains it, but there is nothing to run.",
+          "2": "2 \u2014 runnable: a stranger can execute something in under 10 minutes.",
+          "3": "3 \u2014 verifiable: runnable, with a machine-checkable receipt or test suite a stranger can independently confirm.",
+          "4": "4 \u2014 composable: an outside agent can depend on it through a stable interface and get a receipt back."
+        },
+        "probabilities": {
+          "0": 0.09,
+          "1": 0.04,
+          "2": 0.05,
+          "3": 0.68,
+          "4": 0.14
+        }
+      },
+      "quilt-jepa": {
+        "type": "score",
+        "score": 2.67,
+        "confidence": 0.46,
+        "legend": {
+          "0": "0 \u2014 invisible: no README, or the README does not explain what it is.",
+          "1": "1 \u2014 described: a README explains it, but there is nothing to run.",
+          "2": "2 \u2014 runnable: a stranger can execute something in under 10 minutes.",
+          "3": "3 \u2014 verifiable: runnable, with a machine-checkable receipt or test suite a stranger can independently confirm.",
+          "4": "4 \u2014 composable: an outside agent can depend on it through a stable interface and get a receipt back."
+        },
+        "probabilities": {
+          "0": 0.1,
+          "1": 0.06,
+          "2": 0.05,
+          "3": 0.63,
+          "4": 0.16
+        }
+      }
+    },
+    "usage": {
+      "input_tokens": 1846,
+      "output_tokens": 133
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+ "summary": {
+  "total_agents": 12,
+  "zero_shot_success_rate": 0.08333333333333333,
+  "training_needed_pct": 91.66666666666666,
+  "ergonomic_grade": "D"
+ },
+ "first_reach_distribution": {
+  "version": 5,
+  "run": 3,
+  "list": 4
+ },
+ "reach_frequency": {
+  "version": 5,
+  "fleet health": 3,
+  "fleet version": 3,
+  "fleet list-substrates": 2,
+  "fleet list-agents": 2,
+  "fleet run quilt": 3,
+  "fleet run moth": 3,
+  "run": 3,
+  "list": 4
+ },
+ "stumbles": [],
+ "yoke_moves": [],
+ "design_implications": {
+  "ctm": "CTM models should have these commands as natural primitives",
+  "tfm": "TFM time-first models should optimize first-reach-to-success time",
+  "origin_centric": "Origin-centric models should expose intent directly",
+  "sfm": "SFM simulation-first should let agents reach for the simulated outcome"
+ }
+}

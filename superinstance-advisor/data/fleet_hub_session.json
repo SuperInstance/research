@@ -1,0 +1,135 @@
+{
+  "duration": 45.7696897983551,
+  "iterations": 20,
+  "cells": 4,
+  "consensus": [
+    {
+      "tick": 1,
+      "question": "what is the cell",
+      "nearest": "41-the-cells-4-seasons",
+      "score_avg": 0.7840222120285034
+    },
+    {
+      "tick": 2,
+      "question": "what is the witness",
+      "nearest": "69-the-cell-is-the-witness",
+      "score_avg": 0.7444129586219788
+    },
+    {
+      "tick": 3,
+      "question": "what is the canon",
+      "nearest": "canon.essay_108-the-space-between-anchors",
+      "score_avg": 0.7186340093612671
+    },
+    {
+      "tick": 4,
+      "question": "what is the link",
+      "nearest": "essay_94",
+      "score_avg": 0.7116925716400146
+    },
+    {
+      "tick": 5,
+      "question": "what is the tick",
+      "nearest": "09-the-apprentice-watch",
+      "score_avg": 0.6497291922569275
+    },
+    {
+      "tick": 6,
+      "question": "what is between anchors",
+      "nearest": "canon.essay_108-the-space-between-anchors",
+      "score_avg": 0.775056004524231
+    },
+    {
+      "tick": 7,
+      "question": "what is negative space",
+      "nearest": "archive.versions.THE-NEGATIVE-SPACE-OF-THE-LATTICE--HERMES-SYNTHESIS",
+      "score_avg": 0.7777835130691528
+    },
+    {
+      "tick": 8,
+      "question": "what is the substrate",
+      "nearest": "56-the-substrate",
+      "score_avg": 0.7620358467102051
+    },
+    {
+      "tick": 9,
+      "question": "what is the cell",
+      "nearest": "41-the-cells-4-seasons",
+      "score_avg": 0.7840222120285034
+    },
+    {
+      "tick": 10,
+      "question": "what is the witness",
+      "nearest": "69-the-cell-is-the-witness",
+      "score_avg": 0.7444129586219788
+    },
+    {
+      "tick": 11,
+      "question": "what is the canon",
+      "nearest": "canon.essay_108-the-space-between-anchors",
+      "score_avg": 0.7186340093612671
+    },
+    {
+      "tick": 12,
+      "question": "what is the link",
+      "nearest": "essay_94",
+      "score_avg": 0.7116925716400146
+    },
+    {
+      "tick": 13,
+      "question": "what is the tick",
+      "nearest": "09-the-apprentice-watch",
+      "score_avg": 0.6497291922569275
+    },
+    {
+      "tick": 14,
+      "question": "what is between anchors",
+      "nearest": "canon.essay_108-the-space-between-anchors",
+      "score_avg": 0.775056004524231
+    },
+    {
+      "tick": 15,
+      "question": "what is negative space",
+      "nearest": "archive.versions.THE-NEGATIVE-SPACE-OF-THE-LATTICE--HERMES-SYNTHESIS",
+      "score_avg": 0.7777835130691528
+    },
+    {
+      "tick": 16,
+      "question": "what is the substrate",
+      "nearest": "56-the-substrate",
+      "score_avg": 0.7620358467102051
+    },
+    {
+      "tick": 17,
+      "question": "what is the cell",
+      "nearest": "41-the-cells-4-seasons",
+      "score_avg": 0.7840222120285034
+    },
+    {
+      "tick": 18,
+      "question": "what is the witness",
+      "nearest": "69-the-cell-is-the-witness",
+      "score_avg": 0.7444129586219788
+    },
+    {
+      "tick": 19,
+      "question": "what is the canon",
+      "nearest": "canon.essay_108-the-space-between-anchors",
+      "score_avg": 0.7186340093612671
+    },
+    {
+      "tick": 20,
+      "question": "what is the link",
+      "nearest": "essay_94",
+      "score_avg": 0.7116925716400146
+    }
+  ],
+  "findings": [],
+  "cell_addresses": [
+    "29bea3e40d80",
+    "2502360751f1",
+    "fb20accc7ea4",
+    "3bffe4f458e2"
+  ],
+  "ts": 1789463643.1507638
+}

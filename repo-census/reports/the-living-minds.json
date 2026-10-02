@@ -1,0 +1,20 @@
+{
+ "repo": "the-living-minds",
+ "swept_at": "2026-09-30T05:55:37Z",
+ "findings": [],
+ "ops": [
+  {
+   "kind": "email address",
+   "distinct": 1,
+   "samples": [
+    "fleet@superinstance.dev"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 631827,
+  "gitleaks": 0,
+  "high_entropy_strings": 0
+ }
+}

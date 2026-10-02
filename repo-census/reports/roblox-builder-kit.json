@@ -1,0 +1,20 @@
+{
+ "repo": "roblox-builder-kit",
+ "swept_at": "2026-09-30T05:54:51Z",
+ "findings": [],
+ "ops": [
+  {
+   "kind": "email address",
+   "distinct": 1,
+   "samples": [
+    "builder@roblox-builder-kit.local"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 177029,
+  "gitleaks": 0,
+  "high_entropy_strings": 0
+ }
+}

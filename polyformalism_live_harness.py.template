@@ -1,0 +1,36 @@
+#!/usr/bin/env python3
+"""Polyformalism consistency harness — verify FNV-1a outputs across all 13 ports.
+
+Run from /workspace/ with all polyformalism port repos cloned:
+  /workspace/repos/quilt-{lang}/
+
+For each port, we compile or run a one-liner that hashes a known input
+and reports the output. All outputs must match.
+"""
+import subprocess, json
+
+# Reference: FNV-1a 64-bit
+REFERENCE_INPUT = "FNV-1a canary"
+EXPECTED_OUTPUT = "{reference_output}"
+
+# Each port provides a way to invoke FNV-1a on the reference input.
+PORTS = {
+    'python': 'python3 -c "..."',
+    'c': 'gcc /tmp/fnv.c && /tmp/a.out',
+    'typescript': 'npx ts-node /tmp/fnv.ts',
+    'rust': 'cargo run --quiet',
+    'gdscript': 'godot --no-window --script /tmp/fnv.gd',
+    # ... 8 more ports
+}
+
+results = {}
+for lang, cmd in PORTS.items():
+    try:
+        out = subprocess.run(cmd, shell=True, capture_output=True, timeout=10)
+        actual = out.stdout.decode().strip()
+        results[lang] = {'output': actual, 'matches': actual == EXPECTED_OUTPUT}
+    except Exception as e:
+        results[lang] = {'error': str(e)}
+
+with open('polyformalism_live_test.json', 'w') as f:
+    json.dump(results, f, indent=2)

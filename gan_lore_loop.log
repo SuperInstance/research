@@ -1,0 +1,33 @@
+=== GAN loop: 6 seeds × 3 iterations ===
+
+=== Seed 70051917 ===
+  iter 0: comp=0.647 improve=doctrine_depth (10.8s)
+  iter 1: comp=0.617 improve=image_specificity (8.4s)
+  iter 2: comp=0.633 improve=doctrine_depth (8.4s)
+
+=== Seed 90625407 ===
+  iter 0: comp=0.637 improve=image_specificity (10.9s)
+  iter 1: comp=0.670 improve=doctrine_depth (10.1s)
+  iter 2: comp=0.660 improve=doctrine_depth (12.2s)
+
+=== Seed 57322595 ===
+  iter 0: comp=0.637 improve=image_specificity (10.2s)
+  iter 1: comp=0.603 improve=doctrine_depth (10.5s)
+  iter 2: comp=0.597 improve=narrative_arc (13.4s)
+
+=== Seed 6358192 ===
+  iter 0: comp=0.640 improve=doctrine_depth (9.5s)
+  iter 1: comp=0.600 improve=doctrine_depth (11.4s)
+  iter 2: comp=0.607 improve=doctrine_depth (9.4s)
+
+=== Seed 45919340 ===
+  iter 0: comp=0.597 improve=doctrine_depth (12.7s)
+  iter 1: comp=0.597 improve=doctrine_depth (9.2s)
+  iter 2: comp=0.683 improve=doctrine_depth (9.0s)
+
+=== Seed 1504276 ===
+  iter 0: comp=0.653 improve=doctrine_depth (7.3s)
+  iter 1: comp=0.640 improve=doctrine_depth (9.8s)
+  iter 2: comp=0.650 improve=doctrine_depth (9.4s)
+
+=== 0/18 PROMOTED ===

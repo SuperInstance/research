@@ -1,0 +1,59 @@
+{
+ "repo": "sweep",
+ "swept_at": "2026-09-30T05:55:31Z",
+ "findings": [
+  {
+   "tool": "grep",
+   "kind": "private key",
+   "group": "protocol",
+   "count": 1,
+   "excerpt": "BEGIN \u2026 KEY (17 chars)"
+  }
+ ],
+ "ops": [
+  {
+   "kind": "vessel registry id",
+   "distinct": 4,
+   "samples": [
+    "ADFG",
+    "CFEC",
+    "IMO",
+    "MMSI"
+   ]
+  },
+  {
+   "kind": "vessel name",
+   "distinct": 4,
+   "samples": [
+    "F/V EILEEN",
+    "F/V EILEEN and Hermes",
+    "F/V Eileen Marie",
+    "F/V Northern Spirit"
+   ]
+  },
+  {
+   "kind": "home port",
+   "distinct": 3,
+   "samples": [
+    "Cook Inlet",
+    "Homer",
+    "Kachemak Bay"
+   ]
+  },
+  {
+   "kind": "email address",
+   "distinct": 3,
+   "samples": [
+    "Casey.digennaro@gmail.com",
+    "fleet@superinstance.dev",
+    "lucineer@superinstance.local"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 10310,
+  "gitleaks": 0,
+  "high_entropy_strings": 1
+ }
+}

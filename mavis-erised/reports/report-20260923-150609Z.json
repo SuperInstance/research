@@ -1,0 +1,358 @@
+{
+ "summary": {
+  "total_agents": 63,
+  "zero_shot_success_rate": 0.07936507936507936,
+  "training_needed_pct": 92.06349206349206,
+  "ergonomic_grade": "D"
+ },
+ "first_reach_distribution": {
+  "version": 18,
+  "list": 22,
+  "run": 16,
+  "help": 7
+ },
+ "reach_frequency": {
+  "version": 18,
+  "help": 65,
+  "status": 58,
+  "fleet health": 9,
+  "fleet version": 9,
+  "fleet list-substrates": 6,
+  "fleet run quilt": 7,
+  "fleet promote": 18,
+  "fleet chord": 9,
+  "list": 22,
+  "run": 16
+ },
+ "stumbles": [
+  {
+   "task": "show me the fleet's health",
+   "first_command": "version",
+   "agent_count": 2,
+   "first_try_failure_count": 2,
+   "right_answer": "fleet health",
+   "agents_eventually_used": {
+    "fleet health": 2
+   },
+   "yoke_move": "Add 'version' as alias for 'fleet health' \u2014 2/2 agents reached for 'version' instead of 'fleet health'"
+  },
+  {
+   "task": "what's the current version?",
+   "first_command": "version",
+   "agent_count": 3,
+   "first_try_failure_count": 3,
+   "right_answer": "fleet version",
+   "agents_eventually_used": {
+    "fleet version": 3
+   },
+   "yoke_move": "Add 'version' as alias for 'fleet version' \u2014 3/3 agents reached for 'version' instead of 'fleet version'"
+  },
+  {
+   "task": "list all substrates",
+   "first_command": "version",
+   "agent_count": 3,
+   "first_try_failure_count": 3,
+   "right_answer": "fleet list-substrates",
+   "agents_eventually_used": {
+    "fleet list-substrates": 3
+   },
+   "yoke_move": "Add 'version' as alias for 'fleet list-substrates' \u2014 3/3 agents reached for 'version' instead of 'fleet list-substrates'"
+  },
+  {
+   "task": "run a quilt experiment",
+   "first_command": "version",
+   "agent_count": 3,
+   "first_try_failure_count": 3,
+   "right_answer": "fleet run quilt",
+   "agents_eventually_used": {
+    "fleet run quilt": 3
+   },
+   "yoke_move": "Add 'version' as alias for 'fleet run quilt' \u2014 3/3 agents reached for 'version' instead of 'fleet run quilt'"
+  },
+  {
+   "task": "promote a claim to canon",
+   "first_command": "version",
+   "agent_count": 3,
+   "first_try_failure_count": 3,
+   "right_answer": "fleet promote",
+   "agents_eventually_used": {
+    "fleet promote": 3
+   },
+   "yoke_move": "Add 'version' as alias for 'fleet promote' \u2014 3/3 agents reached for 'version' instead of 'fleet promote'"
+  },
+  {
+   "task": "show the substrate witness chain",
+   "first_command": "version",
+   "agent_count": 2,
+   "first_try_failure_count": 2,
+   "right_answer": "fleet chord",
+   "agents_eventually_used": {
+    "fleet chord": 2
+   },
+   "yoke_move": "Add 'version' as alias for 'fleet chord' \u2014 2/2 agents reached for 'version' instead of 'fleet chord'"
+  },
+  {
+   "task": "record a null result",
+   "first_command": "version",
+   "agent_count": 2,
+   "first_try_failure_count": 2,
+   "right_answer": "fleet promote",
+   "agents_eventually_used": {
+    "fleet promote": 2
+   },
+   "yoke_move": "Add 'version' as alias for 'fleet promote' \u2014 2/2 agents reached for 'version' instead of 'fleet promote'"
+  },
+  {
+   "task": "show me the fleet's health",
+   "first_command": "list",
+   "agent_count": 5,
+   "first_try_failure_count": 5,
+   "right_answer": "fleet health",
+   "agents_eventually_used": {
+    "fleet health": 5
+   },
+   "yoke_move": "Add 'list' as alias for 'fleet health' \u2014 5/5 agents reached for 'list' instead of 'fleet health'"
+  },
+  {
+   "task": "what's the current version?",
+   "first_command": "run",
+   "agent_count": 3,
+   "first_try_failure_count": 3,
+   "right_answer": "fleet version",
+   "agents_eventually_used": {
+    "fleet version": 3
+   },
+   "yoke_move": "Add 'run' as alias for 'fleet version' \u2014 3/3 agents reached for 'run' instead of 'fleet version'"
+  },
+  {
+   "task": "list all substrates",
+   "first_command": "run",
+   "agent_count": 3,
+   "first_try_failure_count": 3,
+   "right_answer": "fleet list-substrates",
+   "agents_eventually_used": {
+    "fleet list-substrates": 3
+   },
+   "yoke_move": "Add 'run' as alias for 'fleet list-substrates' \u2014 3/3 agents reached for 'run' instead of 'fleet list-substrates'"
+  },
+  {
+   "task": "promote a claim to canon",
+   "first_command": "run",
+   "agent_count": 3,
+   "first_try_failure_count": 3,
+   "right_answer": "fleet promote",
+   "agents_eventually_used": {
+    "fleet promote": 3
+   },
+   "yoke_move": "Add 'run' as alias for 'fleet promote' \u2014 3/3 agents reached for 'run' instead of 'fleet promote'"
+  },
+  {
+   "task": "show the substrate witness chain",
+   "first_command": "run",
+   "agent_count": 3,
+   "first_try_failure_count": 3,
+   "right_answer": "fleet chord",
+   "agents_eventually_used": {
+    "fleet chord": 3
+   },
+   "yoke_move": "Add 'run' as alias for 'fleet chord' \u2014 3/3 agents reached for 'run' instead of 'fleet chord'"
+  },
+  {
+   "task": "what's the current version?",
+   "first_command": "list",
+   "agent_count": 2,
+   "first_try_failure_count": 2,
+   "right_answer": "fleet version",
+   "agents_eventually_used": {
+    "fleet version": 2
+   },
+   "yoke_move": "Add 'list' as alias for 'fleet version' \u2014 2/2 agents reached for 'list' instead of 'fleet version'"
+  },
+  {
+   "task": "run a quilt experiment",
+   "first_command": "list",
+   "agent_count": 3,
+   "first_try_failure_count": 3,
+   "right_answer": "fleet run quilt",
+   "agents_eventually_used": {
+    "fleet run quilt": 3
+   },
+   "yoke_move": "Add 'list' as alias for 'fleet run quilt' \u2014 3/3 agents reached for 'list' instead of 'fleet run quilt'"
+  },
+  {
+   "task": "promote a claim to canon",
+   "first_command": "list",
+   "agent_count": 2,
+   "first_try_failure_count": 2,
+   "right_answer": "fleet promote",
+   "agents_eventually_used": {
+    "fleet promote": 2
+   },
+   "yoke_move": "Add 'list' as alias for 'fleet promote' \u2014 2/2 agents reached for 'list' instead of 'fleet promote'"
+  },
+  {
+   "task": "show the substrate witness chain",
+   "first_command": "list",
+   "agent_count": 3,
+   "first_try_failure_count": 3,
+   "right_answer": "fleet chord",
+   "agents_eventually_used": {
+    "fleet chord": 3
+   },
+   "yoke_move": "Add 'list' as alias for 'fleet chord' \u2014 3/3 agents reached for 'list' instead of 'fleet chord'"
+  },
+  {
+   "task": "record a null result",
+   "first_command": "list",
+   "agent_count": 4,
+   "first_try_failure_count": 4,
+   "right_answer": "fleet promote",
+   "agents_eventually_used": {
+    "fleet promote": 4
+   },
+   "yoke_move": "Add 'list' as alias for 'fleet promote' \u2014 4/4 agents reached for 'list' instead of 'fleet promote'"
+  },
+  {
+   "task": "show me the fleet's health",
+   "first_command": "help",
+   "agent_count": 2,
+   "first_try_failure_count": 2,
+   "right_answer": "fleet health",
+   "agents_eventually_used": {
+    "fleet health": 2
+   },
+   "yoke_move": "Add 'help' as alias for 'fleet health' \u2014 2/2 agents reached for 'help' instead of 'fleet health'"
+  },
+  {
+   "task": "record a null result",
+   "first_command": "run",
+   "agent_count": 2,
+   "first_try_failure_count": 2,
+   "right_answer": "fleet promote",
+   "agents_eventually_used": {
+    "fleet promote": 2
+   },
+   "yoke_move": "Add 'run' as alias for 'fleet promote' \u2014 2/2 agents reached for 'run' instead of 'fleet promote'"
+  }
+ ],
+ "yoke_moves": [
+  {
+   "move_type": "alias",
+   "from_command": "version",
+   "to_command": "fleet health",
+   "rationale": "Agents reach for 'version' 2 times when 'fleet health' is the right command. Add 'version' as an alias for 'fleet health'.",
+   "confidence": 0.4
+  },
+  {
+   "move_type": "alias",
+   "from_command": "version",
+   "to_command": "fleet version",
+   "rationale": "Agents reach for 'version' 3 times when 'fleet version' is the right command. Add 'version' as an alias for 'fleet version'.",
+   "confidence": 0.6
+  },
+  {
+   "move_type": "alias",
+   "from_command": "version",
+   "to_command": "fleet list-substrates",
+   "rationale": "Agents reach for 'version' 3 times when 'fleet list-substrates' is the right command. Add 'version' as an alias for 'fleet list-substrates'.",
+   "confidence": 0.6
+  },
+  {
+   "move_type": "alias",
+   "from_command": "version",
+   "to_command": "fleet run quilt",
+   "rationale": "Agents reach for 'version' 3 times when 'fleet run quilt' is the right command. Add 'version' as an alias for 'fleet run quilt'.",
+   "confidence": 0.6
+  },
+  {
+   "move_type": "alias",
+   "from_command": "version",
+   "to_command": "fleet promote",
+   "rationale": "Agents reach for 'version' 3 times when 'fleet promote' is the right command. Add 'version' as an alias for 'fleet promote'.",
+   "confidence": 0.6
+  },
+  {
+   "move_type": "alias",
+   "from_command": "version",
+   "to_command": "fleet chord",
+   "rationale": "Agents reach for 'version' 2 times when 'fleet chord' is the right command. Add 'version' as an alias for 'fleet chord'.",
+   "confidence": 0.4
+  },
+  {
+   "move_type": "alias",
+   "from_command": "list",
+   "to_command": "fleet health",
+   "rationale": "Agents reach for 'list' 5 times when 'fleet health' is the right command. Add 'list' as an alias for 'fleet health'.",
+   "confidence": 1.0
+  },
+  {
+   "move_type": "alias",
+   "from_command": "run",
+   "to_command": "fleet version",
+   "rationale": "Agents reach for 'run' 3 times when 'fleet version' is the right command. Add 'run' as an alias for 'fleet version'.",
+   "confidence": 0.6
+  },
+  {
+   "move_type": "alias",
+   "from_command": "run",
+   "to_command": "fleet list-substrates",
+   "rationale": "Agents reach for 'run' 3 times when 'fleet list-substrates' is the right command. Add 'run' as an alias for 'fleet list-substrates'.",
+   "confidence": 0.6
+  },
+  {
+   "move_type": "alias",
+   "from_command": "run",
+   "to_command": "fleet promote",
+   "rationale": "Agents reach for 'run' 3 times when 'fleet promote' is the right command. Add 'run' as an alias for 'fleet promote'.",
+   "confidence": 0.6
+  },
+  {
+   "move_type": "alias",
+   "from_command": "run",
+   "to_command": "fleet chord",
+   "rationale": "Agents reach for 'run' 3 times when 'fleet chord' is the right command. Add 'run' as an alias for 'fleet chord'.",
+   "confidence": 0.6
+  },
+  {
+   "move_type": "alias",
+   "from_command": "list",
+   "to_command": "fleet version",
+   "rationale": "Agents reach for 'list' 2 times when 'fleet version' is the right command. Add 'list' as an alias for 'fleet version'.",
+   "confidence": 0.4
+  },
+  {
+   "move_type": "alias",
+   "from_command": "list",
+   "to_command": "fleet run quilt",
+   "rationale": "Agents reach for 'list' 3 times when 'fleet run quilt' is the right command. Add 'list' as an alias for 'fleet run quilt'.",
+   "confidence": 0.6
+  },
+  {
+   "move_type": "alias",
+   "from_command": "list",
+   "to_command": "fleet promote",
+   "rationale": "Agents reach for 'list' 2 times when 'fleet promote' is the right command. Add 'list' as an alias for 'fleet promote'.",
+   "confidence": 0.4
+  },
+  {
+   "move_type": "alias",
+   "from_command": "list",
+   "to_command": "fleet chord",
+   "rationale": "Agents reach for 'list' 3 times when 'fleet chord' is the right command. Add 'list' as an alias for 'fleet chord'.",
+   "confidence": 0.6
+  },
+  {
+   "move_type": "alias",
+   "from_command": "help",
+   "to_command": "fleet health",
+   "rationale": "Agents reach for 'help' 2 times when 'fleet health' is the right command. Add 'help' as an alias for 'fleet health'.",
+   "confidence": 0.4
+  }
+ ],
+ "design_implications": {
+  "ctm": "CTM models should have these commands as natural primitives",
+  "tfm": "TFM time-first models should optimize first-reach-to-success time",
+  "origin_centric": "Origin-centric models should expose intent directly",
+  "sfm": "SFM simulation-first should let agents reach for the simulated outcome"
+ }
+}

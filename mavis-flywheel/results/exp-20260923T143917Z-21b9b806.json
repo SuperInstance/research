@@ -1,0 +1,17 @@
+{
+ "id": "exp-20260923T143917Z-21b9b806",
+ "timestamp": "2026-09-23T14:39:17.434288Z",
+ "question": "describe the substrate walker in one sentence",
+ "models": [
+  "meta-llama/Llama-3.3-70B-Instruct",
+  "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "meta-llama/Llama-3.3-70B-Instruct"
+ ],
+ "responses": {
+  "meta-llama/Llama-3.3-70B-Instruct": "The Substrate Walker is a type of molecular motor that uses ATP hydrolysis to move along a substrate, such as a microtubule or actin filament, by undergoing a series of conformational changes that allow it to \"walk\" or translocate along the substrate.",
+  "meta-llama/Meta-Llama-3.1-8B-Instruct": "The substrate walker is a type of robotic device that is designed to move on a flat surface, such as a substrate, without direct contact, using a combination of air pressure and suction to create a seal between the device and the surface, allowing it to walk or move around."
+ },
+ "polyformality": 0.2777777777777778,
+ "combined_summary": "[meta-llama/Llama-3.3-70B-Instruct] The Substrate Walker is a type of molecular motor that uses ATP hydrolysis to move along a substrate, such as a microtubule or actin filament, by undergoing a series of conformational changes that all | [meta-llama/Meta-Llama-3.1-8B-Instruct] The substrate walker is a type of robotic device that is designed to move on a flat surface, such as a substrate, without direct contact, using a combination of air pressure and suction to create a se",
+ "is_canon_worthy": false
+}

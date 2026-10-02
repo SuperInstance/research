@@ -1,0 +1,9 @@
+{
+ "substrate": "rsi",
+ "experiment_id": "rsi-iter-2",
+ "started_at": "2026-09-23T14:46:05.380915Z",
+ "finished_at": "2026-09-23T14:46:05.383973Z",
+ "metric": 0.05,
+ "status": "success",
+ "id": "wit-61d07b607db3"
+}

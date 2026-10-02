@@ -1,0 +1,27 @@
+{
+ "claim": "substrate walker canon verified across 3 substrates",
+ "is_promoted": false,
+ "chord": {
+  "is_chord": false,
+  "polyformality": 0.01076007326007326,
+  "num_substrates": 3,
+  "participating_substrates": [
+   "quilt",
+   "jepa",
+   "moth"
+  ],
+  "weights": {
+   "quilt": 1.0,
+   "jepa": 0.9,
+   "moth": 0.6
+  }
+ },
+ "evidence": {
+  "quilt": "{\"polyformality\": 0.0, \"matched_doctrines\": []} {\"polyformality\": 0.0, \"matched_doctrines\": []}",
+  "jepa": "{\"start\": \"What does the substrate walker mean?\", \"predicted_stops\": [\"witness_log_is_prediction\", \"canon_gate_is_chord\", \"oracle_is_heard\"], \"score\": 0.85} {\"start\": \"What is a witness log?\", \"predicted_stops\": [\"witness_log_is_prediction\", \"canon_gate_is_chord\", \"oracle_is_heard\"], \"score\": 0.85}",
+  "moth": "{\"hypothesis\": \"What does the substrate walker mean? requires quantum geometry\", \"verdict\": \"NULL_RESULT\", \"rationale\": \"Hypothesis tested; expected signal not found. Documented for future reference.\", \"value\": 0.0, \"is_publishable\": true, \"tag\": \"null_result\"} {\"hypothesis\": \"What is a witness log? requires quantum geometry\", \"verdict\": \"NULL_RESULT\", \"rationale\": \"Hypothesis tested; expected signal not found. Documented for future reference.\", \"value\": 0.0, \"is_publishable\": true, \"tag\": \"null_result\"}"
+ },
+ "timestamp": "2026-09-23T14:49:02.881816Z",
+ "agent": "mavis-fleet-chord",
+ "promotion_witness": "wit-06220f16d757a022"
+}

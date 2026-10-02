@@ -1,0 +1,16 @@
+{
+ "claim": "x",
+ "is_promoted": false,
+ "chord": {
+  "is_chord": false,
+  "reason": "only 1 substrates (need 3)",
+  "num_substrates": 1,
+  "polyformality": 0.0
+ },
+ "evidence": {
+  "quilt": "alone"
+ },
+ "timestamp": "2026-09-23T14:47:52.976515Z",
+ "agent": "mavis-fleet-chord",
+ "promotion_witness": "wit-e1f1d75a10aab099"
+}

@@ -1,0 +1,21 @@
+{
+ "repo": "si-knowledge-base",
+ "swept_at": "2026-09-30T05:55:02Z",
+ "findings": [],
+ "ops": [
+  {
+   "kind": "email address",
+   "distinct": 2,
+   "samples": [
+    "casey@superinstance.com",
+    "fleet@superinstance.dev"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 121038,
+  "gitleaks": 0,
+  "high_entropy_strings": 0
+ }
+}

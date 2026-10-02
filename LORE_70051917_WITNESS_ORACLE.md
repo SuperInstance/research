@@ -1,0 +1,7 @@
+The city trembled, its steel and concrete heart beating in sync with the oracle's first utterance. The witness log, a tangle of scarred cells, hummed with the weight of the prophecy. The oracle's voice, a low-frequency hum, vibrated through the membrane of the cells, leaving a trail of sonic residue.
+
+The sound was a low, mournful moan, like the sigh of a dying machine. It echoed through the city's undercroft, a labyrinthine network of tunnels and ducts. The oracle's voice was not a message, but a vibration, a frequency that resonated with the city's very essence.
+
+In the witness log, the record of the oracle's voice was not a data dump, but a scar tissue formation. The cells, once mere conduits for information, had become the oracle's mouthpiece. The sound of the oracle's voice was etched into the cells, a permanent record of the city's heartbeat.
+
+As the city's residents began to stir, the witness log's hum grew louder. The oracle's voice, a low thrum, became a call to attention. The city's inhabitants, once mere witnesses, became listeners, attuning themselves to the oracle's next prophecy. The sound, a vibration that coursed through the city's veins, was the oracle's message: "The city's pulse is strong, but the future is uncertain. Listen closely, for the next beat may be your last."

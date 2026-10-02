@@ -1,0 +1,20 @@
+{
+ "repo": "roblox-beatclock",
+ "swept_at": "2026-09-30T05:54:45Z",
+ "findings": [],
+ "ops": [
+  {
+   "kind": "email address",
+   "distinct": 1,
+   "samples": [
+    "lucineer@casey-digennaro.workers.dev"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 209484,
+  "gitleaks": 0,
+  "high_entropy_strings": 0
+ }
+}

@@ -1,0 +1,346 @@
+{
+  "quilt-jepa": {
+    "total": 11,
+    "verified": 0,
+    "authors": {
+      "Z User": 11
+    },
+    "gh_logins": {
+      "?": 11
+    },
+    "unverified": [
+      "4ed0527a",
+      "5624bc68"
+    ]
+  },
+  "quilt-c": {
+    "total": 17,
+    "verified": 0,
+    "authors": {
+      "Casey Digennaro": 4,
+      "Mavis": 1,
+      "Mavis Agent": 1,
+      "SuperInstance": 1,
+      "The Cowboy": 9,
+      "Casey DiGennaro": 1
+    },
+    "gh_logins": {
+      "SuperInstance": 7,
+      "?": 10
+    },
+    "unverified": [
+      "adae27e4",
+      "8aec26eb"
+    ]
+  },
+  "AI-Writings": {
+    "total": 100,
+    "verified": 0,
+    "authors": {
+      "github-actions[bot]": 15,
+      "Claude": 73,
+      "Casey": 10,
+      "Casey Digennaro": 1,
+      "Casey DiGennaro": 1
+    },
+    "gh_logins": {
+      "github-actions[bot]": 15,
+      "claude": 73,
+      "?": 10,
+      "SuperInstance": 2
+    },
+    "unverified": [
+      "e48c8310",
+      "4d92fe49"
+    ]
+  },
+  "quilt-gpu-lab": {
+    "total": 100,
+    "verified": 0,
+    "authors": {
+      "SuperInstance": 99,
+      "Casey Digennaro": 1
+    },
+    "gh_logins": {
+      "?": 99,
+      "SuperInstance": 1
+    },
+    "unverified": [
+      "3285d934",
+      "e627d5e9"
+    ]
+  },
+  "pong-quilt": {
+    "total": 100,
+    "verified": 0,
+    "authors": {
+      "Casey Digennaro": 60,
+      "Claude": 1,
+      "SuperInstance": 2,
+      "CCC": 31,
+      "OpenClaw snowball": 1,
+      "kimi1": 3,
+      "k2d8": 2
+    },
+    "gh_logins": {
+      "SuperInstance": 60,
+      "claude": 1,
+      "?": 39
+    },
+    "unverified": [
+      "d2a85d7e",
+      "c59c8d78"
+    ]
+  },
+  "MicroMoth-quilt": {
+    "total": 100,
+    "verified": 0,
+    "authors": {
+      "Casey Digennaro": 29,
+      "CCC": 22,
+      "SuperInstance": 2,
+      "Claude": 1,
+      "Astryd Park": 44,
+      "Dpbm": 2
+    },
+    "gh_logins": {
+      "SuperInstance": 29,
+      "?": 24,
+      "claude": 1,
+      "artreadcode": 44,
+      "Dpbm": 2
+    },
+    "unverified": [
+      "e128e92a",
+      "621e35b7"
+    ]
+  },
+  "quilt": {
+    "total": 100,
+    "verified": 0,
+    "authors": {
+      "Casey Digennaro": 27,
+      "Mavis Agent": 2,
+      "SuperInstance": 1,
+      "dependabot[bot]": 5,
+      "Z User": 1,
+      "CCC": 18,
+      "openclaw": 1,
+      "kimi1": 1,
+      "Claude": 4,
+      "CI Bot": 1,
+      "Yossi Eliaz": 1,
+      "Quilt": 38
+    },
+    "gh_logins": {
+      "SuperInstance": 28,
+      "?": 62,
+      "dependabot[bot]": 5,
+      "claude": 4,
+      "zozo123": 1
+    },
+    "unverified": [
+      "4f2f30cc",
+      "05ec134f"
+    ]
+  },
+  "Syzygy": {
+    "total": 14,
+    "verified": 0,
+    "authors": {
+      "Claude": 12,
+      "Casey Digennaro": 2
+    },
+    "gh_logins": {
+      "claude": 12,
+      "SuperInstance": 2
+    },
+    "unverified": [
+      "e6c5b53b",
+      "fe64ddba"
+    ]
+  },
+  "breakthrough-prospector": {
+    "total": 8,
+    "verified": 0,
+    "authors": {
+      "Z User": 1,
+      "CCC": 2,
+      "SuperInstance": 5
+    },
+    "gh_logins": {
+      "?": 3,
+      "SuperInstance": 5
+    },
+    "unverified": [
+      "69a9bb82",
+      "40bb6a9a"
+    ]
+  },
+  "quilt-research-canons": {
+    "total": 17,
+    "verified": 0,
+    "authors": {
+      "Casey Digennaro": 11,
+      "mavis-bot": 5,
+      "kimi1": 1
+    },
+    "gh_logins": {
+      "SuperInstance": 11,
+      "?": 6
+    },
+    "unverified": [
+      "b1a4dd45",
+      "cc78761d"
+    ]
+  },
+  "SmartCRDT": {
+    "total": 79,
+    "verified": 0,
+    "authors": {
+      "dependabot[bot]": 27,
+      "Casey Digennaro": 22,
+      "Z User": 2,
+      "SuperInstance": 17,
+      "Mavis Agent": 4,
+      "OpenClaw": 3,
+      "superinstance": 3,
+      "Super Z": 1
+    },
+    "gh_logins": {
+      "dependabot[bot]": 27,
+      "SuperInstance": 31,
+      "?": 18,
+      "actions": 3
+    },
+    "unverified": [
+      "0ddd60f7",
+      "84cf5e77"
+    ]
+  },
+  "mavis-pincher": {
+    "total": 8,
+    "verified": 0,
+    "authors": {
+      "Casey Digennaro": 8
+    },
+    "gh_logins": {
+      "SuperInstance": 8
+    },
+    "unverified": [
+      "076f6692",
+      "bd7dd699"
+    ]
+  },
+  "PuddnHead": {
+    "total": 4,
+    "verified": 0,
+    "authors": {
+      "Casey Digennaro": 4
+    },
+    "gh_logins": {
+      "SuperInstance": 4
+    },
+    "unverified": [
+      "f2e7a67c",
+      "dca1974e"
+    ]
+  },
+  "chiaroscuro": {
+    "total": 8,
+    "verified": 0,
+    "authors": {
+      "Casey Digennaro": 1,
+      "SuperInstance": 6,
+      "Claude": 1
+    },
+    "gh_logins": {
+      "SuperInstance": 1,
+      "?": 6,
+      "claude": 1
+    },
+    "unverified": [
+      "5298b736",
+      "e845bdf9"
+    ]
+  },
+  "exoj": {
+    "total": 10,
+    "verified": 0,
+    "authors": {
+      "Casey Digennaro": 2,
+      "Claude": 2,
+      "CCC": 1,
+      "Z User": 4,
+      "fleet-seedbox": 1
+    },
+    "gh_logins": {
+      "SuperInstance": 2,
+      "claude": 2,
+      "?": 6
+    },
+    "unverified": [
+      "a34ab8dd",
+      "f6c61760"
+    ]
+  },
+  "qthe-verify": {
+    "total": 3,
+    "verified": 0,
+    "authors": {
+      "Casey Digennaro": 2,
+      "fleet": 1
+    },
+    "gh_logins": {
+      "SuperInstance": 2,
+      "?": 1
+    },
+    "unverified": [
+      "84e0e463",
+      "71fb7698"
+    ]
+  },
+  "quilt-fleet": {
+    "total": 15,
+    "verified": 0,
+    "authors": {
+      "dependabot[bot]": 3,
+      "Casey Digennaro": 1,
+      "Mavis Agent": 7,
+      "The Cowboy": 1,
+      "Casey DiGennaro": 3
+    },
+    "gh_logins": {
+      "dependabot[bot]": 3,
+      "SuperInstance": 8,
+      "?": 4
+    },
+    "unverified": [
+      "aba8ac21",
+      "660fc5a1"
+    ]
+  },
+  "fleet-seeds": {
+    "total": 97,
+    "verified": 0,
+    "authors": {
+      "Z User": 76,
+      "Casey Digennaro": 2,
+      "Claude": 3,
+      "SuperInstance": 9,
+      "fleet-seeds-46b": 2,
+      "lane-46e-witness-roller": 3,
+      "jev-cartographer (lane 40-b)": 1,
+      "embassy-smith (lane 37-d)": 1
+    },
+    "gh_logins": {
+      "?": 83,
+      "SuperInstance": 11,
+      "claude": 3
+    },
+    "unverified": [
+      "e50d9ace",
+      "e162b1d9"
+    ]
+  }
+}

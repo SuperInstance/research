@@ -1,0 +1,6 @@
+  S1-decompose-a-bug           Mistral-Small-3.2-24B-   jev=0.67   SALVAGE  agree=True
+  S1-decompose-a-bug           gemma-3-27b-it           jev=0.5    SALVAGE  agree=True
+  S2-distinguish-a-null-from-a-measurement Mistral-Small-3.2-24B-   jev=0.58   SALVAGE  agree=True
+  S2-distinguish-a-null-from-a-measurement gemma-3-27b-it           jev=0.58   SALVAGE  agree=True
+  S3-tell-when-a-test-cannot-fail Mistral-Small-3.2-24B-   jev=0.67   SALVAGE  agree=True
+  S3-tell-when-a-test-cannot-fail gemma-3-27b-it           jev=0.63   SALVAGE  agree=True

@@ -1,0 +1,20 @@
+{
+ "repo": "si-player",
+ "swept_at": "2026-09-30T05:55:05Z",
+ "findings": [],
+ "ops": [
+  {
+   "kind": "email address",
+   "distinct": 1,
+   "samples": [
+    "fleet@superinstance.dev"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 59503,
+  "gitleaks": 0,
+  "high_entropy_strings": 0
+ }
+}

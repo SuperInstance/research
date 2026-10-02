@@ -1,0 +1,54 @@
+{
+  "assertions_failed": 0,
+  "assertions_passed": 1285,
+  "receipt_sha256": "ceb70f0d446523540b5f28c50461a44151360edfb010fe386458967af7421846",
+  "schema": "quilt-c/verify-receipt@v1",
+  "source_files": 29,
+  "source_tree_sha256": "2993c472c5b5c213c6d50a0dc20803c7adaba6e019a8863db7730d55a8fb79f8",
+  "suites": 7,
+  "suites_detail": [
+    {
+      "exit": 0,
+      "failed": 0,
+      "passed": 47,
+      "suite": "test"
+    },
+    {
+      "exit": 0,
+      "failed": 0,
+      "passed": 1059,
+      "suite": "test-proof"
+    },
+    {
+      "exit": 0,
+      "failed": 0,
+      "passed": 27,
+      "suite": "test-route"
+    },
+    {
+      "exit": 0,
+      "failed": 0,
+      "passed": 28,
+      "suite": "test-crdt"
+    },
+    {
+      "exit": 0,
+      "failed": 0,
+      "passed": 34,
+      "suite": "test-world"
+    },
+    {
+      "exit": 0,
+      "failed": 0,
+      "passed": 41,
+      "suite": "test-time"
+    },
+    {
+      "exit": 0,
+      "failed": 0,
+      "passed": 49,
+      "suite": "test-quf"
+    }
+  ],
+  "verdict": "VERIFIED"
+}

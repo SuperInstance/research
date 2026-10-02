@@ -1,0 +1,21 @@
+{
+ "repo": "knowledge-graph",
+ "swept_at": "2026-09-30T05:54:18Z",
+ "findings": [],
+ "ops": [
+  {
+   "kind": "email address",
+   "distinct": 2,
+   "samples": [
+    "casey@superinstance.com",
+    "fleet@superinstance.dev"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 5608,
+  "gitleaks": 0,
+  "high_entropy_strings": 0
+ }
+}

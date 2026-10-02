@@ -1,0 +1,20 @@
+{
+ "repo": "wesley-curriculum",
+ "swept_at": "2026-09-30T05:55:46Z",
+ "findings": [],
+ "ops": [
+  {
+   "kind": "email address",
+   "distinct": 1,
+   "samples": [
+    "fleet@superinstance.dev"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 74582,
+  "gitleaks": 0,
+  "high_entropy_strings": 1
+ }
+}

@@ -1,0 +1,7 @@
+{
+  "S": 2.84814453125,
+  "sigma_S": 0.02194096478543922,
+  "classical_bound": 2,
+  "tsirelson_bound": 2.8284271247461903,
+  "caveat": "Fixed measurement settings, no space-like separation, fair sampling assumed: this witnesses entangling-gate and readout fidelity on the device that produced the randomness. It is not device-independent certification."
+}

@@ -1,0 +1,12 @@
+{
+  "iso": "2026-09-21T20:38:57Z",
+  "concept": "quantum_ether",
+  "description": "Quantum IS the substrate; classical and continuous are projections",
+  "measurements": {
+    "|00\u27e9/|11\u27e9": "|11\u27e9",
+    "|++\u27e9/|--\u27e9": "|--\u27e9",
+    "|+0\u27e9/|-1\u27e9": "|-1\u27e9"
+  },
+  "substrate_norm": 0.9999999999999999,
+  "ether_stability_mean": 0.8047378541243649
+}

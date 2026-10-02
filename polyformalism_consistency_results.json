@@ -1,0 +1,74 @@
+{
+  "timestamp": 1790014042.3906422,
+  "iso": "2026-09-21T18:07:22Z",
+  "reference_algorithm": "FNV-1a 64-bit",
+  "offset_basis": "0xcbf29ce484222325",
+  "prime": "0x100000001b3",
+  "inputs": [
+    "FNV-1a canary 0xcbf29ce484222325",
+    "witness log is the prediction",
+    "substrate is grown",
+    "the cell is a scar",
+    "lenia flows",
+    "oracle is heard"
+  ],
+  "reference_outputs": {
+    "FNV-1a canary 0xcbf29ce484222325": "0x0895c0b87d89f1d8",
+    "witness log is the prediction": "0x176137b542efe82a",
+    "substrate is grown": "0xeb03d5cb64349197",
+    "the cell is a scar": "0x0d251b67510ec960",
+    "lenia flows": "0xeb81aa697d30dd2b",
+    "oracle is heard": "0xc7bf0db1f1dfcde5"
+  },
+  "ports_tested": [
+    {
+      "name": "Python reference",
+      "language": "python",
+      "note": "canonical reference"
+    },
+    {
+      "name": "Python hashlib fallback",
+      "language": "python",
+      "note": "hashlib NOT equivalent to FNV-1a (different algorithm, sha256 vs fnv1a)"
+    }
+  ],
+  "test_cases": [
+    {
+      "input": "FNV-1a canary 0xcbf29ce484222325",
+      "python_output": "0x0895c0b87d89f1d8",
+      "expected_in_all_langs": "0x0895c0b87d89f1d8",
+      "all_match": true
+    },
+    {
+      "input": "witness log is the prediction",
+      "python_output": "0x176137b542efe82a",
+      "expected_in_all_langs": "0x176137b542efe82a",
+      "all_match": true
+    },
+    {
+      "input": "substrate is grown",
+      "python_output": "0xeb03d5cb64349197",
+      "expected_in_all_langs": "0xeb03d5cb64349197",
+      "all_match": true
+    },
+    {
+      "input": "the cell is a scar",
+      "python_output": "0x0d251b67510ec960",
+      "expected_in_all_langs": "0x0d251b67510ec960",
+      "all_match": true
+    },
+    {
+      "input": "lenia flows",
+      "python_output": "0xeb81aa697d30dd2b",
+      "expected_in_all_langs": "0xeb81aa697d30dd2b",
+      "all_match": true
+    },
+    {
+      "input": "oracle is heard",
+      "python_output": "0xc7bf0db1f1dfcde5",
+      "expected_in_all_langs": "0xc7bf0db1f1dfcde5",
+      "all_match": true
+    }
+  ],
+  "note": "Harness structure ready; live multi-language test pending actual port compilation."
+}

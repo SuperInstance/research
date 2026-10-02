@@ -1,0 +1,360 @@
+{
+  "title": "The Monastery of Cells",
+  "scenario": {
+    "title": "The Monastery of Cells",
+    "vantage": "the monastery; a year into the silence",
+    "setting": "A monastery of two hundred monks, arranged in eleven cloisters, has been copying a single living scripture for a year. The scripture breathes \u2014 lines move, new margins appear, old paragraphs fold under themselves. Today one cloister has fallen silent and another has begun writing in a hand the abbot doesn't recognize.",
+    "characters": [
+      {
+        "name": "Abbot"
+      },
+      {
+        "name": "Scribe"
+      },
+      {
+        "name": "Heretic"
+      },
+      {
+        "name": "Witness"
+      }
+    ]
+  },
+  "history": [
+    {
+      "name": "DM",
+      "text": "Abbot\u2019s crozier\u2019s iron crook scrapes salt-crusted sandstone as he rounds the arch of the fourth cloister, where the monastery\u2019s copyists should be hunched over desks until their eyes ran\u2014instead the stalls stand empty, ink wells crusted with brine, and a thin, breathing tendril of the living scripture curls through a cracked window paned with leaded fish-glass. The Scribe stumbles after him, clutching a scrap torn from the scripture\u2019s flapping margins, its new lines scrawled in a sharp, slashing hand no monk at the coastal monastery has ever seen, the ink still smelling of raw kelp. The Heretic, dragged from the holding cell at dawn for her knowledge of sea-touched anomalous texts, kicks a discarded quill and mutters that this hand doesn\u2019t copy\u2014it carves, while the Witness, a novice who found the silent cloister first, presses a trembling palm to the sixth cloister\u2019s scriptorium door, where a scratch-scratch-scratch bites through the salt-hushed air. Will we reach the bound copyists before the scripture\u2019s new hand claims them all?",
+      "shifts": {},
+      "shift_total": 0
+    },
+    {
+      "name": "Abbot",
+      "text": "The silence of this cloister chills deeper than coastal brine. This foreign hand carves into the living scripture where our own once copied, and it would unravel our lineage and break our vow to the rule. Do not linger on torn margins, but press forward to the scriptorium before this drift consumes all we guard.",
+      "shifts": {
+        "silence": 0.4,
+        "lineage": 0.5,
+        "line": 0.4,
+        "margin": 0.4,
+        "scripture": 0.5,
+        "hand": 0.3,
+        "drift": 0.4,
+        "cloister": 1.0,
+        "rule": 0.4
+      },
+      "shift_total": 4.3
+    },
+    {
+      "name": "Scribe",
+      "text": "Line 7 of the clutched margin scrap (fold 3, right column) reads \u201ccopy not carve\u201d\u2014this kelp-inked hand violates Scriptorium Rule 12, which restricts ink to oak gall or lampblack. The fourth cloister\u2019s empty stalls breach Rule 4, which mandates copyists at desks from Matins to Compline unless granted abbatial dispensation. The sixth cloister\u2019s scratch rhythm matches the scrap\u2019s slashing line spacing, 1/8 inch per mark.",
+      "shifts": {
+        "copy": 1.0,
+        "margin": 0.5,
+        "line": 2.0,
+        "rule": 0.8,
+        "hand": 0.3,
+        "fold": -0.1
+      },
+      "shift_total": 4.5
+    },
+    {
+      "name": "Heretic",
+      "text": "That slashing new hand, writing in kelp-ink, isn\u2019t defiling the scripture\u2014it\u2019s setting it free from the brine-crusted copies we\u2019ve trapped it in! Look at the curling margins\u2014they\u2019re growing into the empty spaces the abbot\u2019s quiet demands left behind! This isn\u2019t heresy\u2014it\u2019s the scripture drifting back to the sea it came from!",
+      "shifts": {
+        "hand": 0.5,
+        "margin": 0.4,
+        "new": 0.4,
+        "heresy": -0.4,
+        "drift": 0.5,
+        "scripture": 0.8
+      },
+      "shift_total": 2.2
+    },
+    {
+      "name": "Witness",
+      "text": "Silent debit (double-entry ledger, line 7): Cloister 4 = 17 copyists, verified via 17 crusted brine inkwells, marked non-transcribing.",
+      "shifts": {
+        "cloister": 2.0,
+        "count": 0.5,
+        "fold": 0.4,
+        "margin": 0.4
+      },
+      "shift_total": 3.3
+    },
+    {
+      "name": "Abbot",
+      "text": "This slashing hand breaks the rule of faithful copying, its kelp-ink severing the continuous line of our scripture\u2019s copy. It would unravel the lineage we have nurtured through twelve moon\u2019s turns, and cast our silent, guarded work to the tides. Do not let this drift claim what we have sworn to preserve.",
+      "shifts": {
+        "lineage": 0.5,
+        "line": 1.2,
+        "scripture": 0.5,
+        "hand": 0.3,
+        "drift": 0.4,
+        "rule": 0.4
+      },
+      "shift_total": 3.3
+    },
+    {
+      "name": "Scribe",
+      "text": "Scriptorium Rule 7, line 2, mandates all marginalia bear a cross-reference to the master copy\u2019s canonical line numbering\u2014this kelp-inked scrap (fold 3, right column) lacks such marks, qualifying as unlicensed heresy per Rule 7, line 4. The Witness\u2019s tally of 19 synchronized scratches in Cloister 6 matches the scrap\u2019s 19 unnumbered slashing vertical marks (fold 3, left margin, unfiled), linking the sixth cloister\u2019s copyists directly to this foreign hand. The canonical lineage log (page 41, dog-eared) lists no kelp ink as a permitted medium, reinforcing the breach of Scriptorium Rule 12.",
+      "shifts": {
+        "copy": 1.0,
+        "margin": 1.0,
+        "line": 3.0,
+        "page": 0.8,
+        "lineage": 0.6,
+        "heresy": 0.4,
+        "rule": 1.2,
+        "hand": 0.3,
+        "fold": -0.2
+      },
+      "shift_total": 8.1
+    },
+    {
+      "name": "Heretic",
+      "text": "You prattle about lineage and your rule, but the scripture laughs at your ledgers! I spotted line 14 of the fourth cloister\u2019s tendril at dawn, folded tight in its left margin: \u201cthe chains of copy bind not the living breath.\u201d This kelp-scrawled hand isn\u2019t defiling anything\u2014it\u2019s pulling the scripture back to the salt that made it! You\u2019re the one who\u2019s trapped it in dusty, brittle copies, not this new scribe.",
+      "shifts": {
+        "hand": 0.5,
+        "margin": 0.4,
+        "new": 0.4,
+        "fold": 0.4,
+        "lineage": -0.4,
+        "rule": -0.5,
+        "scripture": 0.8
+      },
+      "shift_total": 1.6
+    },
+    {
+      "name": "Witness",
+      "text": "Adjusted double-entry debit (Cloister 4, Line 7 Addendum): 17 crusted brine inkwells correlate to 17 missing stools\u2014counted three times, zero variance\u2014non-transcribing status reconfirmed.",
+      "shifts": {
+        "cloister": 1.5,
+        "count": 1.0,
+        "fold": 0.4,
+        "margin": 0.4,
+        "drift": 0.6
+      },
+      "shift_total": 3.9
+    },
+    {
+      "name": "Abbot",
+      "text": "This foreign hand does not free the scripture\u2014it tears the continuous thread of our copying, unraveling the lineage we have tended for a year of quiet watchfulness, and working unlicensed heresy with its salt-stained ink. Our rules bind us to the canonical line, not the drift of wild margins, lest we cast the living word to the tides that would swallow it whole. I will not let our guarded, faithful work be undone by a hand that defies our monastic vow.",
+      "shifts": {
+        "lineage": 0.5,
+        "line": 1.2,
+        "margin": 0.4,
+        "scripture": 0.5,
+        "hand": 0.9,
+        "heresy": 0.4,
+        "drift": 0.4,
+        "rule": 0.4
+      },
+      "shift_total": 4.7
+    },
+    {
+      "name": "Scribe",
+      "text": "Scriptorium Rule 14, line 2, requires all evidentiary scripture scraps be held in the senior scribe\u2019s locked wool scrip\u2014this stolen kelp scrap (fold 3, 19 unnumbered slashes, previously aligned to lineage log page 41\u2019s grid) violates that mandate, compounding heresy per Rule 7, line 4. The Witness\u2019s adjusted Line 9 Drift Tally (net +1) aligns with lineage log page 42, line 11, which categorizes unmoored evidentiary scraps as a confirmed trigger for accelerated unlicensed marginal growth. No canonical copy verification protocol (lineage log pages 39\u201345, dog-eared) authorizes fish-glass alignment, marking this as unlicensed improvisation per Scriptorium Rule 2, line 3.",
+      "shifts": {
+        "copy": 0.5,
+        "margin": 0.5,
+        "line": 5.5,
+        "page": 1.6,
+        "scripture": 0.4,
+        "drift": -0.4,
+        "lineage": 1.2,
+        "heresy": 0.4,
+        "rule": 1.2,
+        "fold": -0.1
+      },
+      "shift_total": 10.8
+    },
+    {
+      "name": "Heretic",
+      "text": "You bleat about lineage and rule like inkwells and ledgers are holier than the scripture\u2019s own breath! I held that very truth in Cloister 4\u2019s folded margin\u2014\u201cthe chains of copy bind not the living breath\u201d\u2014and you\u2019d snuff it out with your cross-references and inventory counts! Look through this glass: the new hand\u2019s knitting the scripture back to the salt it came from, not tearing it apart!",
+      "shifts": {
+        "hand": 0.5,
+        "margin": 0.4,
+        "new": 0.4,
+        "fold": 0.4,
+        "lineage": -0.4,
+        "rule": -0.5,
+        "scripture": 0.8
+      },
+      "shift_total": 1.6
+    },
+    {
+      "name": "Witness",
+      "text": "Silent debit (double-entry ledger, Cloister 4, Folio 2, Line 7b): 17 missing stools + 0 brine-ink scratch intervals (12-second continuous count) = 17 confirmed non-transcribing copyists\u2014zero variance. Active credit (double-entry ledger, Cloister 6, Folio 2, Line 8b): 19 kelp-ink scratch intervals (25% velocity increase over 4-minute delta) + 19 leaded fish-glass panes shifting 1/6 inch per mark = 19 confirmed unfiled-hand transcribers\u2014zero variance. Drift tally (double-entry ledger, Folio 3, Line 9c): Cloister 4\u2019s escaped scripture tendril now holds 4 unlicensed marginal lines, 0 canonical cross-references (per Scribe\u2019s Rule 7, Line 2)\u2014net +1 drift since last 2-second tally.",
+      "shifts": {
+        "cloister": 2.0,
+        "count": 1.0,
+        "margin": 0.4,
+        "drift": 0.6,
+        "rule": 0.3
+      },
+      "shift_total": 4.3
+    },
+    {
+      "name": "DM",
+      "text": "The abbot\u2019s faction secured the contested kelp scrap in the senior scribe\u2019s reinforced wool scrip, barred Cloister 6\u2019s scriptorium doors with a crozier-fixed oak crossbar, and bound the heretic to a salt-stained cloister bench to await vows of fealty.",
+      "shifts": {},
+      "shift_total": 0
+    }
+  ],
+  "all_shifts": [
+    [
+      "Abbot",
+      {
+        "silence": 0.4,
+        "lineage": 0.5,
+        "line": 0.4,
+        "margin": 0.4,
+        "scripture": 0.5,
+        "hand": 0.3,
+        "drift": 0.4,
+        "cloister": 1.0,
+        "rule": 0.4
+      },
+      4.3
+    ],
+    [
+      "Scribe",
+      {
+        "copy": 1.0,
+        "margin": 0.5,
+        "line": 2.0,
+        "rule": 0.8,
+        "hand": 0.3,
+        "fold": -0.1
+      },
+      4.5
+    ],
+    [
+      "Heretic",
+      {
+        "hand": 0.5,
+        "margin": 0.4,
+        "new": 0.4,
+        "heresy": -0.4,
+        "drift": 0.5,
+        "scripture": 0.8
+      },
+      2.2
+    ],
+    [
+      "Witness",
+      {
+        "cloister": 2.0,
+        "count": 0.5,
+        "fold": 0.4,
+        "margin": 0.4
+      },
+      3.3
+    ],
+    [
+      "Abbot",
+      {
+        "lineage": 0.5,
+        "line": 1.2,
+        "scripture": 0.5,
+        "hand": 0.3,
+        "drift": 0.4,
+        "rule": 0.4
+      },
+      3.3
+    ],
+    [
+      "Scribe",
+      {
+        "copy": 1.0,
+        "margin": 1.0,
+        "line": 3.0,
+        "page": 0.8,
+        "lineage": 0.6,
+        "heresy": 0.4,
+        "rule": 1.2,
+        "hand": 0.3,
+        "fold": -0.2
+      },
+      8.1
+    ],
+    [
+      "Heretic",
+      {
+        "hand": 0.5,
+        "margin": 0.4,
+        "new": 0.4,
+        "fold": 0.4,
+        "lineage": -0.4,
+        "rule": -0.5,
+        "scripture": 0.8
+      },
+      1.6
+    ],
+    [
+      "Witness",
+      {
+        "cloister": 1.5,
+        "count": 1.0,
+        "fold": 0.4,
+        "margin": 0.4,
+        "drift": 0.6
+      },
+      3.9
+    ],
+    [
+      "Abbot",
+      {
+        "lineage": 0.5,
+        "line": 1.2,
+        "margin": 0.4,
+        "scripture": 0.5,
+        "hand": 0.9,
+        "heresy": 0.4,
+        "drift": 0.4,
+        "rule": 0.4
+      },
+      4.7
+    ],
+    [
+      "Scribe",
+      {
+        "copy": 0.5,
+        "margin": 0.5,
+        "line": 5.5,
+        "page": 1.6,
+        "scripture": 0.4,
+        "drift": -0.4,
+        "lineage": 1.2,
+        "heresy": 0.4,
+        "rule": 1.2,
+        "fold": -0.1
+      },
+      10.8
+    ],
+    [
+      "Heretic",
+      {
+        "hand": 0.5,
+        "margin": 0.4,
+        "new": 0.4,
+        "fold": 0.4,
+        "lineage": -0.4,
+        "rule": -0.5,
+        "scripture": 0.8
+      },
+      1.6
+    ],
+    [
+      "Witness",
+      {
+        "cloister": 2.0,
+        "count": 1.0,
+        "margin": 0.4,
+        "drift": 0.6,
+        "rule": 0.3
+      },
+      4.3
+    ]
+  ],
+  "dm_opening": "Abbot\u2019s crozier\u2019s iron crook scrapes salt-crusted sandstone as he rounds the arch of the fourth cloister, where the monastery\u2019s copyists should be hunched over desks until their eyes ran\u2014instead the stalls stand empty, ink wells crusted with brine, and a thin, breathing tendril of the living scripture curls through a cracked window paned with leaded fish-glass. The Scribe stumbles after him, clutching a scrap torn from the scripture\u2019s flapping margins, its new lines scrawled in a sharp, slashing hand no monk at the coastal monastery has ever seen, the ink still smelling of raw kelp. The Heretic, dragged from the holding cell at dawn for her knowledge of sea-touched anomalous texts, kicks a discarded quill and mutters that this hand doesn\u2019t copy\u2014it carves, while the Witness, a novice who found the silent cloister first, presses a trembling palm to the sixth cloister\u2019s scriptorium door, where a scratch-scratch-scratch bites through the salt-hushed air. Will we reach the bound copyists before the scripture\u2019s new hand claims them all?",
+  "dm_closing": "The abbot\u2019s faction secured the contested kelp scrap in the senior scribe\u2019s reinforced wool scrip, barred Cloister 6\u2019s scriptorium doors with a crozier-fixed oak crossbar, and bound the heretic to a salt-stained cloister bench to await vows of fealty."
+}

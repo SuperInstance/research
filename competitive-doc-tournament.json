@@ -1,0 +1,48 @@
+{
+  "rounds": [
+    {
+      "repo": "quilt-bootstrap",
+      "voices": [
+        "voice_b:the steward",
+        "voice_c:the gardener",
+        "voice_a:the conductor"
+      ],
+      "winner": "voice_c",
+      "winner_chars": 3668,
+      "push_status": "pushed: To https://github.com/SuperInstance/quilt-bootstrap.git\n   1c5da92..e221388  mai"
+    },
+    {
+      "repo": "quilt-brewer",
+      "voices": [
+        "voice_c:the gardener",
+        "voice_b:the alchemist",
+        "voice_a:the brewer"
+      ],
+      "winner": "voice_a",
+      "winner_chars": 4338,
+      "push_status": "pushed: To https://github.com/SuperInstance/quilt-brewer.git\n   0e6b31e..2f708b0  main -"
+    },
+    {
+      "repo": "quilt-cli",
+      "voices": [
+        "voice_b:the maestro",
+        "voice_a:the dispatcher",
+        "voice_c:the conductor"
+      ],
+      "winner": "voice_b",
+      "winner_chars": 40,
+      "push_status": "pushed: error: src refspec main does not match any\nerror: failed to push some refs to 'h"
+    },
+    {
+      "repo": "quilt-canon-witness",
+      "voices": [
+        "voice_c:the ledger",
+        "voice_a:the witness",
+        "voice_b:the archivist"
+      ],
+      "winner": "voice_a",
+      "winner_chars": 4345,
+      "push_status": "pushed: To https://github.com/SuperInstance/quilt-canon-witness.git\n   9097ac5..47c5075 "
+    }
+  ]
+}

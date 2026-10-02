@@ -1,0 +1,6 @@
+  S1-decompose-a-bug           Mistral-Small-3.2-24B-   jev=0.71   SALVAGE  runs=['SALVAGE', 'SALVAGE', 'SALVAGE'] agree=False
+  S1-decompose-a-bug           gemma-3-27b-it           jev=0.54   SALVAGE  runs=['SALVAGE', 'SALVAGE', 'SALVAGE'] agree=True
+  S2-distinguish-a-null-from-a-measurement Mistral-Small-3.2-24B-   jev=0.6    SALVAGE  runs=['SALVAGE', 'SALVAGE', 'SALVAGE'] agree=True
+  S2-distinguish-a-null-from-a-measurement gemma-3-27b-it           jev=0.46   SALVAGE  runs=['SALVAGE', 'SALVAGE', 'SALVAGE'] agree=True
+  S3-tell-when-a-test-cannot-fail Mistral-Small-3.2-24B-   jev=0.76   SALVAGE  runs=['SALVAGE', 'SALVAGE', 'SALVAGE'] agree=False
+  S3-tell-when-a-test-cannot-fail gemma-3-27b-it           jev=0.46   SALVAGE  runs=['SALVAGE', 'SALVAGE', 'SALVAGE'] agree=True

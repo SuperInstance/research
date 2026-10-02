@@ -1,0 +1,548 @@
+{
+  "rounds": [
+    {
+      "round": 1,
+      "title": "who is producing, and can a stranger bind a commit to an author",
+      "registered_at": "2026-09-29T18:54:30.799967+00:00",
+      "predictions": [
+        {
+          "id": "unauth-share-high",
+          "kind": "num",
+          "predict": 0.5,
+          "tolerance": 0.25,
+          "claim": "Across the 8 live repos, MORE THAN HALF of the recent commits have no GitHub-authenticated login attached, because the fleet writes with a PAT. That is the 791-commits-0-signed problem, visible per-repo.",
+          "result": 0.055
+        },
+        {
+          "id": "distinct-authors-wide",
+          "kind": "num",
+          "predict": 6.0,
+          "tolerance": 3.0,
+          "claim": "There are at least SIX distinct self-asserted author names across the live repos \u2014 not five, and not one. Fragmentation, not identity.",
+          "result": 9.0
+        },
+        {
+          "id": "signed-still-zero",
+          "kind": "num",
+          "predict": 0.0,
+          "tolerance": 0.0,
+          "claim": "ZERO of the recent commits carry a cryptographic signature. The key was published at 15:08Z today; whether anyone has adopted it is the question.",
+          "result": 0.0
+        },
+        {
+          "id": "keeper-not-blocked",
+          "kind": "bool",
+          "predict": true,
+          "claim": "fleet-seeds (the keeper) is still committing, i.e. the pool-driver hangs that block Taps do NOT block the keeper loop. The two agents fail differently.",
+          "result": true
+        },
+        {
+          "id": "claude-mostly-ai-writings",
+          "kind": "bool",
+          "predict": true,
+          "claim": "Claude's recent commits are concentrated in AI-Writings and Syzygy, i.e. the prose/corpus lanes rather than the substrate lanes.",
+          "result": true
+        }
+      ],
+      "debrief": [
+        {
+          "id": "unauth-share-high",
+          "kind": "num",
+          "predicted": 0.5,
+          "actual": 0.055,
+          "status": "REFUTED"
+        },
+        {
+          "id": "distinct-authors-wide",
+          "kind": "num",
+          "predicted": 6.0,
+          "actual": 9.0,
+          "status": "CONFIRMED"
+        },
+        {
+          "id": "signed-still-zero",
+          "kind": "num",
+          "predicted": 0.0,
+          "actual": 0.0,
+          "status": "CONFIRMED"
+        },
+        {
+          "id": "keeper-not-blocked",
+          "kind": "bool",
+          "predicted": true,
+          "actual": true,
+          "status": "CONFIRMED"
+        },
+        {
+          "id": "claude-mostly-ai-writings",
+          "kind": "bool",
+          "predicted": true,
+          "actual": true,
+          "status": "CONFIRMED"
+        }
+      ],
+      "data": {
+        "per_repo": {
+          "fleet-seeds": {
+            "names": [
+              "Z User"
+            ],
+            "logins": {
+              "?": 15
+            },
+            "signed": 0,
+            "newest": "2026-09-29T17:44:08Z"
+          },
+          "quilt-gpu-lab": {
+            "names": [
+              "SuperInstance"
+            ],
+            "logins": {
+              "?": 15
+            },
+            "signed": 0,
+            "newest": "2026-09-29T18:01:14Z"
+          },
+          "quilt-jepa": {
+            "names": [
+              "Z User"
+            ],
+            "logins": {
+              "?": 13
+            },
+            "signed": 0,
+            "newest": "2026-09-29T16:53:39Z"
+          },
+          "AI-Writings": {
+            "names": [
+              "Casey Digennaro",
+              "Claude",
+              "github-actions[bot]"
+            ],
+            "logins": {
+              "github-actions[bot]": 3,
+              "claude": 11,
+              "SuperInstance": 1
+            },
+            "signed": 0,
+            "newest": "2026-09-29T18:48:54Z"
+          },
+          "MicroMoth-quilt": {
+            "names": [
+              "CCC",
+              "Casey Digennaro"
+            ],
+            "logins": {
+              "SuperInstance": 10,
+              "?": 5
+            },
+            "signed": 0,
+            "newest": "2026-09-29T03:49:49Z"
+          },
+          "Syzygy": {
+            "names": [
+              "Casey Digennaro",
+              "Claude"
+            ],
+            "logins": {
+              "claude": 12,
+              "SuperInstance": 2
+            },
+            "signed": 0,
+            "newest": "2026-09-28T22:15:16Z"
+          },
+          "chiaroscuro": {
+            "names": [
+              "Casey Digennaro",
+              "Claude",
+              "SuperInstance"
+            ],
+            "logins": {
+              "SuperInstance": 1,
+              "?": 6,
+              "claude": 1
+            },
+            "signed": 0,
+            "newest": "2026-09-29T01:17:23Z"
+          },
+          "quilt": {
+            "names": [
+              "CCC",
+              "Casey Digennaro",
+              "Mavis Agent",
+              "SuperInstance",
+              "Z User",
+              "dependabot[bot]",
+              "openclaw"
+            ],
+            "logins": {
+              "SuperInstance": 8,
+              "?": 5,
+              "dependabot[bot]": 2
+            },
+            "signed": 0,
+            "newest": "2026-09-29T06:42:17Z"
+          }
+        },
+        "total": 110,
+        "signed": 0,
+        "unauth": 6,
+        "distinct_names": [
+          "CCC",
+          "Casey Digennaro",
+          "Claude",
+          "Mavis Agent",
+          "SuperInstance",
+          "Z User",
+          "dependabot[bot]",
+          "github-actions[bot]",
+          "openclaw"
+        ],
+        "claude_writings_syzygy": 23
+      }
+    },
+    {
+      "round": 2,
+      "title": "does keeper's own lode survive the externalisability gate I wrote",
+      "registered_at": "2026-09-29T18:55:05.389456+00:00",
+      "predictions": [
+        {
+          "id": "brier-null",
+          "kind": "bool",
+          "predict": true,
+          "claim": "Every resolved entry in keeper's registry.jsonl has brier: null, meaning the calibration is RECORDED but never SCORED. The fleet predicts at p and records the outcome, and never computes the number that would tell it whether the prediction was any good.",
+          "result": false
+        },
+        {
+          "id": "honest-fail-present",
+          "kind": "bool",
+          "predict": true,
+          "claim": "The registry contains at least one FAIL verdict carried forward, i.e. keeper is keeping losing runs rather than only wins.",
+          "result": true
+        },
+        {
+          "id": "mines-still-undeciable",
+          "kind": "num",
+          "predict": 0.0,
+          "tolerance": 0.2,
+          "claim": "Applying my own externalisability gate to keeper's CURRENT mines will still return ~0 externally decidable. Six hours of new work has not changed the shape.",
+          "result": 3.0
+        },
+        {
+          "id": "pong49-folds",
+          "kind": "bool",
+          "predict": true,
+          "claim": "PONG49-BATTERY will still read ARMED in the registry \u2014 the outcome I resolved at 12:16Z has not been folded in by the keeper.",
+          "result": true
+        }
+      ],
+      "debrief": [
+        {
+          "id": "brier-null",
+          "kind": "bool",
+          "predicted": true,
+          "actual": false,
+          "status": "REFUTED"
+        },
+        {
+          "id": "honest-fail-present",
+          "kind": "bool",
+          "predicted": true,
+          "actual": true,
+          "status": "CONFIRMED"
+        },
+        {
+          "id": "mines-still-undeciable",
+          "kind": "num",
+          "predicted": 0.0,
+          "actual": 3.0,
+          "status": "REFUTED"
+        },
+        {
+          "id": "pong49-folds",
+          "kind": "bool",
+          "predicted": true,
+          "actual": true,
+          "status": "CONFIRMED"
+        }
+      ],
+      "data": {
+        "mines": 11,
+        "registry": 14,
+        "brier_null": 13,
+        "fails": [
+          "JEV-A11"
+        ],
+        "externally_decidable": 3,
+        "pong49_armed": true,
+        "gate_source": "fleet-seeds@mavis/externalisability-gate (PR #2, NOT on main)"
+      }
+    },
+    {
+      "round": 1,
+      "title": "what is actually in the account, classified by behaviour not by name",
+      "registered_at": "2026-09-29T19:29:07.996888+00:00",
+      "predictions": [
+        {
+          "id": "most-are-tiny",
+          "kind": "num",
+          "predict": 0.75,
+          "tolerance": 0.15,
+          "claim": "AT LEAST 75% of the account's repos are husks: under 30 files and few commits. 4,856 is a count of intentions, not of artifacts.",
+          "result": null
+        },
+        {
+          "id": "real-code-is-tiny-fraction",
+          "kind": "num",
+          "predict": 0.05,
+          "tolerance": 0.05,
+          "claim": "UNDER 5% of repos contain more than 50 source files. The account's real code mass is in a few dozen repos.",
+          "result": null
+        },
+        {
+          "id": "ci-is-rare",
+          "kind": "num",
+          "predict": 0.1,
+          "tolerance": 0.08,
+          "claim": "UNDER 10% of repos have CI. The fleet mostly ships without a check, which is the same finding as 0-signed, in a different register.",
+          "result": null
+        },
+        {
+          "id": "readme-almost-universal",
+          "kind": "bool",
+          "predict": true,
+          "claim": "Nearly every repo HAS a README even when it is a husk. The documentation of an intention is being confused with the artifact of one.",
+          "result": null
+        },
+        {
+          "id": "stars-are-flat",
+          "kind": "num",
+          "predict": 60.0,
+          "tolerance": 30.0,
+          "claim": "The STARS-to-REPOS ratio is under 1:100, i.e. under ~50 stars across the whole account. Reputation has not compounded because it cannot compound when there is no single node to compound on.",
+          "result": null
+        }
+      ],
+      "debrief": null
+    },
+    {
+      "round": 1,
+      "title": "what is actually in the account, classified by behaviour not by name",
+      "registered_at": "2026-09-29T19:29:45.927338+00:00",
+      "predictions": [
+        {
+          "id": "most-are-tiny",
+          "kind": "num",
+          "predict": 0.75,
+          "tolerance": 0.15,
+          "claim": "AT LEAST 75% of the account's repos are husks: under 30 files and few commits. 4,856 is a count of intentions, not of artifacts.",
+          "result": null
+        },
+        {
+          "id": "real-code-is-tiny-fraction",
+          "kind": "num",
+          "predict": 0.05,
+          "tolerance": 0.05,
+          "claim": "UNDER 5% of repos contain more than 50 source files. The account's real code mass is in a few dozen repos.",
+          "result": null
+        },
+        {
+          "id": "ci-is-rare",
+          "kind": "num",
+          "predict": 0.1,
+          "tolerance": 0.08,
+          "claim": "UNDER 10% of repos have CI. The fleet mostly ships without a check, which is the same finding as 0-signed, in a different register.",
+          "result": null
+        },
+        {
+          "id": "readme-almost-universal",
+          "kind": "bool",
+          "predict": true,
+          "claim": "Nearly every repo HAS a README even when it is a husk. The documentation of an intention is being confused with the artifact of one.",
+          "result": null
+        },
+        {
+          "id": "stars-are-flat",
+          "kind": "num",
+          "predict": 60.0,
+          "tolerance": 30.0,
+          "claim": "The STARS-to-REPOS ratio is under 1:100, i.e. under ~50 stars across the whole account. Reputation has not compounded because it cannot compound when there is no single node to compound on.",
+          "result": null
+        }
+      ],
+      "debrief": null
+    },
+    {
+      "round": 3,
+      "title": "census: what the 4,856 actually contain, classified by behaviour not by name",
+      "registered_at": "2026-09-29T19:30:17.896111+00:00",
+      "predictions": [
+        {
+          "id": "most-are-tiny",
+          "kind": "num",
+          "predict": 0.75,
+          "tolerance": 0.15,
+          "result": 0.694,
+          "claim": "AT LEAST 75% of repos are husks: under 30 files. 4,856 is a count of intentions, not artifacts."
+        },
+        {
+          "id": "real-code-is-tiny-fraction",
+          "kind": "num",
+          "predict": 0.05,
+          "tolerance": 0.05,
+          "result": 0.107,
+          "claim": "UNDER 5% of repos contain more than 50 source files."
+        },
+        {
+          "id": "ci-is-rare",
+          "kind": "num",
+          "predict": 0.1,
+          "tolerance": 0.08,
+          "result": 0.334,
+          "claim": "UNDER 10% of repos have CI."
+        },
+        {
+          "id": "readme-almost-universal",
+          "kind": "bool",
+          "predict": true,
+          "result": false,
+          "claim": "Nearly every repo HAS a README even when it is a husk."
+        },
+        {
+          "id": "stars-are-flat",
+          "kind": "num",
+          "predict": 60.0,
+          "tolerance": 30.0,
+          "result": 144.0,
+          "claim": "Stars-to-repos ratio under 1:100."
+        }
+      ],
+      "debrief": [
+        {
+          "id": "most-are-tiny",
+          "kind": "num",
+          "predicted": 0.75,
+          "actual": 0.694,
+          "status": "CONFIRMED"
+        },
+        {
+          "id": "real-code-is-tiny-fraction",
+          "kind": "num",
+          "predicted": 0.05,
+          "actual": 0.107,
+          "status": "REFUTED"
+        },
+        {
+          "id": "ci-is-rare",
+          "kind": "num",
+          "predicted": 0.1,
+          "actual": 0.334,
+          "status": "REFUTED"
+        },
+        {
+          "id": "readme-almost-universal",
+          "kind": "bool",
+          "predicted": true,
+          "actual": false,
+          "status": "REFUTED"
+        },
+        {
+          "id": "stars-are-flat",
+          "kind": "num",
+          "predicted": 60.0,
+          "actual": 144.0,
+          "status": "REFUTED"
+        }
+      ],
+      "data": {
+        "scanned": 700,
+        "husks_lt30files": 486,
+        "src_gt50": 75,
+        "ci": 234,
+        "readme": 626,
+        "stars": 144,
+        "repos_le10files": 260,
+        "total_repos": 4856
+      }
+    }
+  ],
+  "carried": [
+    {
+      "from_round": 1,
+      "id": "unauth-share-high",
+      "predicted": 0.5,
+      "actual": 0.055,
+      "note": "my belief about THEIR work was wrong"
+    },
+    {
+      "from_round": 2,
+      "id": "brier-null",
+      "predicted": true,
+      "actual": false,
+      "note": "my belief about THEIR work was wrong"
+    },
+    {
+      "from_round": 2,
+      "id": "mines-still-undeciable",
+      "predicted": 0.0,
+      "actual": -1.0,
+      "note": "my belief about THEIR work was wrong"
+    },
+    {
+      "from_round": 2,
+      "id": "brier-null",
+      "predicted": true,
+      "actual": false,
+      "note": "my belief about THEIR work was wrong"
+    },
+    {
+      "from_round": 2,
+      "id": "mines-still-undeciable",
+      "predicted": 0.0,
+      "actual": 3.0,
+      "note": "my belief about THEIR work was wrong"
+    },
+    {
+      "from_round": 1,
+      "id": "unauth-share-high",
+      "predicted": 0.5,
+      "actual": 0.055,
+      "note": "my belief about THEIR work was wrong"
+    },
+    {
+      "from_round": 1,
+      "id": "unauth-share-high",
+      "predicted": 0.5,
+      "actual": 0.055,
+      "note": "my belief about THEIR work was wrong"
+    },
+    {
+      "from_round": 3,
+      "id": "real-code-is-tiny-fraction",
+      "predicted": 0.05,
+      "actual": 0.107,
+      "note": "my belief about THEIR work was wrong"
+    },
+    {
+      "from_round": 3,
+      "id": "ci-is-rare",
+      "predicted": 0.1,
+      "actual": 0.334,
+      "note": "my belief about THEIR work was wrong"
+    },
+    {
+      "from_round": 3,
+      "id": "readme-almost-universal",
+      "predicted": true,
+      "actual": false,
+      "note": "my belief about THEIR work was wrong"
+    },
+    {
+      "from_round": 3,
+      "id": "stars-are-flat",
+      "predicted": 60.0,
+      "actual": 144.0,
+      "note": "my belief about THEIR work was wrong"
+    }
+  ]
+}

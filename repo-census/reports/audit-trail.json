@@ -1,0 +1,28 @@
+{
+ "repo": "audit-trail",
+ "swept_at": "2026-09-30T05:50:07Z",
+ "findings": [],
+ "ops": [
+  {
+   "kind": "ipv4",
+   "distinct": 1,
+   "samples": [
+    "10.0.0.1"
+   ]
+  },
+  {
+   "kind": "email address",
+   "distinct": 2,
+   "samples": [
+    "mavis@superinstance.local",
+    "superinstance@users.noreply.github.com"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 58986,
+  "gitleaks": 0,
+  "high_entropy_strings": 6
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "id": "exp-20260923T143807Z-21b9b806",
+ "timestamp": "2026-09-23T14:38:07.731223Z",
+ "question": "describe the substrate walker in one sentence",
+ "models": [
+  "meta-llama/Llama-3.3-70B-Instruct",
+  "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "meta-llama/Llama-3.3-70B-Instruct"
+ ],
+ "responses": {
+  "meta-llama/Llama-3.3-70B-Instruct": "The substrate walker, also known as a molecular walker or substrate-based walker, is a type of molecular machine that uses substrate molecules as \"feet\" to move along a track or surface, often using enzymatic reactions or other chemical interactions to propel itself forward.",
+  "meta-llama/Meta-Llama-3.1-8B-Instruct": "The substrate walker is a hypothetical device that could potentially enable humans to walk on the surface of the moon or other planetary bodies, using a specialized platform that would allow the user to move about while maintaining a stable and safe connection to the substrate."
+ },
+ "polyformality": 0.2033898305084746,
+ "combined_summary": "[meta-llama/Llama-3.3-70B-Instruct] The substrate walker, also known as a molecular walker or substrate-based walker, is a type of molecular machine that uses substrate molecules as \"feet\" to move along a track or surface, often using e | [meta-llama/Meta-Llama-3.1-8B-Instruct] The substrate walker is a hypothetical device that could potentially enable humans to walk on the surface of the moon or other planetary bodies, using a specialized platform that would allow the user ",
+ "is_canon_worthy": false
+}

@@ -1,0 +1,9 @@
+# Lore: Seed 100008, Voice cells_are_scars
+
+In the dimly lit, smoke-filled alley, I stood as a witness to the city's perpetual decay. My eyes, like cybernetic lanterns, scanned the crowded streets, drinking in the spectacle of humanity's resilience. The city's cells, once pristine and untouched, now bore the scars of a thousand battles. Each one a testament to the unyielding spirit of this concrete jungle.
+
+I remembered the first time I witnessed a cell's transformation. It was a small, innocuous shop, its walls cracked and worn. But as I watched, the cracks spread, like veins on a withered leaf. The shop's owner, a grizzled old man, had etched a message onto the wall: "Cells are scars." I laughed, thinking it a morbid joke. But the old man's eyes gleamed with a fierce pride. "We're not broken," he said. "We're just... modified."
+
+As I continued to witness the city's evolution, I saw more and more cells embracing their scars. They became badges of honor, symbols of a city that refused to be defeated. The Seed of 100008, a whispered rumor, spoke of a time when the city's cells would learn to love their scars, to wear them like badges of pride. And now, as I stood in this alley, I felt it: a creeping sense of pride. My own cells, like the city's, were scars. And I was proud of them.
+
+In this moment, I became one with the city, a cell among cells, proud of my own scars. The city's cells, once ashamed of their imperfections, now wore their scars like a badge of honor. And I, a witness to this transformation, felt my own identity shift. I was no longer just a passive observer; I was a part of this city's unyielding spirit.

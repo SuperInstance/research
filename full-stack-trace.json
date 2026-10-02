@@ -1,0 +1,172 @@
+{
+  "summary": {
+    "flux_cycles": 2,
+    "flows": 2,
+    "conserved": true,
+    "tile_id": "tile-44e5fcb00b8b1562",
+    "polyformality": true
+  },
+  "events": [
+    {
+      "ts": "2026-09-24T03:26:55.661611+00:00",
+      "stage": "00-canary",
+      "label": "fnv1a-64('caf\u00e9 \u0394 \u65e5\u672c\u8a9e')",
+      "our_canary": "0x24a555471370b18d",
+      "fleet_target": "0x24a555471370b18d",
+      "matches": true
+    },
+    {
+      "ts": "2026-09-24T03:26:55.661693+00:00",
+      "stage": "01-flux-vm",
+      "label": "FLUX VM started",
+      "name": "flux_vm",
+      "substrates": [
+        "stub_llm",
+        "echo",
+        "reverse",
+        "sha256"
+      ],
+      "compulsory_tissues": 4,
+      "pto_ports": [
+        "state",
+        "constraints",
+        "witness"
+      ]
+    },
+    {
+      "ts": "2026-09-24T03:26:55.661763+00:00",
+      "stage": "02-conservation",
+      "label": "Conservation policy loaded",
+      "policy": "double-entry",
+      "ledger_entries": 0
+    },
+    {
+      "ts": "2026-09-24T03:26:55.661782+00:00",
+      "stage": "03-llm-substrate",
+      "label": "LLM substrate installed",
+      "engine_substrates": [
+        "stub_llm",
+        "echo",
+        "reverse",
+        "sha256",
+        "zai_llm"
+      ],
+      "crystallized_compartment": "crystal_zai_llm",
+      "model": "Z.AI/glm-5.3-flash"
+    },
+    {
+      "ts": "2026-09-24T03:26:59.292965+00:00",
+      "stage": "04-flow",
+      "label": "Energy flow ran through the FLUX VM",
+      "prompt": "in one short sentence, what is a cell?",
+      "response": "A cell is the smallest basic unit of life, capable of performing all essential life functions."
+    },
+    {
+      "ts": "2026-09-24T03:27:03.390402+00:00",
+      "stage": "04-flow-2",
+      "label": "Second flow",
+      "prompt": "what does it mean for a system to be substrate-agnostic?",
+      "response": "# Substrate-Agnostic Systems\n\nA **substrate-agnostic** system is one that can run on, or be implemented in, different underlying platforms/substrates without its essential function depending on any pa"
+    },
+    {
+      "ts": "2026-09-24T03:27:03.391141+00:00",
+      "stage": "05-plato-tile",
+      "label": "PLATO tile processed (validate + score)",
+      "tile_id": "tile-44e5fcb00b8b1562",
+      "tags": [
+        "flux-llm-output"
+      ],
+      "validate": {
+        "id": "tile-44e5fcb00b8b1562",
+        "content": "A cell is the smallest basic unit of life, capable of performing all essential life functions.",
+        "tags": [
+          "flux-llm-output"
+        ],
+        "source": "flux_vm",
+        "created": "2026-09-24T03:27:03.390445+00:00",
+        "doctrines": [
+          "cells_are_scars"
+        ],
+        "validation": {
+          "gates": {
+            "confidence": false,
+            "freshness": false,
+            "completeness": false,
+            "domain": false,
+            "quality": false,
+            "similarity": true
+          },
+          "score": 0.15
+        },
+        "is_valid": false,
+        "scoring": {
+          "signals": {
+            "keyword": 0.25,
+            "belief": 0.0,
+            "domain": 0.0,
+            "temporal": 0.0,
+            "ghost": 0.0,
+            "frequency": 0.0,
+            "controversy": 0.0
+          },
+          "composite": 0.075
+        }
+      },
+      "score": {
+        "id": "tile-44e5fcb00b8b1562",
+        "content": "A cell is the smallest basic unit of life, capable of performing all essential life functions.",
+        "tags": [
+          "flux-llm-output"
+        ],
+        "source": "flux_vm",
+        "created": "2026-09-24T03:27:03.390445+00:00",
+        "doctrines": [
+          "cells_are_scars"
+        ],
+        "validation": {
+          "gates": {
+            "confidence": false,
+            "freshness": false,
+            "completeness": false,
+            "domain": false,
+            "quality": false,
+            "similarity": true
+          },
+          "score": 0.15
+        },
+        "is_valid": false,
+        "scoring": {
+          "signals": {
+            "keyword": 0.25,
+            "belief": 0.0,
+            "domain": 0.0,
+            "temporal": 0.0,
+            "ghost": 0.0,
+            "frequency": 0.0,
+            "controversy": 0.0
+          },
+          "composite": 0.075
+        }
+      }
+    },
+    {
+      "ts": "2026-09-24T03:27:03.391352+00:00",
+      "stage": "06-readback",
+      "label": "Tile read back",
+      "tile_id": "tile-44e5fcb00b8b1562",
+      "length": 94,
+      "content_canary": "0x957352339fcfeb1f",
+      "fleet_canary": "0x24a555471370b18d",
+      "matches_fleet": false
+    },
+    {
+      "ts": "2026-09-24T03:27:03.391375+00:00",
+      "stage": "07-balance",
+      "label": "Conservation balance",
+      "flows": 2,
+      "src_total": 2.0,
+      "dst_total": 2.0,
+      "conserved": true
+    }
+  ]
+}

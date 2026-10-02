@@ -1,0 +1,41 @@
+{
+ "repo": "activelog-ai-site",
+ "swept_at": "2026-09-30T05:51:03Z",
+ "findings": [
+  {
+   "tool": "grep",
+   "kind": "low-entropy hex (cf account id, exactly 32)",
+   "group": "protocol",
+   "count": 2,
+   "excerpt": "049ff5\u2026aae6 (32 chars)"
+  }
+ ],
+ "ops": [
+  {
+   "kind": "ipv4",
+   "distinct": 5,
+   "samples": [
+    "1.1.75.65",
+    "1.95.45.5",
+    "2.1.6.05",
+    "2.15.4.5",
+    "3.5.25.2"
+   ]
+  },
+  {
+   "kind": "email address",
+   "distinct": 3,
+   "samples": [
+    "Casey.digennaro@gmail.com",
+    "i@izs.me",
+    "lucineer@superinstance.dev"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 261410,
+  "gitleaks": 0,
+  "high_entropy_strings": 365
+ }
+}

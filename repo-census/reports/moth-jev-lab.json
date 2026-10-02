@@ -1,0 +1,22 @@
+{
+ "repo": "moth-jev-lab",
+ "swept_at": "2026-09-30T05:54:29Z",
+ "findings": [],
+ "ops": [
+  {
+   "kind": "email address",
+   "distinct": 3,
+   "samples": [
+    "193104091+SuperInstance@users.noreply.github.com",
+    "ccc@fleet.local",
+    "kimi1@openclaw.local"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 59783,
+  "gitleaks": 0,
+  "high_entropy_strings": 0
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "repo": "ghost-ledger",
+ "swept_at": "2026-09-30T05:54:11Z",
+ "findings": [],
+ "ops": [
+  {
+   "kind": "vessel name",
+   "distinct": 2,
+   "samples": [
+    "F/V Eileen",
+    "F/V Eileen node"
+   ]
+  },
+  {
+   "kind": "email address",
+   "distinct": 1,
+   "samples": [
+    "fleet@superinstance.dev"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 441492,
+  "gitleaks": 0,
+  "high_entropy_strings": 2
+ }
+}

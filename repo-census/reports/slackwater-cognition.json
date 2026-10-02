@@ -1,0 +1,43 @@
+{
+ "repo": "slackwater-cognition",
+ "swept_at": "2026-09-30T05:55:19Z",
+ "findings": [
+  {
+   "tool": "gitleaks",
+   "rule": "generic-api-key",
+   "file": "EXPERIMENT_LOG.md",
+   "commit": "79df045550",
+   "excerpt": "LUCINE\u2026CTED (22 chars)"
+  },
+  {
+   "tool": "grep",
+   "kind": "api key assignment",
+   "group": "protocol",
+   "count": 2,
+   "excerpt": "API_KE\u2026ore> (50 chars)"
+  }
+ ],
+ "ops": [
+  {
+   "kind": "ipv4",
+   "distinct": 1,
+   "samples": [
+    "0.0.0.0"
+   ]
+  },
+  {
+   "kind": "email address",
+   "distinct": 2,
+   "samples": [
+    "+@pytest.fixture",
+    "lucineer@slackwater.local"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 832549,
+  "gitleaks": 1,
+  "high_entropy_strings": 0
+ }
+}

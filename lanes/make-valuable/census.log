@@ -1,0 +1,25 @@
+  repos enumerated from the USER endpoint: 1300
+  scanned 700 repos
+    husks (<30 files):        486  (69.43%)
+    >50 source files:         75  (10.71%)
+    with CI:                  234  (33.43%)
+    with README:              626  (89.43%)
+    total stars:              144  (0.2 per repo)
+
+ROUND 1: who is producing, and can a stranger bind a commit to an author
+====================================================================================
+  [X] unauth-share-high                        REFUTED      pred=0.5 act=0.055
+  [+] distinct-authors-wide                    CONFIRMED    pred=6.0 act=9.0
+  [+] signed-still-zero                        CONFIRMED    pred=0.0 act=0.0
+  [+] keeper-not-blocked                       CONFIRMED    pred=True act=True
+  [+] claude-mostly-ai-writings                CONFIRMED    pred=True act=True
+  -> 4 confirmed, 1 refuted
+
+  CARRIED FORWARD:
+    - r1/unauth-share-high: predicted 0.5, was 0.055
+    - r2/brier-null: predicted True, was False
+    - r2/mines-still-undeciable: predicted 0.0, was -1.0
+    - r2/brier-null: predicted True, was False
+    - r2/mines-still-undeciable: predicted 0.0, was 3.0
+    - r1/unauth-share-high: predicted 0.5, was 0.055
+    - r1/unauth-share-high: predicted 0.5, was 0.055

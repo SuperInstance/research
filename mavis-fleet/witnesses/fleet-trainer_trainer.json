@@ -1,0 +1,9 @@
+{
+ "substrate": "trainer",
+ "experiment_id": "fleet-trainer",
+ "started_at": "2026-09-23T14:50:28.598303Z",
+ "finished_at": "2026-09-23T14:50:28.598333Z",
+ "metric": 0.88,
+ "status": "success",
+ "id": "3ff0cbfa9479ef5f"
+}

@@ -1,0 +1,27 @@
+{
+ "claim": "every cell is a scar",
+ "is_promoted": false,
+ "chord": {
+  "is_chord": false,
+  "polyformality": 0.0,
+  "num_substrates": 3,
+  "participating_substrates": [
+   "quilt",
+   "jepa",
+   "jev"
+  ],
+  "weights": {
+   "quilt": 1.0,
+   "jepa": 0.9,
+   "jev": 0.85
+  }
+ },
+ "evidence": {
+  "quilt": "the cells are scars",
+  "jepa": "every scar is a witness log entry",
+  "jev": "refusal is also a witness"
+ },
+ "timestamp": "2026-09-23T14:47:52.971668Z",
+ "agent": "mavis-fleet-chord",
+ "promotion_witness": "wit-f294c0f8f3a46505"
+}

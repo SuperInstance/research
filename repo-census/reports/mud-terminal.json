@@ -1,0 +1,27 @@
+{
+ "repo": "mud-terminal",
+ "swept_at": "2026-09-30T05:54:37Z",
+ "findings": [],
+ "ops": [
+  {
+   "kind": "ipv4",
+   "distinct": 1,
+   "samples": [
+    "147.224.38.131"
+   ]
+  },
+  {
+   "kind": "email address",
+   "distinct": 1,
+   "samples": [
+    "fleet@superinstance.dev"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 61248,
+  "gitleaks": 0,
+  "high_entropy_strings": 0
+ }
+}

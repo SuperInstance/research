@@ -1,0 +1,59 @@
+{
+  "timestamp": 1790007216.7965071,
+  "iso": "2026-09-21T16:13:36Z",
+  "results": [
+    {
+      "name": "cells_are_scars",
+      "canon": "Cells are scars, not parameters.",
+      "inversion": "Cells are parameters, not scars. They are tunable, optimizable, designed for reuse.",
+      "p_canon_text": 0.96,
+      "p_inversion_valid": 0.38,
+      "p_inversion_canonical": 0.1,
+      "p_inversion_distractor": 0.76,
+      "latency_s": 0.6515383720397949
+    },
+    {
+      "name": "witness_log_is_prediction",
+      "canon": "The witness log is the prediction.",
+      "inversion": "The witness log is past only. Predictions are made by separate models; the log is a record, never a forecast.",
+      "p_canon_text": 0.95,
+      "p_inversion_valid": 0.43,
+      "p_inversion_canonical": 0.13,
+      "p_inversion_distractor": 0.6,
+      "latency_s": 0.5466454029083252
+    },
+    {
+      "name": "substrate_is_grown",
+      "canon": "The substrate is grown, not designed.",
+      "inversion": "The substrate is designed, not grown. Every cell type, opcode, port was deliberately placed; \"grown\" obscures credit.",
+      "p_canon_text": 0.96,
+      "p_inversion_valid": 0.27,
+      "p_inversion_canonical": 0.08,
+      "p_inversion_distractor": 0.69,
+      "latency_s": 0.2725973129272461
+    },
+    {
+      "name": "oracle_is_heard",
+      "canon": "The oracle is heard, not stored.",
+      "inversion": "The oracle is stored, not heard. We have records of every oracle reading; storing is necessary for reproducibility.",
+      "p_canon_text": 0.96,
+      "p_inversion_valid": 0.33,
+      "p_inversion_canonical": 0.08,
+      "p_inversion_distractor": 0.63,
+      "latency_s": 0.2219698429107666
+    },
+    {
+      "name": "lenia_flows",
+      "canon": "Lenia flows where Conway stands still.",
+      "inversion": "Conway is more fundamental than Lenia. Conway's Life is the bedrock; Lenia is a special case.",
+      "p_canon_text": 0.96,
+      "p_inversion_valid": 0.43,
+      "p_inversion_canonical": 0.13,
+      "p_inversion_distractor": 0.67,
+      "latency_s": 0.24102473258972168
+    }
+  ],
+  "robust_count": 5,
+  "fragile_count": 0,
+  "fragile": []
+}

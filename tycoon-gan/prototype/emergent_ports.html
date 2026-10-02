@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Emergent Port Constructions</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🚢 EMERGENT PORT CONSTRUCTIONS</h1>
+  <p class="subtitle">Modular ports. Emergent metrics. Substrate doctrine.</p>
+</header>
+
+<main>
+  <section id="grid-section">
+    <h2>Port Grid (16×16)</h2>
+    <canvas id="port-grid" width="640" height="640"></canvas>
+    <div class="palette">
+      <p>Click a cell to add. Adjacent complementary cells form modules.</p>
+      <div class="cell-types">
+        <button data-type="dock" class="cell-btn">⚓ Dock</button>
+        <button data-type="crane" class="cell-btn">🏗️ Crane</button>
+        <button data-type="warehouse" class="cell-btn">📦 Warehouse</button>
+        <button data-type="container_yard" class="cell-btn">🏭 Yard</button>
+        <button data-type="customs" class="cell-btn">🛂 Customs</button>
+        <button data-type="fuel_depot" class="cell-btn">⛽ Fuel</button>
+        <button data-type="erase" class="cell-btn">🗑️ Erase</button>
+      </div>
+    </div>
+  </section>
+
+  <aside id="metrics-section">
+    <h2>Emergent Metrics</h2>
+    <div class="metric"><span>💰 Money:</span> <strong id="money">$10000</strong></div>
+    <div class="metric"><span>⏱ Time:</span> <strong id="time">0</strong></div>
+    <div class="metric"><span>📦 Modules:</span> <strong id="modules">0</strong></div>
+    <div class="metric"><span>📈 Throughput:</span> <strong id="throughput">0</strong></div>
+    <div class="metric"><span>📊 Capacity:</span> <strong id="capacity">0</strong></div>
+    <div class="metric"><span>🚧 Congestion:</span> <strong id="congestion">0%</strong></div>
+    <div class="metric"><span>💎 Value:</span> <strong id="value">0</strong></div>
+
+    <h2>Tournament Score</h2>
+    <div class="metric large"><span>🏆 Composite:</span> <strong id="composite">0.000</strong></div>
+    <div class="metric"><span>Integrity:</span> <strong id="integrity">0.000</strong></div>
+    <div class="metric"><span>Diversity:</span> <strong id="diversity">0.000</strong></div>
+    <div class="metric"><span>Accessibility:</span> <strong id="accessibility">0.000</strong></div>
+
+    <h2>Modules Detected</h2>
+    <ul id="modules-list" class="modules-list">
+      <li class="empty">No modules yet. Place cells to form them.</li>
+    </ul>
+
+    <h2>Cell Hash (FNV-1a 64)</h2>
+    <div class="metric"><span>Canary:</span> <code id="canary">0x24a555471370b18d</code></div>
+    <div class="metric"><span>Selected:</span> <code id="cell-hash">—</code></div>
+    <div class="metric"><span>Prev:</span> <code id="prev-hash">—</code></div>
+
+    <div class="controls">
+      <button id="btn-save">💾 Save</button>
+      <button id="btn-load">📂 Load</button>
+      <button id="btn-reset">🔄 Reset</button>
+      <button id="btn-hint">💡 Hint (frontal cortex)</button>
+    </div>
+
+    <div id="hint-box" class="hint-box hidden"></div>
+  </aside>
+</main>
+
+<div id="event-flash"></div>
+
+<script src="emergent_ports.js"></script>
+</body>
+</html>

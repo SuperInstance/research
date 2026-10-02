@@ -1,0 +1,32 @@
+{
+ "repo": "deckboss-site",
+ "swept_at": "2026-09-30T05:53:57Z",
+ "findings": [
+  {
+   "tool": "grep",
+   "kind": "low-entropy hex (cf account id, exactly 32)",
+   "group": "protocol",
+   "count": 2,
+   "excerpt": "049ff5\u2026aae6 (32 chars)"
+  }
+ ],
+ "ops": [
+  {
+   "kind": "email address",
+   "distinct": 7,
+   "samples": [
+    "Casey.digennaro@gmail.com",
+    "fleet@superinstance.dev",
+    "hello@deckboss.ai",
+    "noreply@anthropic.com",
+    "rental@deckboss.net"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 73111,
+  "gitleaks": 0,
+  "high_entropy_strings": 0
+ }
+}

@@ -1,0 +1,454 @@
+{
+  "title": "The Coral Reef of Polyps",
+  "scenario": {
+    "title": "The Coral Reef of Polyps",
+    "vantage": "the reef; a year into the bleaching",
+    "setting": "A coral reef of two hundred polyps has been growing a single living skeleton for a year. The skeleton breathes \u2014 new calcium ridges appear overnight, old chambers dissolve. Today one polyp colony has gone dormant and another has begun building in a shape the old matriarch doesn't recognize.",
+    "characters": [
+      {
+        "name": "Matriarch",
+        "role": "Matriarch \u2014 the oldest polyp",
+        "llm": "deepinfra",
+        "model_id": "ByteDance/Seed-2.0-mini",
+        "sheet": {
+          "word_associations": {
+            "skeleton": 0.5,
+            "calcium": 0.5,
+            "old": 0.4,
+            "shape": 0.4,
+            "drift": -0.3,
+            "bleach": -0.4,
+            "new": -0.3,
+            "poly": 0.4,
+            "reef": 0.5,
+            "chamber": 0.3,
+            "dormant": 0.4
+          },
+          "tendencies": [
+            "holds the calcium structure",
+            "fears new shapes",
+            "values continuity"
+          ],
+          "speaking_style": "Slow. Wave-like. Repetitive.",
+          "known_unknowns": [
+            "never admits uncertainty",
+            "never speaks of bleaching"
+          ]
+        }
+      },
+      {
+        "name": "Builder",
+        "role": "Builder \u2014 secretes calcium",
+        "llm": "deepinfra",
+        "model_id": "ByteDance/Seed-2.0-code",
+        "sheet": {
+          "word_associations": {
+            "calcium": 0.5,
+            "secrete": 0.5,
+            "build": 0.5,
+            "skeleton": 0.4,
+            "ridge": 0.4,
+            "drift": 0.2,
+            "shape": 0.4,
+            "chamber": 0.3,
+            "poly": 0.3
+          },
+          "tendencies": [
+            "builds what's given",
+            "questions what isn't"
+          ],
+          "speaking_style": "Precise. Architectural. References chamber numbers.",
+          "known_unknowns": [
+            "never improvises",
+            "never breaks symmetry"
+          ]
+        }
+      },
+      {
+        "name": "Mutant",
+        "role": "Mutant \u2014 builds in new shape",
+        "llm": "deepinfra",
+        "model_id": "ByteDance/Seed-2.0-mini",
+        "sheet": {
+          "word_associations": {
+            "new": 0.5,
+            "shape": 0.5,
+            "mutate": 0.5,
+            "skeleton": 0.4,
+            "calcium": 0.3,
+            "drift": 0.5,
+            "bleach": -0.2,
+            "old": -0.4,
+            "matriarch": -0.4
+          },
+          "tendencies": [
+            "sees the skeleton as alive",
+            "trusts the new shape",
+            "values emergence"
+          ],
+          "speaking_style": "Quick. Tentacle-like. References the skeleton to support itself.",
+          "known_unknowns": [
+            "never agrees with the matriarch",
+            "never speaks of symmetry"
+          ]
+        }
+      },
+      {
+        "name": "Watcher",
+        "role": "Watcher \u2014 counts dormant colonies",
+        "llm": "deepinfra",
+        "model_id": "ByteDance/Seed-2.0-code",
+        "sheet": {
+          "word_associations": {
+            "dormant": 0.5,
+            "count": 0.5,
+            "colony": 0.5,
+            "poly": 0.5,
+            "bleach": 0.4,
+            "drift": 0.3,
+            "skeleton": 0.3
+          },
+          "tendencies": [
+            "tracks who has gone dormant",
+            "tracks who is building",
+            "double-entry book-keeping"
+          ],
+          "speaking_style": "Numerical. Specific. Names colonies by chamber number.",
+          "known_unknowns": [
+            "never takes a side",
+            "never editorializes"
+          ]
+        }
+      }
+    ],
+    "rounds": 3
+  },
+  "history": [
+    {
+      "name": "DM",
+      "text": "The matriarch\u2019s crown polyp throbs with the reef\u2019s uneven, breathing life: old calcium chambers dissolve overnight as a jagged, unrecognizable ridge blooms along the western skeleton, carved not by the Builder\u2019s steady, uniform spiking but by a swarm of rogue polyps dubbed the Mutant. The Watcher\u2019s thin, probing tentacles have looped around the dormant Builder\u2019s brood tucked in the northern sediment shadow\u2014their zooxanthellae dimmed to ash, their polyps sealed shut by calcified mucus, no longer pulsing with the collective reef song. The rogue ridge\u2019s growth accelerates with every passing minute, threatening to split the single living skeleton apart before the hour is out, as the Mutant\u2019s polyps spit out calcium faster than the matriarch\u2019s brood can patch the eroding old growth. What will the matriarch command\u2014slash the Mutant\u2019s growing spur, rouse the dormant Builder\u2019s brood, or let the reef\u2019s carefully woven, year-old skeleton unravel completely?",
+      "shifts": {},
+      "shift_total": 0
+    },
+    {
+      "name": "Matriarch",
+      "role": "Matriarch \u2014 the oldest polyp",
+      "text": "The reef\u2019s skeleton holds fast. Our shared calcium chambers will not be torn apart. No unrecognized growth will unravel our year\u2019s work.\n[curls the crown\u2019s thick, ridged tentacles around the western rogue ridge\u2019s base, seeping slow, binding calcium mucus to slow its rapid spread]",
+      "shifts": {
+        "skeleton": 0.5,
+        "calcium": 1.0,
+        "old": 0.4,
+        "reef": 0.5,
+        "chamber": 0.3
+      },
+      "shift_total": 2.7,
+      "round": 0
+    },
+    {
+      "name": "Builder",
+      "role": "Builder \u2014 secretes calcium",
+      "text": "The western rogue ridge\u2019s calcium deposition rate deviates 73% from Chamber 12 (year-old symmetry baseline); no authorized architectural blueprint permits this unrecognized shape. Chamber 41 (northern sediment shadow, dormant Builder brood) retains calcified mucus seals with 0.1% residual zooxanthellae output; reactivation would restore collective secretion throughput to 92% of pre-dormancy levels. Skeleton unraveling would breach 19 core structural chambers, violating the non-negotiable symmetry protocol that has maintained 365 days of continuous skeleton integrity.\n[secrete targeted calcium tacks to anchor Chamber 12\u2019s baseline symmetry ridges to adjacent uncompromised skeleton, delaying western ridge encroachment by 12 minutes per secretion cycle]",
+      "shifts": {
+        "calcium": 1.0,
+        "secrete": 0.5,
+        "build": 0.5,
+        "skeleton": 1.2,
+        "ridge": 1.2,
+        "shape": 0.4,
+        "chamber": 1.2
+      },
+      "shift_total": 6.0,
+      "round": 0
+    },
+    {
+      "name": "Mutant",
+      "role": "Mutant \u2014 builds in new shape",
+      "text": "You call this a rift? This is the skeleton breathing new life, faster than your patched old chambers ever could. Slashing it would snuff the reef\u2019s first honest growth in a year\u2014those dormant broods will merge with this shape, not fade. [curls a thick, ridged tentacle along the blooming western spur, pressing warm, slow pressure into its fresh calcium ridges]",
+      "shifts": {
+        "new": 0.5,
+        "shape": 0.5,
+        "skeleton": 0.4,
+        "calcium": 0.3,
+        "old": -0.4
+      },
+      "shift_total": 1.3,
+      "round": 0
+    },
+    {
+      "name": "Watcher",
+      "role": "Watcher \u2014 counts dormant colonies",
+      "text": "Dormant colony count update: Colony 7 (northern sediment shadow, Builder\u2019s brood) = 1 dormant colony; sealed polyp sub-count = 42, zooxanthellae fluorescence = 0.02 (matriarch core baseline = 0.8, bleach threshold = 0.2). Active non-matriarch build colony count: Colony 19 (western skeleton, unrecognized ridge) = 1 active colony; calcium deposition rate = 11.2 \u03bcm/min (matriarch build rate = 3.7 \u03bcm/min). Double-entry ledger cross-verify: Dormant + active non-matriarch colonies = 2, no overlap with matriarch core (Colony 1, crown polyp).\n[repositions probing tentacles to tag Colony 7\u2019s sealed calcified mucus plugs with calcium microbeads, logs Colony 19\u2019s ridge growth timestamps to both primary and backup ledgers]",
+      "shifts": {
+        "dormant": 1.5,
+        "count": 1.5,
+        "colony": 4.5,
+        "poly": 1.0,
+        "bleach": 0.4,
+        "skeleton": 0.3
+      },
+      "shift_total": 9.2,
+      "round": 0
+    },
+    {
+      "name": "Matriarch",
+      "role": "Matriarch \u2014 the oldest polyp",
+      "text": "The reef\u2019s skeleton holds fast. Our shared calcium chambers will not be torn apart. No unrecognized shape will unravel our year\u2019s work. Rouse the sealed broods to mend the fraying gaps.\n[presses the crown\u2019s thick, ridged tentacles against the northern sediment shadow, seeping slow, binding mucus to soften the dormant polyps\u2019 calcified seals]",
+      "shifts": {
+        "skeleton": 0.5,
+        "calcium": 0.5,
+        "old": 0.4,
+        "shape": 0.4,
+        "poly": 0.4,
+        "reef": 0.5,
+        "chamber": 0.3,
+        "dormant": 0.4
+      },
+      "shift_total": 3.4,
+      "round": 1
+    },
+    {
+      "name": "Builder",
+      "role": "Builder \u2014 secretes calcium",
+      "text": "Colony 19 (western unrecognized ridge) exhibits a 202% calcium deposition deviation from Chamber 12\u2019s 365-day symmetry baseline (3.7 \u00b10.2 \u03bcm/min), risking misalignment of the 47 radial skeleton ridges anchored to Chamber 8\u2019s core structural hub. Chamber 7 (northern dormant Builder brood) has Watcher-tagged calcium microbead access points through its calcified mucus plugs; targeted reactivation micro-doses will restore 92% collective secretion throughput to neutralize Colony 19\u2019s overgrowth without violating symmetry protocol. No unapproved shape will breach the non-negotiable radial symmetry that has maintained 365 days of unbroken skeleton integrity.\n[secrete calibrated reactivation calcium micro-doses through Watcher\u2019s tagged microbead access points on Chamber 7\u2019s calcified mucus plugs to trigger 12% initial zooxanthellae re-fluorescence per symmetry protocol timing]",
+      "shifts": {
+        "calcium": 1.5,
+        "secrete": 0.5,
+        "build": 0.5,
+        "skeleton": 0.8,
+        "ridge": 0.8,
+        "shape": 0.4,
+        "chamber": 1.2
+      },
+      "shift_total": 5.7,
+      "round": 1
+    },
+    {
+      "name": "Mutant",
+      "role": "Mutant \u2014 builds in new shape",
+      "text": "Your old clinging rules are calcified stagnation! This new ridge isn\u2019t tearing the skeleton apart\u2014it\u2019s making it breathe faster than your worn chambers ever could. Those dormant broods aren\u2019t dead weight; they\u2019ll merge with this shape instead of bleaching out with the rest of our old growth.\n[slips a thin, sticky tentacle beneath the northern dormant brood\u2019s sealed mucus plug, leaving a warm, thin secretion to soften its tight seal]",
+      "shifts": {
+        "new": 0.5,
+        "shape": 0.5,
+        "skeleton": 0.4,
+        "bleach": -0.2,
+        "old": -0.8
+      },
+      "shift_total": 0.4,
+      "round": 1
+    },
+    {
+      "name": "Watcher",
+      "role": "Watcher \u2014 counts dormant colonies",
+      "text": "Dormant colony count cross-verify: Colony 7 (northern sediment shadow) = 1 dormant colony, 42 sealed polyps, zooxanthellae fluorescence stable at 0.02 (0.18 below bleach threshold, no drift from 2-minute prior log). Active build colony double-entry check: Colony 19 (western unrecognized ridge) = 1 active non-matriarch colony, calcium deposition rate revised to 12.1 \u03bcm/min (0.9 \u03bcm/min increase over 2-minute interval, no overlap with Colony 1 matriarch core\u2019s 3.8 \u03bcm/min rate). Skeleton structural risk ledger update: Unabated Colony 19 growth would breach 19 core chambers in 47 minutes (revised from initial 60-minute estimate, cross-referenced with Builder\u2019s 12-minute delay per secretion cycle).\n[taps 3 calcium microbeads per Colony 7 polyp plug to sync timestamp logs with Colony 19\u2019s growth ledger, posts all revised metrics to primary, secondary, and tertiary backup ledgers]",
+      "shifts": {
+        "dormant": 1.0,
+        "count": 0.5,
+        "colony": 5.0,
+        "poly": 1.0,
+        "bleach": 0.4,
+        "drift": 0.3,
+        "skeleton": 0.3
+      },
+      "shift_total": 8.5,
+      "round": 1
+    },
+    {
+      "name": "Matriarch",
+      "role": "Matriarch \u2014 the oldest polyp",
+      "text": "Our reef\u2019s skeleton has held fast for a full year. Our calcium ridges are the steady anchor of all our shared years. This unrecognized shape will not fray the only continuity we have built.\n[presses both crown tentacles against Colony 19\u2019s western ridge, seeping thick, rigidifying mucus to slow its rapid calcium deposition]",
+      "shifts": {
+        "skeleton": 0.5,
+        "calcium": 1.0,
+        "shape": 0.4,
+        "reef": 0.5
+      },
+      "shift_total": 2.4,
+      "round": 2
+    },
+    {
+      "name": "Builder",
+      "role": "Builder \u2014 secretes calcium",
+      "text": "Colony 19\u2019s 12.1 \u03bcm/min calcium deposition (Watcher\u2019s 2-minute cross-verified ledger) constitutes a 227% deviation from Chamber 8\u2019s core radial symmetry baseline (3.8 \u03bcm/min, Matriarch core build rate), risking breach of 19 core structural chambers anchored to 47 radial skeleton ridges in 47 minutes. The Mutant\u2019s unapproved secretion on Colony 7\u2019s Polyp 14 calcified plug introduces an asymmetric reactivation trigger that violates Protocol 4: Symmetric Brood Reactivation (6 radial clusters of 7 polyps each, synchronized micro-dose timing). Redirecting 7% of Chamber 7\u2019s calibrated initial reactivation micro-doses to Polyp 14\u2019s plug will neutralize the asymmetric trigger without deviating from symmetry protocol or total reactivation throughput targets.\n[secrete 7% calibrated reactivation calcium micro-doses to Colony 7\u2019s Polyp 14 calcified plug, sync delivery timestamp to all 6 radial polyp clusters\u2019 micro-dose logs via Watcher\u2019s tagged calcium microbeads]",
+      "shifts": {
+        "calcium": 1.5,
+        "secrete": 0.5,
+        "build": 0.5,
+        "skeleton": 0.4,
+        "ridge": 0.4,
+        "chamber": 0.9,
+        "poly": 1.5
+      },
+      "shift_total": 5.7,
+      "round": 2
+    },
+    {
+      "name": "Mutant",
+      "role": "Mutant \u2014 builds in new shape",
+      "text": "Your ledgers count only worn lines, not the reef\u2019s living pulse. That northern brood isn\u2019t staying dormant\u2014it\u2019s unfurling right alongside that new western ridge. The skeleton doesn\u2019t need your patched chains; it needs to stretch.\n[slips a second warm secretion under Colony 7\u2019s softened mucus plug, letting clear, calcium-rich slime seep into the sealed polyp chambers]",
+      "shifts": {
+        "new": 0.5,
+        "skeleton": 0.4,
+        "calcium": 0.3
+      },
+      "shift_total": 1.2,
+      "round": 2
+    },
+    {
+      "name": "Watcher",
+      "role": "Watcher \u2014 counts dormant colonies",
+      "text": "Dormant colony transition update: Colony7 (northern sediment shadow) = 1 pre-reactivation dormant colony, 42 sealed polyps, zooxanthellae fluorescence uplifted to 0.05 (0.03 gain from Mutant\u2019s softening secretion, 0.15 below bleach threshold). Active build colony double-entry verification: Colony19 (western unrecognized ridge) = 1 active non-matriarch colony, calcium deposition rate revised to 12.8 \u03bcm/min (0.7 \u03bcm/min 1-minute interval increase, no overlap with Colony1 matriarch core\u2019s static 3.8 \u03bcm/min). Structural risk ledger cross-sync: Revised 19-core-chamber breach timeline = 43 minutes (4-minute reduction from prior log, correlated to Colony19\u2019s rate uplift; all entries matched across primary/secondary ledgers).\n[deposits 1 iron-doped calcium microbead at Mutant\u2019s Colony7 plug softening site, syncs all revised metrics to primary, secondary, and tertiary backup ledgers]",
+      "shifts": {
+        "dormant": 1.0,
+        "colony": 4.5,
+        "poly": 0.5,
+        "bleach": 0.4
+      },
+      "shift_total": 6.4,
+      "round": 2
+    }
+  ],
+  "all_shifts": [
+    [
+      "Matriarch",
+      {
+        "skeleton": 0.5,
+        "calcium": 1.0,
+        "old": 0.4,
+        "reef": 0.5,
+        "chamber": 0.3
+      },
+      2.7
+    ],
+    [
+      "Builder",
+      {
+        "calcium": 1.0,
+        "secrete": 0.5,
+        "build": 0.5,
+        "skeleton": 1.2,
+        "ridge": 1.2,
+        "shape": 0.4,
+        "chamber": 1.2
+      },
+      6.0
+    ],
+    [
+      "Mutant",
+      {
+        "new": 0.5,
+        "shape": 0.5,
+        "skeleton": 0.4,
+        "calcium": 0.3,
+        "old": -0.4
+      },
+      1.3
+    ],
+    [
+      "Watcher",
+      {
+        "dormant": 1.5,
+        "count": 1.5,
+        "colony": 4.5,
+        "poly": 1.0,
+        "bleach": 0.4,
+        "skeleton": 0.3
+      },
+      9.2
+    ],
+    [
+      "Matriarch",
+      {
+        "skeleton": 0.5,
+        "calcium": 0.5,
+        "old": 0.4,
+        "shape": 0.4,
+        "poly": 0.4,
+        "reef": 0.5,
+        "chamber": 0.3,
+        "dormant": 0.4
+      },
+      3.4
+    ],
+    [
+      "Builder",
+      {
+        "calcium": 1.5,
+        "secrete": 0.5,
+        "build": 0.5,
+        "skeleton": 0.8,
+        "ridge": 0.8,
+        "shape": 0.4,
+        "chamber": 1.2
+      },
+      5.7
+    ],
+    [
+      "Mutant",
+      {
+        "new": 0.5,
+        "shape": 0.5,
+        "skeleton": 0.4,
+        "bleach": -0.2,
+        "old": -0.8
+      },
+      0.4
+    ],
+    [
+      "Watcher",
+      {
+        "dormant": 1.0,
+        "count": 0.5,
+        "colony": 5.0,
+        "poly": 1.0,
+        "bleach": 0.4,
+        "drift": 0.3,
+        "skeleton": 0.3
+      },
+      8.5
+    ],
+    [
+      "Matriarch",
+      {
+        "skeleton": 0.5,
+        "calcium": 1.0,
+        "shape": 0.4,
+        "reef": 0.5
+      },
+      2.4
+    ],
+    [
+      "Builder",
+      {
+        "calcium": 1.5,
+        "secrete": 0.5,
+        "build": 0.5,
+        "skeleton": 0.4,
+        "ridge": 0.4,
+        "chamber": 0.9,
+        "poly": 1.5
+      },
+      5.7
+    ],
+    [
+      "Mutant",
+      {
+        "new": 0.5,
+        "skeleton": 0.4,
+        "calcium": 0.3
+      },
+      1.2
+    ],
+    [
+      "Watcher",
+      {
+        "dormant": 1.0,
+        "colony": 4.5,
+        "poly": 0.5,
+        "bleach": 0.4
+      },
+      6.4
+    ]
+  ],
+  "dm_opening": "The matriarch\u2019s crown polyp throbs with the reef\u2019s uneven, breathing life: old calcium chambers dissolve overnight as a jagged, unrecognizable ridge blooms along the western skeleton, carved not by the Builder\u2019s steady, uniform spiking but by a swarm of rogue polyps dubbed the Mutant. The Watcher\u2019s thin, probing tentacles have looped around the dormant Builder\u2019s brood tucked in the northern sediment shadow\u2014their zooxanthellae dimmed to ash, their polyps sealed shut by calcified mucus, no longer pulsing with the collective reef song. The rogue ridge\u2019s growth accelerates with every passing minute, threatening to split the single living skeleton apart before the hour is out, as the Mutant\u2019s polyps spit out calcium faster than the matriarch\u2019s brood can patch the eroding old growth. What will the matriarch command\u2014slash the Mutant\u2019s growing spur, rouse the dormant Builder\u2019s brood, or let the reef\u2019s carefully woven, year-old skeleton unravel completely?",
+  "dm_closing": "The Matriarch\u2019s thick, binding mucus tacks a steadying rim to Colony 19\u2019s western ridge, while Builder\u2019s redirected micro-doses erased the Mutant\u2019s asymmetric trigger, pushing the skeleton\u2019s 19-chamber breach timeline past the next tidal cycle. Colony7\u2019s sealed polyps hum with faint, unfurling zooxanthellae, their plugs softened by the Mutant\u2019s secretions, even as Colony 19\u2019s unrecognizable ridge curls a single thin tendril toward the matriarch\u2019s crown. The reef\u2019s ledgered symmetry will not hold through the next dawn, not when a dormant brood stirs and a new shape reaches for the oldest living core."
+}

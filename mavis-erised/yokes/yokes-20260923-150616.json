@@ -1,0 +1,11 @@
+[
+ {
+  "move_type": "alias",
+  "from_command": "version",
+  "to_command": "fleet run quilt",
+  "rationale": "Agents reach for 'version' 2 times when 'fleet run quilt' is the right command. Add 'version' as an alias for 'fleet run quilt'.",
+  "evidence_count": 0,
+  "confidence": 0.4,
+  "proposed_at": ""
+ }
+]

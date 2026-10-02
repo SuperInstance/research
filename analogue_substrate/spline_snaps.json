@@ -1,0 +1,85 @@
+{
+  "iso": "2026-09-21T20:36:43Z",
+  "concept": "spline_snaps",
+  "description": "Canonical snaps along continuous analogue trajectories",
+  "n_snaps": 9,
+  "n_sims": 2,
+  "n_rooms": 2,
+  "sample_snaps": [
+    {
+      "snap_id": "bc1f156193d34b1f",
+      "t": -10.0,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "embedding": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "hash": "bc1f156193d34b1f",
+      "observer": "witness-\u03b1",
+      "sim_id": "cosmic",
+      "room_id": "A",
+      "extra_dims": {
+        "quantum_basis": "|+\u27e9",
+        "lens": "panorama"
+      },
+      "parent_snap": null,
+      "children_snaps": []
+    },
+    {
+      "snap_id": "2a34cbd9c3082479",
+      "t": -5.0,
+      "position": [
+        1,
+        0,
+        0
+      ],
+      "embedding": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "hash": "2a34cbd9c3082479",
+      "observer": "witness",
+      "sim_id": "cosmic",
+      "room_id": "A",
+      "extra_dims": {
+        "quantum_basis": "|+\u27e9",
+        "lens": "panorama"
+      },
+      "parent_snap": "bc1f156193d34b1f",
+      "children_snaps": []
+    },
+    {
+      "snap_id": "ce06224a96bb09dd",
+      "t": 0.0,
+      "position": [
+        2,
+        1,
+        0
+      ],
+      "embedding": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "hash": "ce06224a96bb09dd",
+      "observer": "witness",
+      "sim_id": "cosmic",
+      "room_id": "A",
+      "extra_dims": {
+        "quantum_basis": "|+\u27e9",
+        "lens": "panorama"
+      },
+      "parent_snap": "2a34cbd9c3082479",
+      "children_snaps": []
+    }
+  ]
+}

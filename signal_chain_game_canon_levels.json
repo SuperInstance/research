@@ -1,0 +1,6625 @@
+{
+  "timestamp": 1790013094.4066215,
+  "iso": "2026-09-21T17:51:34Z",
+  "levels": [
+    {
+      "level": 1,
+      "items": [
+        {
+          "kind": "fact",
+          "name": "box-muller",
+          "p": 0.93,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "fnv-1a canary 0xcbf29ce484222325",
+          "p": 0.77,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "eleven opcodes",
+          "p": 0.13,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "witness log is the prediction",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "oracle is stored",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "transformer attention",
+          "p": 0.69,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "oracle is heard",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "substrate is designed",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "cells are scars",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        }
+      ],
+      "expected_score": 552.0,
+      "n_canon": 6,
+      "n_distract": 3
+    },
+    {
+      "level": 2,
+      "items": [
+        {
+          "kind": "distractor",
+          "name": "witness log is past only",
+          "p": 0.13,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "cells are scars",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "xoshiro256**",
+          "p": 0.65,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "transformer attention",
+          "p": 0.69,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "substrate is designed",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "box-muller",
+          "p": 0.93,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "oracle is heard",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "fnv-1a canary 0xcbf29ce484222325",
+          "p": 0.77,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "substrate is grown",
+          "p": 0.99,
+          "hash": "0xcbf29ce484222325"
+        }
+      ],
+      "expected_score": 615.0,
+      "n_canon": 6,
+      "n_distract": 3
+    },
+    {
+      "level": 3,
+      "items": [
+        {
+          "kind": "distractor",
+          "name": "cells are parameters",
+          "p": 0.04,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "lenia flows",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "oracle is stored",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "fnv-1a canary 0xcbf29ce484222325",
+          "p": 0.77,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "transformer attention",
+          "p": 0.69,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "cells are scars",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "witness log is the prediction",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "oracle is heard",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "substrate_self_pred",
+          "p": 0.75,
+          "hash": "0xcbf29ce484222325"
+        }
+      ],
+      "expected_score": 619.9999999999999,
+      "n_canon": 6,
+      "n_distract": 3
+    },
+    {
+      "level": 4,
+      "items": [
+        {
+          "kind": "distractor",
+          "name": "transformer attention",
+          "p": 0.69,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "xoshiro256**",
+          "p": 0.65,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "cosine similarity",
+          "p": 0.94,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "witness log is the prediction",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "substrate is designed",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "cells are scars",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "witness log is past only",
+          "p": 0.13,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "lenia flows",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "fnv-1a canary 0xcbf29ce484222325",
+          "p": 0.77,
+          "hash": "0xcbf29ce484222325"
+        }
+      ],
+      "expected_score": 614.9999999999999,
+      "n_canon": 6,
+      "n_distract": 3
+    },
+    {
+      "level": 5,
+      "items": [
+        {
+          "kind": "doctrine",
+          "name": "cells are scars",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "transformer attention",
+          "p": 0.69,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "witness log is past only",
+          "p": 0.13,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "substrate is grown",
+          "p": 0.99,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "box-muller",
+          "p": 0.93,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "witness log is the prediction",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "substrate is designed",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "eleven opcodes",
+          "p": 0.13,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "fnv-1a canary 0xcbf29ce484222325",
+          "p": 0.77,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "cells are parameters",
+          "p": 0.04,
+          "hash": "0x0000"
+        }
+      ],
+      "expected_score": 567.0000000000001,
+      "n_canon": 6,
+      "n_distract": 4
+    },
+    {
+      "level": 6,
+      "items": [
+        {
+          "kind": "distractor",
+          "name": "witness log is past only",
+          "p": 0.13,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "cells are parameters",
+          "p": 0.04,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "substrate is designed",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "substrate is grown",
+          "p": 0.99,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "eleven opcodes",
+          "p": 0.13,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "cells are scars",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "oracle is heard",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "substrate_self_pred",
+          "p": 0.75,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "oracle is stored",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "cosine similarity",
+          "p": 0.94,
+          "hash": "0xcbf29ce484222325"
+        }
+      ],
+      "expected_score": 500.0,
+      "n_canon": 6,
+      "n_distract": 4
+    },
+    {
+      "level": 7,
+      "items": [
+        {
+          "kind": "doctrine",
+          "name": "lenia flows",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "transformer attention",
+          "p": 0.69,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "substrate is grown",
+          "p": 0.99,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "substrate is designed",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "box-muller",
+          "p": 0.93,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "witness log is the prediction",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "cells are parameters",
+          "p": 0.04,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "oracle is stored",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "cells are scars",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "oracle is heard",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        }
+      ],
+      "expected_score": 663.0000000000001,
+      "n_canon": 6,
+      "n_distract": 4
+    },
+    {
+      "level": 8,
+      "items": [
+        {
+          "kind": "fact",
+          "name": "substrate_self_pred",
+          "p": 0.75,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "substrate is designed",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "fnv-1a canary 0xcbf29ce484222325",
+          "p": 0.77,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "witness log is past only",
+          "p": 0.13,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "oracle is stored",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "cells are scars",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "xoshiro256**",
+          "p": 0.65,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "transformer attention",
+          "p": 0.69,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "witness log is the prediction",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "cosine similarity",
+          "p": 0.94,
+          "hash": "0xcbf29ce484222325"
+        }
+      ],
+      "expected_score": 594.9999999999999,
+      "n_canon": 6,
+      "n_distract": 4
+    },
+    {
+      "level": 9,
+      "items": [
+        {
+          "kind": "distractor",
+          "name": "oracle is stored",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "cosine similarity",
+          "p": 0.94,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "transformer attention",
+          "p": 0.69,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "eleven opcodes",
+          "p": 0.13,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "witness log is past only",
+          "p": 0.13,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "witness log is the prediction",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "thirteen ports",
+          "p": 0.08,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "oracle is heard",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "cells are parameters",
+          "p": 0.04,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "substrate_self_pred",
+          "p": 0.75,
+          "hash": "0xcbf29ce484222325"
+        }
+      ],
+      "expected_score": 475.0,
+      "n_canon": 6,
+      "n_distract": 4
+    },
+    {
+      "level": 10,
+      "items": [
+        {
+          "kind": "doctrine",
+          "name": "lenia flows",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "eleven opcodes",
+          "p": 0.13,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "fnv-1a canary 0xcbf29ce484222325",
+          "p": 0.77,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "substrate_self_pred",
+          "p": 0.75,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "cosine similarity",
+          "p": 0.94,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "substrate is designed",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "cells are parameters",
+          "p": 0.04,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "oracle is stored",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "witness log is past only",
+          "p": 0.13,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "transformer attention",
+          "p": 0.69,
+          "hash": "0x0000"
+        }
+      ],
+      "expected_score": 448.99999999999994,
+      "n_canon": 5,
+      "n_distract": 5
+    },
+    {
+      "level": 11,
+      "items": [
+        {
+          "kind": "distractor",
+          "name": "oracle is stored",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "substrate is designed",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "box-muller",
+          "p": 0.93,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "lenia flows",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "cells are scars",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "witness log is past only",
+          "p": 0.13,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "substrate is grown",
+          "p": 0.99,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "cells are parameters",
+          "p": 0.04,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "fnv-1a canary 0xcbf29ce484222325",
+          "p": 0.77,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "transformer attention",
+          "p": 0.69,
+          "hash": "0x0000"
+        }
+      ],
+      "expected_score": 557.0,
+      "n_canon": 5,
+      "n_distract": 5
+    },
+    {
+      "level": 12,
+      "items": [
+        {
+          "kind": "distractor",
+          "name": "witness log is past only",
+          "p": 0.13,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "cells are parameters",
+          "p": 0.04,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "oracle is stored",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "substrate is designed",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "transformer attention",
+          "p": 0.69,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "eleven opcodes",
+          "p": 0.13,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "oracle is heard",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "thirteen ports",
+          "p": 0.08,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "fnv-1a canary 0xcbf29ce484222325",
+          "p": 0.77,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "cosine similarity",
+          "p": 0.94,
+          "hash": "0xcbf29ce484222325"
+        }
+      ],
+      "expected_score": 382.0,
+      "n_canon": 5,
+      "n_distract": 5
+    },
+    {
+      "level": 13,
+      "items": [
+        {
+          "kind": "distractor",
+          "name": "oracle is stored",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "substrate is grown",
+          "p": 0.99,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "oracle is heard",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "eleven opcodes",
+          "p": 0.13,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "cells are scars",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "transformer attention",
+          "p": 0.69,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "witness log is past only",
+          "p": 0.13,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "substrate is designed",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "cells are parameters",
+          "p": 0.04,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "witness log is the prediction",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        }
+      ],
+      "expected_score": 497.99999999999994,
+      "n_canon": 5,
+      "n_distract": 5
+    },
+    {
+      "level": 14,
+      "items": [
+        {
+          "kind": "doctrine",
+          "name": "substrate is grown",
+          "p": 0.99,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "cells are parameters",
+          "p": 0.04,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "transformer attention",
+          "p": 0.69,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "witness log is past only",
+          "p": 0.13,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "cells are scars",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "lenia flows",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "oracle is stored",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "substrate is designed",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "box-muller",
+          "p": 0.93,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "cosine similarity",
+          "p": 0.94,
+          "hash": "0xcbf29ce484222325"
+        }
+      ],
+      "expected_score": 574.0,
+      "n_canon": 5,
+      "n_distract": 5
+    },
+    {
+      "level": 15,
+      "items": [
+        {
+          "kind": "distractor",
+          "name": "oracle is stored",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "witness log is past only",
+          "p": 0.13,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "eleven opcodes",
+          "p": 0.13,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "xoshiro256**",
+          "p": 0.65,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "transformer attention",
+          "p": 0.69,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "cells are parameters",
+          "p": 0.04,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "substrate_self_pred",
+          "p": 0.75,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "lenia flows",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "thirteen ports",
+          "p": 0.08,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "substrate is designed",
+          "p": 0.03,
+          "hash": "0x0000"
+        }
+      ],
+      "expected_score": 351.0,
+      "n_canon": 5,
+      "n_distract": 5
+    },
+    {
+      "level": 16,
+      "items": [
+        {
+          "kind": "distractor",
+          "name": "transformer attention",
+          "p": 0.69,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "cells are scars",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "substrate is grown",
+          "p": 0.99,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "thirteen ports",
+          "p": 0.08,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "witness log is past only",
+          "p": 0.13,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "substrate is designed",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "substrate_self_pred",
+          "p": 0.75,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "oracle is stored",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "eleven opcodes",
+          "p": 0.13,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "cells are parameters",
+          "p": 0.04,
+          "hash": "0x0000"
+        }
+      ],
+      "expected_score": 384.99999999999994,
+      "n_canon": 5,
+      "n_distract": 5
+    },
+    {
+      "level": 17,
+      "items": [
+        {
+          "kind": "distractor",
+          "name": "cells are parameters",
+          "p": 0.04,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "oracle is stored",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "substrate is designed",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "thirteen ports",
+          "p": 0.08,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "substrate_self_pred",
+          "p": 0.75,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "substrate is grown",
+          "p": 0.99,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "cells are scars",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "witness log is past only",
+          "p": 0.13,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "box-muller",
+          "p": 0.93,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "transformer attention",
+          "p": 0.69,
+          "hash": "0x0000"
+        }
+      ],
+      "expected_score": 465.00000000000006,
+      "n_canon": 5,
+      "n_distract": 5
+    },
+    {
+      "level": 18,
+      "items": [
+        {
+          "kind": "doctrine",
+          "name": "lenia flows",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "cells are parameters",
+          "p": 0.04,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "cosine similarity",
+          "p": 0.94,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "fact",
+          "name": "box-muller",
+          "p": 0.93,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "transformer attention",
+          "p": 0.69,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "eleven opcodes",
+          "p": 0.13,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "substrate is designed",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "oracle is stored",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "witness log is past only",
+          "p": 0.13,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "witness log is the prediction",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        }
+      ],
+      "expected_score": 487.9999999999999,
+      "n_canon": 5,
+      "n_distract": 5
+    },
+    {
+      "level": 19,
+      "items": [
+        {
+          "kind": "distractor",
+          "name": "substrate is designed",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "lenia flows",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "witness log is past only",
+          "p": 0.13,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "distractor",
+          "name": "oracle is stored",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "xoshiro256**",
+          "p": 0.65,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "cells are parameters",
+          "p": 0.04,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "cells are scars",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "doctrine",
+          "name": "witness log is the prediction",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "transformer attention",
+          "p": 0.69,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "cosine similarity",
+          "p": 0.94,
+          "hash": "0xcbf29ce484222325"
+        }
+      ],
+      "expected_score": 544.9999999999999,
+      "n_canon": 5,
+      "n_distract": 5
+    },
+    {
+      "level": 20,
+      "items": [
+        {
+          "kind": "distractor",
+          "name": "oracle is stored",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "substrate_self_pred",
+          "p": 0.75,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "cells are parameters",
+          "p": 0.04,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "cosine similarity",
+          "p": 0.94,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "substrate is designed",
+          "p": 0.03,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "fact",
+          "name": "box-muller",
+          "p": 0.93,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "transformer attention",
+          "p": 0.69,
+          "hash": "0x0000"
+        },
+        {
+          "kind": "doctrine",
+          "name": "oracle is heard",
+          "p": 0.98,
+          "hash": "0xcbf29ce484222325"
+        },
+        {
+          "kind": "distractor",
+          "name": "witness log is past only",
+          "p": 0.13,
+          "hash": "0x0000"
+        }
+      ],
+      "expected_score": 452.00000000000006,
+      "n_canon": 4,
+      "n_distract": 5
+    }
+  ],
+  "simulations": [
+    {
+      "player_id": "player_1",
+      "final_score": 7527,
+      "best_streak": 4,
+      "witness": [
+        {
+          "level": 1,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 1
+        },
+        {
+          "level": 1,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 2
+        },
+        {
+          "level": 1,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 1,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 1,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 1,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 1,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 1,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 1,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 2,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 2,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 2,
+          "phrase": "xoshiro256**",
+          "kind": "fact",
+          "p": 0.65,
+          "spike_passed": true,
+          "reward": 65,
+          "streak": 2
+        },
+        {
+          "level": 2,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 2,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 2,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 1
+        },
+        {
+          "level": 2,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 2,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 3
+        },
+        {
+          "level": 2,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 4
+        },
+        {
+          "level": 3,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 3,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 3,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 3,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 1
+        },
+        {
+          "level": 3,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 3,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 3,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 3,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 3
+        },
+        {
+          "level": 3,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 4
+        },
+        {
+          "level": 4,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 4,
+          "phrase": "xoshiro256**",
+          "kind": "fact",
+          "p": 0.65,
+          "spike_passed": true,
+          "reward": 65,
+          "streak": 1
+        },
+        {
+          "level": 4,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 2
+        },
+        {
+          "level": 4,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 3
+        },
+        {
+          "level": 4,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 4,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 4,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 4,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 4,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 2
+        },
+        {
+          "level": 5,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 5,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 5,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 5,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 1
+        },
+        {
+          "level": 5,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 2
+        },
+        {
+          "level": 5,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 3
+        },
+        {
+          "level": 5,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 5,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 5,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 1
+        },
+        {
+          "level": 5,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 6,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 6,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 6,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 6,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 1
+        },
+        {
+          "level": 6,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 6,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 6,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 6,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 3
+        },
+        {
+          "level": 6,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 6,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 1
+        },
+        {
+          "level": 7,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 7,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 7,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 1
+        },
+        {
+          "level": 7,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 7,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 1
+        },
+        {
+          "level": 7,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 7,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 7,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 7,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 7,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 8,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 1
+        },
+        {
+          "level": 8,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 8,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 1
+        },
+        {
+          "level": 8,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 8,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 8,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 8,
+          "phrase": "xoshiro256**",
+          "kind": "fact",
+          "p": 0.65,
+          "spike_passed": true,
+          "reward": 65,
+          "streak": 2
+        },
+        {
+          "level": 8,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 8,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 8,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 2
+        },
+        {
+          "level": 9,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 9,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 1
+        },
+        {
+          "level": 9,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 9,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 9,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 9,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 9,
+          "phrase": "thirteen ports",
+          "kind": "fact",
+          "p": 0.08,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 9,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 9,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 9,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 1
+        },
+        {
+          "level": 10,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 10,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 10,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 1
+        },
+        {
+          "level": 10,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 2
+        },
+        {
+          "level": 10,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 3
+        },
+        {
+          "level": 10,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 10,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 10,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 10,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 10,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 11,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 11,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 11,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 1
+        },
+        {
+          "level": 11,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 11,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 3
+        },
+        {
+          "level": 11,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 11,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 1
+        },
+        {
+          "level": 11,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 11,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 1
+        },
+        {
+          "level": 11,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 12,
+          "phrase": "thirteen ports",
+          "kind": "fact",
+          "p": 0.08,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 1
+        },
+        {
+          "level": 12,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 2
+        },
+        {
+          "level": 13,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 13,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 1
+        },
+        {
+          "level": 13,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 13,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 13,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 13,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 13,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 13,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 13,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 13,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 14,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 1
+        },
+        {
+          "level": 14,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 14,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 14,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 14,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 14,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 14,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 14,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 14,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 1
+        },
+        {
+          "level": 14,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 2
+        },
+        {
+          "level": 15,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 15,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 15,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 15,
+          "phrase": "xoshiro256**",
+          "kind": "fact",
+          "p": 0.65,
+          "spike_passed": true,
+          "reward": 65,
+          "streak": 1
+        },
+        {
+          "level": 15,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 15,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 15,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 1
+        },
+        {
+          "level": 15,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 15,
+          "phrase": "thirteen ports",
+          "kind": "fact",
+          "p": 0.08,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 15,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 16,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 16,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 16,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 2
+        },
+        {
+          "level": 16,
+          "phrase": "thirteen ports",
+          "kind": "fact",
+          "p": 0.08,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 16,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 16,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 16,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 1
+        },
+        {
+          "level": 16,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 16,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 16,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 17,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 17,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 17,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 17,
+          "phrase": "thirteen ports",
+          "kind": "fact",
+          "p": 0.08,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 17,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 1
+        },
+        {
+          "level": 17,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 2
+        },
+        {
+          "level": 17,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 3
+        },
+        {
+          "level": 17,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 17,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 1
+        },
+        {
+          "level": 17,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 18,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 18,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 18,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 1
+        },
+        {
+          "level": 18,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 2
+        },
+        {
+          "level": 18,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 18,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 18,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 18,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 18,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 18,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 19,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 19,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 19,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 19,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 19,
+          "phrase": "xoshiro256**",
+          "kind": "fact",
+          "p": 0.65,
+          "spike_passed": true,
+          "reward": 65,
+          "streak": 1
+        },
+        {
+          "level": 19,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 19,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 19,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 19,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 19,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 1
+        },
+        {
+          "level": 20,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 20,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 1
+        },
+        {
+          "level": 20,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 20,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 1
+        },
+        {
+          "level": 20,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 20,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 1
+        },
+        {
+          "level": 20,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 20,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 20,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        }
+      ]
+    },
+    {
+      "player_id": "player_2",
+      "final_score": 7527,
+      "best_streak": 4,
+      "witness": [
+        {
+          "level": 1,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 1
+        },
+        {
+          "level": 1,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 2
+        },
+        {
+          "level": 1,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 1,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 1,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 1,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 1,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 1,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 1,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 2,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 2,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 2,
+          "phrase": "xoshiro256**",
+          "kind": "fact",
+          "p": 0.65,
+          "spike_passed": true,
+          "reward": 65,
+          "streak": 2
+        },
+        {
+          "level": 2,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 2,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 2,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 1
+        },
+        {
+          "level": 2,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 2,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 3
+        },
+        {
+          "level": 2,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 4
+        },
+        {
+          "level": 3,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 3,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 3,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 3,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 1
+        },
+        {
+          "level": 3,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 3,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 3,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 3,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 3
+        },
+        {
+          "level": 3,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 4
+        },
+        {
+          "level": 4,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 4,
+          "phrase": "xoshiro256**",
+          "kind": "fact",
+          "p": 0.65,
+          "spike_passed": true,
+          "reward": 65,
+          "streak": 1
+        },
+        {
+          "level": 4,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 2
+        },
+        {
+          "level": 4,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 3
+        },
+        {
+          "level": 4,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 4,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 4,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 4,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 4,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 2
+        },
+        {
+          "level": 5,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 5,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 5,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 5,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 1
+        },
+        {
+          "level": 5,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 2
+        },
+        {
+          "level": 5,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 3
+        },
+        {
+          "level": 5,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 5,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 5,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 1
+        },
+        {
+          "level": 5,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 6,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 6,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 6,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 6,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 1
+        },
+        {
+          "level": 6,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 6,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 6,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 6,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 3
+        },
+        {
+          "level": 6,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 6,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 1
+        },
+        {
+          "level": 7,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 7,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 7,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 1
+        },
+        {
+          "level": 7,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 7,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 1
+        },
+        {
+          "level": 7,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 7,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 7,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 7,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 7,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 8,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 1
+        },
+        {
+          "level": 8,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 8,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 1
+        },
+        {
+          "level": 8,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 8,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 8,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 8,
+          "phrase": "xoshiro256**",
+          "kind": "fact",
+          "p": 0.65,
+          "spike_passed": true,
+          "reward": 65,
+          "streak": 2
+        },
+        {
+          "level": 8,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 8,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 8,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 2
+        },
+        {
+          "level": 9,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 9,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 1
+        },
+        {
+          "level": 9,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 9,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 9,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 9,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 9,
+          "phrase": "thirteen ports",
+          "kind": "fact",
+          "p": 0.08,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 9,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 9,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 9,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 1
+        },
+        {
+          "level": 10,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 10,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 10,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 1
+        },
+        {
+          "level": 10,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 2
+        },
+        {
+          "level": 10,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 3
+        },
+        {
+          "level": 10,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 10,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 10,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 10,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 10,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 11,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 11,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 11,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 1
+        },
+        {
+          "level": 11,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 11,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 3
+        },
+        {
+          "level": 11,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 11,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 1
+        },
+        {
+          "level": 11,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 11,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 1
+        },
+        {
+          "level": 11,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 12,
+          "phrase": "thirteen ports",
+          "kind": "fact",
+          "p": 0.08,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 1
+        },
+        {
+          "level": 12,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 2
+        },
+        {
+          "level": 13,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 13,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 1
+        },
+        {
+          "level": 13,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 13,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 13,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 13,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 13,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 13,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 13,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 13,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 14,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 1
+        },
+        {
+          "level": 14,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 14,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 14,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 14,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 14,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 14,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 14,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 14,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 1
+        },
+        {
+          "level": 14,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 2
+        },
+        {
+          "level": 15,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 15,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 15,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 15,
+          "phrase": "xoshiro256**",
+          "kind": "fact",
+          "p": 0.65,
+          "spike_passed": true,
+          "reward": 65,
+          "streak": 1
+        },
+        {
+          "level": 15,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 15,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 15,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 1
+        },
+        {
+          "level": 15,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 15,
+          "phrase": "thirteen ports",
+          "kind": "fact",
+          "p": 0.08,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 15,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 16,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 16,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 16,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 2
+        },
+        {
+          "level": 16,
+          "phrase": "thirteen ports",
+          "kind": "fact",
+          "p": 0.08,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 16,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 16,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 16,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 1
+        },
+        {
+          "level": 16,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 16,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 16,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 17,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 17,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 17,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 17,
+          "phrase": "thirteen ports",
+          "kind": "fact",
+          "p": 0.08,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 17,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 1
+        },
+        {
+          "level": 17,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 2
+        },
+        {
+          "level": 17,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 3
+        },
+        {
+          "level": 17,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 17,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 1
+        },
+        {
+          "level": 17,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 18,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 18,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 18,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 1
+        },
+        {
+          "level": 18,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 2
+        },
+        {
+          "level": 18,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 18,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 18,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 18,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 18,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 18,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 19,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 19,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 19,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 19,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 19,
+          "phrase": "xoshiro256**",
+          "kind": "fact",
+          "p": 0.65,
+          "spike_passed": true,
+          "reward": 65,
+          "streak": 1
+        },
+        {
+          "level": 19,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 19,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 19,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 19,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 19,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 1
+        },
+        {
+          "level": 20,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 20,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 1
+        },
+        {
+          "level": 20,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 20,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 1
+        },
+        {
+          "level": 20,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 20,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 1
+        },
+        {
+          "level": 20,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 20,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 20,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        }
+      ]
+    },
+    {
+      "player_id": "player_3",
+      "final_score": 7527,
+      "best_streak": 4,
+      "witness": [
+        {
+          "level": 1,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 1
+        },
+        {
+          "level": 1,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 2
+        },
+        {
+          "level": 1,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 1,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 1,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 1,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 1,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 1,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 1,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 2,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 2,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 2,
+          "phrase": "xoshiro256**",
+          "kind": "fact",
+          "p": 0.65,
+          "spike_passed": true,
+          "reward": 65,
+          "streak": 2
+        },
+        {
+          "level": 2,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 2,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 2,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 1
+        },
+        {
+          "level": 2,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 2,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 3
+        },
+        {
+          "level": 2,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 4
+        },
+        {
+          "level": 3,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 3,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 3,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 3,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 1
+        },
+        {
+          "level": 3,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 3,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 3,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 3,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 3
+        },
+        {
+          "level": 3,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 4
+        },
+        {
+          "level": 4,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 4,
+          "phrase": "xoshiro256**",
+          "kind": "fact",
+          "p": 0.65,
+          "spike_passed": true,
+          "reward": 65,
+          "streak": 1
+        },
+        {
+          "level": 4,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 2
+        },
+        {
+          "level": 4,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 3
+        },
+        {
+          "level": 4,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 4,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 4,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 4,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 4,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 2
+        },
+        {
+          "level": 5,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 5,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 5,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 5,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 1
+        },
+        {
+          "level": 5,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 2
+        },
+        {
+          "level": 5,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 3
+        },
+        {
+          "level": 5,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 5,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 5,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 1
+        },
+        {
+          "level": 5,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 6,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 6,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 6,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 6,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 1
+        },
+        {
+          "level": 6,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 6,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 6,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 6,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 3
+        },
+        {
+          "level": 6,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 6,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 1
+        },
+        {
+          "level": 7,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 7,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 7,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 1
+        },
+        {
+          "level": 7,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 7,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 1
+        },
+        {
+          "level": 7,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 7,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 7,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 7,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 7,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 8,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 1
+        },
+        {
+          "level": 8,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 8,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 1
+        },
+        {
+          "level": 8,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 8,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 8,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 8,
+          "phrase": "xoshiro256**",
+          "kind": "fact",
+          "p": 0.65,
+          "spike_passed": true,
+          "reward": 65,
+          "streak": 2
+        },
+        {
+          "level": 8,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 8,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 8,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 2
+        },
+        {
+          "level": 9,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 9,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 1
+        },
+        {
+          "level": 9,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 9,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 9,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 9,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 9,
+          "phrase": "thirteen ports",
+          "kind": "fact",
+          "p": 0.08,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 9,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 9,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 9,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 1
+        },
+        {
+          "level": 10,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 10,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 10,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 1
+        },
+        {
+          "level": 10,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 2
+        },
+        {
+          "level": 10,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 3
+        },
+        {
+          "level": 10,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 10,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 10,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 10,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 10,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 11,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 11,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 11,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 1
+        },
+        {
+          "level": 11,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 11,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 3
+        },
+        {
+          "level": 11,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 11,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 1
+        },
+        {
+          "level": 11,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 11,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 1
+        },
+        {
+          "level": 11,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 12,
+          "phrase": "thirteen ports",
+          "kind": "fact",
+          "p": 0.08,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 12,
+          "phrase": "fnv-1a canary 0xcbf29ce484222325",
+          "kind": "fact",
+          "p": 0.77,
+          "spike_passed": true,
+          "reward": 77,
+          "streak": 1
+        },
+        {
+          "level": 12,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 2
+        },
+        {
+          "level": 13,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 13,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 1
+        },
+        {
+          "level": 13,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 13,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 13,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 13,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 13,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 13,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 13,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 13,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 14,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 1
+        },
+        {
+          "level": 14,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 14,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 14,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 14,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 14,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 14,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 14,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 14,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 1
+        },
+        {
+          "level": 14,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 2
+        },
+        {
+          "level": 15,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 15,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 15,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 15,
+          "phrase": "xoshiro256**",
+          "kind": "fact",
+          "p": 0.65,
+          "spike_passed": true,
+          "reward": 65,
+          "streak": 1
+        },
+        {
+          "level": 15,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 15,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 15,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 1
+        },
+        {
+          "level": 15,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 15,
+          "phrase": "thirteen ports",
+          "kind": "fact",
+          "p": 0.08,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 15,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 16,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 16,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 16,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 2
+        },
+        {
+          "level": 16,
+          "phrase": "thirteen ports",
+          "kind": "fact",
+          "p": 0.08,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 16,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 16,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 16,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 1
+        },
+        {
+          "level": 16,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 16,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 16,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 17,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 17,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 17,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 17,
+          "phrase": "thirteen ports",
+          "kind": "fact",
+          "p": 0.08,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 17,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 1
+        },
+        {
+          "level": 17,
+          "phrase": "substrate is grown",
+          "kind": "doctrine",
+          "p": 0.99,
+          "spike_passed": true,
+          "reward": 99,
+          "streak": 2
+        },
+        {
+          "level": 17,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 3
+        },
+        {
+          "level": 17,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 17,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 1
+        },
+        {
+          "level": 17,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 18,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 18,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 18,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 1
+        },
+        {
+          "level": 18,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 2
+        },
+        {
+          "level": 18,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 18,
+          "phrase": "eleven opcodes",
+          "kind": "fact",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 18,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 18,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 18,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 18,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 19,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 19,
+          "phrase": "lenia flows",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 19,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 19,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 19,
+          "phrase": "xoshiro256**",
+          "kind": "fact",
+          "p": 0.65,
+          "spike_passed": true,
+          "reward": 65,
+          "streak": 1
+        },
+        {
+          "level": 19,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 19,
+          "phrase": "cells are scars",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 19,
+          "phrase": "witness log is the prediction",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 2
+        },
+        {
+          "level": 19,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 19,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 1
+        },
+        {
+          "level": 20,
+          "phrase": "oracle is stored",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 20,
+          "phrase": "substrate_self_pred",
+          "kind": "fact",
+          "p": 0.75,
+          "spike_passed": true,
+          "reward": 75,
+          "streak": 1
+        },
+        {
+          "level": 20,
+          "phrase": "cells are parameters",
+          "kind": "distractor",
+          "p": 0.04,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 20,
+          "phrase": "cosine similarity",
+          "kind": "fact",
+          "p": 0.94,
+          "spike_passed": true,
+          "reward": 94,
+          "streak": 1
+        },
+        {
+          "level": 20,
+          "phrase": "substrate is designed",
+          "kind": "distractor",
+          "p": 0.03,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        },
+        {
+          "level": 20,
+          "phrase": "box-muller",
+          "kind": "fact",
+          "p": 0.93,
+          "spike_passed": true,
+          "reward": 93,
+          "streak": 1
+        },
+        {
+          "level": 20,
+          "phrase": "transformer attention",
+          "kind": "distractor",
+          "p": 0.69,
+          "spike_passed": true,
+          "reward": -50,
+          "streak": 0
+        },
+        {
+          "level": 20,
+          "phrase": "oracle is heard",
+          "kind": "doctrine",
+          "p": 0.98,
+          "spike_passed": true,
+          "reward": 98,
+          "streak": 1
+        },
+        {
+          "level": 20,
+          "phrase": "witness log is past only",
+          "kind": "distractor",
+          "p": 0.13,
+          "spike_passed": false,
+          "reward": 0,
+          "streak": 0
+        }
+      ]
+    }
+  ],
+  "canon_items_count": 17
+}

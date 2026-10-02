@@ -1,0 +1,241 @@
+{
+  "timestamp": 1790016003.8539803,
+  "iso": "2026-09-21T18:40:03Z",
+  "dream_pool_size": 32,
+  "successes": 9,
+  "failures": 23,
+  "success_rate": 0.28125,
+  "failure_patterns": [
+    {
+      "description": "Cluster around: \"Does FNV-1a 64-bit hash of the...\"",
+      "sample_count": 2,
+      "avg_reward": 0.5449999999999999,
+      "tags": [
+        "failure-cluster"
+      ],
+      "is_success_pattern": false,
+      "examples": [
+        "Does FNV-1a 64-bit hash of the string \"a\" equal 0xaf63dc4c8601ec8c?",
+        "Does FNV-1a 64-bit hash of the string \"foobar\" equal 0x85944171f73967e8?"
+      ]
+    },
+    {
+      "description": "Cluster around: \"Is FNV-1a 64-bit offset basis...\"",
+      "sample_count": 1,
+      "avg_reward": 0.54,
+      "tags": [
+        "failure-cluster"
+      ],
+      "is_success_pattern": false,
+      "examples": [
+        "Is FNV-1a 64-bit offset basis 0xcbf29ce484222325?"
+      ]
+    },
+    {
+      "description": "Cluster around: \"Is 0x100000001b3 the FNV-1a 64...\"",
+      "sample_count": 1,
+      "avg_reward": 0.42,
+      "tags": [
+        "failure-cluster"
+      ],
+      "is_success_pattern": false,
+      "examples": [
+        "Is 0x100000001b3 the FNV-1a 64-bit prime?"
+      ]
+    },
+    {
+      "description": "Cluster around: \"Does xoshiro256** compute next...\"",
+      "sample_count": 1,
+      "avg_reward": 0.62,
+      "tags": [
+        "failure-cluster"
+      ],
+      "is_success_pattern": false,
+      "examples": [
+        "Does xoshiro256** compute next() = rotl(s[1] * 5, 7) * 9?"
+      ]
+    },
+    {
+      "description": "Cluster around: \"Should xoshiro256** state be i...\"",
+      "sample_count": 1,
+      "avg_reward": 0.45,
+      "tags": [
+        "failure-cluster"
+      ],
+      "is_success_pattern": false,
+      "examples": [
+        "Should xoshiro256** state be initialized via FNV-1a(seed) + i * 0x9e3779b97f4a7c"
+      ]
+    },
+    {
+      "description": "Cluster around: \"Does Box-Muller transform two...\"",
+      "sample_count": 1,
+      "avg_reward": 0.17,
+      "tags": [
+        "failure-cluster"
+      ],
+      "is_success_pattern": false,
+      "examples": [
+        "Does Box-Muller transform two uniform samples into one Gaussian sample?"
+      ]
+    },
+    {
+      "description": "Cluster around: \"Which 11 opcodes form the subs...\"",
+      "sample_count": 1,
+      "avg_reward": 0.11,
+      "tags": [
+        "failure-cluster"
+      ],
+      "is_success_pattern": false,
+      "examples": [
+        "Which 11 opcodes form the substrate algebra?"
+      ]
+    },
+    {
+      "description": "Cluster around: \"How many ports is the substrat...\"",
+      "sample_count": 1,
+      "avg_reward": 0.15,
+      "tags": [
+        "failure-cluster"
+      ],
+      "is_success_pattern": false,
+      "examples": [
+        "How many ports is the substrate available in for polyformalism?"
+      ]
+    },
+    {
+      "description": "Cluster around: \"Approximately how many pieces...\"",
+      "sample_count": 1,
+      "avg_reward": 0.07,
+      "tags": [
+        "failure-cluster"
+      ],
+      "is_success_pattern": false,
+      "examples": [
+        "Approximately how many pieces are in the cellular-first design canon?"
+      ]
+    },
+    {
+      "description": "Cluster around: \"Is the substrate cell a scar r...\"",
+      "sample_count": 1,
+      "avg_reward": 0.28,
+      "tags": [
+        "failure-cluster"
+      ],
+      "is_success_pattern": false,
+      "examples": [
+        "Is the substrate cell a scar rather than a parameter?"
+      ]
+    }
+  ],
+  "success_patterns": [
+    {
+      "description": "Success cluster: \"Does xoshiro256** maintain sta...\"",
+      "sample_count": 1,
+      "avg_reward": 0.88,
+      "tags": [
+        "success-cluster"
+      ],
+      "is_success_pattern": true,
+      "examples": [
+        "Does xoshiro256** maintain state as an array of 4 uint64 words?"
+      ]
+    },
+    {
+      "description": "Success cluster: \"Is the Box-Muller formula z =...\"",
+      "sample_count": 1,
+      "avg_reward": 0.93,
+      "tags": [
+        "success-cluster"
+      ],
+      "is_success_pattern": true,
+      "examples": [
+        "Is the Box-Muller formula z = sqrt(-2 * ln(u1)) * cos(2*pi*u2)?"
+      ]
+    },
+    {
+      "description": "Success cluster: \"Is the Bell state |\u03a6+\u27e9 = (|00\u27e9...\"",
+      "sample_count": 1,
+      "avg_reward": 0.98,
+      "tags": [
+        "success-cluster"
+      ],
+      "is_success_pattern": true,
+      "examples": [
+        "Is the Bell state |\u03a6+\u27e9 = (|00\u27e9 + |11\u27e9) / sqrt(2)?"
+      ]
+    },
+    {
+      "description": "Success cluster: \"Is the Bell state |\u03a6-\u27e9 = (|00\u27e9...\"",
+      "sample_count": 1,
+      "avg_reward": 0.93,
+      "tags": [
+        "success-cluster"
+      ],
+      "is_success_pattern": true,
+      "examples": [
+        "Is the Bell state |\u03a6-\u27e9 = (|00\u27e9 - |11\u27e9) / sqrt(2)?"
+      ]
+    },
+    {
+      "description": "Success cluster: \"Is cosine similarity = (A\u00b7B) /...\"",
+      "sample_count": 1,
+      "avg_reward": 0.98,
+      "tags": [
+        "success-cluster"
+      ],
+      "is_success_pattern": true,
+      "examples": [
+        "Is cosine similarity = (A\u00b7B) / (|A| * |B|)?"
+      ]
+    },
+    {
+      "description": "Success cluster: \"What is the canonical voice of...\"",
+      "sample_count": 1,
+      "avg_reward": 0.89,
+      "tags": [
+        "success-cluster"
+      ],
+      "is_success_pattern": true,
+      "examples": [
+        "What is the canonical voice of the cellular-first design canon?"
+      ]
+    },
+    {
+      "description": "Success cluster: \"Is Lenia a continuous cellular...\"",
+      "sample_count": 1,
+      "avg_reward": 0.83,
+      "tags": [
+        "success-cluster"
+      ],
+      "is_success_pattern": true,
+      "examples": [
+        "Is Lenia a continuous cellular automaton with a bell-shaped kernel?"
+      ]
+    },
+    {
+      "description": "Success cluster: \"Can a Markov chain be used to...\"",
+      "sample_count": 1,
+      "avg_reward": 0.87,
+      "tags": [
+        "success-cluster"
+      ],
+      "is_success_pattern": true,
+      "examples": [
+        "Can a Markov chain be used to generate Fleet Radio prose?"
+      ]
+    },
+    {
+      "description": "Success cluster: \"Is FBM (fractal Brownian motio...\"",
+      "sample_count": 1,
+      "avg_reward": 0.9,
+      "tags": [
+        "success-cluster"
+      ],
+      "is_success_pattern": true,
+      "examples": [
+        "Is FBM (fractal Brownian motion) a way of layering noise octaves to produce proc"
+      ]
+    }
+  ]
+}

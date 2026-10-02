@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Quilt Fleet — Live Cell Graph</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    margin: 0; padding: 0; background: #0a0e14; color: #c9d1d9;
+  }
+  .header {
+    padding: 20px 30px; background: linear-gradient(180deg, #161b22 0%, #0d1117 100%);
+    border-bottom: 1px solid #30363d;
+  }
+  .header h1 {
+    margin: 0 0 8px; font-size: 24px; font-weight: 600;
+    color: #f0f6fc; letter-spacing: -0.02em;
+  }
+  .header .meta { color: #8b949e; font-size: 13px; }
+  .stats {
+    display: flex; gap: 20px; margin-top: 12px; flex-wrap: wrap;
+  }
+  .stat {
+    background: rgba(177,186,196,0.1); border: 1px solid #30363d;
+    padding: 6px 14px; border-radius: 20px; font-size: 13px;
+  }
+  .stat strong { color: #58a6ff; font-weight: 600; }
+  .legend {
+    padding: 16px 30px; background: #161b22; border-bottom: 1px solid #30363d;
+    display: flex; gap: 16px; flex-wrap: wrap; font-size: 12px;
+  }
+  .legend-item { display: flex; align-items: center; gap: 6px; }
+  .legend-dot { width: 12px; height: 12px; border-radius: 50%; }
+  .graph-container {
+    width: 100%; height: calc(100vh - 180px); position: relative;
+    background: radial-gradient(ellipse at center, #0d1117 0%, #010409 100%);
+  }
+  svg { width: 100%; height: 100%; cursor: grab; }
+  svg:active { cursor: grabbing; }
+  .node {
+    cursor: pointer;
+  }
+  .node circle { stroke: #30363d; stroke-width: 1.5; }
+  .node text {
+    fill: #c9d1d9; font-size: 10px; font-family: monospace;
+    pointer-events: none;
+  }
+  .edge { stroke: #30363d; stroke-width: 1; opacity: 0.4; }
+  .edge.parent { stroke: #58a6ff; stroke-dasharray: 3,3; opacity: 0.7; }
+  .tooltip {
+    position: absolute; background: #161b22; border: 1px solid #58a6ff;
+    padding: 10px 14px; border-radius: 6px; pointer-events: none;
+    font-size: 12px; max-width: 320px; box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    display: none; z-index: 10;
+  }
+  .tooltip h3 { margin: 0 0 6px; color: #58a6ff; font-size: 14px; }
+  .tooltip .caps {
+    color: #8b949e; margin-top: 6px;
+  }
+  .tooltip .cap {
+    display: inline-block; background: rgba(88,166,255,0.15);
+    color: #58a6ff; padding: 2px 6px; border-radius: 4px;
+    font-size: 11px; margin: 2px;
+  }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Quilt Fleet — Live Cell Graph</h1>
+  <div class="meta">a2a Worker v2 · Vectorize-backed semantic search · KV-backed registry</div>
+  <div class="stats">
+    <div class="stat"><strong>25</strong> cells</div>
+    <div class="stat"><strong>1</strong> lineage edges</div>
+    <div class="stat"><strong>463</strong> pending messages</div>
+<div class="stat"><strong>9</strong> advisor</div><div class="stat"><strong>2</strong> ensemble</div><div class="stat"><strong>2</strong> polyformal</div><div class="stat"><strong>6</strong> shaper</div><div class="stat"><strong>2</strong> test</div><div class="stat"><strong>4</strong> test-runner</div>
+  </div>
+</div>
+<div class="legend">
+<div class="legend-item">
+    <div class="legend-dot" style="background:#58a6ff"></div>
+    <span>advisor</span>
+  </div><div class="legend-item">
+    <div class="legend-dot" style="background:#d2a8ff"></div>
+    <span>ensemble</span>
+  </div><div class="legend-item">
+    <div class="legend-dot" style="background:#7ee787"></div>
+    <span>polyformal</span>
+  </div><div class="legend-item">
+    <div class="legend-dot" style="background:#f78166"></div>
+    <span>shaper</span>
+  </div><div class="legend-item">
+    <div class="legend-dot" style="background:#8b949e"></div>
+    <span>test</span>
+  </div><div class="legend-item">
+    <div class="legend-dot" style="background:#a5a5ff"></div>
+    <span>test-runner</span>
+  </div>
+</div>
+<div class="graph-container">
+  <svg id="graph"></svg>
+</div>
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+// === D3 force-directed graph (vanilla, no deps) ===
+
+const ROLE_COLORS = {
+  advisor: "#58a6ff",
+  shaper: "#f78166",
+  "test-runner": "#a5a5ff",
+  ensemble: "#d2a8ff",
+  polyformal: "#7ee787",
+  test: "#8b949e",
+  anon: "#484f58",
+};
+
+function roleColor(role) {{ return ROLE_COLORS[role] || ROLE_COLORS.anon; }}
+
+const nodes = {nodes_json};
+const edges = {edges_json};
+
+const svg = document.getElementById("graph");
+const tooltip = document.getElementById("tooltip");
+const width = svg.clientWidth;
+const height = svg.clientHeight;
+
+// Set up SVG
+const svgNS = "http://www.w3.org/2000/svg";
+svg.setAttribute("viewBox", `0 0 ${{width}} ${{height}}`);
+
+// Force simulation
+const sim = {{ dt: 0, alpha: 1, alphaTarget: 0, alphaMin: 0.001,
+                velocityDecay: 0.4, force: {{}} }};
+
+const positions = {{}};
+nodes.forEach(n => {{
+  positions[n.id] = {{
+    x: width / 2 + (Math.random() - 0.5) * 300,
+    y: height / 2 + (Math.random() - 0.5) * 300,
+    vx: 0, vy: 0,
+  }};
+}});
+
+// Simple force layout
+function step() {{
+  // Repulsion
+  for (let i = 0; i < nodes.length; i++) {{
+    for (let j = i+1; j < nodes.length; j++) {{
+      const a = nodes[i]; const b = nodes[j];
+      const pa = positions[a.id]; const pb = positions[b.id];
+      const dx = pa.x - pb.x; const dy = pa.y - pb.y;
+      const d2 = dx*dx + dy*dy + 0.01;
+      const d = Math.sqrt(d2);
+      const f = 8000 / d2;
+      const fx = (dx / d) * f;
+      const fy = (dy / d) * f;
+      pa.vx += fx; pa.vy += fy;
+      pb.vx -= fx; pb.vy -= fy;
+    }}
+  }}
+  // Spring (edges)
+  edges.forEach(e => {{
+    const pa = positions[e.from]; const pb = positions[e.to];
+    if (!pa || !pb) return;
+    const dx = pa.x - pb.x; const dy = pa.y - pb.y;
+    const d = Math.sqrt(dx*dx + dy*dy);
+    const target = 80;
+    const f = (d - target) * 0.05;
+    const fx = (dx / d) * f;
+    const fy = (dy / d) * f;
+    pa.vx -= fx; pa.vy -= fy;
+    pb.vx += fx; pb.vy += fy;
+  }});
+  // Center pull
+  nodes.forEach(n => {{
+    const p = positions[n.id];
+    p.vx += (width/2 - p.x) * 0.001;
+    p.vy += (height/2 - p.y) * 0.001;
+    // damping
+    p.vx *= 0.85; p.vy *= 0.85;
+    p.x += p.vx; p.y += p.vy;
+  }});
+}}
+
+// Draw edges
+const edgesG = document.createElementNS(svgNS, "g");
+edges.forEach(e => {{
+  const line = document.createElementNS(svgNS, "line");
+  line.setAttribute("class", "edge " + (e.type || ""));
+  edgesG.appendChild(line);
+  line._from = e.from; line._to = e.to;
+}});
+svg.appendChild(edgesG);
+
+// Draw nodes
+const nodesG = document.createElementNS(svgNS, "g");
+const nodeEls = {{}};
+nodes.forEach(n => {{
+  const g = document.createElementNS(svgNS, "g");
+  g.setAttribute("class", "node");
+  g.setAttribute("transform", `translate(0,0)`);
+  const circle = document.createElementNS(svgNS, "circle");
+  const r = 12 + (n.load || 0) * 8;
+  circle.setAttribute("r", r);
+  circle.setAttribute("fill", roleColor(n.role));
+  circle.setAttribute("opacity", "0.85");
+  g.appendChild(circle);
+  const text = document.createElementNS(svgNS, "text");
+  text.setAttribute("text-anchor", "middle");
+  text.setAttribute("dy", r + 12);
+  text.textContent = n.id.slice(0, 14);
+  g.appendChild(text);
+  g.addEventListener("mouseenter", e => {{
+    tooltip.style.display = "block";
+    tooltip.innerHTML = `
+      <h3>${{n.id}}</h3>
+      <div>role: ${{n.role}}</div>
+      <div>caps: <span class="caps">${{n.caps.map(c => `<span class="cap">${{c}}</span>`).join("")}}</span></div>
+      <div>load: ${{(n.load || 0).toFixed(2)}}</div>
+      ${{n.parent_id ? `<div>parent: ${{n.parent_id}}</div>` : ""}}
+      ${{n.children.length ? `<div>children: ${{n.children.join(", ")}}</div>` : ""}}
+    `;
+  }});
+  g.addEventListener("mousemove", e => {{
+    tooltip.style.left = (e.pageX + 12) + "px";
+    tooltip.style.top = (e.pageY + 12) + "px";
+  }});
+  g.addEventListener("mouseleave", e => {{
+    tooltip.style.display = "none";
+  }});
+  nodesG.appendChild(g);
+  nodeEls[n.id] = g;
+}});
+svg.appendChild(nodesG);
+
+function tick() {{
+  step();
+  edges.forEach((e, i) => {{
+    const line = edgesG.children[i];
+    const pa = positions[e.from]; const pb = positions[e.to];
+    if (pa && pb) {{
+      line.setAttribute("x1", pa.x);
+      line.setAttribute("y1", pa.y);
+      line.setAttribute("x2", pb.x);
+      line.setAttribute("y2", pb.y);
+    }}
+  }});
+  nodes.forEach(n => {{
+    const p = positions[n.id];
+    const g = nodeEls[n.id];
+    g.setAttribute("transform", `translate(${{p.x}},${{p.y}})`);
+  }});
+  requestAnimationFrame(tick);
+}}
+tick();
+</script>
+</body>
+</html>

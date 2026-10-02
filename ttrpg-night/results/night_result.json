@@ -1,0 +1,112 @@
+{
+  "title": "The Celestine Crown",
+  "history": [
+    {
+      "name": "DM",
+      "text": "**The Celestine Crown \u2014 Night One**\n\nSalt gulls scream as the *Crown* groans on her moorings \u2014 two centuries old, hull ribs split like old bread, and the tide-window to the open sky closes in one hour. You three stand on her rain-slick deck: a grain-hauler's hand with rope-burned palms, a shell-court diver with pearls still knotted in their hair, and a ledger-clerk with ink-stained cuffs and a contract nobody signed yet. The problem's plain: her mainsail winch is seized, her ballast tanks are flooded with brine, and the harbormaster won't release mooring lines to a dead ship. Which do you crack first \u2014 the winch, the ballast, or the harbormaster?",
+      "shifts": {}
+    },
+    {
+      "name": "Alma the Architect",
+      "text": "\"The ballast first \u2014 brine sitting in her belly is salt in the granary, rot she carries silent until we're a day out and listing like a grain barge overloaded on one side. Winch and harbormaster can wait on the tide; water in the hold cannot. If our diver friend can crack the tanks, I'll chart how she sits once they're dry.\"\n\n[kneels at the tank hatch, knocks twice along the hull rib, listens for the slosh]",
+      "shifts": {
+        "salt": -0.2
+      },
+      "round": 0
+    },
+    {
+      "name": "Vesht the Voyager",
+      "text": "Let\u2019s start with the winch, friends. I\u2019ve got a salt-cured tiger cowrie in my belt\u2014its edge sharpened thin over years of bartering trade latches loose\u2014to pry free the rusted gears once we heat them with scalded ocean brine. I\u2019ll call for hot brine buckets once the driftwood fire catches.\n[kicks a stack of dry driftwood toward the ship\u2019s galvanized fire pit and reaches for the glossy cowrie tucked in my oilskin belt pouch]",
+      "shifts": {
+        "salt": 0.4,
+        "ocean": 0.4
+      },
+      "round": 0
+    },
+    {
+      "name": "Cassian the Clerk",
+      "text": "The harbormaster\u2019s mooring hold is a certified ledger block of 1 full release authorization\u2014you cannot debit a mooring line release without a corresponding credit of his authorization, no matter how seized the winch or flooded the tanks. The shell diver\u2019s uncertified pearls are worthless (no ledger certification = zero value) and the grain-hauler\u2019s rope burns are trivial, non-ledger trivialities. The unsigned contract is a variance of 1 unobligated obligation unit, and all non-ledger issues carry a negligible score of 0.05.\n[slams a scuffed leather pocket ledger shut, takes three quick, deliberate steps toward the harbormaster\u2019s mooring office hatch mounted on the starboard deck rail]",
+      "shifts": {
+        "ledger": 2.5,
+        "grain": 0.3,
+        "shell": -0.2
+      },
+      "round": 0
+    },
+    {
+      "name": "Alma the Architect",
+      "text": "\"Split the labor, friends \u2014 no harvest waits on a single reaper, and one hour of tide won't cover three jobs done in sequence. Cassian, tell your harbormaster this: he can't debit a release against a dead hull, but a ship draining, heating, and listing toward ready is a credit any ledger must weigh \u2014 go armed with our progress, not just your stamp. Vesht, heat your brine, but work fast; salt eats iron like it eats stored grain, and I want that winch turning before the corrosion drinks deeper. Meanwhile I'll crack the ballast cocks myself, so she's lightening from the belly while you two work the top.\"\n\n[hauls a fire bucket toward Vesht's pit on the way to the tank hatch, throws the cock-wheel with both rope-burned palms, and listens as the first brine hisses out the scupper]",
+      "shifts": {
+        "salt": -0.2,
+        "ledger": 0.4
+      },
+      "round": 1
+    },
+    {
+      "name": "Vesht the Voyager",
+      "text": "You\u2019re wasting steps tramping to the harbormaster\u2019s office, Cassian. This salt-cured tiger cowrie\u2014sharpened for prying loose rust and sealing trade deals\u2014will be our oath-stone today; anyone who lends a hand fixing the winch earns a cut of the next sea run.\n[presses the glossy, worn cowrie against the seized winch\u2019s rusted gear housing, rapping it once to listen for trapped brine beneath the corrosion]",
+      "shifts": {
+        "salt": 0.4
+      },
+      "round": 1
+    },
+    {
+      "name": "Cassian the Clerk",
+      "text": "Your unlogged hull tap and uncertified cowrie carry zero ledger weight\u2014only the harbormaster\u2019s signed authorization can debit the mooring line credit in his bound double-entry books. The unsigned contract in my pocket ledger remains a variance of 1 unobligated unit, and all non-ledger actions score 0.0 for release eligibility. Current unrectified ledger discrepancies: 3.\n[raps the harbormaster\u2019s starboard deck hatch three times with the scuffed leather spine of his pocket ledger, glances at the salt-etched tide-clock to jot the time remaining in the ledger\u2019s margin]",
+      "shifts": {
+        "ledger": 3.0,
+        "salt": 0.1
+      },
+      "round": 1
+    }
+  ],
+  "shifts": [
+    [
+      "Alma the Architect",
+      {
+        "salt": -0.2
+      },
+      -0.2
+    ],
+    [
+      "Vesht the Voyager",
+      {
+        "salt": 0.4,
+        "ocean": 0.4
+      },
+      0.8
+    ],
+    [
+      "Cassian the Clerk",
+      {
+        "ledger": 2.5,
+        "grain": 0.3,
+        "shell": -0.2
+      },
+      2.5999999999999996
+    ],
+    [
+      "Alma the Architect",
+      {
+        "salt": -0.2,
+        "ledger": 0.4
+      },
+      0.2
+    ],
+    [
+      "Vesht the Voyager",
+      {
+        "salt": 0.4
+      },
+      0.4
+    ],
+    [
+      "Cassian the Clerk",
+      {
+        "ledger": 3.0,
+        "salt": 0.1
+      },
+      3.1
+    ]
+  ]
+}

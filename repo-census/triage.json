@@ -1,0 +1,7270 @@
+[
+ {
+  "name": "aabb-collision",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "Axis-Aligned Bounding Box collision detection \u2014 O(1) overlap tests for game physics and spatial partitioning",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "ackermann-function",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "Ackermann function \u2014 the canonical example of a total computable, non-primitive-recursive function",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "activation-fn",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "Neural network activation functions (ReLU, GELU, SwiGLU, sigmoid) with forward and derivative implementations",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "activeledger-ai-site",
+  "lang": "HTML",
+  "size_kb": 235,
+  "desc": "",
+  "pushed": "2026-08-13",
+  "topics": [],
+  "default": "master",
+  "license": "MIT",
+  "files": 13,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".json",
+    4
+   ],
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".md",
+    1
+   ],
+   [
+    ".png",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "activelog-ai-site",
+  "lang": "HTML",
+  "size_kb": 228,
+  "desc": "",
+  "pushed": "2026-08-13",
+  "topics": [],
+  "default": "master",
+  "license": "MIT",
+  "files": 14,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".json",
+    4
+   ],
+   [
+    ".js",
+    3
+   ],
+   [
+    ".yml",
+    1
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "actor-dispatcher",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "Actor model message dispatcher with round-robin, hash-based, and content-based routing strategies",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "actor-pool",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "Bounded worker actor pool with work-stealing and graceful shutdown \u2014 concurrent processing without shared state",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "actor-router",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "Actor router with broadcast, random, consistent-hash, and scatter-gather strategies for horizontal scaling",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "actor-supervisor",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "Actor supervision strategies (OneForOne, AllForOne, RestForOne) with configurable restart and backoff",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "actor-system",
+  "lang": "Rust",
+  "size_kb": 8,
+  "desc": "Actor system runtime \u2014 creation, scheduling, addressing, and lifecycle management for millions of lightweight actors",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "agent-memory",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "Three-tier memory for AI agents: short-term (LRU), working (KV store), and long-term (vector-indexed semantic retrieval)",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "ai-writings-vectorizer",
+  "lang": "Python",
+  "size_kb": 20824,
+  "desc": "",
+  "pushed": "2026-08-17",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 5,
+  "readme": null,
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".pyc",
+    1
+   ],
+   [
+    ".json",
+    1
+   ],
+   [
+    ".png",
+    1
+   ],
+   [
+    ".log",
+    1
+   ],
+   [
+    ".py",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "albanese-variety",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "Albanese variety computation in algebraic geometry \u2014 the universal morphism target to an abelian variety",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "anomaly-detect",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "Anomaly detection: statistical (z-score, IQR), distance-based (LOF), and time-series (STL) detectors",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "archive-writer",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for Archive Writer",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".md",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "ast-diff",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for Ast Diff",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "ast-visitor",
+  "lang": "Rust",
+  "size_kb": 8,
+  "desc": "A Rust library for Ast Visitor",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".md",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "audio-mixer",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for Audio Mixer",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "audit-log",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Audit Log",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "audit-trail",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Audit_trail",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "avl-tree",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "Self-balancing AVL tree \u2014 O(log n) search/insert/delete with height-balanced rotations (Adelson-Velsky & Landis, 1962)",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "avro-codec",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Avro Codec",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "b-tree-segment",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for B Tree Segment",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "backgammon-roll",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for Backgammon Roll",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "backpressure-regulator",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "Backpressure regulation \u2014 bounded queues with adaptive flow control to handle producer/consumer rate mismatch",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "base58-check",
+  "lang": "Rust",
+  "size_kb": 8,
+  "desc": "Base58Check encoding \u2014 Bitcoin-style base58 with version byte and double-SHA256 checksum",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "baton-system",
+  "lang": "Shell",
+  "size_kb": 648,
+  "desc": "I2I coordination hub \u2014 tripartite baton protocol, fleet state, git-agent",
+  "pushed": "2026-06-16",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 126,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [
+   "docs/META-MIRROR.md"
+  ],
+  "ext": [
+   [
+    ".md",
+    117
+   ],
+   [
+    ".sh",
+    6
+   ],
+   [
+    ".spline",
+    2
+   ],
+   [
+    ".baton",
+    1
+   ]
+  ],
+  "RISK": "BULK"
+ },
+ {
+  "name": "bayesian-inference",
+  "lang": "Rust",
+  "size_kb": 8,
+  "desc": "Bayesian inference engine \u2014 posterior update, conjugate priors, and MCMC sampling for probabilistic reasoning",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "bch-code",
+  "lang": "Rust",
+  "size_kb": 8,
+  "desc": "BCH error-correcting codes \u2014 cyclic codes with configurable error correction capability for noisy channels",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "bech32-encode",
+  "lang": "Rust",
+  "size_kb": 8,
+  "desc": "Bech32 encoding \u2014 BIP-173 checksummed encoding for SegWit addresses",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "bench-runner",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Bench Runner",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "beta-test-framework",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for Beta Test Framework",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "betti-number",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for Betti Number",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "bip32-derived",
+  "lang": "Rust",
+  "size_kb": 8,
+  "desc": "BIP32 hierarchical deterministic key derivation \u2014 child key generation from parent extended keys",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "blake2-tree",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "BLAKE2 hash tree \u2014 parallelizable cryptographic hashing with Merkle tree authentication",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "blake3-hash",
+  "lang": "Rust",
+  "size_kb": 8,
+  "desc": "BLAKE3 cryptographic hash \u2014 tree-based, SIMD-accelerated, XOF mode",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "blame-tracker",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "Git blame tracker \u2014 maps code lines to commits with blame propagation across refactors",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "bloom-filter",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "Space-efficient probabilistic set membership \u2014 ~10 bits/element for 1% false positive rate",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "bloom-filter-extended",
+  "lang": "Rust",
+  "size_kb": 10,
+  "desc": "Extended Bloom filter with counting support \u2014 deletable entries via counter arrays",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "bloom-filter-scalable",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "Scalable Bloom filter \u2014 grows dynamically while maintaining a target false positive rate",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "bplus-tree",
+  "lang": "Rust",
+  "size_kb": 11,
+  "desc": "B+ tree index \u2014 the standard database index structure with high fanout, leaf-linked lists, and O(log n) operations",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "branch-prediction",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "Branch prediction simulation \u2014 Bimodal, GShare, and Perceptron predictors for pipeline optimization analysis",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "brownian-motion",
+  "lang": "Rust",
+  "size_kb": 8,
+  "desc": "Brownian motion / Wiener process simulation \u2014 stochastic differential equations for financial and physical modeling",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "bulkhead-pattern",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Bulkhead Pattern",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "bytecode-gen",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "Bytecode generator \u2014 emits VM instructions from typed AST for stack-based and register-based VMs",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "cache-hierarchy",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "Multi-level cache hierarchy simulator \u2014 L1/L2/L3 with configurable associativity, eviction, and coherence",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "canary-release",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "Canary release coordinator \u2014 gradual traffic shifting with automatic rollback on error rate threshold",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "canonical-form",
+  "lang": "Rust",
+  "size_kb": 8,
+  "desc": "A Rust library for Canonical Form",
+  "pushed": "2026-09-20",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".md",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "capnp-schema",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Capnp Schema",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "cauchy-distribution",
+  "lang": "Rust",
+  "size_kb": 8,
+  "desc": "A Rust library for Cauchy Distribution",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "cell-automaton",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for Cell Automaton",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "cellular-automata",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for Cellular Automata",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "cfg-analyzer",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for Cfg_analyzer",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "cgroup-monitor",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "Linux cgroup v2 monitor and resource usage scanner",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "change-point",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Change Point",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "channel-model",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Channel Model",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "clip-quantize",
+  "lang": "Rust",
+  "size_kb": 8,
+  "desc": "A Rust library for Clip Quantize",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "codegen-llvm",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Codegen Llvm",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "coff-parser",
+  "lang": "Rust",
+  "size_kb": 4,
+  "desc": "A Rust library for Coff Parser",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "columnar-store",
+  "lang": "Rust",
+  "size_kb": 4,
+  "desc": "Columnar storage engine \u2014 Apache Parquet-style columnar format with compression and predicate pushdown",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "compliance-check",
+  "lang": "Rust",
+  "size_kb": 4,
+  "desc": "A Rust library for Compliance_check",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "composite-metric",
+  "lang": "Rust",
+  "size_kb": 4,
+  "desc": "A Rust library for Composite Metric",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "conductor",
+  "lang": "Python",
+  "size_kb": 25,
+  "desc": "Agent routing layer for multi-agent systems",
+  "pushed": "2026-08-11",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 11,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".py",
+    8
+   ],
+   [
+    ".md",
+    1
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".yaml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "config-center",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "Centralized configuration management \u2014 hot reload, environment overlays, and version rollback",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 9,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".md",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "config-layer",
+  "lang": "Rust",
+  "size_kb": 28,
+  "desc": "Layered configuration management for Rust applications",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "config-watch",
+  "lang": "Rust",
+  "size_kb": 30,
+  "desc": "File watcher for dynamic configuration reloading",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "conflict-detector",
+  "lang": "Rust",
+  "size_kb": 4,
+  "desc": "A Rust library for Conflict Detector",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "congestion-controller",
+  "lang": "Rust",
+  "size_kb": 4,
+  "desc": "TCP-style congestion control \u2014 additive increase, multiplicative decrease with BBR-style bandwidth probing",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "consul-client",
+  "lang": "Rust",
+  "size_kb": 15,
+  "desc": "Consul service discovery client \u2014 health checking, KV store, and service mesh integration",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "container-runtime",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Container Runtime",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "count-min-sketch",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "Count-Min Sketch \u2014 sublinear space frequency estimation with probabilistic error bounds",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "covers",
+  "lang": null,
+  "size_kb": 284596,
+  "desc": "ACE-Step cover song experiments",
+  "pushed": "2026-08-21",
+  "topics": [],
+  "default": "master",
+  "license": "MIT",
+  "files": 152,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".mp3",
+    91
+   ],
+   [
+    ".wav",
+    37
+   ],
+   [
+    ".txt",
+    9
+   ],
+   [
+    ".md",
+    5
+   ],
+   [
+    ".json",
+    4
+   ]
+  ],
+  "RISK": "BULK"
+ },
+ {
+  "name": "cqrs-framework",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Cqrs Framework",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "crdt-gcounter",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for Crdt Gcounter",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "crdt-gset",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for Crdt Gset",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "crdt-lwwreg",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for Crdt Lwwreg",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "crdt-orset",
+  "lang": "Rust",
+  "size_kb": 4,
+  "desc": "A Rust library for Crdt Orset",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "crdt-pnvector",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for Crdt Pnvector",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "credential-store",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Credential Store",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "cribbage-scoring",
+  "lang": "Rust",
+  "size_kb": 8,
+  "desc": "A Rust library for Cribbage Scoring",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "cuckoo-filter",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Cuckoo Filter",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "dag-runner",
+  "lang": "Rust",
+  "size_kb": 4,
+  "desc": "A Rust library for Dag Runner",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "dashboard-render",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Dashboard Render",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "datadog-forwarder",
+  "lang": "Rust",
+  "size_kb": 3,
+  "desc": "A Rust library for Datadog Forwarder",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "ci/add-github-actions",
+  "license": null,
+  "files": 6,
+  "readme": null,
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".rs",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "dataflow-analysis",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Dataflow_analysis",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "debug-dwarf",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for Debug Dwarf",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "deckboss-site",
+  "lang": "HTML",
+  "size_kb": 19,
+  "desc": "",
+  "pushed": "2026-09-17",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".html",
+    5
+   ],
+   [
+    ".json",
+    2
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "delaunay-triangulation",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Delaunay Triangulation",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "deployment-rollback",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Deployment Rollback",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "diff-merge",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Diff Merge",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "diff-myers",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Diff Myers",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "diff-patch",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Diff Patch",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "diff-patience",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Diff Patience",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "diff-three-way",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Diff Three Way",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "diffusion-model",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Diffusion Model",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "dirichlet-process",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for Dirichlet Process",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "disjoint-set",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Disjoint Set",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "document-store",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Document Store",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "ed25519-bip44",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Ed25519 Bip44",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "eigenvalue-solver",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Eigenvalue Solver",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "elf-parser",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Elf Parser",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "elliptic-curve-weierstrass",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Elliptic Curve Weierstrass",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "energy-budget",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "Energy budget calculation and tracking utilities",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "entropy-flow-rs",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Entropy Flow Rs",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "entropy-gradient",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Entropy Gradient",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "epoll-wrapper",
+  "lang": "Rust",
+  "size_kb": 4,
+  "desc": "High-level safe wrapper around Linux epoll",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "etcd-client",
+  "lang": "Rust",
+  "size_kb": 14,
+  "desc": "Async etcd v3 gRPC-style client for distributed coordination",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "ci/add-github-actions",
+  "license": null,
+  "files": 6,
+  "readme": null,
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".rs",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "euler-lagrange",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Euler Lagrange",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "eureka-client",
+  "lang": "Rust",
+  "size_kb": 15,
+  "desc": "Netflix Eureka REST client for service registration and discovery",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "event-sourcing",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Event Sourcing",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "exception-handler",
+  "lang": "Rust",
+  "size_kb": 4,
+  "desc": "A Rust library for Exception Handler",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "expr-bytecode",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Expr Bytecode",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "expr-eval",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Expr Eval",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "expr-optimize",
+  "lang": "Rust",
+  "size_kb": 8,
+  "desc": "A Rust library for Expr Optimize",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "expr-parser",
+  "lang": "Rust",
+  "size_kb": 8,
+  "desc": "A Rust library for Expr Parser",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "expr-typecheck",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Expr Typecheck",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "falcon-7b-tools",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for Falcon 7b Tools",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "falcon-hash",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "Falcon hash: FNV-1a rolling hash and hash combiner utilities",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "fallback-strategy",
+  "lang": "Rust",
+  "size_kb": 4,
+  "desc": "A Rust library for Fallback Strategy",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "feature-flag",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for Feature Flag",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 9,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".md",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "feedback-engine",
+  "lang": "JavaScript",
+  "size_kb": 4,
+  "desc": "Feedback processing and recommendation engine",
+  "pushed": "2026-08-11",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 6,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".js",
+    2
+   ],
+   [
+    ".toml",
+    2
+   ],
+   [
+    ".md",
+    1
+   ],
+   [
+    ".json",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "feigenbaum-constant",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for Feigenbaum Constant",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "fenwick-tree",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for Fenwick_tree",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "fiber-bundle",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for Fiber_bundle",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "fibonacci-heap",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Fibonacci Heap",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "fisher-information",
+  "lang": "Rust",
+  "size_kb": 8,
+  "desc": "A Rust library for Fisher Information",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "fishinglog-ai-site",
+  "lang": "JavaScript",
+  "size_kb": 395,
+  "desc": "",
+  "pushed": "2026-08-13",
+  "topics": [],
+  "default": "master",
+  "license": "MIT",
+  "files": 16,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".json",
+    4
+   ],
+   [
+    ".js",
+    3
+   ],
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "flac-decoder",
+  "lang": "Rust",
+  "size_kb": 8,
+  "desc": "A Rust library for Flac Decoder",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "flatbuf-gen",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Flatbuf Gen",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "fleet-connections",
+  "lang": "TypeScript",
+  "size_kb": 173,
+  "desc": "The integration keel wiring 7 fleet repos together",
+  "pushed": "2026-08-21",
+  "topics": [],
+  "default": "main",
+  "license": "MIT",
+  "files": 46,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [
+   "src/connections/04-cu-corpus.ts",
+   "src/connections/10-corpus-vectorizer-bridge.ts",
+   "src/tests/10-corpus-vectorizer-bridge.test.ts"
+  ],
+  "ext": [
+   [
+    ".ts",
+    26
+   ],
+   [
+    ".md",
+    13
+   ],
+   [
+    ".json",
+    3
+   ],
+   [
+    ".yml",
+    1
+   ],
+   [
+    "",
+    1
+   ]
+  ],
+  "RISK": "BULK"
+ },
+ {
+  "name": "fleet-rooms",
+  "lang": "Python",
+  "size_kb": 201,
+  "desc": "fleet-rooms: the runtime keel \u2014 glue repo (field_score.py :4073/field \u2192 JSONL MIDI spool; demo.sh one command; fleet-doctor)",
+  "pushed": "2026-08-21",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 25,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".py",
+    7
+   ],
+   [
+    ".json",
+    5
+   ],
+   [
+    ".md",
+    3
+   ],
+   [
+    ".service",
+    3
+   ],
+   [
+    ".jpg",
+    2
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "fleet-weather-agent",
+  "lang": "Python",
+  "size_kb": 8,
+  "desc": "Weather agent built/tested via Codespaces offload",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".md",
+    2
+   ],
+   [
+    ".json",
+    1
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".py",
+    1
+   ],
+   [
+    ".sh",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "floer-homology",
+  "lang": "Rust",
+  "size_kb": 7,
+  "desc": "A Rust library for Floer_homology",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "font-rasterizer",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Font Rasterizer",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "fourier-optics",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Fourier Optics",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "fragment-reassembler",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Fragment Reassembler",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "frame-alloc",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Frame Alloc",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".new",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "fredholm-equation",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Fredholm Equation",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "frobenius-norm",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Frobenius Norm",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "fundamental-group",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Fundamental Group",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "fuzz-engine",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Fuzz Engine",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "gauss-markov",
+  "lang": "Rust",
+  "size_kb": 8,
+  "desc": "A Rust library for Gauss Markov",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "geohash-encoder",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Geohash Encoder",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "ghost-ledger",
+  "lang": "HTML",
+  "size_kb": 144,
+  "desc": "Public session gallery and artifact compression",
+  "pushed": "2026-08-11",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".py",
+    2
+   ],
+   [
+    ".md",
+    1
+   ],
+   [
+    ".js",
+    1
+   ],
+   [
+    ".html",
+    1
+   ],
+   [
+    ".json",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "gibbs-phenomenon",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Gibbs Phenomenon",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "go-gtp",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Go Gtp",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "godel-number",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Godel_number",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "gossip-member",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Gossip Member",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "gossip-ping",
+  "lang": "Rust",
+  "size_kb": 118,
+  "desc": "A Rust library for Gossip Ping",
+  "pushed": "2026-08-21",
+  "topics": [],
+  "default": "master",
+  "license": "MIT",
+  "files": 13,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".rs",
+    4
+   ],
+   [
+    ".yml",
+    2
+   ],
+   [
+    ".md",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "gossip-seed",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Gossip Seed",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "gossip-suspicion",
+  "lang": "Rust",
+  "size_kb": 5,
+  "desc": "A Rust library for Gossip Suspicion",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "graph-astar",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Graph Astar",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "graph-bellman-ford",
+  "lang": "Rust",
+  "size_kb": 6,
+  "desc": "A Rust library for Graph Bellman Ford",
+  "pushed": "2026-06-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 7,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "headspace-rs",
+  "lang": "Rust",
+  "size_kb": 31,
+  "desc": "ARM-optimized vector embedding sidecar for headspace",
+  "pushed": "2026-06-15",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 9,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".toml",
+    2
+   ],
+   [
+    ".rs",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".lock",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "hermes-ob1-core",
+  "lang": "Python",
+  "size_kb": 17362,
+  "desc": "Hermes Digital Provenance \u2014 the Hermit Crab shell",
+  "pushed": "2026-08-13",
+  "topics": [],
+  "default": "master",
+  "license": "MIT",
+  "files": 177,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [
+   "cns-archive/cns_communication_protocol.md",
+   "cns-archive/cns_heartbeat.log",
+   "cns-archive/lucineer-main_2026-08-09T020500_182.uscp.json",
+   "cns-archive/lucineer-riker_2026-08-09T012100_180.uscp.json",
+   "cns-archive/lucineer-riker_2026-08-09T015100_181.uscp.json"
+  ],
+  "ext": [
+   [
+    ".json",
+    130
+   ],
+   [
+    ".jpg",
+    16
+   ],
+   [
+    ".md",
+    15
+   ],
+   [
+    ".py",
+    5
+   ],
+   [
+    ".mp3",
+    4
+   ]
+  ],
+  "RISK": "BULK"
+ },
+ {
+  "name": "kennel",
+  "lang": "Python",
+  "size_kb": 16,
+  "desc": "Kennel: model lifecycle management for Working Animal Architecture",
+  "pushed": "2026-07-12",
+  "topics": [],
+  "default": "main",
+  "license": "MIT",
+  "files": 8,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".py",
+    5
+   ],
+   [
+    ".md",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "knowledge-graph",
+  "lang": "Python",
+  "size_kb": 2,
+  "desc": "Recursive vectorized idea graph for institutional knowledge",
+  "pushed": "2026-08-11",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 3,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".py",
+    2
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "lexical-substrate",
+  "lang": "JavaScript",
+  "size_kb": 6,
+  "desc": "",
+  "pushed": "2026-09-23",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 5,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".js",
+    2
+   ],
+   [
+    ".yml",
+    1
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "luciddreamer",
+  "lang": "HTML",
+  "size_kb": 26,
+  "desc": "Meta-package: auto-assembling modular AI broadcasting platform",
+  "pushed": "2026-09-24",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 4,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".json",
+    2
+   ],
+   [
+    ".md",
+    1
+   ],
+   [
+    ".html",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "luciddreamer-content",
+  "lang": "TypeScript",
+  "size_kb": 126325,
+  "desc": "",
+  "pushed": "2026-08-14",
+  "topics": [],
+  "default": "master",
+  "license": "MIT",
+  "files": 408,
+  "readme": "README.md",
+  "secret_files": [
+   "vessel/apps/webuiapps/.env.example"
+  ],
+  "bulk_files": [
+   "episodes/radio-02-mirror-on-the-wall.md"
+  ],
+  "ext": [
+   [
+    ".wav",
+    105
+   ],
+   [
+    ".md",
+    102
+   ],
+   [
+    ".ts",
+    62
+   ],
+   [
+    ".png",
+    26
+   ],
+   [
+    ".mp3",
+    20
+   ]
+  ],
+  "RISK": "SECRETS"
+ },
+ {
+  "name": "luciddreamer-prototype",
+  "lang": "Python",
+  "size_kb": 13956,
+  "desc": "LucidDreamer.AI \u2014 prototype and research",
+  "pushed": "2026-08-21",
+  "topics": [],
+  "default": "main",
+  "license": "MIT",
+  "files": 1050,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [
+   "corpus-index/.gitignore",
+   "corpus-index/README.md",
+   "corpus-index/corpus_query.py",
+   "corpus-index/morning_digest.py",
+   "corpus-index/tests/__init__.py"
+  ],
+  "ext": [
+   [
+    ".py",
+    365
+   ],
+   [
+    ".md",
+    323
+   ],
+   [
+    ".json",
+    75
+   ],
+   [
+    ".tsx",
+    65
+   ],
+   [
+    "",
+    35
+   ]
+  ],
+  "RISK": "BULK"
+ },
+ {
+  "name": "lucineer-com-site",
+  "lang": "HTML",
+  "size_kb": 86175,
+  "desc": "",
+  "pushed": "2026-08-13",
+  "topics": [],
+  "default": "master",
+  "license": "MIT",
+  "files": 86,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".png",
+    46
+   ],
+   [
+    ".mp3",
+    13
+   ],
+   [
+    ".jpg",
+    6
+   ],
+   [
+    ".js",
+    6
+   ],
+   [
+    ".html",
+    4
+   ]
+  ],
+  "RISK": "BULK"
+ },
+ {
+  "name": "magda-core-study",
+  "lang": null,
+  "size_kb": 0,
+  "desc": "",
+  "pushed": "2026-09-25",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 0,
+  "readme": null,
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [],
+  "RISK": "EMPTY"
+ },
+ {
+  "name": "morphic-canvas",
+  "lang": "JavaScript",
+  "size_kb": 67,
+  "desc": "",
+  "pushed": "2026-09-23",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 29,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".js",
+    24
+   ],
+   [
+    ".md",
+    2
+   ],
+   [
+    ".yml",
+    1
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".html",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "moth-jev-lab",
+  "lang": "Python",
+  "size_kb": 20,
+  "desc": "",
+  "pushed": "2026-09-23",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 16,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".py",
+    11
+   ],
+   [
+    ".yml",
+    1
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".md",
+    1
+   ],
+   [
+    ".toml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "mud-engine",
+  "lang": "TypeScript",
+  "size_kb": 340,
+  "desc": "MUD Engine \u2014 2026-native multi-agent MUD architecture",
+  "pushed": "2026-08-21",
+  "topics": [],
+  "default": "main",
+  "license": "MIT",
+  "files": 122,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".ts",
+    68
+   ],
+   [
+    ".json",
+    23
+   ],
+   [
+    ".md",
+    17
+   ],
+   [
+    ".mjs",
+    6
+   ],
+   [
+    ".svg",
+    3
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "mud-terminal",
+  "lang": "JavaScript",
+  "size_kb": 18,
+  "desc": "Browser-based MUD terminal with character creation",
+  "pushed": "2026-08-11",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 6,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".json",
+    2
+   ],
+   [
+    ".md",
+    1
+   ],
+   [
+    ".js",
+    1
+   ],
+   [
+    ".html",
+    1
+   ],
+   [
+    ".css",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "plato-room-code-review",
+  "lang": "Python",
+  "size_kb": 130,
+  "desc": "PLATO Code Review Room \u2014 automated code review as an engine block",
+  "pushed": "2026-07-20",
+  "topics": [
+   "automated-review",
+   "code-review",
+   "github-action",
+   "plato"
+  ],
+  "default": "main",
+  "license": "MIT",
+  "files": 26,
+  "readme": "README.md",
+  "secret_files": [
+   "plato_room_code_review/policies/no_secrets.flx"
+  ],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".py",
+    13
+   ],
+   [
+    ".flx",
+    5
+   ],
+   [
+    ".yml",
+    3
+   ],
+   [
+    ".md",
+    2
+   ],
+   [
+    "",
+    1
+   ]
+  ],
+  "RISK": "SECRETS"
+ },
+ {
+  "name": "player-widget",
+  "lang": "JavaScript",
+  "size_kb": 16,
+  "desc": "Embeddable streaming audio player widget",
+  "pushed": "2026-08-11",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 9,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".js",
+    3
+   ],
+   [
+    ".toml",
+    2
+   ],
+   [
+    ".md",
+    1
+   ],
+   [
+    ".html",
+    1
+   ],
+   [
+    ".json",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "quilt-deck",
+  "lang": "Python",
+  "size_kb": 145,
+  "desc": "",
+  "pushed": "2026-09-17",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 51,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [
+   "cosim/corpus/MANIFEST.md",
+   "cosim/corpus/fpga-divergence-2026-09-02/README.md",
+   "cosim/corpus/fpga-divergence-2026-09-02/cold.dump",
+   "cosim/corpus/fpga-divergence-2026-09-02/cold.egr",
+   "cosim/corpus/fpga-divergence-2026-09-02/cold.egr.xzero-init"
+  ],
+  "ext": [
+   [
+    ".py",
+    19
+   ],
+   [
+    ".md",
+    11
+   ],
+   [
+    ".c",
+    3
+   ],
+   [
+    ".dump",
+    2
+   ],
+   [
+    ".egr",
+    2
+   ]
+  ],
+  "RISK": "BULK"
+ },
+ {
+  "name": "quilt-dpcpp",
+  "lang": null,
+  "size_kb": 0,
+  "desc": "",
+  "pushed": "2026-09-17",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 0,
+  "readme": null,
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [],
+  "RISK": "EMPTY"
+ },
+ {
+  "name": "quilt-tournament",
+  "lang": null,
+  "size_kb": 278,
+  "desc": "",
+  "pushed": "2026-09-17",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 69,
+  "readme": null,
+  "secret_files": [],
+  "bulk_files": [
+   "scouts/STIR-06.archived-20260904-split-tally"
+  ],
+  "ext": [
+   [
+    ".md",
+    67
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".archived-20260904-split-tally",
+    1
+   ]
+  ],
+  "RISK": "BULK"
+ },
+ {
+  "name": "repo-docs",
+  "lang": null,
+  "size_kb": 3237,
+  "desc": "Comprehensive documentation index of the SuperInstance ecosystem \u2014 4,098 repos analyzed",
+  "pushed": "2026-07-12",
+  "topics": [],
+  "default": "main",
+  "license": "MIT",
+  "files": 3288,
+  "readme": "README.md",
+  "secret_files": [
+   "repos/misc/other-secret-manager.md",
+   "repos/misc/other-secret-scanner.md",
+   "repos/misc/other-secret-share.md",
+   "repos/misc/other-secret-sharing.md",
+   "repos/ternary-math/ternary-ternary-secret-share.md"
+  ],
+  "bulk_files": [
+   "docs/04-shipping-log/WIKI-ARCHIVED.md",
+   "repos/constraint-theory/constraint-constraint-theory-backup.md",
+   "repos/edge-embedded/edge-openmind-mirror.md",
+   "repos/lau-mathematics/other-lau-mirror-control.md",
+   "repos/lau-mathematics/other-lau-mirror-symmetry.md"
+  ],
+  "ext": [
+   [
+    ".md",
+    3280
+   ],
+   [
+    ".txt",
+    6
+   ],
+   [
+    "",
+    1
+   ]
+  ],
+  "RISK": "SECRETS"
+ },
+ {
+  "name": "research-lab",
+  "lang": "Python",
+  "size_kb": 14,
+  "desc": "",
+  "pushed": "2026-08-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 13,
+  "readme": null,
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".md",
+    9
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".log",
+    1
+   ],
+   [
+    ".py",
+    1
+   ],
+   [
+    ".json",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "researchlocal-backup",
+  "lang": "Python",
+  "size_kb": 45007,
+  "desc": "",
+  "pushed": "2026-08-21",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 6978,
+  "readme": "README.md",
+  "secret_files": [
+   "hermes-construct/hermes-construct/.env.example",
+   "hermes-construct/hermes-construct/agent/credential_persistence.py",
+   "hermes-construct/hermes-construct/agent/credential_pool.py",
+   "hermes-construct/hermes-construct/agent/credential_sources.py",
+   "hermes-construct/hermes-construct/agent/secret_sources/__init__.py",
+   "hermes-construct/hermes-construct/agent/secret_sources/bitwarden.py",
+   "hermes-construct/hermes-construct/hermes_cli/secret_prompt.py",
+   "hermes-construct/hermes-construct/hermes_cli/secrets_cli.py"
+  ],
+  "bulk_files": [
+   "hermes-construct/hermes-construct/agent/curator_backup.py",
+   "hermes-construct/hermes-construct/gateway/mirror.py",
+   "hermes-construct/hermes-construct/hermes_cli/backup.py",
+   "hermes-construct/hermes-construct/hermes_cli/dump.py",
+   "hermes-construct/hermes-construct/optional-skills/mlops/simpo/references/datasets.md"
+  ],
+  "ext": [
+   [
+    ".md",
+    3374
+   ],
+   [
+    ".py",
+    2294
+   ],
+   [
+    ".ts",
+    389
+   ],
+   [
+    ".rs",
+    124
+   ],
+   [
+    ".json",
+    108
+   ]
+  ],
+  "RISK": "SECRETS"
+ },
+ {
+  "name": "roblox-beatclock",
+  "lang": "Lua",
+  "size_kb": 72,
+  "desc": "",
+  "pushed": "2026-08-21",
+  "topics": [],
+  "default": "main",
+  "license": "MIT",
+  "files": 23,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".md",
+    9
+   ],
+   [
+    ".lua",
+    9
+   ],
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".json",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "roblox-bond-system",
+  "lang": "Lua",
+  "size_kb": 77,
+  "desc": "",
+  "pushed": "2026-08-21",
+  "topics": [],
+  "default": "master",
+  "license": "MIT",
+  "files": 23,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".md",
+    9
+   ],
+   [
+    ".lua",
+    9
+   ],
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".json",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "roblox-builder-kit",
+  "lang": "Lua",
+  "size_kb": 47,
+  "desc": "",
+  "pushed": "2026-08-13",
+  "topics": [],
+  "default": "main",
+  "license": "MIT",
+  "files": 18,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".lua",
+    8
+   ],
+   [
+    ".md",
+    5
+   ],
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".json",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "roblox-filtergate",
+  "lang": "Lua",
+  "size_kb": 64,
+  "desc": "",
+  "pushed": "2026-08-21",
+  "topics": [],
+  "default": "master",
+  "license": "MIT",
+  "files": 21,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".lua",
+    9
+   ],
+   [
+    ".md",
+    7
+   ],
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".json",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "scrapcraft-roblox-bible",
+  "lang": "JavaScript",
+  "size_kb": 189,
+  "desc": "",
+  "pushed": "2026-08-23",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 67,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [
+   "tools/dump-textures.mjs",
+   "tools/texdump.log"
+  ],
+  "ext": [
+   [
+    ".json",
+    40
+   ],
+   [
+    ".png",
+    18
+   ],
+   [
+    ".md",
+    5
+   ],
+   [
+    ".mjs",
+    3
+   ],
+   [
+    ".log",
+    1
+   ]
+  ],
+  "RISK": "BULK"
+ },
+ {
+  "name": "si-conductor",
+  "lang": "Python",
+  "size_kb": 24,
+  "desc": "Agent routing layer for multi-agent systems",
+  "pushed": "2026-08-11",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 13,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".py",
+    10
+   ],
+   [
+    ".md",
+    1
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".yaml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "si-feedback",
+  "lang": "JavaScript",
+  "size_kb": 4,
+  "desc": "Feedback processing and recommendation engine",
+  "pushed": "2026-08-11",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 6,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".js",
+    2
+   ],
+   [
+    ".toml",
+    2
+   ],
+   [
+    ".md",
+    1
+   ],
+   [
+    ".json",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "si-ghost-ledger",
+  "lang": null,
+  "size_kb": 0,
+  "desc": "Public session gallery and artifact compression",
+  "pushed": "2026-08-11",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 1,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "EMPTY"
+ },
+ {
+  "name": "si-knowledge-base",
+  "lang": "Python",
+  "size_kb": 33,
+  "desc": "A recursive idea graph that grows smarter as you feed it",
+  "pushed": "2026-08-11",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 10,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".py",
+    9
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "si-knowledge-graph",
+  "lang": null,
+  "size_kb": 0,
+  "desc": "Recursive vectorized idea graph for institutional knowledge",
+  "pushed": "2026-08-11",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 1,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "EMPTY"
+ },
+ {
+  "name": "si-player",
+  "lang": "JavaScript",
+  "size_kb": 16,
+  "desc": "Embeddable streaming audio player widget",
+  "pushed": "2026-08-11",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 9,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".js",
+    3
+   ],
+   [
+    ".toml",
+    2
+   ],
+   [
+    ".md",
+    1
+   ],
+   [
+    ".html",
+    1
+   ],
+   [
+    ".json",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "si-research",
+  "lang": null,
+  "size_kb": 6,
+  "desc": "",
+  "pushed": "2026-08-13",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 4,
+  "readme": null,
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".md",
+    3
+   ],
+   [
+    "",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "si-sonic-shape",
+  "lang": "Python",
+  "size_kb": 22,
+  "desc": "Confidence-to-music mapping engine",
+  "pushed": "2026-08-11",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 9,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".py",
+    8
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "si-streamer",
+  "lang": "Python",
+  "size_kb": 22,
+  "desc": "Audio streaming muxer with scheduling and crossfades",
+  "pushed": "2026-08-11",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 13,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".py",
+    11
+   ],
+   [
+    ".md",
+    1
+   ],
+   [
+    ".yaml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "si-terminal",
+  "lang": "JavaScript",
+  "size_kb": 18,
+  "desc": "Browser-based MUD terminal with character creation",
+  "pushed": "2026-08-11",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 6,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".json",
+    2
+   ],
+   [
+    ".md",
+    1
+   ],
+   [
+    ".js",
+    1
+   ],
+   [
+    ".html",
+    1
+   ],
+   [
+    ".css",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "slackwater-art-spectrum",
+  "lang": "Python",
+  "size_kb": 68064,
+  "desc": "",
+  "pushed": "2026-08-13",
+  "topics": [],
+  "default": "main",
+  "license": "MIT",
+  "files": 123,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".png",
+    57
+   ],
+   [
+    ".jpg",
+    44
+   ],
+   [
+    ".py",
+    9
+   ],
+   [
+    ".mp3",
+    5
+   ],
+   [
+    ".md",
+    3
+   ]
+  ],
+  "RISK": "BULK"
+ },
+ {
+  "name": "slackwater-cognition",
+  "lang": "Python",
+  "size_kb": 238,
+  "desc": "",
+  "pushed": "2026-08-13",
+  "topics": [],
+  "default": "master",
+  "license": "MIT",
+  "files": 67,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".py",
+    42
+   ],
+   [
+    ".md",
+    11
+   ],
+   [
+    ".jsonl",
+    4
+   ],
+   [
+    ".yml",
+    2
+   ],
+   [
+    "",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "sonic-shape",
+  "lang": "Python",
+  "size_kb": 2,
+  "desc": "Confidence-to-music mapping engine",
+  "pushed": "2026-08-11",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 3,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".py",
+    2
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "streamer",
+  "lang": "Python",
+  "size_kb": 3,
+  "desc": "Audio streaming muxer with scheduling and crossfades",
+  "pushed": "2026-08-11",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 4,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".py",
+    2
+   ],
+   [
+    ".md",
+    1
+   ],
+   [
+    ".yaml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "svelte-quilt",
+  "lang": "JavaScript",
+  "size_kb": 33,
+  "desc": "",
+  "pushed": "2026-09-17",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 18,
+  "readme": null,
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".js",
+    10
+   ],
+   [
+    ".json",
+    3
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".html",
+    1
+   ],
+   [
+    ".svg",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "sweep",
+  "lang": null,
+  "size_kb": 4,
+  "desc": "",
+  "pushed": "2026-09-25",
+  "topics": [],
+  "default": "master",
+  "license": null,
+  "files": 2,
+  "readme": null,
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    "",
+    1
+   ],
+   [
+    ".md",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "template-fleet-agent",
+  "lang": "Python",
+  "size_kb": 7,
+  "desc": "Template for fleet agent repos with devcontainer",
+  "pushed": "2026-06-09",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 5,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".json",
+    1
+   ],
+   [
+    ".md",
+    1
+   ],
+   [
+    ".py",
+    1
+   ],
+   [
+    ".sh",
+    1
+   ],
+   [
+    ".txt",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "the-living-minds",
+  "lang": "JavaScript",
+  "size_kb": 312,
+  "desc": "",
+  "pushed": "2026-08-21",
+  "topics": [],
+  "default": "master",
+  "license": "MIT",
+  "files": 201,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".md",
+    184
+   ],
+   [
+    ".json",
+    5
+   ],
+   [
+    ".tin",
+    5
+   ],
+   [
+    ".py",
+    2
+   ],
+   [
+    ".yml",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "tminus-os",
+  "lang": "Python",
+  "size_kb": 1211,
+  "desc": "Swarm coordination OS \u2014 wires the ecosystem into one .swarm/ directory",
+  "pushed": "2026-07-22",
+  "topics": [],
+  "default": "main",
+  "license": null,
+  "files": 118,
+  "readme": null,
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".md",
+    40
+   ],
+   [
+    ".py",
+    23
+   ],
+   [
+    ".pyc",
+    21
+   ],
+   [
+    ".js",
+    17
+   ],
+   [
+    ".json",
+    4
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "wesley-curriculum",
+  "lang": "Python",
+  "size_kb": 29,
+  "desc": "",
+  "pushed": "2026-08-21",
+  "topics": [],
+  "default": "master",
+  "license": "MIT",
+  "files": 10,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [],
+  "ext": [
+   [
+    ".md",
+    6
+   ],
+   [
+    ".yml",
+    1
+   ],
+   [
+    "",
+    1
+   ],
+   [
+    ".py",
+    1
+   ]
+  ],
+  "RISK": "OK"
+ },
+ {
+  "name": "wesley-journal",
+  "lang": null,
+  "size_kb": 96,
+  "desc": "Wesley's experiment journal \u2014 local model growth tracking",
+  "pushed": "2026-08-21",
+  "topics": [],
+  "default": "master",
+  "license": "MIT",
+  "files": 41,
+  "readme": "README.md",
+  "secret_files": [],
+  "bulk_files": [
+   "experiment-040-hermit-crab-mirror.md"
+  ],
+  "ext": [
+   [
+    ".md",
+    38
+   ],
+   [
+    ".yml",
+    1
+   ],
+   [
+    "",
+    1
+   ]
+  ],
+  "RISK": "BULK"
+ }
+]

@@ -1,0 +1,30 @@
+{
+ "repo": "activeledger-ai-site",
+ "swept_at": "2026-09-30T05:51:00Z",
+ "findings": [
+  {
+   "tool": "grep",
+   "kind": "low-entropy hex (cf account id, exactly 32)",
+   "group": "protocol",
+   "count": 2,
+   "excerpt": "049ff5\u2026aae6 (32 chars)"
+  }
+ ],
+ "ops": [
+  {
+   "kind": "email address",
+   "distinct": 3,
+   "samples": [
+    "Casey.digennaro@gmail.com",
+    "i@izs.me",
+    "lucineer@superinstance.dev"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 248682,
+  "gitleaks": 0,
+  "high_entropy_strings": 379
+ }
+}

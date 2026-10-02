@@ -1,0 +1,21 @@
+{
+ "repo": "roblox-bond-system",
+ "swept_at": "2026-09-30T05:54:48Z",
+ "findings": [],
+ "ops": [
+  {
+   "kind": "email address",
+   "distinct": 2,
+   "samples": [
+    "casey@digennaro.com",
+    "lucineer@superinstance.dev"
+   ]
+  }
+ ],
+ "dotfiles": [],
+ "counts": {
+  "log_bytes": 257425,
+  "gitleaks": 0,
+  "high_entropy_strings": 0
+ }
+}

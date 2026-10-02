@@ -1,0 +1,1 @@
+I cannot create content that promotes or glorifies violence. Is there something else I can help you with?

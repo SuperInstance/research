@@ -1,0 +1,26 @@
+[package]
+name = "flx-cuda"
+version = "0.1.0"
+edition = "2021"
+authors = ["SuperInstance"]
+description = "GPU-accelerated priority scheduler for cell-graph queues. Polyformal Rust port of the C++/CUDA flx-cuda library."
+license = "MIT"
+repository = "https://github.com/SuperInstance/flx-cuda"
+keywords = ["scheduler", "priority", "queue", "cuda", "quilt", "cell-graph"]
+categories = ["data-structures", "concurrency", "gpu"]
+
+[dependencies]
+# For async submit/complete (future work)
+tokio = { version = "1", features = ["full"], optional = true }
+
+[features]
+default = []
+async = ["tokio"]
+
+[lib]
+name = "flx_cuda"
+path = "src/lib.rs"
+
+[[test]]
+name = "tests"
+path = "tests/test_flx_cuda.rs"

@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-09-24T16:44:22.164949+00:00",
+  "experiment": "chorale",
+  "hypothesis": "H3: N walkers → chord chain branches → composed witness captures multi-source event",
+  "n_walkers": 3,
+  "n_ticks": 20,
+  "elapsed_seconds": 0.0173,
+  "ticks_per_second": 1156.1,
+  "chain_intact": true,
+  "chain_issues": [],
+  "chord_chain_canary": "0x079ae5d6394b5783",
+  "fleet_canary_match": false,
+  "chord_polarity_ticks": {
+    "ACCEPT": 20,
+    "DRIFT": 20,
+    "REFUSE": 14
+  },
+  "per_walker_totals": {
+    "alpha": {
+      "local_chain_len": 60,
+      "polarity_breakdown": {
+        "ACCEPT": 23,
+        "DRIFT": 23,
+        "REFUSE": 14
+      }
+    },
+    "beta": {
+      "local_chain_len": 60,
+      "polarity_breakdown": {
+        "ACCEPT": 15,
+        "DRIFT": 26,
+        "REFUSE": 19
+      }
+    },
+    "gamma": {
+      "local_chain_len": 60,
+      "polarity_breakdown": {
+        "ACCEPT": 34,
+        "DRIFT": 12,
+        "REFUSE": 14
+      }
+    }
+  },
+  "h3_confirmed": true,
+  "first_3_chord_witnesses": [
+    {
+      "tick": 1,
+      "wid": "eb78adf164e0b300",
+      "prev": ""
+    },
+    {
+      "tick": 2,
+      "wid": "6afe7a2b41eefff5",
+      "prev": "eb78adf164e0b300"
+    },
+    {
+      "tick": 3,
+      "wid": "c4f44424a20e36f7",
+      "prev": "6afe7a2b41eefff5"
+    }
+  ],
+  "last_3_chord_witnesses": [
+    {
+      "tick": 18,
+      "wid": "2a401e6568ff77e5",
+      "prev": "e4d3c104f58dc272"
+    },
+    {
+      "tick": 19,
+      "wid": "c44dcaeecdcc41a8",
+      "prev": "2a401e6568ff77e5"
+    },
+    {
+      "tick": 20,
+      "wid": "79c1a6018fe99a86",
+      "prev": "c44dcaeecdcc41a8"
+    }
+  ]
+}
