@@ -1,0 +1,37 @@
+{
+  "round": 1,
+  "iso": "2026-10-24T16:03:48Z",
+  "questions": [
+    {
+      "category": "speculative",
+      "q": "Is JEV the synaptic spike between cells?",
+      "p": 0.18,
+      "confidence": 0.18
+    },
+    {
+      "category": "cross",
+      "q": "Does the canon require multi-LLM agreement for promotion?",
+      "p": 0.09,
+      "confidence": 0.09
+    },
+    {
+      "category": "speculative",
+      "q": "Is the signal-chain framing canonical?",
+      "p": 0.32,
+      "confidence": 0.32
+    },
+    {
+      "category": "adversarial",
+      "q": "Are cells parameters, not scars?",
+      "p": 0.04,
+      "confidence": 0.04
+    },
+    {
+      "category": "cross",
+      "q": "Is substrate-canon validated by both JEV and writers' room?",
+      "p": 0.24,
+      "confidence": 0.24
+    }
+  ],
+  "latency_s": 0.14619946479797363
+}
