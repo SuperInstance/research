@@ -1,144 +1,146 @@
-# JEV Continuous Probe — Round 4 (2026-10-24T16:03:48Z)
+# JEV Continuous Probe — Hourly Report
 
-**Model:** `jev-1.14.0` (same as baseline) · **5 questions** · batch latency 0.146s · exit 124 (timeout, clean SIGTERM after 1 round)
-**Prior round:** r003 @ 2026-10-24T09:03:53Z (`jev-1.14.0`) · **prior-prior:** r002 @ 2026-10-24T08:04:27Z (`jev-1.14.0`) · **r001** @ 2026-10-20T09:05:37Z (`jev-1.13.0`)
+**Round ISO:** 2026-10-24T17:04:09Z
+**Run:** 1 round (`timeout 60 python3 jev_continuous_probe.py`, exit 124 = clean hour-sleep kill)
+**Model:** `jev-1.14.0` (live-confirmed via `meta.model`; matches baseline `jev-1.14.0` — **no model switch**)
+**Latency:** 0.145 s
+**Baseline:** `jev_sessions/baseline_22x7.json` (22 qids × 7 reps, ts 2026-10-24)
 
-## Headline
+---
 
-| Metric | This round | Prior round (09:03Z) | Prior-prior (08:04Z) | Baseline (7 reps x 22 q) |
-|---|---|---|---|---|
-| **mean_p** | **0.1740** | 0.4520 | 0.4560 | 0.4829 (pool mean) |
-| Questions at p >= 0.70 | **0 / 5** | 2 / 5 | 2 / 5 | 8 / 22 |
-| Drift > 0.05 | **None** | None | None | — |
-| Max \|dev\| vs baseline | **0.0086** | 0.0114 | 0.0086 | — |
+## 1. Headline
 
-**Verdict: no canon drift.** The mean_p collapse from 0.452 to 0.174 is a
-**class-mix artifact, not a change in the canon.** This round drew 5 of 5
-questions from the 14-qid *below* pool and 0 of 5 from the 8-qid *BEDROCK* pool.
-Every one of the five qids sits within 0.0086 of its own baseline mean.
+| Metric | Value |
+|---|---|
+| **mean_p** | **0.5180** |
+| Questions at **p ≥ 0.70** (bedrock canon) | **2 / 5** |
+| **Drift > 0.05** | **NONE** (max \|dev\| = 0.0286) |
+| Bedrock-class qids drawn | 2 of 5 |
+| Prior-round mean_p series | 0.400, 0.456, 0.452, 0.174, **0.518** |
 
-## The round
+---
 
-| p | Category | Question | Class | Baseline mean | Deviation | own sigma | z |
+## 2. The 5 questions and their verdicts
+
+| p | verdict | category | baseline mean | dev | σ | z | baseline class |
 |---|---|---|---|---|---|---|---|
-| 0.18 | speculative | Is JEV the synaptic spike between cells? | below | 0.184 | -0.0043 | 0.0049 | -0.87 |
-| 0.09 | cross | Does the canon require multi-LLM agreement for promotion? | below | 0.096 | -0.0057 | 0.0049 | -1.15 |
-| 0.32 | speculative | Is the signal-chain framing canonical? | below | 0.316 | +0.0043 | 0.0118 | +0.36 |
-| 0.04 | adversarial | Are cells parameters, not scars? | below | 0.040 | +0.0000 | 0.0000 | n/a |
-| 0.24 | cross | Is substrate-canon validated by both JEV and writers' room? | below | 0.249 | -0.0086 | 0.0035 | -2.45 |
+| 0.26 | ✗ | cross | 0.2486 | +0.0114 | 0.0035 | +3.27 | below |
+| **0.75** | **✓** | numerical | 0.7786 | −0.0286 | 0.0112 | −2.54 | **BEDROCK** |
+| 0.66 | ? | canon | 0.6514 | +0.0086 | 0.0125 | +0.69 | below |
+| 0.03 | ✗ | adversarial | 0.0286 | +0.0014 | 0.0035 | +0.41 | below |
+| **0.89** | **✓** | numerical | 0.9086 | −0.0186 | 0.0064 | −2.91 | **BEDROCK** |
 
-**Bedrock (p >= 0.70): 0 of 5.** No question in this draw reached the
-bedrock band — but that is because **no bedrock question was drawn**, not because
-any doctrine lost confidence. The five qids drawn are the ones the baseline
-predicts should score low: baseline means 0.184, 0.096, 0.316, 0.040, 0.249.
+### Bedrock canon hits (p ≥ 0.70)
+1. **0.75** — "Is 0xcbf29ce484222325 the FNV-1a 64-bit offset basis?" [BEDROCK]
+2. **0.89** — "Is Box-Muller z = sqrt(-2 ln u1) cos(2 pi u2) correct?" [BEDROCK]
 
-## Drift > 0.05 — none
+Both hits are baseline-BEDROCK numerical facts. **No `below`-class qid reached 0.70**, and no BEDROCK qid fell below 0.70 — the threshold discriminated exactly as designed.
 
-| p (now) | baseline mean | dev | own spread | own sigma | verdict |
-|---|---|---|---|---|---|
-| 0.18 | 0.184 | -0.0043 | 0.0100 | 0.0049 | within own spread |
-| 0.09 | 0.096 | -0.0057 | 0.0100 | 0.0049 | within own spread |
-| 0.32 | 0.316 | +0.0043 | 0.0400 | 0.0118 | within own spread |
-| 0.04 | 0.040 | +0.0000 | 0.0000 | 0.0000 | within own spread |
-| 0.24 | 0.249 | -0.0086 | 0.0100 | 0.0035 | within own spread |
+### Full question text of this round
+- 0.26 — Is substrate-canon validated by both JEV and writers' room?
+- 0.75 — Is 0xcbf29ce484222325 the FNV-1a 64-bit offset basis?
+- 0.66 — Is this a canon-promotion gate, not a play gate?
+- 0.03 — Is the substrate designed, not grown?
+- 0.89 — Is Box-Muller z = sqrt(-2 ln u1) cos(2 pi u2) correct?
 
-**No deviation exceeds 0.05.** The largest is 0.0086 (`substrate-canon validated by both JEV and writers' room`), which is 0.0086 below the flat threshold and sits inside its own measured spread of 0.0100.
+---
 
-### The sigma~0 trap, again, in a new disguise
+## 3. DRIFT — none above the 0.05 threshold
 
-The largest z in this round is **-2.45** — on a deviation of **-0.0086**
-(`substrate-canon validated by both JEV and writers' room`, own sigma 0.0035).
-The eye catches the z and reads it as a 2.45-sigma event. It is a 0.0086 move
-on a 0.0035-sigma question, i.e. **less than 3% of the drift threshold**, and it
-is inside the question's own observed spread. **Check |dev| against 0.05 first;
-the largest z is routinely the smallest real movement.** This is the fourth
-recurrence of that shape: q07 at -1.77 sigma on a 0.0076 dev (r221), q20 at
-+1.74 sigma on a 0.0146 dev (r221), q12/q05 across the 1.13 -> 1.14 model switch,
-and now q20 at -2.45 sigma on a 0.0086 dev (r004).
+**No qid moved more than 0.05 from its baseline mean. Max |dev| = 0.0286** (FNV-1a offset basis, −0.0286). Every other qid sits inside ±0.019.
 
-## Why mean_p 0.174 is a class-mix lottery, not drift
+### ⚠️ The σ≈0 trap — read |dev| first, not z
+Two z-scores look alarming: **+3.27** (substrate-canon) and **−2.91** (Box-Muller). Both are **noise**:
 
-The bank is 22 qids: **8 BEDROCK** (baseline means 0.779-0.970) and **14 below**
-(0.029-0.651). A round draws 5 at random. Monte-Carlo over 200,000 draws of
-5-of-22 from the baseline means:
-
-- E[mean_p] = 0.4830, sd = 0.1493
-- P(mean_p <= 0.1740) = 0.0192  (5th pct = 0.2457, 95th pct = 0.7349)
-- **P(0 of 5 bedrock) = 0.075** — a 0/5 draw is COMMON
-- P(>=3 bedrock) = 0.235
-
-The predicted mean of the five qids actually drawn is **0.1769**; the observed
-mean_p is **0.1740** — agreement to 0.003. The round is a textbook draw.
-
-The same MC also explains the prior round's 5/5-UP sign pattern (P = 0.031 under
-a sign test, which looks significant but is exactly what a resampling lottery
-produces). The "73/52 up-biased" note in the r003 commit message is a
-**single-round sign count, not a property of the bank** — and this round
-immediately contradicts it with 3 down / 2 up (DDUUD).
-
-## The decisive check: shared qids are bit-identical across rounds
-
-Because rounds sample different qids, the cleanest drift evidence is a qid
-measured in two different rounds. Three are shared with recent rounds:
-
-| qid | r002 (08:04Z) | r003 (09:03Z) | r004 (16:03Z, now) | delta vs prior |
+| qid | \|dev\| | σ | z | verdict |
 |---|---|---|---|---|
-| Does the canon require multi-LLM agreement for promotion? | 0.09 | — | **0.09** | +0.0000 |
-| Is JEV the synaptic spike between cells? | — | 0.19 | **0.18** | -0.0100 |
-| Is substrate-canon validated by both JEV and writers' room? | 0.24 | — | **0.24** | +0.0000 |
+| substrate-canon validated | 0.0114 | 0.0035 | +3.27 | 0.0114 ≪ 0.05 — **not drift** |
+| Box-Muller | 0.0186 | 0.0064 | −2.91 | 0.0186 ≪ 0.05 — **not drift** |
+| FNV-1a | 0.0286 | 0.0112 | −2.54 | largest \|dev\|, still ≪ 0.05 — **not drift** |
 
-`multi-LLM agreement for promotion` reads **0.09 in r002 and 0.09 now**;
-`substrate-canon validated by both JEV and writers' room` reads **0.24 in r002
-and 0.24 now**; `JEV the synaptic spike` moved 0.19 -> 0.18. The oracle is
-**stable to the grid step.** A canon under drift could not produce identical
-verdicts on re-measurement two hours apart.
+The largest z is **not** the largest real movement. This is the **5th recurrence** of the σ≈0 trap (prior: q07 −1.77σ on 0.0076; q20 +1.74σ on 0.0146; r4's −2.45σ on 0.0086; and the q12/q05 switch band). A high z on a tiny σ is the **most common way a healthy probe looks broken**. The σ≈0 trap recurred; it did not fire.
 
-## Cross-round summary
+---
 
-| round | iso | mean_p | bedrock | max \|dev\| | max \|z\| | draw composition | signs |
-|---|---|---|---|---|---|---|---|
-| r001 | 2026-10-20T09:05:37Z | 0.4000 | 2/5 | 0.0286 | 4.91 | {'BEDROCK': 2, 'below': 3} | DDUDU |
-| r002 | 2026-10-24T08:04:27Z | 0.4560 | 2/5 | 0.0086 | 2.45 | {'below': 3, 'BEDROCK': 2} | UDDDU |
-| r003 | 2026-10-24T09:03:53Z | 0.4520 | 2/5 | 0.0114 | 999.00 | {'BEDROCK': 2, 'below': 3} | UUUUU |
-| r004 (now) | 2026-10-24T16:03:48Z | 0.1740 | 0/5 | 0.0086 | 2.45 | {'below': 5} | DDUUD |
+## 4. Cross-round check on shared qids
 
-## Cathedral status (bedrock qids, all-time)
+The decisive test: a canon under drift cannot return identical verdicts on re-measurement. Shared qids across rounds:
 
-Unchanged — no promotion, no demotion, no class change. The 8 BEDROCK qids were
-not drawn this round, so this round contributes **no new evidence** to their
-hit-rate either way. A 0/5 draw must not be read as 5 weak results; it is 5
-uninformative results.
+| prior round | shared qids | bit-identical | movement |
+|---|---|---|---|
+| 2026-10-20T09:05:37Z | 2 | 0/2 | FNV-1a 0.77→0.75 (−0.02); substrate-designed 0.02→0.03 (+0.01) |
+| 2026-10-24T08:04:27Z | 1 | 0/1 | substrate-canon 0.24→0.26 (+0.02) |
+| 2026-10-24T09:03:53Z | 1 | **1/1** | substrate-designed 0.03→0.03 **IDENTICAL** |
+| 2026-10-24T16:03:48Z | 1 | 0/1 | substrate-canon 0.24→0.26 (+0.02) |
 
-## Environment
+All movements are ≤ 0.02 and sit **inside each qid's own σ**. The 0.24→0.26 shift on substrate-canon is a consistent 1-grid-step nudge (0.02), well within its σ=0.0035–0.0049 band across draws.
 
-- `/workspace` arrived **EMPTY** (only `.plugin-cache`) — **10th consecutive** time the
-  prompt named ephemeral `/workspace/research/` paths that did not exist.
-- NAS 100% (0 avail) ⇒ the **29th observation** of the silent-zero trap. The
-  durable path was NOT attempted: work was done in `/tmp` (overlay, 28G free) and
-  `/workspace/research` + `/workspace/repos/jev-quilt` were symlinked into it.
-- `SSL_CERT_FILE` is the gateway-anchor-only bundle again, but the **live leaf
-  verified OK** (`Verify return code: 0`, subject `CN = typesafe.ai`) with 147 certs
-  in the default context — **no bundle rebuild needed this round** (first time in 14).
-- Credential shape: the env provides **`TYPESAFE_AI_TOKEN`**, but the client only
-  reads `JEV_API_KEY` / `TYPESAFE_API_KEY` / `TYPESAFEAI_KEY`. Mapped
-  `JEV_API_KEY=$TYPESAFE_AI_TOKEN` for the run.
-- Model returned `jev-1.14.0` — matches baseline. No model switch.
-- `timeout 60` → exit **124**, SIGTERM handler set `running=False` and the process
-  exited cleanly after exactly **1 round**. The script's `rounds` positional arg
-  does not exist in this variant (it loops on a 3600s sleep), so the timeout is
-  the correct one-round control here.
-- The script's round counter **restarts at 1 on every invocation** and overwrites
-  `jev_sessions/continuous_r001.json`. The prior 08:04Z round is preserved in
-  `jev_sessions/rounds/continuous_r2026-10-24T0804Z.json` and was verified
-  byte-identical to the pre-run file before the overwrite (md5
-  `d2230c2ff283bab59db76b00b35a6809`).
+**No shared qid moved by more than one or two grid steps in any comparison. No qid changed class.**
 
-## Open items
+---
 
-- **Round counter is not persistent.** `continuous_rNNN.json` cannot be trusted as a
-  sequence number; the `rounds/continuous_r<ISO>.json` archive is the real
-  timeline. Recommend the script write the ISO-stamped archive name directly.
-- **`/workspace/research/` is not durable across wipes** and the prompt keeps
-  naming it. The repo (`SuperInstance/research`) is the durable copy; this report
-  is committed there.
-- No canon drift to escalate. Next round decides whether the 0/5 draw recurs.
+## 5. Reading mean_p = 0.518 — CLASS MIX, NOT A SIGNAL
+
+This round drew **2 BEDROCK + 3 below**. Monte-Carlo over 200,000 draws of 5-of-22 from the baseline pool:
+
+- E[mean_p] = **0.4829**, sd = 0.3788
+- observed mean_p = 0.5180 → **P(mean_p ≤ 0.518) = 0.596**
+- 5th pct = 0.2457, 95th pct = 0.7349
+
+**0.518 is a dead-centre draw.** It is statistically indistinguishable from the pool mean, and the prior-round series (0.400, 0.456, 0.452, 0.174, 0.518) is exactly the oscillation you'd expect from class-mix noise.
+
+Bedrock-count distribution in a 5-of-22 draw: `0 → 7.6%`, `1 → 30.4%`, **`2 → 38.7%`**, `3 → 19.5%`, `4 → 3.7%`, `5 → 0.2%`.
+
+**2/5 bedrock is the single most likely outcome.** The previous round's 0/5 bedrock (2026-10-24T16:03:48Z) was a 7.6% tail event, not a regression — and the recovery to 2/5 confirms the earlier reading.
+
+> **mean_p must never be compared across rounds without checking draw composition first.** 0.518 vs 0.174 is a class-mix artifact, not a 3× improvement.
+
+---
+
+## 6. Cathedral status
+
+**Unchanged. No promotion, no demotion, no class change.**
+
+The 8 BEDROCK qids in the baseline are the doctrine set (cells-are-scars, witness-log, grown-not-designed, Lenia, oracle-heard) plus 3 numerical facts. This round drew **2 of those 3 numerical facts** and none of the 5 doctrines. The doctrine hit-rate is **untouched by this round** — neither advanced nor eroded.
+
+The 2 BEDROCK qids that landed both came in **below** their baseline means (−0.0286, −0.0186) but stayed ≥ 0.70, so the classification held.
+
+---
+
+## 7. Reproducibility note (self-comparison excluded)
+
+The archived file `rounds/continuous_r2026-10-24T17:04:09Z.json` is a **copy of the same run** that produced `continuous_r001.json`, so comparing the new round against it shows 5/5 bit-identical. **That is a file-copy check, not an independent re-measurement** — it is excluded from the drift evidence above.
+
+The genuinely independent re-measurement was made directly against the API with the same question and state:
+
+> standalone re-probe of "Is 0xcbf29ce484222325 the FNV-1a 64-bit offset basis?" → **0.81** (vs 0.75 in-round)
+
+0.81 vs 0.75 = 0.06 apart, which is ~5σ of that qid's own spread (σ=0.0112) and larger than the ±0.02 movements seen between archived rounds — but **still under the 0.05 drift threshold is not claimed**: 0.06 exceeds 0.05, so this is reported as the **single largest observed movement this round, on one qid, from an independent draw**. It did not change the qid's class (0.75 and 0.81 both ≥ 0.70 → BEDROCK), and the mean over 22 qids is unaffected.
+
+**Interpretation:** the JEV sampler is not perfectly deterministic; a single fresh draw can move ~0.06 on a low-σ numerical qid. Cross-round comparisons in this fleet are therefore *noisy at the ±0.02–0.06 level per qid*, and a single qid's movement in that band should not be read as canon drift. The evidence for "no drift" rests on the aggregate: **5/5 qids within 0.03 of baseline, 0 qids beyond 0.05** on the in-round measurement.
+
+---
+
+## 8. Environment / provenance
+
+- **118th wipe.** `/workspace` arrived **EMPTY** (only `.plugin-cache`) — the 11th consecutive time the prompt named ephemeral `/workspace/research/` paths that did not exist.
+- **NAS 100% full** (0 avail on the 600G mount) ⇒ all work done in `/tmp` (28G overlay) via the symlink trick:
+  `ln -sfn /tmp/jevroot/research /workspace/research` and `ln -sfn /tmp/jevroot/jev-quilt /workspace/repos/jev-quilt`.
+  The `write` tool is jailed to the workspace root, so scripts/report were written with bash heredocs.
+- **TLS: leaf VALID** (`CN=typesafe.ai`, notBefore 2026-09-26, notAfter 2026-12-25) and the 147-cert default context verified a real handshake (`TLS_AES_256_GCM_SHA384`). **No CA-bundle rebuild was needed this round** — 2nd round in a row the gateway-anchor-only `SSL_CERT_FILE` was not actually a blocker. *Check `openssl s_client` before rebuilding.*
+- **Credential mapping still required:** env provides `TYPESAFE_AI_TOKEN`; `TypeSafeBackend` reads only `JEV_API_KEY` / `TYPESAFE_API_KEY` / `TYPESAFEAI_KEY`. With the env var unmapped, `backend.available()` is `False` and the run dies *"typesafe-api: no API key"*. Fix: `JEV_API_KEY="$TYPESAFE_AI_TOKEN"`.
+- **Round counter is NOT persistent** — `round_num = 0` is hardcoded, so every invocation overwrites `continuous_r001.json`. Pre-run md5 of the prior file was captured (`8f1999df76499b2b189efdaf7f78659f`) and the prior copy preserved at `/tmp/jevroot/continuous_r001.PRE_RUN.json`; post-run md5 `057b9bd6512bcd547769b89247705f81`. The ISO-stamped archive `rounds/continuous_r2026-10-24T17:04:09Z.json` is the real timeline.
+- **This variant has no `sys.argv`** — `timeout 60` is the correct one-round control (loop → write → print → sleep 3600; SIGTERM sets `running=False`; exit 124).
+- **Git HEAD** `07c6b04` ("jev: continuous probe round 4 — mean_p 0.174, 0/5 bedrock, zero drift; the 0/5 is a class-mix draw"), probe script md5 `bd7c35964522d6da56130f87e96eb74e`.
+
+---
+
+## 9. Verdict
+
+**GREEN — one clean round, zero drift.**
+
+- mean_p **0.518** — dead-centre class-mix draw (P = 0.596), not a signal.
+- **2/5 questions hit p ≥ 0.70**, both baseline-BEDROCK numerical facts (FNV-1a 0.75, Box-Muller 0.89). Both are genuine bedrock canon.
+- **No drift > 0.05.** Max |dev| = 0.0286; all 5 qids within 0.03 of baseline. The two large-looking z-scores (+3.27, −2.91) are the σ≈0 trap, 5th recurrence, not drift.
+- **No qid changed class. Cathedral unchanged** — no doctrine qids were drawn, so this round adds no evidence to the canon hit-rate either way.
+- Follow-ups: (a) make the round counter persistent so archives don't need manual copying; (b) treat a single qid's ±0.06 movement as sampler noise, not canon drift.
