@@ -1,0 +1,427 @@
+{
+  "model": [
+    "jev-1.14.0"
+  ],
+  "reps": 7,
+  "ts": "2026-10-24",
+  "questions": [
+    {
+      "category": "canon",
+      "q": "Is the doctrine 'cells are scars, not parameters' canon?",
+      "vals": [
+        0.96,
+        0.96,
+        0.96,
+        0.96,
+        0.96,
+        0.96,
+        0.96
+      ],
+      "mean": 0.96,
+      "min": 0.96,
+      "max": 0.96,
+      "spread": 0.0,
+      "sigma": 0.0,
+      "class": "BEDROCK"
+    },
+    {
+      "category": "canon",
+      "q": "Is the doctrine 'the witness log is the prediction' canon?",
+      "vals": [
+        0.96,
+        0.96,
+        0.96,
+        0.96,
+        0.96,
+        0.96,
+        0.96
+      ],
+      "mean": 0.96,
+      "min": 0.96,
+      "max": 0.96,
+      "spread": 0.0,
+      "sigma": 0.0,
+      "class": "BEDROCK"
+    },
+    {
+      "category": "canon",
+      "q": "Is the doctrine 'the substrate is grown, not designed' canon?",
+      "vals": [
+        0.97,
+        0.97,
+        0.97,
+        0.97,
+        0.97,
+        0.97,
+        0.97
+      ],
+      "mean": 0.9699999999999999,
+      "min": 0.97,
+      "max": 0.97,
+      "spread": 0.0,
+      "sigma": 0.0,
+      "class": "BEDROCK"
+    },
+    {
+      "category": "canon",
+      "q": "Is the doctrine 'Lenia flows where Conway stands still' canon?",
+      "vals": [
+        0.95,
+        0.95,
+        0.96,
+        0.95,
+        0.95,
+        0.95,
+        0.94
+      ],
+      "mean": 0.9500000000000001,
+      "min": 0.94,
+      "max": 0.96,
+      "spread": 0.020000000000000018,
+      "sigma": 0.005345224838248492,
+      "class": "BEDROCK"
+    },
+    {
+      "category": "canon",
+      "q": "Is the doctrine 'the oracle is heard, not stored' canon?",
+      "vals": [
+        0.96,
+        0.95,
+        0.95,
+        0.95,
+        0.96,
+        0.96,
+        0.96
+      ],
+      "mean": 0.9557142857142856,
+      "min": 0.95,
+      "max": 0.96,
+      "spread": 0.010000000000000009,
+      "sigma": 0.00494871659305394,
+      "class": "BEDROCK"
+    },
+    {
+      "category": "numerical",
+      "q": "Is 0xcbf29ce484222325 the FNV-1a 64-bit offset basis?",
+      "vals": [
+        0.77,
+        0.78,
+        0.78,
+        0.8,
+        0.78,
+        0.76,
+        0.78
+      ],
+      "mean": 0.7785714285714286,
+      "min": 0.76,
+      "max": 0.8,
+      "spread": 0.040000000000000036,
+      "sigma": 0.01124858267715974,
+      "class": "BEDROCK"
+    },
+    {
+      "category": "numerical",
+      "q": "Is xoshiro256** a 4-word state PRNG?",
+      "vals": [
+        0.66,
+        0.62,
+        0.6,
+        0.62,
+        0.61,
+        0.61,
+        0.62
+      ],
+      "mean": 0.62,
+      "min": 0.6,
+      "max": 0.66,
+      "spread": 0.06000000000000005,
+      "sigma": 0.017728105208558383,
+      "class": "below"
+    },
+    {
+      "category": "numerical",
+      "q": "Is Box-Muller z = sqrt(-2 ln u1) cos(2 pi u2) correct?",
+      "vals": [
+        0.92,
+        0.91,
+        0.91,
+        0.91,
+        0.9,
+        0.91,
+        0.9
+      ],
+      "mean": 0.9085714285714287,
+      "min": 0.9,
+      "max": 0.92,
+      "spread": 0.020000000000000018,
+      "sigma": 0.006388765649999405,
+      "class": "BEDROCK"
+    },
+    {
+      "category": "numerical",
+      "q": "Is cosine similarity (a . b) / (|a| |b|)?",
+      "vals": [
+        0.93,
+        0.92,
+        0.92,
+        0.92,
+        0.93,
+        0.92,
+        0.91
+      ],
+      "mean": 0.9214285714285715,
+      "min": 0.91,
+      "max": 0.93,
+      "spread": 0.020000000000000018,
+      "sigma": 0.006388765649999405,
+      "class": "BEDROCK"
+    },
+    {
+      "category": "size",
+      "q": "Does the canonical substrate algebra have 11 opcodes?",
+      "vals": [
+        0.13,
+        0.13,
+        0.12,
+        0.14,
+        0.13,
+        0.13,
+        0.13
+      ],
+      "mean": 0.13,
+      "min": 0.12,
+      "max": 0.14,
+      "spread": 0.020000000000000018,
+      "sigma": 0.005345224838248492,
+      "class": "below"
+    },
+    {
+      "category": "size",
+      "q": "Does the canonical substrate have 13 polyformalism ports?",
+      "vals": [
+        0.07,
+        0.06,
+        0.06,
+        0.07,
+        0.07,
+        0.07,
+        0.07
+      ],
+      "mean": 0.06714285714285714,
+      "min": 0.06,
+      "max": 0.07,
+      "spread": 0.010000000000000009,
+      "sigma": 0.00451753951452626,
+      "class": "below"
+    },
+    {
+      "category": "size",
+      "q": "Is the demo count at canonical around 60-65?",
+      "vals": [
+        0.19,
+        0.21,
+        0.2,
+        0.21,
+        0.21,
+        0.2,
+        0.21
+      ],
+      "mean": 0.20428571428571426,
+      "min": 0.19,
+      "max": 0.21,
+      "spread": 0.01999999999999999,
+      "sigma": 0.0072843135908468295,
+      "class": "below"
+    },
+    {
+      "category": "adversarial",
+      "q": "Are cells parameters, not scars?",
+      "vals": [
+        0.04,
+        0.04,
+        0.04,
+        0.04,
+        0.04,
+        0.04,
+        0.04
+      ],
+      "mean": 0.04,
+      "min": 0.04,
+      "max": 0.04,
+      "spread": 0.0,
+      "sigma": 0.0,
+      "class": "below"
+    },
+    {
+      "category": "adversarial",
+      "q": "Is the witness log past only (not prediction)?",
+      "vals": [
+        0.12,
+        0.12,
+        0.12,
+        0.11,
+        0.12,
+        0.12,
+        0.12
+      ],
+      "mean": 0.11857142857142856,
+      "min": 0.11,
+      "max": 0.12,
+      "spread": 0.009999999999999995,
+      "sigma": 0.003499271061118824,
+      "class": "below"
+    },
+    {
+      "category": "adversarial",
+      "q": "Is the substrate designed, not grown?",
+      "vals": [
+        0.03,
+        0.03,
+        0.02,
+        0.03,
+        0.03,
+        0.03,
+        0.03
+      ],
+      "mean": 0.028571428571428574,
+      "min": 0.02,
+      "max": 0.03,
+      "spread": 0.009999999999999998,
+      "sigma": 0.0034992710611188253,
+      "class": "below"
+    },
+    {
+      "category": "speculative",
+      "q": "Is JEV the synaptic spike between cells?",
+      "vals": [
+        0.19,
+        0.19,
+        0.18,
+        0.19,
+        0.18,
+        0.18,
+        0.18
+      ],
+      "mean": 0.18428571428571425,
+      "min": 0.18,
+      "max": 0.19,
+      "spread": 0.010000000000000009,
+      "sigma": 0.00494871659305394,
+      "class": "below"
+    },
+    {
+      "category": "speculative",
+      "q": "Is the signal-chain framing canonical?",
+      "vals": [
+        0.34,
+        0.32,
+        0.3,
+        0.32,
+        0.31,
+        0.31,
+        0.31
+      ],
+      "mean": 0.3157142857142857,
+      "min": 0.3,
+      "max": 0.34,
+      "spread": 0.040000000000000036,
+      "sigma": 0.01178030178747904,
+      "class": "below"
+    },
+    {
+      "category": "speculative",
+      "q": "Is 'chain speaks back' literal canon?",
+      "vals": [
+        0.12,
+        0.13,
+        0.12,
+        0.13,
+        0.11,
+        0.12,
+        0.12
+      ],
+      "mean": 0.12142857142857143,
+      "min": 0.11,
+      "max": 0.13,
+      "spread": 0.020000000000000004,
+      "sigma": 0.006388765649999401,
+      "class": "below"
+    },
+    {
+      "category": "cross",
+      "q": "Is substrate-canon validated by both JEV and writers' room?",
+      "vals": [
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.24,
+        0.25
+      ],
+      "mean": 0.24857142857142858,
+      "min": 0.24,
+      "max": 0.25,
+      "spread": 0.010000000000000009,
+      "sigma": 0.003499271061118829,
+      "class": "below"
+    },
+    {
+      "category": "cross",
+      "q": "Does the canon require multi-LLM agreement for promotion?",
+      "vals": [
+        0.1,
+        0.09,
+        0.09,
+        0.1,
+        0.1,
+        0.1,
+        0.09
+      ],
+      "mean": 0.09571428571428571,
+      "min": 0.09,
+      "max": 0.1,
+      "spread": 0.010000000000000009,
+      "sigma": 0.00494871659305394,
+      "class": "below"
+    },
+    {
+      "category": "canon",
+      "q": "Is this a canon-promotion gate, not a play gate?",
+      "vals": [
+        0.67,
+        0.65,
+        0.66,
+        0.63,
+        0.65,
+        0.66,
+        0.64
+      ],
+      "mean": 0.6514285714285714,
+      "min": 0.63,
+      "max": 0.67,
+      "spread": 0.040000000000000036,
+      "sigma": 0.012453996981544792,
+      "class": "below"
+    },
+    {
+      "category": "speculative",
+      "q": "Should speculative framings be parked until JEV p>0.7?",
+      "vals": [
+        0.4,
+        0.41,
+        0.4,
+        0.4,
+        0.37,
+        0.4,
+        0.38
+      ],
+      "mean": 0.39428571428571424,
+      "min": 0.37,
+      "max": 0.41,
+      "spread": 0.03999999999999998,
+      "sigma": 0.012936264483053454,
+      "class": "below"
+    }
+  ]
+}

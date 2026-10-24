@@ -1,0 +1,37 @@
+{
+  "round": 1,
+  "iso": "2026-10-24T08:04:27Z",
+  "questions": [
+    {
+      "category": "size",
+      "q": "Does the canonical substrate have 13 polyformalism ports?",
+      "p": 0.07,
+      "confidence": 0.07
+    },
+    {
+      "category": "cross",
+      "q": "Is substrate-canon validated by both JEV and writers' room?",
+      "p": 0.24,
+      "confidence": 0.24
+    },
+    {
+      "category": "canon",
+      "q": "Is the doctrine 'the oracle is heard, not stored' canon?",
+      "p": 0.95,
+      "confidence": 0.95
+    },
+    {
+      "category": "cross",
+      "q": "Does the canon require multi-LLM agreement for promotion?",
+      "p": 0.09,
+      "confidence": 0.09
+    },
+    {
+      "category": "numerical",
+      "q": "Is cosine similarity (a . b) / (|a| |b|)?",
+      "p": 0.93,
+      "confidence": 0.93
+    }
+  ],
+  "latency_s": 0.10087060928344727
+}
