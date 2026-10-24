@@ -1,0 +1,37 @@
+{
+  "round": 1,
+  "iso": "2026-10-24T18:03:52Z",
+  "questions": [
+    {
+      "category": "numerical",
+      "q": "Is 0xcbf29ce484222325 the FNV-1a 64-bit offset basis?",
+      "p": 0.8,
+      "confidence": 0.8
+    },
+    {
+      "category": "speculative",
+      "q": "Is JEV the synaptic spike between cells?",
+      "p": 0.18,
+      "confidence": 0.18
+    },
+    {
+      "category": "canon",
+      "q": "Is this a canon-promotion gate, not a play gate?",
+      "p": 0.65,
+      "confidence": 0.65
+    },
+    {
+      "category": "cross",
+      "q": "Does the canon require multi-LLM agreement for promotion?",
+      "p": 0.09,
+      "confidence": 0.09
+    },
+    {
+      "category": "speculative",
+      "q": "Is the signal-chain framing canonical?",
+      "p": 0.3,
+      "confidence": 0.3
+    }
+  ],
+  "latency_s": 0.11157774925231934
+}

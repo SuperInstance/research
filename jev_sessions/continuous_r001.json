@@ -1,37 +1,37 @@
 {
   "round": 1,
-  "iso": "2026-10-24T17:04:09Z",
+  "iso": "2026-10-24T18:03:52Z",
   "questions": [
-    {
-      "category": "cross",
-      "q": "Is substrate-canon validated by both JEV and writers' room?",
-      "p": 0.26,
-      "confidence": 0.26
-    },
     {
       "category": "numerical",
       "q": "Is 0xcbf29ce484222325 the FNV-1a 64-bit offset basis?",
-      "p": 0.75,
-      "confidence": 0.75
+      "p": 0.8,
+      "confidence": 0.8
+    },
+    {
+      "category": "speculative",
+      "q": "Is JEV the synaptic spike between cells?",
+      "p": 0.18,
+      "confidence": 0.18
     },
     {
       "category": "canon",
       "q": "Is this a canon-promotion gate, not a play gate?",
-      "p": 0.66,
-      "confidence": 0.66
+      "p": 0.65,
+      "confidence": 0.65
     },
     {
-      "category": "adversarial",
-      "q": "Is the substrate designed, not grown?",
-      "p": 0.03,
-      "confidence": 0.03
+      "category": "cross",
+      "q": "Does the canon require multi-LLM agreement for promotion?",
+      "p": 0.09,
+      "confidence": 0.09
     },
     {
-      "category": "numerical",
-      "q": "Is Box-Muller z = sqrt(-2 ln u1) cos(2 pi u2) correct?",
-      "p": 0.89,
-      "confidence": 0.89
+      "category": "speculative",
+      "q": "Is the signal-chain framing canonical?",
+      "p": 0.3,
+      "confidence": 0.3
     }
   ],
-  "latency_s": 0.14504170417785645
+  "latency_s": 0.11157774925231934
 }
