@@ -4,7 +4,7 @@
 **Round:** r445 (ts 2026-10-25T19:03:41.907540+00:00)  
 **Resolved model:** `jev-1.14.0` (segment n=50 rounds)  
 **Script md5:** `3a255fa4642ec4a83173ab04d773d485` (root probe; `research/` copy is a launcher wrapper)  
-**Corpus:** `SuperInstance/jev-quilt` @ `e9442d2` (live), history `research/jev_sessions/history.jsonl` — 449 rounds, r1..r445, continuous
+**Corpus:** `SuperInstance/jev-quilt` @ `8546dbd` (live), history `research/jev_sessions/history.jsonl` — 449 rounds, r1..r445, continuous
 
 ---
 
