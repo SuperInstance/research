@@ -4,7 +4,7 @@
 **Round:** r446 (ts 2026-10-25T20:04:19.294124+00:00), elapsed 0.126 s
 **Resolved model:** `jev-1.14.0` (segment n=55 rounds, r396..r446)
 **Script md5:** `3a255fa4642ec4a83173ab04d773d485` (root probe; `research/` copy is the launcher wrapper `2bdd4768`)
-**Corpus:** `SuperInstance/jev-quilt` @ `cd7a32d` (live) — 445 distinct rounds r1..r446, 4,200 deduped `(qid,p,round)` verdicts, 22 live qids
+**Corpus:** `SuperInstance/jev-quilt` @ `7d0a4a6` (live) — 445 distinct rounds r1..r446, 4,200 deduped `(qid,p,round)` verdicts, 22 live qids
 **Prior report:** archived as `jev_hourly_report_r445.md`
 
 ---
