@@ -59,6 +59,19 @@ The NAS backing `/workspace` was at a hard 100% quota (600G/600G, 0 available), 
 `/tmp`; the durable copy was pushed to git and verified via the API rather than by trusting
 push output.
 
+## The wider lineage
+
+`lineage/` holds the complete four-poll witness series reconstructed from the
+`AI-Writings` remote — all 12 witness notes, and the `witness.log` as it stood at each of
+the four poll commits (24 -> 26 -> 28 -> 30 lines).
+
+Every consecutive link in that chain diffs to `+2 / -0` lines: the witness log was only ever
+appended to, never rewritten. The 28-line snapshot's md5 `3066572e7d3fba68273eb41a072a8281`
+independently matches the pre-poll md5 recorded during poll #4 — two separate observations
+of the same file agreeing.
+
+See `lineage/MANIFEST.md` for the full commit table, hash table, and canon timeline.
+
 ## The watcher script
 
 `wesley_watcher.py` is the tool that produced these records. It is archived here as a
