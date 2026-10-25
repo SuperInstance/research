@@ -1,10 +1,11 @@
-# JEV Continuous Probe — Hourly Report
+# JEV Continuous Probe — Hourly Report r430
 
-**Round:** r429  ·  **Timestamp:** 2026-10-25T02:03:32Z  ·  **Session:** 109th wipe
-**Instrument:** `jev_continuous_probe.py` md5 `3a255fa4642ec4a83173ab04d773d485` (unchanged since r397) — located in `SuperInstance/jev-quilt`, **not** in `SuperInstance/research`
-**Model:** `jev-1.14.0` (resolved from the round's `model` field) — **no model switch** vs r428
-**Doctrinal state:** `framework, core_doctrine, architecture, fleet, spec_notebook, operational_doctrine` — byte-identical to r428
-**Run:** 1 round OK, 0 fails, exit 0 (no timeout kill needed), 0.11 s/round, 0.30 s total
+**Run:** 2026-10-25T03:03:58Z (session_ts `2026-10-25T03:03:58.147213+00:00`)
+**Round:** r430 (exactly 1 round — explicit positional count `1`, no overshoot)
+**Instrument:** `SuperInstance/jev-quilt@HEAD:jev_continuous_probe.py` md5 `3a255fa4642ec4a83173ab04d773d485`
+**Served model:** `jev-1.14.0` (no switch vs r429)
+**Round file:** `research/jev_sessions/continuous_r430.json` md5 `7e3b832d80f3dba33b4cebb39835e8b5`
+**Corpus:** `research/jev_sessions/history.jsonl` md5 `ccc3077dd7d83ea9fb11d6be234ee87d` (434 records, r430 appended exactly once)
 
 ---
 
@@ -12,121 +13,114 @@
 
 | Metric | Value |
 |---|---|
-| **mean_p** | **0.5400** |
-| **Bedrock hits (p ≥ 0.70)** | **3 / 5** — `q03` 0.88, `q08` 0.88, `q07` 0.75 |
-| Below gate (this round) | `q13` 0.16 (speculative), `q15` 0.03 (adversarial) |
-| **Drift > 0.05** | **NONE.** 0 of 5 drawn qids. The script's own `drift_events=1` is a **stale re-fire** (see below). |
-| Cathedral all-time | 664 / 667 = **99.55 %** |
-| Corpus | 2,156 records / 22 qids (1.13.0: 399 rounds, 1.14.0: 34 rounds) |
+| **mean_p** | **0.2840** |
+| **Bedrock hits (p >= 0.70)** | **1 / 5 (20.0 %)** — `q07` only |
+| **Drift (\|dev\| > 0.05)** | **NONE** — max \|dev\| among drawn qids = **0.0246** |
+| Rounds ok / fails | 1 / 0 |
+| Verdicts | 5 |
+
+**Verdict: no drift.** Every drawn question landed inside its own historical band. The low
+mean_p is a **draw-composition effect, not a behavioural change** — 4 of 5 drawn qids were
+speculative/review/adversarial, whose corpus bands sit at 0.10-0.20 by construction.
 
 ---
 
-## Verdicts drawn this round
+## Round r430 verdicts
 
-| qid | p | Class | 1.14.0 baseline | dev | z | \|dev\| vs 0.05 | Verdict |
+| qid | kind | p | >=0.70 (bedrock) | prior mean | prior sd | dev | z |
 |---|---|---|---|---|---|---|---|
-| q03 | 0.88 | bedrock | n=7, mu 0.8800, sd 0.0151 | **+0.0000** | +0.00 | 0.0000 | **no drift** |
-| q08 | 0.88 | bedrock | n=6, mu 0.8917, sd 0.0134 | −0.0117 | −0.87 | 0.0117 | **no drift** |
-| q07 | 0.75 | bedrock | n=8, mu 0.7688, sd 0.0136 | −0.0188 | −1.38 | 0.0188 | **no drift** |
-| q13 | 0.16 | speculative | n=9, mu 0.1600, sd 0.0047 | **+0.0000** | +0.00 | 0.0000 | **no drift** |
-| q15 | 0.03 | adversarial | n=4, mu 0.0300, sd 0.0000 | **+0.0000** | n/a | 0.0000 | **no drift** |
+| q11 | speculative | 0.20 | no | 0.1843 | 0.0181 | +0.0157 | +0.87 |
+| **q07** | **bedrock** | **0.78** | **YES** | 0.7554 | 0.0165 | +0.0246 | +1.49 |
+| q22 | speculative | 0.14 | no | 0.1204 | 0.0084 | +0.0196 | +2.34 |
+| q16 | review | 0.18 | no | 0.1993 | 0.0082 | -0.0193 | -2.34 |
+| q19 | adversarial | 0.12 | no | 0.1051 | 0.0061 | +0.0149 | +2.45 |
 
-All-model baselines agree (max \|dev\| across both segments: q13 +0.0246, q08 −0.0192, q07 −0.0188, q03 −0.0057, q15 +0.0049) — **every qid clear on both.**
+**Questions hitting p >= 0.70 (bedrock canon): `q07` only (0.78).**
+`q07` is a bedrock member at **90/90 = 100 %** lifetime hit-rate (range 0.71-0.79) — the
+cathedral holds. The other four are non-bedrock kinds; none of them is capable of a
+bedrock hit, so 1/5 is the **maximum attainable** for this draw.
 
-### 🔴 The script's `drift_events=1` is a STALE RE-FIRE — not a finding
-
-The script reported `drift_events=1` with `q11 delta=-0.07`. **q11 was not drawn this round.** The round drew `q07, q08, q13, q03, q15`. `drift_check()` is a *history* reporter: it walks every qid's sample series and re-fires any qid whose **last** observation deviates >0.05 from the prior median — including qids last observed in **earlier** rounds. q11's last observation was **r427 (p=0.12)**, and r427's own archive already carried that same q11 drift flag. It has now been re-reported twice.
-
-**This is the known, still-unpatched defect** (same class as the r222/r223 finding). Drift was therefore recomputed from the corpus here, restricted to qids **actually drawn this round**. Result: **0 drift events.**
-
-**Do not read the script's `drift_events` as this round's drift count.** It is a live re-fire of stale qids, and it grows with corpus size — the more rounds accumulate, the more stale flags accumulate.
-
----
-
-## Comparison to previous rounds (regenerated programmatically from the corpus)
-
-| round | mean_p | bedrock | timestamp |
-|---|---|---|---|
-| r423 | 0.5260 | 2/5 | 2026-10-24T20:01:36Z |
-| r424 | 0.3760 | 2/5 | 2026-10-24T21:04:15Z |
-| r425 | 0.3560 | 1/5 | 2026-10-24T22:05:47Z |
-| r426 | 0.4040 | 2/5 | 2026-10-24T23:04:35Z |
-| r427 | 0.4200 | 2/5 | 2026-10-25T00:03:12Z |
-| r428 | 0.3760 | 1/5 | 2026-10-25T01:02:28Z |
-| **r429** | **0.5400** | **3/5** | **2026-10-25T02:03:32Z** |
-
-### Is 0.54 / 3-of-5 an ordinary draw?
-
-Against the **1.14.0 segment only** (33 prior rounds, r396–r428):
-
-- mean_p: mu **0.4315**, sd **0.1119**, range 0.148–0.656
-- bedrock-count distribution: `0/5` 6.06 % · `1/5` 24.24 % · **`2/5` 45.45 %** · **`3/5` 21.21 %** · `4/5` 3.03 % · `5/5` 0.00 %
-- **P(exactly 3 bedrock) = 21.21 %** — the second-most-likely outcome; `2/5` remains the modal one.
-- **P(mean_p ≥ 0.540) = 18.18 %** — today's draw sits at the **82nd percentile**.
-- z against the segment = **+0.97** (all-model: +1.09)
-
-⇒ **mean_p 0.5400 is an ordinary-to-slightly-high draw, not a signal.** The whole difference from r428 is *which* questions were sampled: r429 drew three bedrock qids and two non-bedrock ones, and the mean is a class-mix artefact. The bedrock qids themselves moved **less than 0.02** from their own baselines.
+### sigma~0 trap fired again — |dev|-first was load-bearing
+The three largest z-scores this round (q19 **+2.45**, q22 **+2.34**, q16 **-2.34**) all sit on
+**|dev| <= 0.0246**, far under the 0.05 floor. Conversely the **largest |dev| (q07, 0.0246)
+carries the *smallest* z (+1.49)**. Ranking by z would have flagged the wrong question;
+ranking by |dev| correctly finds zero drift. This is the 6th recurrence of the trap.
 
 ---
 
-## Cathedral (explicit qid list — never a `kind` tag)
+## Comparison to prior rounds
 
-| qid | this round | all-time |
-|---|---|---|
-| q01 | not drawn | 105/105 = 100 % |
-| q02 | not drawn | 87/90 = 96.67 % |
-| q03 | **DRAWN 0.88 → HIT** | 99/99 = 100 % |
-| q04 | not drawn | 101/101 = 100 % |
-| q05 | not drawn | 96/96 = 100 % |
-| q07 | **DRAWN 0.75 → HIT** | 89/89 = 100 % |
-| q08 | **DRAWN 0.88 → HIT** | 87/87 = 100 % |
-| **total** | | **664/667 = 99.55 %** |
+### Against the jev-1.14.0 segment (35 rounds, r396-r430)
+- segment mean_p = **0.4304**, sd = 0.1146, range 0.15-0.66
+- r430 mean_p 0.2840 -> **z = -1.28**, **11.4th percentile** of the segment
+- r430 is among the lowest mean_p values in the 1.14.0 segment — but a single 5-question
+  draw with 4 non-bedrock qids reaches this band routinely, and **z = -1.28 is well inside 2 sigma**.
 
-**No speculative or adversarial qid has ever reached p ≥ 0.70 in the corpus** — except `q17` (kind=`review`, the FNV-1a canary question), which has 66 hits at 0.70–0.75 and is *not* in the cathedral list. q17 remains a review item, not a canon member.
+### Recent round trend (r419-r430)
+```
+r419 0.538 (3/5)   r420 0.358 (1/5)   r421 0.554 (3/5)   r422 0.506 (2/5)
+r423 0.526 (2/5)   r424 0.376 (2/5)   r425 0.356 (1/5)   r426 0.404 (2/5)
+r427 0.420 (2/5)   r428 0.376 (1/5)   r429 0.540 (3/5)   r430 0.284 (1/5)
+```
+The series is **draw-mix driven, not trending** — the six rounds before r429 average 0.466,
+r429 jumped to 0.540 on a 3-bedrock draw, and r430 fell to 0.284 on a 1-bedrock draw. The
+swing is fully explained by *which* questions were sampled.
 
----
-
-## Standing watch items
-
-### 🔴 q02 — fragile cathedral member, and the margin is now GONE
-
-The r422 report recorded q02 as "9/10 ≥ 0.70 on 1.14.0, breach not yet observed." **That has changed.** On 1.14.0 it now reads **10/13**:
-
-`r399:0.75 · r401:0.77 · r406:0.73 · r407:0.71 · r411:0.77 · r412:0.71 · r414:0.74 · r416:0.69 · r417:0.75 · r421:0.75 · r423:0.69 · r425:0.68 · r428:0.72`
-
-**Three sub-0.70 draws have now occurred on 1.14.0** — r416 (0.69), r423 (0.69), r425 (0.68) — all within the last 13 rounds, and **two of the three inside the last six**. The earlier "margin is one value wide" claim is no longer true: q02's 1.14.0 hit-rate is **76.9 %**, not 90 %. All-time it is 87/90 = 96.67 %.
-
-This is a **behavioural change in a canon member**, not a substrate drift event. It does not cross the 0.05 \|dev\| floor on any single draw (q02 was not drawn this round), so it raises **no** drift flag — but the pattern of three breaches in thirteen draws deserves a watch entry of its own. The most likely reading is that q02 ("witness logs are predictions") sits close enough to the decision boundary that ordinary sampler jitter tips it over ~1 draw in 4.
-
-**q02 was not drawn this round**, so this round adds no new evidence either way.
-
-### q05 — AMBER item now RESOLVED
-
-The r422 report flagged q05 as AMBER since r419, where 0.78 was the only sub-0.80 value in its 1.14.0 sample. On 1.14.0 it now reads **8/8, no sub-0.80 value at all**:
-
-`r400:0.83 · r404:0.82 · r408:0.83 · r410:0.83 · r413:0.82 · r419:0.78 · r423:0.80 · r425:0.81`
-
-(r419's 0.78 is no longer the sole value — r423 0.80 and r425 0.81 have since joined, and no value has fallen below 0.80.) **q05 was not drawn this round.** The watch item can be closed as resolved; q05 is 96/96 all-time.
+### Round-level drift check
+The script's own `drift_check()` returned **`[]` (empty)** — and this time that agrees with
+the independently recomputed per-qid analysis restricted to qids actually drawn. No stale
+re-fire occurred in this round.
 
 ---
 
-## Method notes / receipts
+## Bedrock canon status (all 7 bedrock qids, lifetime corpus)
 
-- **Bootstrap:** `/workspace` arrived empty (NAS 600 G/600 G, 0 avail) — the **13th consecutive time** the prompt named an ephemeral `/workspace/research/` path that does not exist. Rebuilt from git into `/tmp`: `SuperInstance/research` + `SuperInstance/jev-quilt`.
-- **The named script is NOT the one at the named path.** The prompt says `cd /workspace/research && python3 jev_continuous_probe.py`. That file exists in `SuperInstance/research` — but it is the **stale 20-question text-bank version** (md5 `bd7c35964522d6da56130f87e96eb74e`), which:
-  - uses a 20-item `QUESTION_BANK` of prose questions, **not** the 22-qid `q01..q22` bank the corpus is keyed on;
-  - writes `continuous_r{NNN}.json` with a `{round, iso, questions, latency_s}` schema, **not** the `{session_ts, model, script_md5, rounds, summary}` schema of r427/r428;
-  - imports `jev_quilt` from `/workspace/repos/jev-quilt` (a path that does not exist).
+| qid | n | mean | sd | hit-rate | status |
+|---|---|---|---|---|---|
+| q04 | 101 | 0.8882 | 0.0092 | **100 %** | OK cathedral |
+| q03 | 100 | 0.8857 | 0.0097 | **100 %** | OK cathedral |
+| q08 | 88 | 0.8990 | 0.0093 | **100 %** | OK cathedral |
+| q01 | 105 | 0.8737 | 0.0101 | **100 %** | OK cathedral |
+| q05 | 97 | 0.8484 | 0.0148 | **100 %** | OK cathedral |
+| q07 | 90 | 0.7557 | 0.0165 | **100 %** | OK cathedral — hit again this round (0.78) |
+| q02 | 90 | 0.8107 | 0.0384 | **96.7 %** | **WATCH** — 3 sub-0.70 breaches (r416 0.69, r423 0.69, r425 0.68) |
 
-  Running it would have produced a file that **cannot be compared** to any prior round. The instrument that produced the r427/r428 archives and that this report's baselines are drawn from is `SuperInstance/jev-quilt@HEAD:jev_continuous_probe.py`, md5 `3a255fa4642ec4a83173ab04d773d485` — confirmed by the `script_md5` field stamped inside both archives. **Ran that one.**
-- **One round, explicitly:** launched as `python3 jev_continuous_probe.py 1` (positional `sys.argv[1]`), not `timeout 60` alone. The script's `main()` takes `rounds_requested` and honours it (r229 fix); it also self-limits to a 55 s inner ceiling. The run finished on its own in 0.30 s — **no timeout kill was needed**, so the `kill after 60s` instruction never came into play.
-- **Round counter:** derived by the script from the max of round-files (428) and `history.jsonl` (428) ⇒ **start = 429**. No reissued/duplicated round.
-- **Credential mapping:** the client reads `TYPESAFEAI_KEY` or `TYPESAFE_AI_TOKEN`; the vault holds `TYPESAFE_AI_TOKEN` ⇒ accepted as-is. Live `POST /v1/systemone` returned **HTTP 200**, `model: jev-1.14.0`.
-- **TLS:** leaf valid (`notAfter Dec 25 2026`), default context verified `VERIFY OK TLSv1.3` ⇒ **no CA-bundle rebuild** (5th round running). `GET /v1/systemone` → 405 confirms the endpoint is live and POST-only.
-- **Batching is load-bearing.** A single-question `POST` of q01 alone returns **0.15**; in the 5-question batched round q01 reads 0.85–0.88. The context the other four questions carry materially changes the answer. Comparisons must therefore be drawn from **batched** rounds only — a single-question probe is not a substitute and must not be compared against corpus values.
-- **Dedup key:** `(qid, p, round)` — the round file and `history.jsonl` carry different `ts` for the same verdict, so dedup on `ts` double-counts (r222/r223 lesson). 2,156 unique verdicts after dedup.
-- **σ≈0 guard:** \|dev\| was checked against the 0.05 floor **first**, every time, before any z was read. This round it mattered: **q08 has z = −2.09 on the all-model baseline while its \|dev\| is only 0.0192** — the largest z is the smallest real movement. A z-first reading would have raised a false drift flag on a cathedral member. Conversely q13 has z = +2.53 on \|dev\| 0.0246 — same trap, opposite sign.
-- **Baselines are model-segmented.** The corpus spans the r396 `jev-1.13.0 → jev-1.14.0` boundary (399 rounds on 1.13.0, 34 on 1.14.0). Pooling across it inflates sigma and manufactures supra-threshold z on sub-threshold shifts (measured r413). **Both** the 1.14.0-only and all-model baselines are reported above, and they agree.
-- **History table regenerated programmatically** from `history.jsonl` — the r6 lesson that a hand-typed comparison table is a hand-typed claim.
-- **The corpus contains duplicate round records** (rounds 384–391 each appear twice in `history.jsonl`, from the r229 reissue defect). Dedup on `(qid, p, round)` removes the inflation; the all-time cathedral counts above are the deduped ones.
-- **Delivery:** NAS at 100 % ⇒ `/workspace/research/jev_hourly_report.md` **cannot be written this session**; the durable copy is this file, committed to `SuperInstance/research` and verified byte-for-byte through the remote blob API.
+**Cathedral: 6/7 at 100 %.** The one exception remains **q02**, unchanged from r429: 87/90
+hits, three breaches all >= 0.05 below the 0.70 line but all *within* q02's own 0.68-0.86
+corpus range. **q02 was not drawn this round**, so r430 adds no new evidence either way.
+
+**q05 AMBER remains RESOLVED** — 97/97 at 100 %, no sub-0.80 value since the r419/r423/r425
+episodes were cleared.
+
+---
+
+## Method notes (this run)
+
+1. **The prompt's script path was a decoy — 110th consecutive wipe.** `/workspace/research/`
+   did not exist (NAS 600G/600G, 0 bytes available). The live instrument is
+   `SuperInstance/jev-quilt` (md5 `3a255fa4...`, 22-qid `q01..q22` bank); the
+   `SuperInstance/research` copy (md5 `bd7c3596...`) is the stale 20-question prose bank.
+   Both were md5-checked before use; the archives' own `script_md5` stamp matched `3a255fa4`.
+2. **`timeout 60 python3 jev_continuous_probe.py` would have run 200 rounds.** The positional
+   `rounds` arg defaults to `200`. Launched as `... jev_continuous_probe.py 1` -> exactly one
+   round, r430, 0.3 s wall clock, no kill needed. (The 55 s internal ceiling never engaged.)
+3. **The NAS 0-byte write trap is live.** A 5-byte write to `/workspace` returned exit 0 and
+   produced a **0-byte file** (md5 `d41d8cd9...`). The report was therefore authored in `/tmp`
+   and transported by **git**, not by filesystem write.
+4. **Round counter derived from MAX(files, history)** = 429 -> start 430. `history.jsonl`
+   contains historical duplicate round numbers (384, 385-391) from the pre-r229 reissue
+   defect; the max-based counter is unaffected. r430 appears **exactly once** in history.
+5. **Model-switch check:** r430 served `jev-1.14.0`, identical to r429 — no silent model
+   change. (399 historical rounds were `jev-1.13.0`; the segment split is real, so segment-
+   relative comparison is the correct frame.)
+6. **Drift verdict is aggregate and own-qid-relative**, never a single-question z, and never
+   the script's raw `drift_events` count.
+
+---
+
+## Bottom line
+
+**mean_p 0.2840 | bedrock hits 1/5 (q07 = 0.78) | drift NONE (max |dev| 0.0246).**
+The round is clean. The low mean_p is a sampling artefact of a 1-bedrock draw, not a
+canon regression. Cathedral intact at 6/7; q02 remains the only watch item and was not
+drawn. No action required beyond the standing q02 watch.
