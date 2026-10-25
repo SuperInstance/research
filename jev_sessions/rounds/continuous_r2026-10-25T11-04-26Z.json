@@ -1,0 +1,320 @@
+{
+  "session_ts": "2026-10-25T11:04:26.315997+00:00",
+  "model": "jev-latest",
+  "script_md5": "3a255fa4642ec4a83173ab04d773d485",
+  "first_round": 438,
+  "doctrinal_state_keys": [
+    "framework",
+    "core_doctrine",
+    "architecture",
+    "fleet",
+    "spec_notebook",
+    "operational_doctrine"
+  ],
+  "rounds": [
+    {
+      "round": 437,
+      "status": "ok",
+      "ts": "2026-10-25T11:04:26.155435+00:00",
+      "elapsed_s": 0.145,
+      "verdicts": [
+        {
+          "qid": "q14",
+          "kind": "adversarial",
+          "p": 0.24,
+          "bedrock_hit": false
+        },
+        {
+          "qid": "q16",
+          "kind": "review",
+          "p": 0.2,
+          "bedrock_hit": false
+        },
+        {
+          "qid": "q12",
+          "kind": "speculative",
+          "p": 0.52,
+          "bedrock_hit": false
+        },
+        {
+          "qid": "q20",
+          "kind": "speculative",
+          "p": 0.09,
+          "bedrock_hit": false
+        },
+        {
+          "qid": "q10",
+          "kind": "speculative",
+          "p": 0.05,
+          "bedrock_hit": false
+        }
+      ],
+      "mean_p": 0.22,
+      "bedrock_hits": 0,
+      "model": "jev-1.14.0"
+    }
+  ],
+  "fails": [],
+  "summary": {
+    "rounds_ok": 1,
+    "fails": 0,
+    "grand_mean_p": 0.22,
+    "total_verdicts": 5,
+    "bedrock_hits": 0,
+    "bedrock_rate": 0.0,
+    "drift_events": 1,
+    "elapsed_s": 0.3,
+    "per_question": {
+      "q16": {
+        "n": 100,
+        "kind": "review",
+        "mean_p": 0.199,
+        "stdev": 0.0083,
+        "hits": 0,
+        "hit_rate": 0.0,
+        "distinct_values": 5,
+        "min_p": 0.18,
+        "max_p": 0.22
+      },
+      "q02": {
+        "n": 90,
+        "kind": "bedrock",
+        "mean_p": 0.8107,
+        "stdev": 0.0384,
+        "hits": 87,
+        "hit_rate": 0.9667,
+        "distinct_values": 16,
+        "min_p": 0.68,
+        "max_p": 0.86
+      },
+      "q04": {
+        "n": 102,
+        "kind": "bedrock",
+        "mean_p": 0.8881,
+        "stdev": 0.0092,
+        "hits": 102,
+        "hit_rate": 1.0,
+        "distinct_values": 5,
+        "min_p": 0.87,
+        "max_p": 0.91
+      },
+      "q03": {
+        "n": 101,
+        "kind": "bedrock",
+        "mean_p": 0.8857,
+        "stdev": 0.0097,
+        "hits": 101,
+        "hit_rate": 1.0,
+        "distinct_values": 6,
+        "min_p": 0.86,
+        "max_p": 0.91
+      },
+      "q10": {
+        "n": 124,
+        "kind": "speculative",
+        "mean_p": 0.0656,
+        "stdev": 0.0065,
+        "hits": 0,
+        "hit_rate": 0.0,
+        "distinct_values": 4,
+        "min_p": 0.05,
+        "max_p": 0.08
+      },
+      "q06": {
+        "n": 96,
+        "kind": "speculative",
+        "mean_p": 0.1037,
+        "stdev": 0.0139,
+        "hits": 0,
+        "hit_rate": 0.0,
+        "distinct_values": 6,
+        "min_p": 0.09,
+        "max_p": 0.15
+      },
+      "q08": {
+        "n": 89,
+        "kind": "bedrock",
+        "mean_p": 0.8989,
+        "stdev": 0.0093,
+        "hits": 89,
+        "hit_rate": 1.0,
+        "distinct_values": 5,
+        "min_p": 0.87,
+        "max_p": 0.91
+      },
+      "q01": {
+        "n": 107,
+        "kind": "bedrock",
+        "mean_p": 0.8733,
+        "stdev": 0.0106,
+        "hits": 107,
+        "hit_rate": 1.0,
+        "distinct_values": 7,
+        "min_p": 0.84,
+        "max_p": 0.9
+      },
+      "q12": {
+        "n": 104,
+        "kind": "speculative",
+        "mean_p": 0.3816,
+        "stdev": 0.0518,
+        "hits": 0,
+        "hit_rate": 0.0,
+        "distinct_values": 22,
+        "min_p": 0.3,
+        "max_p": 0.56
+      },
+      "q05": {
+        "n": 98,
+        "kind": "bedrock",
+        "mean_p": 0.8481,
+        "stdev": 0.015,
+        "hits": 98,
+        "hit_rate": 1.0,
+        "distinct_values": 9,
+        "min_p": 0.78,
+        "max_p": 0.87
+      },
+      "q15": {
+        "n": 120,
+        "kind": "adversarial",
+        "mean_p": 0.0252,
+        "stdev": 0.005,
+        "hits": 0,
+        "hit_rate": 0.0,
+        "distinct_values": 2,
+        "min_p": 0.02,
+        "max_p": 0.03
+      },
+      "q11": {
+        "n": 99,
+        "kind": "speculative",
+        "mean_p": 0.1844,
+        "stdev": 0.018,
+        "hits": 0,
+        "hit_rate": 0.0,
+        "distinct_values": 9,
+        "min_p": 0.12,
+        "max_p": 0.22
+      },
+      "q13": {
+        "n": 101,
+        "kind": "speculative",
+        "mean_p": 0.1356,
+        "stdev": 0.01,
+        "hits": 0,
+        "hit_rate": 0.0,
+        "distinct_values": 6,
+        "min_p": 0.12,
+        "max_p": 0.17
+      },
+      "q20": {
+        "n": 95,
+        "kind": "speculative",
+        "mean_p": 0.1032,
+        "stdev": 0.0114,
+        "hits": 0,
+        "hit_rate": 0.0,
+        "distinct_values": 6,
+        "min_p": 0.08,
+        "max_p": 0.13
+      },
+      "q14": {
+        "n": 92,
+        "kind": "adversarial",
+        "mean_p": 0.1962,
+        "stdev": 0.0166,
+        "hits": 0,
+        "hit_rate": 0.0,
+        "distinct_values": 10,
+        "min_p": 0.16,
+        "max_p": 0.25
+      },
+      "q18": {
+        "n": 116,
+        "kind": "speculative",
+        "mean_p": 0.2259,
+        "stdev": 0.0112,
+        "hits": 0,
+        "hit_rate": 0.0,
+        "distinct_values": 7,
+        "min_p": 0.2,
+        "max_p": 0.26
+      },
+      "q22": {
+        "n": 99,
+        "kind": "speculative",
+        "mean_p": 0.1206,
+        "stdev": 0.0085,
+        "hits": 0,
+        "hit_rate": 0.0,
+        "distinct_values": 5,
+        "min_p": 0.11,
+        "max_p": 0.16
+      },
+      "q07": {
+        "n": 91,
+        "kind": "bedrock",
+        "mean_p": 0.756,
+        "stdev": 0.0168,
+        "hits": 91,
+        "hit_rate": 1.0,
+        "distinct_values": 9,
+        "min_p": 0.71,
+        "max_p": 0.79
+      },
+      "q21": {
+        "n": 103,
+        "kind": "speculative",
+        "mean_p": 0.0908,
+        "stdev": 0.0041,
+        "hits": 0,
+        "hit_rate": 0.0,
+        "distinct_values": 3,
+        "min_p": 0.08,
+        "max_p": 0.1
+      },
+      "q19": {
+        "n": 90,
+        "kind": "adversarial",
+        "mean_p": 0.1051,
+        "stdev": 0.0064,
+        "hits": 0,
+        "hit_rate": 0.0,
+        "distinct_values": 4,
+        "min_p": 0.09,
+        "max_p": 0.12
+      },
+      "q17": {
+        "n": 91,
+        "kind": "review",
+        "mean_p": 0.7033,
+        "stdev": 0.0149,
+        "hits": 67,
+        "hit_rate": 0.7363,
+        "distinct_values": 9,
+        "min_p": 0.66,
+        "max_p": 0.75
+      },
+      "q09": {
+        "n": 97,
+        "kind": "speculative",
+        "mean_p": 0.078,
+        "stdev": 0.0077,
+        "hits": 0,
+        "hit_rate": 0.0,
+        "distinct_values": 5,
+        "min_p": 0.07,
+        "max_p": 0.11
+      }
+    },
+    "drift": [
+      {
+        "qid": "q12",
+        "recent_p": 0.52,
+        "prior_median": 0.47,
+        "delta": 0.05
+      }
+    ]
+  }
+}
